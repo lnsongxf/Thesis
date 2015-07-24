@@ -1,0 +1,2180 @@
+% This file was created with JabRef 2.7.2.
+% Encoding: Cp1252
+
+@TECHREPORT{adrian_2009,
+  author = {Tobias Adrian and Hao Wu},
+  title = {The term structure of inflation expectations},
+  institution = {Federal Reserve Bank of New York},
+  year = {2009},
+  type = {Staff Reports},
+  number = {362},
+  abstract = {We present estimates of the term structure of inflation expectations,
+	derived from an affine model of real and nominal yield curves. The
+	model features stochastic covariation of inflation with the real
+	pricing kernel, enabling us to extract a time-varying inflation risk
+	premium. We fit the model not only to yields, but also to the yields'
+	variance-covariance matrix, thus increasing identification power.
+	We find that model-implied inflation expectations can differ substantially
+	from break-even inflation rates when market volatility is high. Our
+	model's ability to be updated weekly makes it suitable for real-time
+	monetary policy analysis.},
+  keywords = {Inflation risk ; Asset pricing ; Financial markets ; Stochastic analysis},
+  url = {http://ideas.repec.org/p/fip/fednsr/362.html}
+}
+
+@ARTICLE{ahn_2004,
+  author = {Ahn, Dong-Hyun},
+  title = {Common Factors and Local Factors: Implications for Term Structures
+	and Exchange Rates},
+  journal = {Journal of Financial and Quantitative Analysis},
+  year = {2004},
+  volume = {39},
+  pages = {69-102},
+  number = {01},
+  month = {March},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/cup/jfinqa/v39y2004i01p69-102_00.html}
+}
+
+@ARTICLE{ahn_2002,
+  author = {Ahn, Dong-Hyun and Dittmar, Robert F. and Gallant, A. Ronald},
+  title = {Quadratic Term Structure Models: Theory and Evidence.},
+  journal = {Review of Financial Studies},
+  year = {2002},
+  owner = {sarah},
+  timestamp = {2014.07.27}
+}
+
+@ARTICLE{almeida_2008,
+  author = {Almeida, Caio and Vicente, José},
+  title = {The role of no-arbitrage on forecasting: Lessons from a parametric
+	term structure model},
+  journal = {Journal of Banking \& Finance},
+  year = {2008},
+  volume = {32},
+  pages = {2695-2705},
+  number = {12},
+  month = {December},
+  abstract = {Parametric term structure models have been successfully applied to
+	numerous problems in fixed income markets, including pricing, hedging,
+	managing risk, as well as to the study of monetary policy implications.
+	In turn, dynamic term structure models, equipped with stronger economic
+	structure, have been mainly adopted to price derivatives and explain
+	empirical stylized facts. In this paper, we combine flavors of those
+	two classes of models to test whether no-arbitrage affects forecasting.
+	We construct cross-sectional (allowing arbitrages) and arbitrage-free
+	versions of a parametric polynomial model to analyze how well they
+	predict out-of-sample interest rates. Based on US Treasury yield
+	data, we find that no-arbitrage restrictions significantly improve
+	forecasts. Arbitrage-free versions achieve overall smaller biases
+	and root mean square errors for most maturities and forecasting horizons.
+	Furthermore, a decomposition of forecasts into forward-rates and
+	holding return premia indicates that the superior performance of
+	no-arbitrage versions is due to a better identification of bond risk
+	premium.},
+  keywords = { Dynamic models No-arbitrage Forecasting Bond risk premia},
+  url = {http://ideas.repec.org/a/eee/jbfina/v32y2008i12p2695-2705.html}
+}
+
+@TECHREPORT{andersen_2007,
+  author = {Torben G. Andersen and Luca Benzoni},
+  title = {Do Bonds Span Volatility Risk in the U.S. Treasury Market? A Specification
+	test for Affine Term Structure Models},
+  institution = {National Bureau of Economic Research},
+  year = {2007},
+  type = {Working Paper},
+  number = {12962},
+  month = {March},
+  abstract = {We investigate whether bonds span the volatility risk in the U.S.
+	Treasury market, as predicted by most 'affine' term structure models.
+	To this end, we construct powerful and model-free empirical measures
+	of the quadratic yield variation for a cross-section of fixed-maturity
+	zero-coupon bonds ("realized yield volatility") through the use of
+	high-frequency data. We find that the yield curve fails to span yield
+	volatility, as the systematic volatility factors are largely unrelated
+	to the cross-section of yields. We conclude that a broad class of
+	affine diffusive, Gaussian-quadratic and affine jump-diffusive models
+	is incapable of accommodating the observed yield volatility dynamics.
+	An important implication is that the bond markets per se are incomplete
+	and yield volatility risk cannot be hedged by taking positions solely
+	in the Treasury bond market. We also advocate using the empirical
+	realized yield volatility measures more broadly as a basis for specification
+	testing and (parametric) model selection within the term structure
+	literature.},
+  doi = {10.3386/w12962},
+  series = {Working Paper Series},
+  url = {http://www.nber.org/papers/w12962}
+}
+
+@ARTICLE{anderson_2010,
+  author = {Anderson, Bing and Hammond, Peter J. and Ramezani, Cyrus A.},
+  title = {Affine Models of the Joint Dynamics of Exchange Rates and Interest
+	Rates},
+  journal = {Journal of Financial and Quantitative Analysis},
+  year = {2010},
+  volume = {45},
+  pages = {1341-1365},
+  number = {05},
+  month = {October},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/cup/jfinqa/v45y2010i05p1341-1365_00.html}
+}
+
+@ARTICLE{piazzesi_taylor_2007,
+  author = {Andrew Ang and Sen Dong and Monika Piazzesi},
+  title = {No-arbitrage Taylor rules},
+  journal = {Proceedings},
+  year = {2005},
+  abstract = {We estimate Taylor (1993) rules and identify monetary policy shocks
+	using no-arbitrage pricing techniques. Long-term interest rates are
+	risk-adjusted expected values of future short rates and thus provide
+	strong over-identifying restrictions about the policy rule used by
+	the Federal Reserve. The no-arbitrage framework also accommodates
+	backward-looking and forward-looking Taylor rules. We find that inflation
+	and GDP growth account for over half of the time-variation of yield
+	levels and we attribute almost all of the movements in the term spread
+	to inflation. Taylor rules estimated with no-arbitrage restrictions
+	differ substantially from Taylor rules estimated by OLS and monetary
+	policy shocks identified with no-arbitrage techniques are less volatile
+	than their OLS counterparts.},
+  keywords = {Taylor's rule ; Fiscal policy ; Monetary policy},
+  url = {http://ideas.repec.org/a/fip/fedfpr/y2005x14.html}
+}
+
+@ARTICLE{piazzesi_2003,
+  author = {Ang, Andrew and Piazzesi, Monika},
+  title = {A no-arbitrage vector autoregression of term structure dynamics with
+	macroeconomic and latent variables},
+  journal = {Journal of Monetary Economics},
+  year = {2003},
+  volume = {50},
+  pages = {745-787},
+  number = {4},
+  month = {May},
+  abstract = {This paper describes the joint dynamics of bond yields and macroeconomic
+	variables in a Vector Autoregression, where identifying restrictions
+	are based on the absence of arbitrage. Using a term structure model
+	with inflation and economic growth factors, we investigate how macro
+	variables affect bond prices and the dynamics of the yield curve.
+	The setup accommodates higher order autoregressive lags for the macro
+	factors. The macro variables are augmented by traditional unobserved
+	term structure factors. We find that the forecasting performance
+	of a VAR improves when no-arbitrage restrictions are imposed. Models
+	that incorporate macro factors forecast better than traditional term
+	structure models with only unobservable factors. Variance decompositions
+	show that macro factors explain up to 85\% of the variation in bond
+	yields. Macro factors primarily explain movements at the short end
+	and middle of the yield curve while unobservable factors still account
+	for most of the movement at the long end of the yield curve.<P>(This
+	abstract was borrowed from another version of this item.)},
+  url = {http://ideas.repec.org/a/eee/moneco/v50y2003i4p745-787.html}
+}
+
+@TECHREPORT{aruoba_2010,
+  author = {S. Boragan Aruoba and Francis X. Diebold},
+  title = {Real-Time Macroeconomic Monitoring: Real Activity, Inflation, and
+	Interactions},
+  institution = {National Bureau of Economic Research},
+  year = {2010},
+  type = {Working Paper},
+  number = {15657},
+  month = {January},
+  abstract = {We sketch a framework for monitoring macroeconomic activity in real-time
+	and push it in new directions. In particular, we focus not only on
+	real activity, which has received most attention to date, but also
+	on inflation and its interaction with real activity. As for the recent
+	recession, we find that (1) it likely ended around July 2009; (2)
+	its most extreme aspects concern a real activity decline that was
+	unusually long but less unusually deep, and an inflation decline
+	that was unusually deep but brief; and (3) its real activity and
+	inflation interactions were strongly positive, consistent with an
+	adverse demand shock.},
+  doi = {10.3386/w15657},
+  series = {Working Paper Series},
+  url = {http://www.nber.org/papers/w15657}
+}
+
+@ARTICLE{backus_2001,
+  author = {David K. Backus},
+  title = {Affine Term Structure Models and the Forward Premium Anomaly},
+  journal = {Journal of Finance},
+  year = {2001},
+  volume = {56},
+  pages = {279-304},
+  number = {1},
+  month = {02},
+  abstract = { One of the most puzzling features of currency prices is the \&quot;forward
+	premium anomaly\&quot;: the tendency for high interest rate currencies
+	to appreciate. We characterize the anomaly in the context of affine
+	models of the term structure of interest rates. In affine models,
+	the anomaly requires either that state variables have asymmetric
+	effects on state prices in different currencies or that nominal interest
+	rates take on negative values with positive probability. We find
+	the quantitative properties of either alternative to have important
+	shortcomings. Copyright The American Finance Association 2001.},
+  url = {http://ideas.repec.org/a/bla/jfinan/v56y2001i1p279-304.html}
+}
+
+@ARTICLE{bakshi_1997,
+  author = { Bakshi, Gurdip S and Chen, Zhiwu},
+  title = { Equilibrium Valuation of Foreign Exchange Claims},
+  journal = {Journal of Finance},
+  year = {1997},
+  volume = {52},
+  pages = {799-826},
+  number = {2},
+  month = {June},
+  abstract = { This article studies the equilibrium valuation of foreign exchange
+	contingent claims. Within a continuous-time Lucas (1982) two-country
+	model, exchange rates, interest rates, and, in particular, factor
+	risk prices are all endogenously and jointly determined. This guarantees
+	the internal consistency of these price processes with a general
+	equilibrium. In the same model, closed-form valuation formulas are
+	presented for currency options and currency futures options. Common
+	to these formulas is that stochastic volatility and stochastic interest
+	rates are admitted. Hedge ratios and other comparative statics are
+	also provided analytically. It is shown that most existing currency
+	option models are included as special cases. Copyright 1997 by American
+	Finance Association.},
+  url = {http://ideas.repec.org/a/bla/jfinan/v52y1997i2p799-826.html}
+}
+
+@ARTICLE{bansal_1997,
+  author = {Bansal, Ravi},
+  title = {An Exploration of the Forward Premium Puzzle in Currency Markets},
+  journal = {Review of Financial Studies},
+  year = {1997},
+  volume = {10},
+  pages = {369-403},
+  number = {2},
+  abstract = { A standard empirical finding is that expected changes in exchange
+	rates and interest rate differentials across countries are negatively
+	related, implying that uncovered interest rate parity is violated
+	in the data. This article provides new empirical evidence that suggests
+	that violations of uncovered interest rate parity, and its economic
+	implications, depend on the sign of the interest rate differentially.
+	A framework related to term structure models is developed to account
+	for the puzzling relationship between expected changes in exchange
+	rates and interest rate differentials. Estimation results suggest
+	that a particular term structure model can account for the puzzling
+	empirical evidence. Article published by Oxford University Press
+	on behalf of the Society for Financial Studies in its journal, The
+	Review of Financial Studies.},
+  url = {http://ideas.repec.org/a/oup/rfinst/v10y1997i2p369-403.html}
+}
+
+@ARTICLE{bansal_2000,
+  author = {Bansal, Ravi and Dahlquist, Magnus},
+  title = {The forward premium puzzle: different tales from developed and emerging
+	economies},
+  journal = {Journal of International Economics},
+  year = {2000},
+  volume = {51},
+  pages = {115-144},
+  number = {1},
+  month = {June},
+  abstract = {In this paper we document new results regarding the forward premium
+	puzzle. The often found negative correlation between the expected
+	currency depreciation and interest rate differential is, contrary
+	to popular belief, not a pervasive phenomenon. It is confined to
+	developed economies, and here only to states where the U.S. interest
+	rate exceeds foreign interest rates. Furthermore, we find that differences
+	across economies are systematically related to per capita GNP, average
+	inflation rates, and inflation volatility. Our empirical work suggests
+	that it is hard to justify the cross-sectional differences in the
+	risk premia as compensation for systematic risk. Instead, country-specific
+	attributes seem to be important in characterizing the cross-sectional
+	dispersion in the risk premia.<P>(This abstract was borrowed from
+	another version of this item.)},
+  url = {http://ideas.repec.org/a/eee/inecon/v51y2000i1p115-144.html}
+}
+
+@TECHREPORT{bauer_2012,
+  author = {Gregory H. Bauer and Antonio Diez de los Rios},
+  title = {An International Dynamic Term Structure Model with Economic Restrictions
+	and Unspanned Risks},
+  institution = {Bank of Canada},
+  year = {2012},
+  type = {Working Papers},
+  number = {12-5},
+  abstract = {We construct a multi-country affine term structure model that contains
+	unspanned macroeconomic and foreign exchange risks. The canonical
+	version of the model is derived and is shown to be easy to estimate.
+	We show that it is important to impose restrictions (including global
+	asset pricing, carry trade fundamentals and maximal Sharpe ratios)
+	on the prices of risk to obtain plausible decompositions of forward
+	curves. The forecasts of interest rates and exchange rates from the
+	restricted model match those from international survey data. Unspanned
+	macroeconomic variables are important drivers of international term
+	and foreign exchange risk premia as well as expected exchange rate
+	changes.},
+  keywords = {Asset Pricing; Exchange rates; Interest rates},
+  url = {http://ideas.repec.org/p/bca/bocawp/12-5.html}
+}
+
+@ARTICLE{bekaert_1996,
+  author = {Bekaert, Geert},
+  title = {The Time Variation of Risk and Return in Foreign Exchange Markets:
+	A General Equilibrium Perspective},
+  journal = {Review of Financial Studies},
+  year = {1996},
+  volume = {9},
+  pages = {427-70},
+  number = {2},
+  abstract = { This article successively introduces variable velocity, durability,
+	and habit persistence in a standard two-country general equilibrium
+	model and explores their effects on the variability of exchange rate
+	changes, forward premiums, and the foreign exchange risk premium.
+	A new feature of the model is that agents make decisions at a weekly
+	frequency and face conditionally heteroskedastic shocks. Nevertheless,
+	even the most complex model fails to deliver sufficiently variable
+	risk premiums without causing forward premiums and exchange rates
+	to be excessively variable. Unlike previous models, the model can
+	roughly match the persistence of forward premiums. Article published
+	by Oxford University Press on behalf of the Society for Financial
+	Studies in its journal, The Review of Financial Studies.},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/a/oup/rfinst/v9y1996i2p427-70.html}
+}
+
+@ARTICLE{bekaert_1993,
+  author = {Bekaert, Geert and Hodrick, Robert J.},
+  title = {On biases in the measurement of foreign exchange risk premiums},
+  journal = {Journal of International Money and Finance},
+  year = {1993},
+  volume = {12},
+  pages = {115-138},
+  number = {2},
+  month = {April},
+  abstract = {The hypothesis that the forward rate is an unbiased predictor of the
+	future spot rate has been consistently rejected in recent empirical
+	studies. This paper examines several sources of measurement error
+	and misspecification that might induce biases in such studies. Although
+	previous inferences are shown to be robust to a failure to construct
+	true returns and to omitted variable bias arising from conditional
+	heteroskedasticity in spot rates, we show that the parameters were
+	not stable over the 1975-1989 sample period. Estimation that allows
+	for endogenous regime shifts in the parameters demonstrates that
+	deviations from unbiasedness were more severe in the 1980's.<P>(This
+	abstract was borrowed from another version of this item.)},
+  url = {http://ideas.repec.org/a/eee/jimfin/v12y1993i2p115-138.html}
+}
+
+@MISC{sorensen_,
+  author = {Bo Martin Bibby and Martin Jacobsen and Michael Sørensen},
+  title = {Estimating Functions for Discretely Sampled Diffusion-Type Models},
+  year = {2003}
+}
+
+@ARTICLE{chernov_2010,
+  author = {Bikbov, Ruslan and Chernov, Mikhail},
+  title = {No-arbitrage macroeconomic determinants of the yield curve},
+  journal = {Journal of Econometrics},
+  year = {2010},
+  volume = {159},
+  pages = {166-182},
+  number = {1},
+  month = {November},
+  abstract = {No-arbitrage macro-finance models use variance decompositions to gauge
+	the extent of association between the macro variables and yields.
+	We show that results generated by this approach are sensitive to
+	the order of variables in the recursive identification scheme. In
+	a four-factor model, one may obtain 18 different sets of answers
+	out of 24 possible. We propose an alternative measure that is based
+	on levels of macro variables as opposed to shocks. We account for
+	the correlation between the macro and latent factors via projection
+	of the latter onto the former. As a result, the association between
+	macro variables and yields can be computed uniquely via an R2. Macro
+	variables explain 80\% of the variation in the short rate and 50\%
+	of the slope, and 54\% to 68\% of the term premia.},
+  keywords = { Macro-finance models Term structure Variance decomposition Kalman
+	filter},
+  url = {http://ideas.repec.org/a/eee/econom/v159y2010i1p166-182.html}
+}
+
+@ARTICLE{black_1995,
+  author = {Black, Fischer},
+  title = {Interest Rates as Options},
+  journal = {The Journal of Finance},
+  year = {1995},
+  volume = {50},
+  pages = {1371--1376},
+  number = {5},
+  doi = {10.1111/j.1540-6261.1995.tb05182.x},
+  issn = {1540-6261},
+  publisher = {Blackwell Publishing Ltd},
+  url = {http://dx.doi.org/10.1111/j.1540-6261.1995.tb05182.x}
+}
+
+@TECHREPORT{brandt_2002,
+  author = {Michael W. Brandt and Pedro Santa-Clara},
+  title = {Simulated Likelihood Estimation of Diffusions with an Application
+	to Exchange Rate Dynamics in Incomplete Markets},
+  institution = {National Bureau of Economic Research, Inc},
+  year = {2001},
+  type = {NBER Technical Working Papers},
+  number = {0274},
+  month = Aug,
+  abstract = {We present an econometric method for estimating the parameters of
+	a diffusion model from discretely sampled data. The estimator is
+	transparent, adaptive, and inherits the asymptotic properties of
+	the generally unattainable maximum likelihood estimator. We use this
+	method to estimate a new continuous-time model of the Joint dynamics
+	of interest rates in two countries and the exchange rate between
+	the two currencies. The model allows financial markets to be incomplete
+	and specifies the degree of incompleteness as a stochastic process.
+	Our empirical results offer several new insights into the dynamics
+	of exchange rates.},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/p/nbr/nberte/0274.html}
+}
+
+@ARTICLE{brennan_equity_2004,
+  author = {Brennan, Michael J. and Wang, Ashley W. and Xia, Yihong},
+  title = {Estimation and Test of a Simple Model of Intertemporal Capital Asset
+	Pricing},
+  journal = {The Journal of Finance},
+  year = {2004},
+  volume = {59},
+  pages = {1743--1776},
+  number = {4},
+  doi = {10.1111/j.1540-6261.2004.00678.x},
+  issn = {1540-6261},
+  owner = {sarah},
+  publisher = {Blackwell Science Inc},
+  timestamp = {2014.05.31},
+  url = {http://dx.doi.org/10.1111/j.1540-6261.2004.00678.x}
+}
+
+@ARTICLE{brennan_2006,
+  author = {Brennan, Michael J and Xia, Yihong},
+  title = {International Capital Markets and Foreign Exchange Risk},
+  journal = {The Review of Financial Studies},
+  year = {2006},
+  volume = {19},
+  pages = {753-795},
+  number = {3},
+  month = {Fall}
+}
+
+@ARTICLE{buraschi_2005,
+  author = {Buraschi, Andrea and Jiltsov, Alexei},
+  title = {Inflation risk premia and the expectations hypothesis},
+  journal = {Journal of Financial Economics},
+  year = {2005},
+  volume = {75},
+  pages = {429-490},
+  number = {2},
+  month = {February},
+  abstract = {No abstract is available for this item.},
+  owner = {sarah},
+  timestamp = {2013.06.24},
+  url = {http://ideas.repec.org/a/eee/jfinec/v75y2005i2p429-490.html}
+}
+
+@ARTICLE{campbell_1991,
+  author = {Campbell, John Y and Shiller, Robert J},
+  title = {Yield Spreads and Interest Rate Movements: A Bird's Eye View},
+  journal = {Review of Economic Studies},
+  year = {1991},
+  volume = {58},
+  pages = {495-514},
+  number = {3},
+  month = {May},
+  abstract = { This paper examines postwar U.S. term structure data and finds that,
+	for almost any combination of maturities between one month and ten
+	years, a high-yield spread between a longer-term and a shorter-term
+	interest rate forecasts rising shorter-term interest rates over the
+	long term, but a declining yield on the longer-term bond over the
+	short term. This pattern is inconsistent with the expectations theory
+	of the term structure, but is consistent with a model in which the
+	spread is proportional to the value implied by the expectations theory.
+	Copyright 1991 by The Review of Economic Studies Limited.},
+  url = {http://ideas.repec.org/a/bla/restud/v58y1991i3p495-514.html}
+}
+
+@ARTICLE{campbell_2003,
+  author = {John Y. Campbell and Glen B. Taksler},
+  title = {Equity Volatility and Corporate Bond Yields},
+  journal = {Journal of Finance},
+  year = {2003},
+  volume = {58},
+  pages = {2321-2350},
+  number = {6},
+  month = {December},
+  abstract = { This paper explores the effect of equity volatility on corporate
+	bond yields. Panel data for the late 1990s show that idiosyncratic
+	firm-level volatility can explain as much cross-sectional variation
+	in yields as can credit ratings. This finding, together with the
+	upward trend in idiosyncratic equity volatility documented by Campbell,
+	Lettau, Malkiel, and Xu (2001) , helps to explain recent increases
+	in corporate bond yields. Copyright 2003 by the American Finance
+	Association.},
+  url = {http://ideas.repec.org/a/bla/jfinan/v58y2003i6p2321-2350.html}
+}
+
+@ARTICLE{carriero_2011,
+  author = {Andrea Carriero},
+  title = {Forecasting The Yield Curve Using Priors From No-Arbitrage Affine
+	Term Structure Models},
+  journal = {International Economic Review},
+  year = {2011},
+  volume = {52},
+  pages = {425-459},
+  number = {2},
+  month = {05},
+  abstract = { In this paper we propose a strategy for forecasting the term structure
+	of interest rates which may produce significant gains in predictive
+	accuracy. The key idea is to use the restrictions implied by Affine
+	Term Structure Models (ATSM) on a vector autoregression (VAR) as
+	prior information rather than imposing them dogmatically. This allows
+	to account for possible model misspecification. We apply the method
+	to a system of five US yields, and we find that the gains in predictive
+	accuracy can be substantial. In particular, for horizons longer than
+	1-step ahead, our proposed method produces systematically better
+	forecasts than those obtained by using a pure ATSM or an unrestricted
+	VAR, and it also outperforms very competitive benchmarks as the Minnesota
+	prior, the Diebold-Li (2006) model, and the random walk.<P>(This
+	abstract was borrowed from another version of this item.)},
+  url = {http://ideas.repec.org/a/ier/iecrev/v52y2011i2p425-459.html}
+}
+
+@TECHREPORT{chen_2003,
+  author = {Li Chen and Damir Filipovic},
+  title = {Credit Derivatives in an Affine Framework},
+  institution = {EconWPA},
+  year = {2003},
+  type = {Finance},
+  number = {0307002},
+  month = Jul,
+  abstract = {We develop a general and efficient method for valuating credit derivatives
+	based on multiple entities in an affine framework. This includes
+	interdependence of market and credit risk, joint credit migration
+	and counterparty default risk of multiple firms. As an application
+	we provide closed form expressions for the joint distribution of
+	default times, default correlations, and credit default spreads in
+	the presence of counterparty default risk.},
+  keywords = {credit derivatives; joint default correlation; affine models},
+  url = {http://ideas.repec.org/p/wpa/wuwpfi/0307002.html}
+}
+
+@ARTICLE{chen_2005,
+  author = {Chen, Ren-Raw and Liu , Bo and Cheng, Xiaolin},
+  title = {Inflation, Fisher Equation, and the Term Structure of Inflation Risk
+	Premia: Theory and Evidence from TIPS},
+  year = {2005},
+  owner = {sarah},
+  timestamp = {2013.07.13}
+}
+
+@ARTICLE{chen_1995,
+  author = {Ren-Raw Chen and Louis Scott},
+  title = {Interest Rate Options in Multifactor Cox-Ingersoll-Ross Models of
+	the Term Structure},
+  journal = {The Journal of Derivatives},
+  year = {1995},
+  volume = {3},
+  pages = {53-72},
+  number = {2},
+  month = {Winter}
+}
+
+@ARTICLE{cheridito_2004,
+  author = {Patrick Cheridito and Damir Filipovic and Robert L. Kimmel},
+  title = {Market price of risk specifications for affine models: Theory and
+	evidence},
+  journal = {Journal of Financial Economics},
+  year = {2007},
+  volume = {83},
+  pages = {123--170},
+  doi = {10.1016/j.jfineco.2005.09.008},
+  issue = {1},
+  masid = {10248583}
+}
+
+@ARTICLE{chevnov_2012,
+  author = {Chernov, Mikhail and Mueller, Philippe},
+  title = {The term structure of inflation expectations},
+  journal = {Journal of Financial Economics},
+  year = {2012},
+  volume = {106},
+  pages = {367-394},
+  number = {2},
+  abstract = {We use information in the term structure of survey-based forecasts
+	of inflation to estimate a factor hidden in the nominal yield curve.
+	We construct a model that accommodates forecasts over multiple horizons
+	from multiple surveys and Treasury real and nominal yields by allowing
+	for differences between risk-neutral, subjective, and objective probability
+	measures. We establish that model-based inflation expectations are
+	driven by inflation, output, and one latent factor. We find that
+	this factor affects inflation expectations at all horizons but has
+	almost no effect on the nominal yields; that is, the latent factor
+	is hidden. We show that this hidden factor is not related to either
+	current and past inflation or the standard set of macro variables
+	studied in the literature. Consistent with the theoretical property
+	of a hidden factor, our model outperforms a standard macro-finance
+	model in its forecasting of inflation and yields.},
+  keywords = {Affine term structure models; Macro factors; Hidden factors; Survey
+	forecasts},
+  owner = {sarah},
+  timestamp = {2013.06.24},
+  url = {http://ideas.repec.org/a/eee/jfinec/v106y2012i2p367-394.html}
+}
+
+@ARTICLE{cdr_2011,
+  author = {Christensen, Jens H.E. and Diebold, Francis X. and Rudebusch, Glenn
+	D.},
+  title = {The affine arbitrage-free class of Nelson-Siegel term structure models},
+  journal = {Journal of Econometrics},
+  year = {2011},
+  volume = {164},
+  pages = {4-20},
+  number = {1},
+  month = {September},
+  abstract = {We derive the class of affine arbitrage-free dynamic term structure
+	models that approximate the widely used Nelson-Siegel yield curve
+	specification. These arbitrage-free Nelson-Siegel (AFNS) models can
+	be expressed as slightly restricted versions of the canonical representation
+	of the three-factor affine arbitrage-free model. Imposing the Nelson-Siegel
+	structure on the canonical model greatly facilitates estimation and
+	can improve predictive performance. In the future, AFNS models appear
+	likely to be a useful workhorse representation for term structure
+	research.},
+  keywords = { Yield curve Interest rate Bond market Factor model Forecasting},
+  url = {http://ideas.repec.org/a/eee/econom/v164y2011i1p4-20.html}
+}
+
+@TECHREPORT{christensen_2013,
+  author = {Jens H.E. Christensen and Glenn D. Rudebusch},
+  title = {Estimating shadow-rate term structure models with near-zero yields},
+  institution = {Federal Reserve Bank of San Francisco},
+  year = {2013},
+  type = {Working Paper Series},
+  number = {2013-07},
+  abstract = {Standard Gaussian term structure models have often been criticized
+	for not ruling out negative nominal interest rates, but this flaw
+	has been especially conspicuous with interest rates near zero in
+	many countries. We provide a tractable means to estimate an alternative
+	Gaussian shadow-rate dynamic term structure model that enforces the
+	zero lower bound on bond yields. We illustrate this model by estimating
+	one-, two-, and three-factor shadow-rate models on a sample of positive
+	and near-zero Japanese bond yields. We find that the level of the
+	shadow rate is sensitive to model fit and specification, including
+	the number of factors employed.},
+  keywords = {Interest rates ; Econometric models},
+  url = {http://ideas.repec.org/p/fip/fedfwp/2013-07.html}
+}
+
+@UNPUBLISHED{christensen_2012,
+  author = {Jens H.E. Christensen and Glenn D. Rudebusch},
+  title = {The response of interest rates to U.S. and U.K. quantitative easing},
+  year = {2012},
+  abstract = {We analyze the declines in government bond yields that followed the
+	announcements of plans by the Federal Reserve and the Bank of England
+	to buy longer-term government debt. Using empirical dynamic term
+	structure models, we decompose these declines into changes in expectations
+	about future monetary policy and changes in term premiums. We find
+	that declines in U.S. Treasury yields mainly reflected lower policy
+	expectations, while declines in U.K. yields appeared to reflect reduced
+	term premiums. Thus, the relative importance of the signaling and
+	portfolio balance channels of quantitative easing may depend on market
+	institutional structures and central bank communications policies.},
+  institution = {Federal Reserve Bank of San Francisco},
+  keywords = {Monetary policy},
+  number = {2012-06},
+  type = {Working Paper Series},
+  url = {http://ideas.repec.org/p/fip/fedfwp/2012-06.html}
+}
+
+@ARTICLE{christensen_2009,
+  author = {Jens H. E. Christensen and Francis X. Diebold and Glenn D. Rudebusch},
+  title = {An arbitrage-free generalized Nelson--Siegel term structure model},
+  journal = {Econometrics Journal},
+  year = {2009},
+  volume = {12},
+  pages = {C33-C64},
+  number = {3},
+  month = {November},
+  abstract = { The Svensson generalization of the popular Nelson--Siegel term structure
+	model is widely used by practitioners and central banks. Unfortunately,
+	like the original Nelson--Siegel specification, this generalization,
+	in its dynamic form, does not enforce arbitrage-free consistency
+	over time. Indeed, we show that the factor loadings of the Svensson
+	generalization cannot be obtained in a standard finance arbitrage-free
+	affine term structure representation. Therefore, we introduce a closely
+	related generalized Nelson--Siegel model on which the no-arbitrage
+	condition can be imposed. We estimate this new AFGNS model and demonstrate
+	its tractability and good in-sample fit. Copyright The Author(s).
+	Journal compilation Royal Economic Society 2009},
+  url = {http://ideas.repec.org/a/ect/emjrnl/v12y2009i3pc33-c64.html}
+}
+
+@ARTICLE{christensen_2010,
+  author = {Jens H. E. Christensen and Jose A. Lopez and Glenn D. Rudebusch},
+  title = {Inflation Expectations and Risk Premiums in an Arbitrage-Free Model
+	of Nominal and Real Bond Yields},
+  journal = {Journal of Money, Credit and Banking},
+  year = {2010},
+  volume = {42},
+  pages = {143-178},
+  number = {s1},
+  month = {09},
+  abstract = { Differences between yields on comparable-maturity U.S. Treasury nominal
+	and real debt, the so-called breakeven inflation (BEI) rates, are
+	widely used indicators of inflation expectations. However, better
+	measures of inflation expectations could be obtained by subtracting
+	inflation risk premiums (IRP) from the BEI rates. We provide such
+	decompositions using an affine arbitrage-free model of the term structure
+	that captures the pricing of both nominal and real Treasury securities.
+	Our empirical results suggest that long-term inflation expectations
+	have been well anchored over the past few years, and IRP, although
+	volatile, have been close to zero on average. Copyright (c) 2010
+	The Ohio State University No claim to original US government works.},
+  url = {http://ideas.repec.org/a/mcb/jmoncb/v42y2010is1p143-178.html}
+}
+
+@TECHREPORT{christensen_lopez_2010,
+  author = {Jens H. E. Christensen and Jose A. Lopez and Glenn D. Rudebusch},
+  title = {Can Spanned Term Structure Factors Drive Stochastic Volatility?},
+  institution = {Federal Reserve Bank of San Francisco},
+  year = {2010},
+  type = {unpublished work},
+  owner = {sarah},
+  timestamp = {2014.05.31}
+}
+
+@TECHREPORT{pesaran_2014,
+  author = {Chudik, Alexander and Pesaran, M. Hashem},
+  title = {Theory and practice of GVAR modeling},
+  institution = {Federal Reserve Bank of Dallas},
+  year = {2014},
+  type = {Globalization and Monetary Policy Institute Working Paper},
+  number = {180},
+  month = May,
+  abstract = {The Global Vector Autoregressive (GVAR) approach has proven to be
+	a very useful approach to analyze interactions in the global macroeconomy
+	and other data networks where both the cross-section and the time
+	dimensions are large. This paper surveys the latest developments
+	in the GVAR modeling, examining both the theoretical foundations
+	of the approach and its numerous empirical applications. We provide
+	a synthesis of existing literature and highlight areas for future
+	research.},
+  keywords = {Global Vector Autoregressive; global macroeconomy},
+  url = {http://ideas.repec.org/p/fip/feddgw/180.html}
+}
+
+@ARTICLE{chun_2011,
+  author = {Albert Lee Chun},
+  title = {Expectations, Bond Yields, and Monetary Policy},
+  journal = {Review of Financial Studies},
+  year = {2011},
+  volume = {24},
+  pages = {208-247},
+  number = {1},
+  abstract = { Through explicitly incorporating analysts' forecasts as observable
+	factors in a dynamic arbitrage-free model of the yield curve, this
+	research proposes a framework for studying the impact of shifts in
+	market sentiment on interest rates of all maturities. An empirical
+	examination reveals that survey expectations about inflation, output
+	growth, and the anticipated path of monetary policy actions contain
+	important information for explaining movements in bond yields. Estimates
+	from a forward-looking monetary policy rule suggest that the central
+	bank exhibits a preemptive response to inflationary expectations
+	while accommodating output growth and monetary policy expectations.
+	Forecasted GDP growth plays a significant role in explaining time
+	variation in the market prices of risk. The sensitivity of long yields
+	is linked to the persistence of expected inflation under the risk-neutral
+	measure. Models of this type may provide traders and policymakers
+	with a new set of tools for formally assessing the reaction of bond
+	yields to shifts in market expectations. The Author 2010. Published
+	by Oxford University Press on behalf of The Society for Financial
+	Studies. All rights reserved. For Permissions, please e-mail: journals.permissions@oxfordjournals.org.,
+	Oxford University Press.},
+  url = {http://ideas.repec.org/a/oup/rfinst/v24y2011i1p208-247.html}
+}
+
+@BOOK{cochrane_ap_2005,
+  title = {Asset Pricing: (Revised)},
+  publisher = {Princeton University Press},
+  year = {2005},
+  author = {Cochrane, John H.},
+  month = jan,
+  abstract = {{<p>Winner of the prestigious Paul A. Samuelson Award for scholarly
+	writing on lifelong financial security, John Cochrane's Asset Pricing
+	now appears in a revised edition that unifies and brings the science
+	of asset pricing up to date for advanced students and professionals.
+	Cochrane traces the pricing of all assets back to a single idea--price
+	equals expected discounted payoff--that captures the macro-economic
+	risks underlying each security's value. By using a single, stochastic
+	discount factor rather than a separate set of tricks for each asset
+	class, Cochrane builds a unified account of modern asset pricing.
+	He presents applications to stocks, bonds, and options. Each model--consumption
+	based, CAPM, multifactor, term structure, and option pricing--is
+	derived as a different specification of the discounted factor.</p><p>The
+	discount factor framework also leads to a state-space geometry for
+	mean-variance frontiers and asset pricing models. It puts payoffs
+	in different states of nature on the axes rather than mean and variance
+	of return, leading to a new and conveniently linear geometrical representation
+	of asset pricing ideas.</p><p>Cochrane approaches empirical work
+	with the Generalized Method of Moments, which studies sample average
+	prices and discounted payoffs to determine whether price does equal
+	expected discounted payoff. He translates between the discount factor,
+	GMM, and state-space language and the beta, mean-variance, and regression
+	language common in empirical work and earlier theory.</p><p>The book
+	also includes a review of recent empirical work on return predictability,
+	value and other puzzles in the cross section, and equity premium
+	puzzles and their resolution. Written to be a summary for academics
+	and professionals as well as a textbook, this book condenses and
+	advances recent scholarship in financial economics.</p>}},
+  citeulike-article-id = {1204955},
+  citeulike-linkout-0 = {http://home.business.utah.edu/finmll/fin787/papers/cochraneassetpricingbook.pdf},
+  citeulike-linkout-1 = {http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20\&amp;path=ASIN/0691121370},
+  citeulike-linkout-10 = {http://www.librarything.com/isbn/0691121370},
+  citeulike-linkout-2 = {http://www.amazon.de/exec/obidos/redirect?tag=citeulike01-21\&amp;path=ASIN/0691121370},
+  citeulike-linkout-3 = {http://www.amazon.fr/exec/obidos/redirect?tag=citeulike06-21\&amp;path=ASIN/0691121370},
+  citeulike-linkout-4 = {http://www.amazon.jp/exec/obidos/ASIN/0691121370},
+  citeulike-linkout-5 = {http://www.amazon.co.uk/exec/obidos/ASIN/0691121370/citeulike00-21},
+  citeulike-linkout-6 = {http://www.amazon.com/exec/obidos/redirect?tag=citeulike07-20\&path=ASIN/0691121370},
+  citeulike-linkout-7 = {http://www.worldcat.org/isbn/0691121370},
+  citeulike-linkout-8 = {http://books.google.com/books?vid=ISBN0691121370},
+  citeulike-linkout-9 = {http://www.amazon.com/gp/search?keywords=0691121370\&index=books\&linkCode=qs},
+  day = {03},
+  howpublished = {Hardcover},
+  isbn = {0691121370},
+  posted-at = {2009-01-23 11:15:24},
+  priority = {2},
+  url = {http://home.business.utah.edu/finmll/fin787/papers/cochraneassetpricingbook.pdf}
+}
+
+@ARTICLE{cochrane_2005,
+  author = {John H. Cochrane and Monika Piazzesi},
+  title = {Bond Risk Premia},
+  journal = {American Economic Review},
+  year = {2005},
+  volume = {95},
+  pages = {138-160},
+  number = {1},
+  month = {March},
+  abstract = {We study time variation in expected excess bond returns. We run regressions
+	of one-year excess returns on initial forward rates. We find that
+	a single factor, a single tent-shaped linear combination of forward
+	rates, predicts excess returns on one- to five-year maturity bonds
+	with R2 up to 0.44. The return-forecasting factor is countercyclical
+	and forecasts stock returns. An important component of the return-forecasting
+	factor is unrelated to the level, slope, and curvature movements
+	described by most term structure models. We document that measurement
+	errors do not affect our central results.},
+  url = {http://ideas.repec.org/a/aea/aecrev/v95y2005i1p138-160.html}
+}
+
+@UNPUBLISHED{giannone_,
+  author = {Laura Coroneo and Domenico Giannone and Michele Modugno},
+  title = {Spanned and unspanned macro risk in the yield curve},
+  year = {2012}
+}
+
+@ARTICLE{dellacorte_2009,
+  author = {Pasquale Della Corte and Lucio Sarno and Ilias Tsiakas},
+  title = {An Economic Evaluation of Empirical Exchange Rate Models},
+  journal = {Review of Financial Studies},
+  year = {2009},
+  volume = {22},
+  pages = {3491-3530},
+  number = {9},
+  month = {September},
+  abstract = { This paper provides a comprehensive evaluation of the short-horizon
+	predictive ability of economic fundamentals and forward premiums
+	on monthly exchange-rate returns in a framework that allows for volatility
+	timing. We implement Bayesian methods for estimation and ranking
+	of a set of empirical exchange rate models, and construct combined
+	forecasts based on Bayesian model averaging. More importantly, we
+	assess the economic value of the in-sample and out-of-sample forecasting
+	power of the empirical models, and find two key results: (1) a risk-averse
+	investor will pay a high performance fee to switch from a dynamic
+	portfolio strategy based on the random walk model to one that conditions
+	on the forward premium with stochastic volatility innovations and
+	(2) strategies based on combined forecasts yield large economic gains
+	over the random walk benchmark. These two results are robust to reasonably
+	high transaction costs. The Author 2008. Published by Oxford University
+	Press on behalf of The Society for Financial Studies. All rights
+	reserved. For Permissions, please email: journals.permissions@oxfordjournals.org,
+	Oxford University Press.},
+  url = {http://ideas.repec.org/a/oup/rfinst/v22y2009i9p3491-3530.html}
+}
+
+@ARTICLE{cir_1985,
+  author = {Cox, John C and Ingersoll, Jonathan E, Jr and Ross, Stephen A},
+  title = {A Theory of the Term Structure of Interest Rates},
+  journal = {Econometrica},
+  year = {1985},
+  volume = {53},
+  pages = {385-407},
+  number = {2},
+  month = {March},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/ecm/emetrp/v53y1985i2p385-407.html}
+}
+
+@PHDTHESIS{cuchiero_master,
+  author = {Cuchiero, Christa},
+  title = {Affine interest rate models: theory and practice}
+}
+
+@PHDTHESIS{cuchiero_phd,
+  author = {Cuchiero, Christa},
+  title = {Affine and polynomial processes}
+}
+
+@UNPUBLISHED{cuchiero_filipovic_,
+  author = {Cuchiero, Christa and Filipovic, Damir and Teichmann, Josef},
+  title = {Affine models}
+}
+
+@ARTICLE{cuchiero_polynomial_2012,
+  author = {Cuchiero, Christa and Keller-Ressel, Martin and Teichmann, Josef},
+  title = {Polynomial processes and their applications to mathematical finance},
+  journal = {Finance and Stochastics},
+  year = {2012},
+  pages = {1-30},
+  doi = {10.1007/s00780-012-0188-x},
+  issn = {0949-2984},
+  keywords = {Markov processes; Diffusions with jumps; Affine processes; Analytic
+	tractability; Pricing; Hedging; 60J25; 91B70; C02; G12},
+  language = {English},
+  publisher = {Springer-Verlag},
+  url = {http://dx.doi.org/10.1007/s00780-012-0188-x}
+}
+
+@TECHREPORT{damico_2010,
+  author = {Stefania D'Amico and Don H. Kim and Min Wei},
+  title = {Tips from TIPS: the informational content of Treasury Inflation-Protected
+	Security prices},
+  institution = {Board of Governors of the Federal Reserve System (U.S.)},
+  year = {2010},
+  type = {Finance and Economics Discussion Series},
+  number = {2010-19},
+  abstract = {TIPS breakeven inflation rate, defined as the difference between nominal
+	and TIPS yields of comparable maturities, is potentially useful as
+	a real-time measure of market inflation expectations. In this paper,
+	we provide evidence that a fairly large TIPS liquidity premium existed
+	until recently, using a multifactor no-arbitrage term structure model
+	estimated with nominal and TIPS yields, inflation and survey forecasts
+	of interest rates. Ignoring the TIPS liquidity premiums leads to
+	counterintuitive implications for inflation expectations and inflation
+	risk premium, and produces large pricing errors for TIPS. In contrast,
+	models incorporating a TIPS liquidity factor generate much better
+	fit for these variables and reveal a TIPS liquidity premium that
+	was until recently quite large (~1\%) but has come down in recent
+	years, consistent with the common perception that TIPS market grew
+	and liquidity conditions improved. Our results indicate that after
+	taking proper account of the liquidity conditions in the TIPS market,
+	the movement in TIPS breakeven inflation rate can provide useful
+	information for identifying real yields, expected inflation and inflation
+	risk premium.},
+  keywords = {Liquidity (Economics) ; Inflation (Finance)},
+  url = {http://ideas.repec.org/p/fip/fedgfe/2010-19.html}
+}
+
+@UNPUBLISHED{dai_le_2006,
+  author = {Qiang Dai and Anh Le and Kenneth J. Singleton},
+  title = {Discrete-time dynamic term structure models with generalized market
+	prices of risk, Working paper},
+  year = {2006}
+}
+
+@ARTICLE{dai_2002,
+  author = {Dai, Qiang and Singleton, Kenneth J.},
+  title = {Expectation puzzles, time-varying risk premia, and affine models
+	of the term structure},
+  journal = {Journal of Financial Economics},
+  year = {2002},
+  volume = {63},
+  pages = {415-441},
+  number = {3},
+  month = {March},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/eee/jfinec/v63y2002i3p415-441.html}
+}
+
+@ARTICLE{dai_2000,
+  author = {Dai, Qiang and Singleton, Kenneth J.},
+  title = {Specification Analysis of Affine Term Structure Models},
+  journal = {The Journal of Finance},
+  year = {2000},
+  volume = {55},
+  pages = {1943--1978},
+  number = {5},
+  doi = {10.1111/0022-1082.00278},
+  issn = {1540-6261},
+  publisher = {Blackwell Publishers, Inc.},
+  url = {http://dx.doi.org/10.1111/0022-1082.00278}
+}
+
+@ARTICLE{delnegro_2004,
+  author = {Del Negro, Marco and Schorfheide, Frank},
+  title = {Priors from General Equilibrium Models for VARS*},
+  journal = {International Economic Review},
+  year = {2004},
+  volume = {45},
+  pages = {643--673},
+  number = {2},
+  doi = {10.1111/j.1468-2354.2004.00139.x},
+  issn = {1468-2354},
+  publisher = {Blackwell Publishing Inc.},
+  url = {http://dx.doi.org/10.1111/j.1468-2354.2004.00139.x}
+}
+
+@ARTICLE{dellacorte_2011,
+  author = {Della Corte, Pasquale and Sarno, Lucio and Tsiakas, Ilias},
+  title = {Spot and forward volatility in foreign exchange},
+  journal = {Journal of Financial Economics},
+  year = {2011},
+  volume = {100},
+  pages = {496-513},
+  number = {3},
+  month = {June},
+  abstract = {This paper investigates the empirical relation between spot and forward
+	implied volatility in foreign exchange. We formulate and test the
+	forward volatility unbiasedness hypothesis, which may be viewed as
+	the volatility analogue to the extensively researched hypothesis
+	of unbiasedness in forward exchange rates. Using a new dataset of
+	spot implied volatility quoted on over-the-counter currency options,
+	we compute the forward implied volatility that corresponds to the
+	delivery price of a forward contract on future spot implied volatility.
+	This contract is known as a forward volatility agreement. We find
+	strong evidence that forward implied volatility is a systematically
+	biased predictor that overestimates movements in future spot implied
+	volatility. This bias in forward volatility generates high economic
+	value to an investor exploiting predictability in the returns to
+	volatility speculation and indicates the presence of predictable
+	volatility term premiums in foreign exchange.},
+  keywords = { Implied volatility Foreign exchange Forward volatility agreement
+	Unbiasedness Volatility speculatio},
+  url = {http://ideas.repec.org/a/eee/jfinec/v100y2011i3p496-513.html}
+}
+
+@ARTICLE{diebold_li_2006,
+  author = {Diebold, Francis X. and Li, Canlin},
+  title = {Forecasting the term structure of government bond yields},
+  journal = {Journal of Econometrics},
+  year = {2006},
+  volume = {130},
+  pages = {337-364},
+  number = {2},
+  month = {February},
+  abstract = {Despite powerful advances in yield curve modeling in the last twenty
+	years, comparatively little attention has been paid to the key practical
+	problem of forecasting the yield curve. In this paper we do so. We
+	use neither the no-arbitrage approach, which focuses on accurately
+	fitting the cross section of interest rates at any given time but
+	neglects time-series dynamics, nor the equilibrium approach, which
+	focuses on time-series dynamics (primarily those of the instantaneous
+	rate) but pays comparatively little attention to fitting the entire
+	cross section at any given time and has been shown to forecast poorly.
+	Instead, we use variations on the Nelson-Siegel exponential components
+	framework to model the entire yield curve, period-by-period, as a
+	three-dimensional parameter evolving dynamically. We show that the
+	three time-varying parameters may be interpreted as factors corresponding
+	to level, slope and curvature, and that they may be estimated with
+	high efficiency. We propose and estimate autoregressive models for
+	the factors, and we show that our models are consistent with a variety
+	of stylized facts regarding the yield curve. We use our models to
+	produce term-structure forecasts at both short and long horizons,
+	with encouraging results. In particular, our forecasts appear much
+	more accurate at long horizons than various standard benchmark forecasts.<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed from another version of this item.)<P>(This
+	abstract was borrowed fr},
+  url = {http://ideas.repec.org/a/eee/econom/v130y2006i2p337-364.html}
+}
+
+@ARTICLE{diebold_2008,
+  author = {Diebold, Francis X. and Li, Canlin and Yue, Vivian Z.},
+  title = {Global yield curve dynamics and interactions: A dynamic Nelson-Siegel
+	approach},
+  journal = {Journal of Econometrics},
+  year = {2008},
+  volume = {146},
+  pages = {351-363},
+  number = {2},
+  month = {October},
+  abstract = {The popular Nelson-Siegel [Nelson, C.R., Siegel, A.F., 1987. Parsimonious
+	modeling of yield curves. Journal of Business 60, 473-489] yield
+	curve is routinely fit to cross sections of intra-country bond yields,
+	and Diebold-Li [Diebold, F.X., Li, C., 2006. Forecasting the term
+	structure of government bond yields. Journal of Econometrics 130,
+	337-364] have recently proposed a dynamized version. In this paper
+	we extend Diebold-Li to a global context, modeling a potentially
+	large set of country yield curves in a framework that allows for
+	both global and country-specific factors. In an empirical analysis
+	of term structures of government bond yields for the Germany, Japan,
+	the UK and the US, we find that global yield factors do indeed exist
+	and are economically important, generally explaining significant
+	fractions of country yield curve dynamics, with interesting differences
+	across countries.},
+  keywords = { Term structure Interest rate Dynamic factor model Global yield World
+	yield Bond market},
+  url = {http://ideas.repec.org/a/eee/econom/v146y2008i2p351-363.html}
+}
+
+@BOOK{diebold_2013,
+  title = {Yield Curve Modeling and Forecasting},
+  publisher = {Princeton University Press},
+  year = {2013},
+  author = {Diebold, Francis X. and Rudebusch, Glenn D.},
+  pages = {176},
+  series = {The Econometric and Tinbergen Institutes Lectures},
+  abstract = {Understanding the dynamic evolution of the yield curve is critical
+	to many financial tasks, including pricing financial assets and their
+	derivatives, managing financial risk, allocating portfolios, structuring
+	fiscal debt, conducting monetary policy, and valuing capital goods.
+	Unfortunately, most yield curve models tend to be theoretically rigorous
+	but empirically disappointing, or empirically successful but theoretically
+	lacking. In this book, Francis Diebold and Glenn Rudebusch propose
+	two extensions of the classic yield curve model of Nelson and Siegel
+	that are both theoretically rigorous and empirically successful.
+	The first extension is the dynamic Nelson-Siegel model (DNS), while
+	the second takes this dynamic version and makes it arbitrage-free
+	(AFNS). Diebold and Rudebusch show how these two models are just
+	slightly different implementations of a single unified approach to
+	dynamic yield curve modeling and forecasting. They emphasize both
+	descriptive and efficient-markets aspects, they pay special attention
+	to the links between the yield curve and macroeconomic fundamentals,
+	and they show why DNS and AFNS are likely to remain of lasting appeal
+	even as alternative arbitrage-free models are developed.Based on
+	the Econometric and Tinbergen Institutes Lectures, Yield Curve Modeling
+	and Forecasting contains essential tools with enhanced utility for
+	academics, central banks, governments, and industry.},
+  eisbn = {978-1-4008-4541-5},
+  jstor_formatteddate = {January 2013},
+  language = {English},
+  subtitle = {The Dynamic Nelson-Siegel Approach},
+  url = {http://www.jstor.org/stable/j.ctt1r2dc4}
+}
+
+@BOOK{diebold_book,
+  title = {Yield Curve Modeling and Forecasting: The Dynamic Nelson-Siegel Approach},
+  publisher = {Princeton University Press},
+  year = {2012},
+  author = {Francis X. Diebold and Glenn D. Rudebusch},
+  volume = {1},
+  number = {9895},
+  series = {Economics Books},
+  abstract = {Understanding the dynamic evolution of the yield curve is critical
+	to many financial tasks, including pricing financial assets and their
+	derivatives, managing financial risk, allocating portfolios, structuring
+	fiscal debt, conducting monetary policy, and valuing capital goods.
+	Unfortunately, most yield curve models tend to be theoretically rigorous
+	but empirically disappointing, or empirically successful but theoretically
+	lacking. In this book, Francis Diebold and Glenn Rudebusch propose
+	two extensions of the classic yield curve model of Nelson and Siegel
+	that are both theoretically rigorous and empirically successful.
+	The first extension is the dynamic Nelson-Siegel model (DNS), while
+	the second takes this dynamic version and makes it arbitrage-free
+	(AFNS). Diebold and Rudebusch show how these two models are just
+	slightly different implementations of a single unified approach to
+	dynamic yield curve modeling and forecasting. They emphasize both
+	descriptive and efficient-markets aspects, they pay special attention
+	to the links between the yield curve and macroeconomic fundamentals,
+	and they show why DNS and AFNS are likely to remain of lasting appeal
+	even as alternative arbitrage-free models are developed. Based on
+	the Econometric and Tinbergen Institutes Lectures, Yield Curve Modeling
+	and Forecasting contains essential tools with enhanced utility for
+	academics, central banks, governments, and industry.},
+  keywords = {yield curve; modeling; forecasting; dynamic; Nelson-Siegel; pricing
+	financial assets; managing finan},
+  url = {http://ideas.repec.org/b/pup/pbooks/9895.html}
+}
+
+@ARTICLE{aruoba_2006,
+  author = {Diebold, Francis X. and Rudebusch, Glenn D. and Borag[caron]an Aruoba,
+	S.},
+  title = {The macroeconomy and the yield curve: a dynamic latent factor approach},
+  journal = {Journal of Econometrics},
+  year = {2006},
+  volume = {131},
+  pages = {309-338},
+  number = {1-2},
+  abstract = {We estimate a model that summarizes the yield curve using latent factors
+	(specifically, level, slope, and curvature) and also includes observable
+	macroeconomic variables (specifically, real activity, inflation,
+	and the monetary policy instrument). Our goal is to provide a characterization
+	of the dynamic interactions between the macroeconomy and the yield
+	curve. We find strong evidence of the effects of macro variables
+	on future movements in the yield curve and evidence for a reverse
+	influence as well. We also relate our results to the expectations
+	hypothesis.<P>(This abstract was borrowed from another version of
+	this item.)},
+  url = {http://ideas.repec.org/a/eee/econom/v131y2006i1-2p309-338.html}
+}
+
+@ARTICLE{domowitz_1985,
+  author = {Domowitz, Ian and Hakkio, Craig S.},
+  title = {Conditional variance and the risk premium in the foreign exchange
+	market},
+  journal = {Journal of International Economics},
+  year = {1985},
+  volume = {19},
+  pages = {47-66},
+  number = {1-2},
+  month = {August},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/eee/inecon/v19y1985i1-2p47-66.html}
+}
+
+@ARTICLE{duffee_2002,
+  author = {Gregory R. Duffee},
+  title = {Term Premia and Interest Rate Forecasts in Affine Models},
+  journal = {Journal of Finance},
+  year = {2002},
+  volume = {57},
+  pages = {405-443},
+  number = {1},
+  month = {02},
+  abstract = { The standard class of affine models produces poor forecasts of future
+	Treasury yields. Better forecasts are generated by assuming that
+	yields follow random walks. The failure of these models is driven
+	by one of their key features: Compensation for risk is a multiple
+	of the variance of the risk. Thus risk compensation cannot vary independently
+	of interest rate volatility. I also describe a broader class of models.
+	These \&quot;essentially affine\&quot; models retain the tractability
+	of standard models, but allow compensation for interest rate risk
+	to vary independently of interest rate volatility. This additional
+	flexibility proves useful in forecasting future yields. Copyright
+	The American Finance Association 2002.},
+  url = {http://ideas.repec.org/a/bla/jfinan/v57y2002i1p405-443.html}
+}
+
+@ARTICLE{stanton_2012,
+  author = {Gregory R. Duffee and Richard Stanton},
+  title = {Estimation of dynamic term structure models},
+  journal = {Quarterly Journal of Finance},
+  year = {2012},
+  volume = {2},
+  pages = {page numbers undetermined},
+  owner = {sarah},
+  timestamp = {2013.10.10}
+}
+
+@ARTICLE{filipovic_2003,
+  author = {D. Duffie and D. Filipovi? and W. Schachermayer},
+  title = {Affine processes and applications in finance},
+  journal = {Annals of Applied Probability},
+  year = {2003},
+  volume = {13},
+  pages = {984--1053}
+}
+
+@ARTICLE{duffie_kan_1996,
+  author = {Duffie, Darrell and Kan, Rui},
+  title = {A yield-factor model of interest rates},
+  journal = {Mathematical Finance},
+  year = {1996},
+  volume = {6},
+  pages = {379--406},
+  number = {4},
+  doi = {10.1111/j.1467-9965.1996.tb00123.x},
+  issn = {1467-9965},
+  publisher = {Blackwell Publishing Ltd},
+  url = {http://dx.doi.org/10.1111/j.1467-9965.1996.tb00123.x}
+}
+
+@ARTICLE{engel_1996,
+  author = {Engel, Charles},
+  title = {The forward discount anomaly and the risk premium: A survey of recent
+	evidence},
+  journal = {Journal of Empirical Finance},
+  year = {1996},
+  volume = {3},
+  pages = {123-192},
+  number = {2},
+  month = {June},
+  abstract = {Forward exchange rate unbiasedness is rejected in tests from the current
+	floating exchange rate era. This paper surveys advances in this area
+	since the publication of Hodrick's (1987) survey. It documents that
+	the change in the future exchange rate is generally negatively related
+	to the forward discount. Properties of the expected forward forecast
+	error are reviewed. Issues such as the relation of uncovered interest
+	parity to real interest parity, and the implications of uncovered
+	interest parity for cointegration of various quantities are discussed.
+	The modeling and testing for risk premiums is surveyed. Included
+	in this area are tests of the consumption CAPM, tests of the latent
+	variable model, and portfolio-balance models of risk premiums. General
+	equilibrium models of the risk premium are examined and their empirical
+	implications explored. The survey does not cover the important areas
+	of learning and peso problems, tests of rational expectations based
+	on survey data, or the models of irrational expectations and speculative
+	bubbles.<P>(This abstract was borrowed from another version of this
+	item.)},
+  url = {http://ideas.repec.org/a/eee/empfin/v3y1996i2p123-192.html}
+}
+
+@ARTICLE{engel_2005,
+  author = {Charles Engel and Kenneth D. West},
+  title = {Exchange Rates and Fundamentals},
+  journal = {Journal of Political Economy},
+  year = {2005},
+  volume = {113},
+  pages = {485-517},
+  number = {3},
+  month = {June},
+  abstract = {Standard economic models hold that exchange rates are influenced by
+	fundamental variables such as relative money supplies, outputs, inflation
+	rates and interest rates. Nonetheless, it has been well documented
+	that such variables little help predict changes in floating exchange
+	rates - that is, exchange rates follow a random walk. We show that
+	the data do exhibit a related link suggested by standard models -
+	that the exchange rate helps predict fundamentals. We also show analytically
+	that in a rational expectations present value model, an asset price
+	manifests near random walk behavior if fundamentals are I(1) and
+	the factor for discounting future fundamentals is near one. We suggest
+	that this may apply to exchange rates. JEL Classification: F310;
+	F370; G150; G120.<P>(This abstract was borrowed from another version
+	of this item.)},
+  url = {http://ideas.repec.org/a/ucp/jpolec/v113y2005i3p485-517.html}
+}
+
+@ARTICLE{fama_1984,
+  author = {Fama, Eugene F.},
+  title = {Forward and spot exchange rates},
+  journal = {Journal of Monetary Economics},
+  year = {1984},
+  volume = {14},
+  pages = {319-338},
+  number = {3},
+  month = {November},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/eee/moneco/v14y1984i3p319-338.html}
+}
+
+@ARTICLE{fama_bliss_1987,
+  author = {Fama, Eugene F and Bliss, Robert R},
+  title = {The Information in Long-Maturity Forward Rates},
+  journal = {American Economic Review},
+  year = {1987},
+  volume = {77},
+  pages = {680-92},
+  number = {4},
+  month = {September},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/aea/aecrev/v77y1987i4p680-92.html}
+}
+
+@TECHREPORT{fisher_1996,
+  author = {Fisher, Mark and Christian Gilles},
+  title = {Term Premia in Exponential Affine Models of the Term Structure},
+  institution = {Board of Governors of the Federal Reserve System},
+  year = {1996},
+  type = {unpublished manuscript},
+  owner = {sarah},
+  timestamp = {2014.05.31}
+}
+
+@ARTICLE{frankel_1984,
+  author = {Frankel, Jeffrey and Engel, Charles M.},
+  title = {Do asset-demand functions optimize over the mean and variance of
+	real returns? A six-currency test},
+  journal = {Journal of International Economics},
+  year = {1984},
+  volume = {17},
+  pages = {309-323},
+  number = {3-4},
+  month = {November},
+  abstract = {International asset demands are functions of expected returns.Optimal
+	portfolio theory tells us that the coefficients in this relationship
+	depend on the variance-covariance matrix of real returns.But previous
+	estimates of the optimal portfolio (1) assume expected returns constant
+	and (2) are not set up to test the hypothesis of mean-variance optimization.
+	We use maximum likelihood estimation to impose a constraint between
+	the coefficients and the error variance-covariance matrix. For a
+	portfolio of six currencies, we are able statistically to reject
+	the constraint. Evidently investors are either not sophisticated
+	enough to maximize a function of the mean and variance of end-of-period
+	wealth, or else are too sophisticated to do so.<P>(This abstract
+	was borrowed from another version of this item.)},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/a/eee/inecon/v17y1984i3-4p309-323.html}
+}
+
+@TECHREPORT{graveline_2006,
+  author = {Graveline, Jeremy J.},
+  title = {Exchange Rate Volatility and the Forward Premium Anomaly},
+  year = {2006},
+  type = {unpublished manuscript},
+  owner = {sarah},
+  timestamp = {2014.05.31}
+}
+
+@ARTICLE{graveline_2011,
+  author = {Graveline, Jeremy J. and Joslin, Scott},
+  title = {G10 Swap and Exchange Rates},
+  year = {2011}
+}
+
+@TECHREPORT{grishchenko_2012,
+  author = {Olesya V. Grishchenko and Jing-Zhi Huang},
+  title = {Inflation risk premium: evidence from the TIPS market},
+  institution = {Board of Governors of the Federal Reserve System (U.S.)},
+  year = {2012},
+  type = {Finance and Economics Discussion Series},
+  number = {2012-06},
+  abstract = {``Inflation-indexed securities would appear to be the most direct
+	source of information about inflation expectations and real interest
+	rates\&quot; (Bernanke, 2004). In this paper we study the term structure
+	of real interest rates, expected inflation and inflation risk premia
+	using data on prices of Treasury Inflation Protected Securities (TIPS)
+	over the period 2000-2008. The approach we use to estimate inflation
+	risk premium is arbitrage free, largely model free, and easy to implement.
+	We also make distinction between TIPS yields and real yields and
+	take into account explicitly the three-month indexation lag of TIPS
+	in the analysis. In addition, we propose a new liquidity measure
+	based on TIPS prices. Accounting for it, we find that the inflation
+	risk premium is time-varying: it is negative (positive) in the first
+	(second) half of the sample period. The average 10-year inflation
+	risk premium ranges from -16 to 10 basis points over the full sample
+	depending on the proxy used for expected inflation. More specifically,
+	the estimates of the 10-year inflation risk premium range between
+	14 and 19 basis points for 2004-2008 period.},
+  url = {http://ideas.repec.org/p/fip/fedgfe/2012-06.html}
+}
+
+@TECHREPORT{hordahl_2010,
+  author = {Peter Hordahl and Oreste Tristani},
+  title = {Inflation risk premia in the US and the euro area},
+  institution = {Bank for International Settlements},
+  year = {2010},
+  type = {BIS Working Papers},
+  number = {325},
+  month = Nov,
+  abstract = {We use a joint model of macroeconomic and term structure dynamics
+	to estimate inflation risk premia in the United States and the euro
+	area. To sharpen our estimation, we include in the information set
+	macro data and survey data on inflation and interest rate expectations
+	at various future horizons, as well as term structure data from both
+	nominal and index-linked bonds. Our results show that, in both currency
+	areas, inflation risk premia are relatively small, positive, and
+	increasing in maturity. The cyclical dynamics of long-term inflation
+	risk premia are mostly associated with changes in output gaps, while
+	their high-frequency fluctuations seem to be aligned with variations
+	in inflation. However, the cyclicality of inflation premia differs
+	between the US and the euro area. Long term inflation premia are
+	countercyclical in the euro area, while they are procyclical in the
+	US.},
+  keywords = {term structure of interest rates; inflation risk premia; central bank
+	credibility},
+  url = {http://ideas.repec.org/p/bis/biswps/325.html}
+}
+
+@ARTICLE{inci_2004,
+  author = {Inci, Ahmet Can and Lu, Biao},
+  title = {Exchange rates and interest rates: can term structure models explain
+	currency movements?},
+  journal = {Journal of Economic Dynamics and Control},
+  year = {2004},
+  volume = {28},
+  pages = {1595-1624},
+  number = {8},
+  month = {June},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/eee/dyncon/v28y2004i8p1595-1624.html}
+}
+
+@ARTICLE{ingram_1994,
+  author = {Ingram, Beth F. and Whiteman, Charles H.},
+  title = {Supplanting the 'Minnesota' prior: Forecasting macroeconomic time
+	series using real business cycle model priors},
+  journal = {Journal of Monetary Economics},
+  year = {1994},
+  volume = {34},
+  pages = {497-510},
+  number = {3},
+  month = {December},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/eee/moneco/v34y1994i3p497-510.html}
+}
+
+@ARTICLE{jacobs_2009,
+  author = {Jacobs, Kris and Karoui, Lotfi},
+  title = {Conditional volatility in affine term-structure models: Evidence
+	from Treasury and swap markets},
+  journal = {Journal of Financial Economics},
+  year = {2009},
+  volume = {91},
+  pages = {288-318},
+  number = {3},
+  month = {March},
+  abstract = {We study the ability of three-factor affine term-structure models
+	to extract conditional volatility using interest rate swap yields
+	for 1991-2005 and Treasury yields for 1970-2003. For the Treasury
+	sample, the correlation between model-implied and EGARCH volatility
+	is between 60\% and 75\%. For the swap sample, this correlation is
+	rather low or negative. We find that these differences in model performance
+	are primarily due to the timing of the swap sample, and not to institutional
+	differences between swap and Treasury markets. We conclude that the
+	ability of multifactor affine models to extract conditional volatility
+	depends on the sample period, but that overall these models perform
+	better than has been argued in the literature.},
+  keywords = { Term-structure model Affine Interest rate swap Treasury market Conditional
+	volatility Time series C},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/a/eee/jfinec/v91y2009i3p288-318.html}
+}
+
+@ARTICLE{polson_2002,
+  author = {Jacquier, Eric and Polson, Nicholas G and Rossi, Peter E},
+  title = {Bayesian Analysis of Stochastic Volatility Models},
+  journal = {Journal of Business \& Economic Statistics},
+  year = {2002},
+  volume = {20},
+  pages = {69-87},
+  number = {1},
+  month = {January},
+  abstract = { New techniques for the analysis of stochastic volatility models in
+	which the logarithm of conditional variance follows an autoregressive
+	model are developed. A cyclic Metropolis algorithm is used to construct
+	a Markov-chain simulation tool. Simulations from this Markov chain
+	converge in distribution to draws from the posterior distribution
+	enabling exact finite-sample inference. The exact solution to the
+	filtering/smoothing problem of inferring about the unobserved variance
+	states is a by-product of our Markov-chain method. In addition, multistep-ahead
+	predictive densities can be constructed that reflect both inherent
+	model variability and parameter uncertainty. We illustrate our method
+	by analyzing both daily and weekly data on stock returns and exchange
+	rates. Sampling experiments are conducted to compare the performance
+	of Bayes estimators to method of moments and quasi-maximum likelihood
+	estimators proposed in the literature. In both parameter estimation
+	and filtering, the Bayes estimators outperform these other approaches.},
+  url = {http://ideas.repec.org/a/bes/jnlbes/v20y2002i1p69-87.html}
+}
+
+@TECHREPORT{polson_1995,
+  author = {Éric Jacquier and Nicholas G. Polson and Peter E. Rossi},
+  title = {Models and Priors for Multivariate Stochastic Volatility},
+  institution = {CIRANO},
+  year = {1995},
+  type = {CIRANO Working Papers},
+  number = {95s-18},
+  month = Mar,
+  abstract = {Discrete time stochastic volatility models (hereafter SVOL) are noticeably
+	harder to estimate than the successful ARCH family of models. In
+	this paper, we develop methods for finite sample inference, smoothing,
+	and prediction for a number of univariate and multivariate SVOL models.
+	Specifically, we model fat-tailed and skewed conditional distributions,
+	correlated errors distributions (leverage effect), and two multivariate
+	models, a stochastic factor structure model and a stochastic discount
+	dynamic model. We specify the models as a hierarchy of conditional
+	probability distributions: p(data/volatilities), p(volatilities/
+	parameters) and p(parameters). This hierarchy provides a natural
+	environment for the construction of stochastic volatility models
+	that depart from standard distributional assumptions. Given a model
+	and the data, inference and prediction are based on the joint posterior
+	distribution of the volatilities and the parameters which we simulate
+	via Markov chain Monte Carlo (MCMC) methods. Our approach also provides
+	a sensitivity analysis for parameter inference and an outlier diagnostic.
+	Our framework, therefore, provides a general perspective on specification
+	and implementation of stochastic volatility models. We apply various
+	extensions of the basic SVOL model to many financial time series.
+	We find strong evidence of non-normal conditional distributions for
+	stock returns and exchange rates. We also find some evidence of correlated
+	errors for stock returns. These departures from the basic model affect
+	persistence and therefore should be incorporated if the model is
+	used for variance prediction. Les modèles de volatilité stochastique
+	(ci-après) SVOL sont singulièrement plus difficiles à estimer que
+	les modèles de type ARCH qui connaissent un grand succès. Dans cet
+	article, nous développons des méthodes en échantillons finis pour
+	l'inférence et la prédiction, ceci pour un nombre de modèles SVOL
+	univariés et multivariés. Plus précisément nou},
+  keywords = {Stochastic volatility; Forecasting and smoothing; Metropolis algorithm;
+	Volatilité stochastique ; I},
+  url = {http://ideas.repec.org/p/cir/cirwor/95s-18.html}
+}
+
+@ARTICLE{jamshidian_1989,
+  author = {Jamshidian, Farshid},
+  title = {An Exact Bond Option Formula},
+  journal = {The Journal of Finance},
+  year = {1989},
+  volume = {44},
+  pages = {205--209},
+  number = {1},
+  doi = {10.1111/j.1540-6261.1989.tb02413.x},
+  issn = {1540-6261},
+  publisher = {Blackwell Publishing Ltd},
+  url = {http://dx.doi.org/10.1111/j.1540-6261.1989.tb02413.x}
+}
+
+@UNPUBLISHED{jarrow_,
+  author = {Jarrow, Robert A. and Li, Hao},
+  title = {The Impact of Quantitative Easing on the U.S. Term Structure of Interest
+	Rates},
+  year = {July 12, 2012},
+  institution = {Johnson School Research Paper No. 2-2012}
+}
+
+@MISC{polson_chap,
+  author = {Michael Johannes and Nicholas Polson},
+  title = {MCMC methods for continuous-time financial econometrics},
+  year = {2003}
+}
+
+@ARTICLE{dejong_2000,
+  author = {de Jong, Frank},
+  title = {Time Series and Cross-Section Information in Affine Term-Structure
+	Models},
+  journal = {Journal of Business \& Economic Statistics},
+  year = {2000},
+  volume = {18},
+  pages = {300-314},
+  number = {3},
+  abstract = { In this article I provide an empirical analysis of the term structure
+	of interest rates using the affine class of term-structure models
+	introduced by Duffie and Kan. I estimate these models by combining
+	time series and cross-section information in a theoretically consistent
+	way. In the estimation I use a Kalman filter based on a discretization
+	of the continuous-time factor process and allow for a general measurement-error
+	structure. I provide evidence that a three-factor affine model with
+	correlated factors is able to provide an adequate fit of the cross-section
+	and the dynamics of the term structure. The three factors can be
+	given the usual interpretation of level, steepness, and curvature.},
+  url = {http://EconPapers.repec.org/RePEc:bes:jnlbes:v:18:y:2000:i:3:p:300-314}
+}
+
+@UNPUBLISHED{joslin2_,
+  author = {Scott Joslin},
+  title = {Can Unspanned Stochastic Volatility Models Explain the Cross Section
+	of Bond Volatilities?},
+  year = {2013}
+}
+
+@UNPUBLISHED{joslin_,
+  author = {Scott Joslin and Anh Le and Kenneth J. Singleton},
+  title = {Why Gaussian Macro-Finance Term Structure Models Are (Nearly) Unconstrained
+	Factor-VARs},
+  owner = {sarah},
+  timestamp = {2014.05.31}
+}
+
+@ARTICLE{joslin_2013,
+  author = {Joslin, Scott and Priebsch, Marcel and Singleton, Kenneth J.},
+  title = {Risk Premiums in Dynamic Term Structure Models with Unspanned Macro
+	Risks},
+  year = {2013}
+}
+
+@ARTICLE{joslin_2011,
+  author = {Scott Joslin and Kenneth J. Singleton and Haoxiang Zhu},
+  title = {A New Perspective on Gaussian Dynamic Term Structure Models},
+  journal = {Review of Financial Studies},
+  year = {2011},
+  volume = {24},
+  pages = {926-970},
+  number = {3},
+  abstract = { In any canonical Gaussian dynamic term structure model (GDTSM), the
+	conditional forecasts of the pricing factors are invariant to the
+	imposition of no-arbitrage restrictions. This invariance is maintained
+	even in the presence of a variety of restrictions on the factor structure
+	of bond yields. To establish these results, we develop a novel canonical
+	GDTSM in which the pricing factors are observable portfolios of yields.
+	For our normalization, standard maximum likelihood algorithms converge
+	to the global optimum almost instantaneously. We present empirical
+	estimates and out-of-sample forecasts for several GDTSMs using data
+	on U.S. Treasury bond yields. The Author 2011. Published by Oxford
+	University Press on behalf of The Society for Financial Studies.
+	All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.,
+	Oxford University Press.},
+  url = {http://ideas.repec.org/a/oup/rfinst/v24y2011i3p926-970.html}
+}
+
+@ARTICLE{joslin_2011b,
+  author = {Scott Joslin and Kenneth J. Singleton and Haoxiang Zhu},
+  title = {A New Perspective on Gaussian Dynamic Term Structure Models},
+  journal = {Review of Financial Studies},
+  year = {2011},
+  volume = {24},
+  pages = {926-970},
+  number = {3},
+  abstract = { In any canonical Gaussian dynamic term structure model (GDTSM), the
+	conditional forecasts of the pricing factors are invariant to the
+	imposition of no-arbitrage restrictions. This invariance is maintained
+	even in the presence of a variety of restrictions on the factor structure
+	of bond yields. To establish these results, we develop a novel canonical
+	GDTSM in which the pricing factors are observable portfolios of yields.
+	For our normalization, standard maximum likelihood algorithms converge
+	to the global optimum almost instantaneously. We present empirical
+	estimates and out-of-sample forecasts for several GDTSMs using data
+	on U.S. Treasury bond yields. The Author 2011. Published by Oxford
+	University Press on behalf of The Society for Financial Studies.
+	All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.,
+	Oxford University Press.},
+  url = {http://ideas.repec.org/a/oup/rfinst/v24y2011i3p926-970.html}
+}
+
+@ARTICLE{joyce_2010,
+  author = {Joyce, Michael A.S. and Lildholdt, Peter and Sorensen, Steffen},
+  title = {Extracting inflation expectations and inflation risk premia from
+	the term structure: A joint model of the UK nominal and real yield
+	curves},
+  journal = {Journal of Banking \& Finance},
+  year = {2010},
+  volume = {34},
+  pages = {281-294},
+  number = {2},
+  month = {February},
+  abstract = {This paper analyses the UK interest rate term structure over the period
+	since October 1992, when the United Kingdom adopted an explicit inflation
+	target, using an affine term structure model estimated using both
+	government bond yields and survey data. The model imposes no-arbitrage
+	restrictions across nominal and real yields, which enables interest
+	rates to be decomposed into expected real policy rates, expected
+	inflation, real term premia and inflation risk premia. The model
+	is used to shed light on major developments over the period, including
+	the impact of Bank of England independence and the low real bond
+	yield 'conundrum'.},
+  keywords = { Inflation expectations Inflation risk premia Affine term structure
+	model},
+  owner = {sarah},
+  timestamp = {2013.06.24},
+  url = {http://ideas.repec.org/a/eee/jbfina/v34y2010i2p281-294.html}
+}
+
+@BOOK{kimnelson_1999,
+  title = {State-Space Models with Regime Switching: Classical and Gibbs-Sampling
+	Approaches with Applications},
+  publisher = {The MIT Press},
+  year = {1999},
+  author = {Chang-Jin Kim and Charles R. Nelson},
+  volume = {1},
+  number = {0262112388},
+  series = {MIT Press Books},
+  month = {November},
+  abstract = {Both state-space models and Markov switching models have been highly
+	productive paths for empirical research in macroeconomics and finance.
+	This book presents recent advances in econometric methods that make
+	feasible the estimation of models that have both features. One approach,
+	in the classical framework, approximates the likelihood function;
+	the other, in the Bayesian framework, uses Gibbs-sampling to simulate
+	posterior distributions from data. The authors present numerous applications
+	of these approaches in detail: decomposition of time series into
+	trend and cycle, a new index of coincident economic indicators, approaches
+	to modeling monetary policy uncertainty, Friedman's \&quot;plucking\&quot;
+	model of recessions, the detection of turning points in the business
+	cycle and the question of whether booms and recessions are duration-dependent,
+	state-space models with heteroskedastic disturbances, fads and crashes
+	in financial markets, long-run real exchange rates, and mean reversion
+	in asset returns.},
+  keywords = {regime switching; gibbs-sampling; posterior distributions; likelihood
+	function},
+  url = {http://ideas.repec.org/b/mtp/titles/0262112388.html}
+}
+
+@ARTICLE{singleton_2012,
+  author = {Don H. Kim and Kenneth J. Singleton},
+  title = {Term structure models and the zero bound: An empirical investigation
+	of Japanese yields},
+  journal = {Journal of Econometrics},
+  year = {2012},
+  volume = {170},
+  pages = {32 - 49},
+  number = {1},
+  abstract = {When Japanese short-term bond yields were near their zero bound, yields
+	on long-term bonds showed substantial fluctuation, and there was
+	a strong positive relationship between the level of interest rates
+	and yield volatilities/risk premiums. We explore whether several
+	families of dynamic term structure models that enforce a zero lower
+	bound on short rates imply conditional distributions of Japanese
+	bond yields consistent with these patterns. Multi-factor â€œshadow-rateâ€?
+	and quadratic-Gaussian models, evaluated at their maximum likelihood
+	estimates, capture many features of the data. Furthermore, model-implied
+	risk premiums track realized excess returns during extended periods
+	of near-zero short rates. In contrast, the conditional distributions
+	implied by non-negative affine models do not match their sample counterparts,
+	and standard Gaussian affine models generate implausibly large negative
+	risk premiums.},
+  doi = {10.1016/j.jeconom.2011.12.005},
+  issn = {0304-4076},
+  url = {http://www.sciencedirect.com/science/article/pii/S0304407612001352}
+}
+
+@ARTICLE{koopman_2010,
+  author = {Koopman, Siem Jan and Mallee, Max I. P. and Van der Wel, Michel},
+  title = {Analyzing the Term Structure of Interest Rates Using the Dynamic
+	Nelsonâ€“Siegel Model With Time-Varying Parameters},
+  journal = {Journal of Business \& Economic Statistics},
+  year = {2010},
+  volume = {28},
+  pages = {329-343},
+  number = {3},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/bes/jnlbes/v28i3y2010p329-343.html}
+}
+
+@TECHREPORT{krippner_2012,
+  author = {Leo Krippner},
+  title = {Modifying Gaussian term structure models when interest rates are
+	near the zero lower bound},
+  institution = {Reserve Bank of New Zealand},
+  year = {2012},
+  type = {Reserve Bank of New Zealand Discussion Paper Series},
+  number = {DP2012/02},
+  month = Mar,
+  abstract = {With nominal interest rates near the zero lower bound (ZLB) in many
+	major economies, it is theoretically untenable to apply Gaussian
+	affine term structure models (GATSMs) while ignoring their inherent
+	material probabilities of negative interest rates. I propose correcting
+	that deficiency by adjusting the entire GATSM term structure with
+	an explicit function of maturity that represents the optionality
+	associated with the present and future availability of physical currency.
+	The resulting ZLB-GATSM framework remains tractable, producing a
+	simple closed-form analytic expression for forward rates and requiring
+	only elementary univariate numerical integration (over time to maturity)
+	to obtain interest rates and bond prices. I demonstrate the salient
+	features of the ZLB- GATSM framework using a two-factor model. An
+	illustrative estimation with U.S. term structure data indicates that
+	the ZLB-GATSM \&quot;shadow short rate\&quot; provides a useful gauge
+	of the stance of monetary policy; in particular becoming negative
+	when the U.S. policy rate reached the ZLB in late 2008, and moving
+	more negative with subsequent unconventional monetary policy easings.},
+  url = {http://ideas.repec.org/p/nzb/nzbdps/2012-02.html}
+}
+
+@ARTICLE{lettau_2011,
+  author = {Lettau, Martin and Wachter, Jessica A.},
+  title = {The term structures of equity and interest rates},
+  journal = {Journal of Financial Economics},
+  year = {2011},
+  volume = {101},
+  pages = {90-113},
+  number = {1},
+  month = {July},
+  abstract = {This paper proposes a dynamic risk-based model capable of jointly
+	explaining the term structure of interest rates, returns on the aggregate
+	market, and the risk and return characteristics of value and growth
+	stocks. Both the term structure of interest rates and returns on
+	value and growth stocks convey information about how the representative
+	investor values cash flows of different maturities. We model how
+	the representative investor perceives risks of these cash flows by
+	specifying a parsimonious stochastic discount factor for the economy.
+	Shocks to dividend growth, the real interest rate, and expected inflation
+	are priced, but shocks to the price of risk are not. Given reasonable
+	assumptions for dividends and inflation, we show that the model can
+	simultaneously account for the behavior of aggregate stock returns,
+	an upward-sloping yield curve, the failure of the expectations hypothesis,
+	and the poor performance of the capital asset pricing model.},
+  keywords = { Value premium Yield curve Predictive regressions Affine models},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/a/eee/jfinec/v101y2011i1p90-113.html}
+}
+
+@ARTICLE{litterman_1991,
+  author = {Litterman, Robert B. and Scheinkman, Jos\`{e}},
+  title = {Common Factors Affecting Bond Returns},
+  journal = {The Journal of Fixed Income},
+  year = {1991},
+  volume = {1},
+  pages = {54--61},
+  number = {1},
+  citeulike-article-id = {11016653},
+  keywords = {fixed-income, interest-rate, pca, principal-component-analysis, rate-curve},
+  posted-at = {2012-08-05 17:24:14},
+  priority = {2}
+}
+
+@TECHREPORT{lustig_2012,
+  author = {Hanno Lustig and Nikolai Roussanov and Adrien Verdelhan},
+  title = {Countercyclical Currency Risk Premia},
+  institution = {National Bureau of Economic Research, Inc},
+  year = {2010},
+  type = {NBER Working Papers},
+  number = {16427},
+  month = Sep,
+  abstract = {We describe a novel currency investment strategy, the ‘dollar carry
+	trade,’ which delivers large excess returns, uncorrelated with the
+	returns on well-known carry trade strategies. Using a no-arbitrage
+	model of exchange rates we show that these excess returns compensate
+	U.S. investors for taking on aggregate risk by shorting the dollar
+	in bad times, when the U.S. price of risk is high. The counter-cyclical
+	variation in risk premia leads to strong return predictability: the
+	average forward discount and U.S. industrial production growth rates
+	forecast up to 25\% of the dollar return variation at the one-year
+	horizon. The estimated model implies that the variation in the exposure
+	of U.S. investors to world-wide risk is the key driver of predictability.},
+  url = {http://ideas.repec.org/p/nbr/nberwo/16427.html}
+}
+
+@ARTICLE{lustig_2008,
+  author = {Hanno Lustig and Nikolai Roussanov and Adrien Verdelhan},
+  title = {Common Risk Factors in Currency Markets},
+  journal = {Review of Financial Studies},
+  year = {2008},
+  volume = {24},
+  pages = {3731-3777},
+  number = {11},
+  abstract = { We identify a \&quot;slope\&quot; factor in exchange rates. High
+	interest rate currencies load more on this slope factor than low
+	interest rate currencies. This factor accounts for most of the cross-sectional
+	variation in average excess returns between high and low interest
+	rate currencies. A standard, no-arbitrage model of interest rates
+	with two factors--a country-specific factor and a global factor--can
+	replicate these findings, provided there is sufficient heterogeneity
+	in exposure to global or common innovations. We show that our slope
+	factor identifies these common shocks, and we provide empirical evidence
+	that it is related to changes in global equity market volatility.
+	By investing in high interest rate currencies and borrowing in low
+	interest rate currencies, U.S. investors load up on global risk.
+	The Author 2011. Published by Oxford University Press on behalf of
+	The Society for Financial Studies. All rights reserved. For Permissions,
+	please e-mail: journals.permissions@oup.com., Oxford University Press.},
+  url = {http://ideas.repec.org/a/oup/rfinst/v24yi11p3731-3777.html}
+}
+
+@TECHREPORT{lustig_2013,
+  author = {Hanno Lustig and Andreas Stathopoulos and Adrien Verdelhan},
+  title = {The Term Structure of Currency Carry Trade Risk Premia},
+  institution = {National Bureau of Economic Research, Inc},
+  year = {2013},
+  type = {NBER Working Papers},
+  number = {19623},
+  month = Nov,
+  abstract = {We find that average returns to currency carry trades decrease significantly
+	as the maturity of the foreign bonds increases, because investment
+	currencies tend to have small local bond term premia. The downward
+	term structure of carry trade risk premia is informative about the
+	temporal nature of risks that investors face in currency markets.
+	We show that long-maturity currency risk premia only depend on the
+	domestic and foreign permanent components of the pricing kernels,
+	since transitory currency risk is automatically hedged by interest
+	rate risk for long-maturity bonds. Our findings imply that there
+	is more cross-border sharing of permanent than transitory shocks.},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/p/nbr/nberwo/19623.html}
+}
+
+@ARTICLE{lustig_2011,
+  author = {Hanno Lustig and Adrien Verdelhan},
+  title = {The Cross-Section of Foreign Currency Risk Premia and Consumption
+	Growth Risk: Reply},
+  journal = {American Economic Review},
+  year = {2011},
+  volume = {101},
+  pages = {3477-3500},
+  number = {7},
+  month = {December},
+  abstract = { The consumption growth beta of an investment strategy that goes long
+	in high interest rate currencies and short in low interest rate currencies
+	is large and significant. Consumption risk price differs significantly
+	from zero, even after accounting for the sampling uncertainty introduced
+	by the estimation of the consumption betas. The constant in the regression
+	of average returns on consumption betas is not significant. Additionally,
+	this investment strategy's consumption and market betas increase
+	during recessions and times of crisis, when risk prices are high,
+	implying that the unconditional betas understate its riskiness. (JEL:
+	C58, E21, F31, G11, G12)},
+  url = {http://ideas.repec.org/a/aea/aecrev/v101y2011i7p3477-3500.html}
+}
+
+@ARTICLE{mark_1988,
+  author = {Mark, Nelson C.},
+  title = {Time-varying betas and risk premia in the pricing of forward foreign
+	exchange contracts},
+  journal = {Journal of Financial Economics},
+  year = {1988},
+  volume = {22},
+  pages = {335-354},
+  number = {2},
+  month = {December},
+  abstract = {No abstract is available for this item.},
+  owner = {sarah},
+  timestamp = {2014.05.31},
+  url = {http://ideas.repec.org/a/eee/jfinec/v22y1988i2p335-354.html}
+}
+
+@TECHREPORT{vedolin_2012,
+  author = {Philippe Mueller and Andreas Stathopoulos and Andrea Vedolin},
+  title = {International Correlation Risk},
+  institution = {Financial Markets Group},
+  year = {2012},
+  type = {FMG Discussion Papers},
+  number = {dp716},
+  abstract = {We provide novel evidence of priced correlation risk in the foreign
+	exchange market. Currencies that perform badly (well) during periods
+	of high exchange rate correlation have high (low) average returns.
+	We also show that high (low) interest rate currencies have high (low)
+	correlation risk exposure, providing a risk-based justification for
+	the carry trade. To address our empirical findings, we consider a
+	general equilibrium model that incorporates preferences characterized
+	by external habit formation and home bias. In our model, currencies
+	which depreciate when conditional exchange rate correlation is high
+	command high risk premia due to their adverse exposure to global
+	risk aversion shocks.},
+  url = {http://ideas.repec.org/p/fmg/fmgdps/dp716.html}
+}
+
+@ARTICLE{nelson_1987,
+  author = {Nelson, Charles R and Siegel, Andrew F},
+  title = {Parsimonious Modeling of Yield Curves},
+  journal = {The Journal of Business},
+  year = {1987},
+  volume = {60},
+  pages = {473-89},
+  number = {4},
+  month = {October},
+  abstract = { This paper introduces a parametrically parsimonious model for yield
+	curves that has the ability to represent the shapes generally associated
+	with yield curves: monotonic, humped, and S-shaped. The authors find
+	that the model explains 96 percent of the variation in bill yields
+	across maturities during the period 1981-83. The movement of the
+	parameters through time reflects and confirms a change in Federal
+	Reserve monetary policy in late 1982. The ability of the fitted curves
+	to predict the price of the long-term Treasury bond with a correlation
+	of 0.96 suggests that the model captures important attributes of
+	the yield/maturity relation. Copyright 1987 by the University of
+	Chicago.},
+  url = {http://ideas.repec.org/a/ucp/jnlbus/v60y1987i4p473-89.html}
+}
+
+@INCOLLECTION{piazzesi_2010,
+  author = {Monika Piazzesi},
+  title = {Chapter 12 Affine Term Structure Models },
+  booktitle = {Handbook of Financial Econometrics: Tools and Techniques },
+  publisher = {North-Holland},
+  year = {2010},
+  editor = {YACINE AIT-SAHALIA and LARS PETER HANSEN},
+  pages = {691 - 766},
+  address = {San Diego},
+  doi = {http://dx.doi.org/10.1016/B978-0-444-50897-3.50015-8},
+  isbn = {978-0-444-50897-3},
+  url = {http://www.sciencedirect.com/science/article/pii/B9780444508973500158}
+}
+
+@TECHREPORT{depooter_2010,
+  author = {Michiel De Pooter and Francesco Ravazzolo and Dick van Dijk},
+  title = {Term structure forecasting using macro factors and forecast combination},
+  institution = {Board of Governors of the Federal Reserve System (U.S.)},
+  year = {2010},
+  type = {International Finance Discussion Papers},
+  number = {993},
+  abstract = {We examine the importance of incorporating macroeconomic information
+	and, in particular, accounting for model uncertainty when forecasting
+	the term structure of U.S. interest rates. We start off by analyzing
+	and comparing the forecast performance of several individual term
+	structure models. Our results confirm and extend results found in
+	previous literature that adding macroeconomic information, through
+	factors extracted from a large number of individual series, tends
+	to improve interest rate forecasts. We then show, however, that the
+	predictive power of individual models varies over time significantly.
+	Models with macro factors are the more accurate in and around recession
+	periods. Models without macro factors do particularly well in low-volatility
+	subperiods such as the late 1990s. We demonstrate that this problem
+	of model uncertainty can be mitigated by combining individual model
+	forecasts. Combining forecasts leads to encouraging gains in predictability,
+	especially for longer-dated maturities, and importantly, these gains
+	are consistent over time.},
+  keywords = {Interest rates ; Macroeconomics},
+  url = {http://ideas.repec.org/p/fip/fedgif/993.html}
+}
+
+@ARTICLE{delosrios_2009,
+  author = {Antonio Diez De Los Rios},
+  title = {Can Affine Term Structure Models Help Us Predict Exchange Rates?},
+  journal = {Journal of Money, Credit and Banking},
+  year = {2009},
+  volume = {41},
+  pages = {755-766},
+  number = {4},
+  month = {06},
+  abstract = { This paper proposes an arbitrage-free model to extract the information
+	that the term structure of forward premia contains for forecasting
+	future spot exchange rates. Using monthly data on four U.S. dollar
+	bilateral exchange rates, we find evidence that this model provides
+	statistically better forecasts than those produced by a random walk
+	for the British pound and Canadian dollar exchange rates. Negative
+	results for the German mark/Euro and Swiss franc are explained by
+	a rejection of the restrictions imposed by the term structure model.
+	Copyright (c) 2009 The Ohio State University.},
+  url = {http://ideas.repec.org/a/mcb/jmoncb/v41y2009i4p755-766.html}
+}
+
+@ARTICLE{sarno_2012,
+  author = {Sarno, Lucio and Schneider, Paul and Wagner, Christian},
+  title = {Properties of foreign exchange risk premiums},
+  journal = {Journal of Financial Economics},
+  year = {2012},
+  volume = {105},
+  pages = {279-310},
+  number = {2},
+  abstract = {We study the properties of foreign exchange risk premiums that can
+	explain the forward bias puzzle, defined as the tendency of high-interest
+	rate currencies to appreciate rather than depreciate. These risk
+	premiums arise endogenously from the no-arbitrage condition relating
+	the term structure of interest rates and exchange rates. Estimating
+	affine (multi-currency) term structure models reveals a noticeable
+	tradeoff between matching depreciation rates and accuracy in pricing
+	bonds. Risk premiums implied by our global affine model generate
+	unbiased predictions for currency excess returns and are closely
+	related to global risk aversion, the business cycle, and traditional
+	exchange rate fundamentals.},
+  keywords = {Term structure; Exchange rates; Forward bias; Predictability},
+  url = {http://ideas.repec.org/a/eee/jfinec/v105y2012i2p279-310.html}
+}
+
+@ARTICLE{singleton_2002,
+  author = {Kenneth J. Singleton and Len Umantsev},
+  title = {Pricing Coupon-Bond Options And Swaptions In Affine Term Structure
+	Models},
+  journal = {Mathematical Finance},
+  year = {2002},
+  volume = {12},
+  pages = {427-446},
+  number = {4},
+  abstract = { This paper provides a numerically accurate and computationally fast
+	approximation to the prices of European options on coupon-bearing
+	instruments that is applicable to the entire family of affine term
+	structure models. Exploiting the typical shapes of the conditional
+	distributions of the risk factors in affine diffusions, we show that
+	one can reliably compute the relevant probabilities needed for pricing
+	options on coupon-bearing instruments by the same Fourier inversion
+	methods used in the pricing of options on zero-coupon bonds. We apply
+	our theoretical results to the pricing of options on coupon bonds
+	and swaptions, and the calculation of \&quot;expected exposures\&quot;
+	on swap books. As an empirical illustration, we compute the expected
+	exposures implied by several affine term structure models fit to
+	historical swap yields. Copyright 2002 Blackwell Publishers.},
+  url = {http://ideas.repec.org/a/bla/mathfi/v12y2002i4p427-446.html}
+}
+
+@ARTICLE{vasicek_1977,
+  author = {Vasicek, Oldrich},
+  title = {An equilibrium characterization of the term structure},
+  journal = {Journal of Financial Economics},
+  year = {1977},
+  volume = {5},
+  pages = {177-188},
+  number = {2},
+  month = {November},
+  abstract = {No abstract is available for this item.},
+  url = {http://ideas.repec.org/a/eee/jfinec/v5y1977i2p177-188.html}
+}
+
+@comment{jabref-meta: selector_review:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
