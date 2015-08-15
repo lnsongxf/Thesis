@@ -1,17 +1,17 @@
 \section{Introduction}
 
 The distribution of wealth and income has recently made a comeback to the
-center of economic discourse in advanced economies. The ongoing rise of
-income inequality, observed since the early 1980s especially in anglo-saxon
+centre of economic discourse in advanced economies. The ongoing rise of
+income inequality, observed since the early 1980s especially in Anglo-Saxon
 countries, has received renewed attention in the public sphere since the
 financial started taking its toll on living standards across the world. At
-the same time, the bestselling book by \citet{Piketty2014} led to a surge
+the same time, the best-selling book by \citet{Piketty2014} led to a surge
 in interest in the role of capital in the economy, and, by extension, the
 distribution of wealth, both in the academic literature and the popular
 press. \\
 While the broader public has only recently picked up on the issues arising
-around income and wealth distributions, they have sat squarely in the center
-of many subfields of economics for a long time. The income distribution has
+around income and wealth distributions, they have sat squarely in the centre
+of many sub-fields of economics for a long time. The income distribution has
 long been of interest to labour economists trying to understand the forces
 shaping the evolution of earnings in the labour market, while at least the
 accumulation of aggregate wealth plays a central role in macroeconomic
@@ -30,7 +30,7 @@ income uncertainty and market structure is examined in more detail.
 
 
 \section{Stylised facts}
-The most noteable and consistent fact that emerges when looking at wealth
+The most notable and consistent fact that emerges when looking at wealth
 distributions across all countries and different time periods is that wealth
 is highly unevenly distributed, much more so than income. This can be readily
 seen when comparing Gini indices and top shares of income and wealth, as in
@@ -39,7 +39,7 @@ income distributions as in Figure \ref{hist_cdfs}. It is important to note
 that in producing these aggregate numbers and figures, one necessarily has
 to make decisions on how exactly to construct measures of income and wealth,
 which will have to be kept in mind when comparing model predictions with
-empricial numbers. When constructing an income measure, the obvious starting
+empirical numbers. When constructing an income measure, the obvious starting
 point are labour earnings, and for many economic applications simply
 observing an individual's wages will be enough. When thinking about questions
 of consumption smoothing though, we are ultimately interested in accounting
@@ -50,7 +50,7 @@ government programs (by constructing a post-tax, post-transfer income measure),
 income from accumulated assets, and potentially even informal insurance
 arrangements such as inter-vivos transfers between family and friends.
 In constructing wealth measures, we again have to think closely about the
-question we are trying to answer when construcing them. If the goal is to
+question we are trying to answer when constructing them. If the goal is to
 account for all productive capital in the economy that can be used in
 production, a measure of total net wealth aggregating all forms of asset and
 debt classes, and including some durable consumption goods such as cars. When
@@ -66,46 +66,103 @@ resources, but whose exact value might be uncertain (for the case of defined
 contribution plans) and not well understood by households themselves.
 
 
+\begin{table}%
+\begin{tabular}{lcr}
+
+\end{tabular}
+\caption{Measures of wealth concentration in different data sets.}
+\label{gini_topshares}
+\end{table}
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{}
+\caption{Histograms and cdfs of household net wealth in different data sets.}
+\label{hist_cdfs}
+\end{figure}
+
 \section{A workhorse model}
-The basic model underlying the discussion of savings behaviour and wealth accumulation
-in this chapter is the life-cycle model of household behaviour dating back to
-\citet{ModiglianiBrumberg1954} \footnote{A more detailed treatment of the general
-class of models can be found both in \citet{BrowningCrossley2001} and in
-\citet{AttanasioWeber2010}, although both papers have their focus on household
-consumption behaviour rather than wealth accumulation.}. The model can be
-written as a single household solving the problem
+The basic model underlying the discussion of savings behaviour and wealth 
+accumulation in this chapter is the life-cycle model of household behaviour 
+dating back to \citet{ModiglianiBrumberg1954} \footnote{A more detailed 
+treatment of the general class of models can be found both in 
+\citet{BrowningCrossley2001} and in \citet{AttanasioWeber2010}, although both 
+papers have their focus on household consumption behaviour rather than wealth 
+accumulation.}. The model can be written as a single household solving the 
+problem
 
 \begin{align}
-\max{c_{t+j}}_{j=0}^{T-t} \delta^{t+j} \mathbb{E}_t \big[ u(c_{t+j}, z_{t+j}) \big] \\ \ref{maxprob}
-\intertext{subject to} \\
+\max_{\{c_{t+j}\}_{j=0}^{T-t}} \sum_{j=0}^{\infty} \delta^{t+j} \mathbb{E}_t \big[ u(c_{t+j}, z_{t+j}) \big] \label{maxprob}
+\intertext{subject to} 
 a_{t+1} = (1+r)(a_t + y_t - c_t)
 \end{align}
 where $T$ is the last period of the planning horizon, $\delta$ is the subjective
-discount factor, $u()$ is the instantaneous felicity function, $c$ is consumption,
-$a$ are financial assets, which allow the household to transfer resources across
-time, $r$ is a one-period interest rate, and $y$ is income.
-
+discount factor, $u()$ is the instantaneous felicity function, $c$ is 
+consumption, $a$ are financial assets, which allow the household to transfer 
+resources across time, $r$ is a one-period interest rate, and $y$ is income. 
+$z$ is used as a stand-in variable denoting the fact that households might, 
+in general, care about other things that are not captured by the concept of 
+current consumption; examples would be habits or durable consumption (which 
+break the time-separability of the utility function), leisure time, particular 
+classes of assets (such as housing) or bequests left to future generations.  
+While in general, $T \rightarrow \infty$ is a possibility, and infinite horizon 
+versions -- first advocated by \citet{Friedman1957} -- of the life-cycle model 
+are widely used in macroeconomic applications, the finite horizon model will be 
+more useful for the following discussion and forms the centrepiece of this 
+thesis for a number of reasons which will become clear as we progress.
 
 \section{Saving motives}
+When trying to understand wealth distributions through the lens of the model
+outlined above, the key question is: why do households save? The basic model,
+in which consumers only care about the time path of instantaneous utility 
+derived from consumption, suggests that households will save if and only if
+it leads to preferential allocation of consumption over time -- they engage 
+in consumption smoothing. As \citet{BrowningCrossley2001} point out, consumption
+smoothing can happen at different frequencies, depending on the exact set-up 
+of the model. In \citet{ModiglianiBrumberg1954} the main reason saving was the
+existence of a retirement period, which necessitates consumption smoothing over
+the life cycle -- wealth accumulation during working life to pay for consumption
+in retirement. The implication of this simple model is that wealth accumulation
+on the household level solely depends on the length of the retirement period, 
+while in aggregate wealth accumulation crucially hinges on the growth rate
+of the economy. The crucial assumption that allows Modigliani and Brumberg to
+focus on consumption smoothing over the life cycle was that of constant income.
+
 
 \section{Income uncertainty and market structure}
+With the assumption of a non-constant income stream, it becomes important to 
+think about the opportunities households have to insure themselves against
+these fluctuations. 
 
 \section{The role of housing}
+\citet{CampbellHercovitz2005}
+\citet{Yang2009}
+\citet{Iacoviello2008}
 
 \section{Closed and open economies}
 On the endogeneity of interest rates
 
+\section{Wealth Distribution Papers}
+\citet{HintermaierKoeniger2011}
+\citet{CastanedaRiosRull2003}
+\citet{DPMRR2003}
+\citet{Cagetti2003}
+\citet{Floden2008}
+\citet{BenhabibBisinZhu2011}
+\citet{DeNardiYang2015}
+
 \section{Conclusion}
-This chapter provides an overview of stylised facts about the wealth distibutions
-in a number of advanced economies and presents various approaches to build economic
-models which can account for these stylised facts.
+This chapter provides an overview of stylised facts about the wealth 
+distributions in a number of advanced economies and presents various approaches 
+to build economic models which can account for these stylised facts.
 It became clear that while saving for retirement is the main driver of wealth
 accumulation for large parts of the population, other factors need to be taken
 into consideration to explain the tails of the distribution and the behaviour of
-young households. Crucial aspects of an economic model of the wealth distribution
-are the risks households are facing -- both on the income and the expenditure side
--- and the financial markets available to them to insure themselves against those
-risks and earn returns on their savings. Finally, the far right tail of the wealth
-distribution seems to be driven by factors beyond this and it is not clear whether
-variation in subjective discount factors, entrepreneurial activity, or other
-factors are best suited to model wealth accumulation at the top.
+young households. Crucial aspects of an economic model of the wealth 
+distribution are the risks households are facing -- both on the income and the 
+expenditure side -- and the financial markets available to them to insure 
+themselves against those risks and earn returns on their savings. Finally, the 
+far right tail of the wealth distribution seems to be driven by factors beyond 
+this and it is not clear whether variation in subjective discount factors, 
+entrepreneurial activity, or other factors are best suited to model wealth 
+accumulation at the top.
+ 

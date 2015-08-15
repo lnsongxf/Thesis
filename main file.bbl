@@ -3,6 +3,11 @@
 \fi
 \begin{thebibliography}{xx}
 
+\harvarditem[Abowd and Card]{Abowd and Card}{1987}{AbowdCard89}
+{\bf Abowd, John~M and David Card}, ``{Intertemporal Labor Supply and Long-term
+  Employment Contracts},'' {\it American Economic Review}, March 1987, {\it 77}
+  (1), 50--68.
+
 \harvarditem[Aguiar and Bils]{Aguiar and Bils}{2011}{AguiarBils2011}
 {\bf Aguiar, Mark~A. and Mark Bils}, ``Has Consumption Inequality Mirrored
   Income Inequality?,'' NBER Working Papers 16807, National Bureau of Economic
@@ -20,11 +25,17 @@
   Elusive Pro-Competitive Effects of Trade,'' 2012.
 \newblock Working Paper.
 
+\harvarditem[Attanasio and Weber]{Attanasio and
+  Weber}{2010}{AttanasioWeber2010}
+{\bf Attanasio, Orazio and Guglielmo Weber}, ``Consumption and Saving: Models
+  of Intertemporal Allocation and Their Implications for Public Policy,'' {\it
+  Journal of Economic Literature}, September 2010, {\it 48} (3), 693--751.
+
 \harvarditem[Attanasio et al.]{Attanasio, Hurst and Pistaferri}{2013}{AHP2013}
-{\bf Attanasio, Orazio, Erik Hurst, and Luigi Pistaferri}, ``The Evolution of
-  Income, Consumption, and Leisure Inequality in the US, 1980-2010,'' in
-  ``Improving the Measurement of Consumer Expenditures,'' National Bureau of
-  Economic Research, Inc, 2013.
+{\bf \bysame{}, Erik Hurst, and Luigi Pistaferri}, ``The Evolution of Income,
+  Consumption, and Leisure Inequality in the US, 1980-2010,'' in ``Improving
+  the Measurement of Consumer Expenditures,'' National Bureau of Economic
+  Research, Inc, 2013.
 
 \harvarditem[Autor et al.]{Autor, Katz and Kearney}{2005}{AutorKatzKearney2005}
 {\bf Autor, David~H., Lawrence~F. Katz, and Melissa~S. Kearney}, ``Trends in
@@ -35,6 +46,11 @@
 {\bf \bysame{}, \bysame{}, and \bysame{}}, ``Trends in U.S. Wage Inequality:
   Revising the Revisionists,'' {\it The Review of Economics and Statistics},
   May 2008, {\it 90} (2), 300--323.
+
+\harvarditem[Baker]{Baker}{1997}{Baker98}
+{\bf Baker, Michael}, ``{Growth-Rate Heterogeneity and the Covariance Structure
+  of Life-Cycle Earnings},'' {\it Journal of Labor Economics}, April 1997, {\it
+  15} (2), 338--75.
 
 \harvarditem[Baldwin et al.]{Baldwin, Dunne and Haltiwanger}{1994}{Baldwin1994}
 {\bf Baldwin, John, Timothy Dunne, and John Haltiwanger}, ``A Comparison of Job
@@ -54,6 +70,12 @@
   08-20, University of Aarhus, Aarhus School of Business, Department of
   Economics September 2008.
 
+\harvarditem[Benhabib et al.]{Benhabib, Bisin and
+  Zhu}{2011}{BenhabibBisinZhu2011}
+{\bf Benhabib, Jess, Alberto Bisin, and Shenghao Zhu}, ``The Distribution of
+  Wealth and Fiscal Policy in Economies With Finitely Lived Agents,'' {\it
+  Econometrica}, 01 2011, {\it 79} (1), 123--157.
+
 \harvarditem[Bernard and Jensen]{Bernard and Jensen}{1995}{BernardJensen1995}
 {\bf Bernard, Andrew and Bradford Jensen}, ``Exporters, Jobs and Wages in U.S.
   Manufacturing,'' {\it Brookings Papers on Economic Activity: Microeconomics},
@@ -72,6 +94,17 @@
 \harvarditem[Brown]{Brown}{2004}{Brown2004}
 {\bf Brown, Mark~W.}, ``Renewing Canada's Manufacturing Economy: A Regional
   Comparison, 1973-1996,'' Technical Report~11 2004.
+
+\harvarditem[Browning and Crossley]{Browning and
+  Crossley}{2001}{BrowningCrossley2001}
+{\bf Browning, Martin and Thomas~F. Crossley}, ``The Life-Cycle Model of
+  Consumption and Saving,'' {\it Journal of Economic Perspectives}, Summer
+  2001, {\it 15} (3), 3--22.
+
+\harvarditem[Cagetti]{Cagetti}{2003}{Cagetti2003}
+{\bf Cagetti, Marco}, ``Wealth Accumulation over the Life Cycle and
+  Precautionary Savings,'' {\it Journal of Business \& Economic Statistics},
+  July 2003, {\it 21} (3), 339--53.
 
 \harvarditem[Calderon-Madrid and Voicu]{Calderon-Madrid and
   Voicu}{2007}{Calderon-Madrid2007}
@@ -93,6 +126,12 @@
 \harvarditem[Carroll]{Carroll}{2000}{Carroll2000}
 {\bf Carroll, Christopher~D.}, ``Solving consumption models with multiplicative
   habits,'' {\it Economics Letters}, July 2000, {\it 68} (1), 67--77.
+
+\harvarditem[Castaneda et al.]{Castaneda, Diaz-Gimenez and
+  Rios-Rull}{2003}{CastanedaRiosRull2003}
+{\bf Castaneda, Ana, Javier Diaz-Gimenez, and Jose-Victor Rios-Rull},
+  ``Accounting for the U.S. Earnings and Wealth Inequality,'' {\it Journal of
+  Political Economy}, August 2003, {\it 111} (4), 818--857.
 
 \harvarditem[Chen et al.]{Chen, Imbs and Scott}{2009}{Chen2009}
 {\bf Chen, Natalie, Jean Imbs, and Andrew Scott}, ``The dynamics of trade and
@@ -122,6 +161,12 @@
   Panel of U.S. Tax Returns,'' {\it Brookings Papers on Economic Activity},
   2013, {\it 46} (1 (Spring)), 67--142.
 
+\harvarditem[Diaz et al.]{Diaz, Pijoan-Mas and Rios-Rull}{2003}{DPMRR2003}
+{\bf Diaz, Antonia, Josep Pijoan-Mas, and Jose-Victor Rios-Rull},
+  ``Precautionary savings and wealth distribution under habit formation
+  preferences,'' {\it Journal of Monetary Economics}, September 2003, {\it 50}
+  (6), 1257--1291.
+
 \harvarditem[DiPrete]{DiPrete}{2007}{DiPrete2007}
 {\bf DiPrete, Thomas~A}, ``Is This a Great Country? Upward Mobility and the
   Chance for Riches in Contemporary America,'' {\it Research in Social
@@ -132,10 +177,18 @@
   entry and exit in U.S. manufacturing industries},'' {\it RAND Journal of
   Economics}, 1988, {\it 19} (4), 495--515.
 
+\harvarditem[Floden]{Floden}{2008}{Floden2008}
+{\bf Floden, Martin}, ``{Aggregate Savings When Individual Income Varies},''
+  {\it Review of Economic Dynamics}, January 2008, {\it 11} (1), 70--82.
+
 \harvarditem[Foster et al.]{Foster, Haltiwanger and Kim}{2006}{Foster2006}
 {\bf Foster, Lucia, John Haltiwanger, and Namsuk Kim}, ``{Gross Job Flows for
   the U.S. Manufacturing Sector: Measurement from the Longitudinal Research
   Database},'' Technical Report 2006.
+
+\harvarditem[Friedman]{Friedman}{1957}{Friedman1957}
+{\bf Friedman, Milton}, {\it A Theory of the Consumption Function}, National
+  Bureau of Economic Research, Inc, 1957.
 
 \harvarditem[Fukao et al.]{Fukao, Okubo and Stern}{2003}{Fukao2003}
 {\bf Fukao, Kyoji, Toshihiro Okubo, and Robert~M. Stern}, ``{An econometric
@@ -161,6 +214,15 @@
   Very Persistent?,'' {\it American Economic Review}, June 2007, {\it 97} (3),
   687--712.
 
+\harvarditem[Guvenen]{Guvenen}{2009}{Guvenen2009}
+{\bf \bysame{}}, ``An Empirical Investigation of Labor Income Processes,'' {\it
+  Review of Economic Dynamics}, January 2009, {\it 12} (1), 58--79.
+
+\harvarditem[Guvenen et al.]{Guvenen, Karahan, Ozkan and Song}{2015}{GKOS2015}
+{\bf \bysame{}, Fatih Karahan, Serdar Ozkan, and Jae Song}, ``{What Do Data on
+  Millions of U.S. Workers Reveal about Life-Cycle Earnings Risk?},'' Working
+  Papers 719, Federal Reserve Bank of Minneapolis January 2015.
+
 \harvarditem[Head and Ries]{Head and Ries}{1999}{Head1999}
 {\bf Head, Keith and John Ries}, ``{Rationalization effects of tariff
   reductions},'' {\it Journal of International Economics}, April 1999, {\it 47}
@@ -173,10 +235,20 @@
   1967-2006,'' {\it Review of Economic Dynamics}, January 2010, {\it 13} (1),
   15--51.
 
+\harvarditem[Hintermaier and Koeniger]{Hintermaier and
+  Koeniger}{2011}{HintermaierKoeniger2011}
+{\bf Hintermaier, Thomas and Winfried Koeniger}, ``On the Evolution of the US
+  Consumer Wealth Distribution,'' {\it Review of Economic Dynamics}, April
+  2011, {\it 14} (2), 317--338.
+
 \harvarditem[Hoffmann]{Hoffmann}{2013}{Hoffmann2013}
 {\bf Hoffmann, Florian}, ``HIP, RIP and the Robustness of Empirical Earnings
   Processes,'' 2013.
 \newblock Working Paper.
+
+\harvarditem[Iacoviello]{Iacoviello}{2008}{Iacoviello2008}
+{\bf Iacoviello, Matteo}, ``Household Debt and Income Inequality, 1963-2003,''
+  {\it Journal of Money, Credit and Banking}, 08 2008, {\it 40} (5), 929--965.
 
 \harvarditem[Jantti and Jenkins]{Jantti and Jenkins}{2013}{JanttiJenkins2013}
 {\bf Jantti, Markus and Stephen~P. Jenkins}, ``Income mobility,'' ISER Working
@@ -193,6 +265,11 @@
 {\bf Kilian, Lutz, Alessandro Rebucci, and Nikola Spatafora}, ``Oil shocks and
   external balances,'' {\it Journal of International Economics}, April 2009,
   {\it 77} (2), 181--194.
+
+\harvarditem[Kohler]{Kohler}{2015}{Kohler2015}
+{\bf Kohler, Ulrich}, ``{PSIDTOOLS: Stata module to facilitate access to Panel
+  Study of Income Dynamics (PSID)},'' Statistical Software Components, Boston
+  College Department of Economics January 2015.
 
 \harvarditem[Kopczuk et al.]{Kopczuk, Saez and Song}{2010}{KopczukSaezSong2010}
 {\bf Kopczuk, Wojciech, Emmanuel Saez, and Jae Song}, ``Earnings Inequality and
@@ -230,6 +307,13 @@
   Implications},'' NBER Working Papers 18919, National Bureau of Economic
   Research, Inc March 2013.
 
+\harvarditem[Modigliano and Brumberg]{Modigliano and
+  Brumberg}{1954}{ModiglianiBrumberg1954}
+{\bf Modigliano, Franco and Richard Brumberg}, ``Utility Analysis and the
+  Consumption Function: An Interpretation of Cross-Section Data,'' in
+  K.~Kurihara, ed., {\it Post Keynesian Economics}, New Brunswick: Rutgers
+  University Press, 1954.
+
 \harvarditem[Moore]{Moore}{2003}{Moore2003}
 {\bf Moore, David~W.}, ``Half of Young People Expect to Strike It Rich,'' March
   2003.
@@ -239,16 +323,25 @@
   Household Bankruptcy,'' {\it Review of Economic Dynamics}, October 2012, {\it
   15} (4), 526--550.
 
+\harvarditem[De~Nardi and Yang]{De~Nardi and Yang}{2015}{DeNardiYang2015}
+{\bf Nardi, Mariacristina~De and Fang Yang}, ``Wealth Inequality, Family
+  Background, and Estate Taxation,'' NBER Working Papers 21047, National Bureau
+  of Economic Research, Inc March 2015.
+
 \harvarditem[Ottaviano et al.]{Ottaviano, Tabuchi and
   Thisse}{2002}{Ottaviano2002}
 {\bf Ottaviano, Gianmarco I.~P., Takatoshi Tabuchi, and Jacques-Francois
   Thisse}, ``{Agglomeration and Trade Revisited},'' {\it International Economic
   Review}, 2002, {\it 43} (2), 409--436.
 
+\harvarditem[Piketty]{Piketty}{2014}{Piketty2014}
+{\bf Piketty, Thomas}, {\it Capital in the 21st Century}, Harvard University
+  Press, 2014.
+
 \harvarditem[Piketty and Saez]{Piketty and Saez}{2003}{PikettySaez2003}
-{\bf Piketty, Thomas and Emmanuel Saez}, ``Income Inequality In The United
-  States, 1913-1998,'' {\it The Quarterly Journal of Economics}, February 2003,
-  {\it 118} (1), 1--39.
+{\bf \bysame{} and Emmanuel Saez}, ``Income Inequality In The United States,
+  1913-1998,'' {\it The Quarterly Journal of Economics}, February 2003, {\it
+  118} (1), 1--39.
 
 \harvarditem[Rajan]{Rajan}{2011}{Rajan2011}
 {\bf Rajan, Raghuram}, {\it Fault Lines: How Hidden Fractures Still Threaten
@@ -271,5 +364,10 @@
 {\bf van Treeck, Till}, ``Did inequality cause the U.S. financial crisis?,''
   IMK Working Paper 91-2012, IMK at the Hans Boeckler Foundation, Macroeconomic
   Policy Institute 2012.
+
+\harvarditem[Yang]{Yang}{2009}{Yang2009}
+{\bf Yang, Fang}, ``Consumption over the Life Cycle: How Different is
+  Housing?,'' {\it Review of Economic Dynamics}, July 2009, {\it 12} (3),
+  423--443.
 
 \end{thebibliography}
