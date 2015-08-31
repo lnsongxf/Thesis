@@ -93,10 +93,12 @@ problem
 \begin{align}
 \max_{\{c_{t+j}\}_{j=0}^{T-t}} \sum_{j=0}^{\infty} \delta^{t+j} \mathbb{E}_t \big[ u(c_{t+j}, z_{t+j}) \big] \label{maxprob}
 \intertext{subject to} 
-a_{t+1} = (1+r)(a_t + y_t - c_t)
+a_{t+1} = (1+r)(a_t + y_t - c_t) \label{bc}
 \end{align}
 where $T$ is the last period of the planning horizon, $\delta$ is the subjective
-discount factor, $u()$ is the instantaneous felicity function, $c$ is 
+discount factor, $u()$ is the instantaneous felicity function -- usually assumed
+to be of the CRRA form, $\frac{c^{1-\sigma}}{1-\sigma}$, where $\sigma$ is the 
+coefficient of relative risk aversion --, $c$ is 
 consumption, $a$ are financial assets, which allow the household to transfer 
 resources across time, $r$ is a one-period interest rate, and $y$ is income. 
 $z$ is used as a stand-in variable denoting the fact that households might, 
@@ -142,10 +144,64 @@ these fluctuations.
 On the endogeneity of interest rates
 
 \section{Wealth Distribution Papers}
+In the last years, many authors have used the increasing possibilities offered
+by the increase in computing power to derive an additional implication from the
+broad class of incomplete market models outlined above: a simulated wealth 
+distribution. While there are many practical difficulties in creating model 
+outputs that can reasonably compared to the data collected in surveys (some of
+which have been alluded to in the above discussion on the definition of wealth),
+in principle the simulated wealth distribution derived from life-cycle models
+can be used to calibrate deep parameters of the model, provide an additional
+test for how well the model is able to capture household savings behaviour, 
+and shed light on which mechanisms are crucial in driving the evolution of 
+aggregate savings at different parts of the distribution. \\
+An early attempt to use the wealth distribution to estimate the parameters of
+a life-cycle model of household savings can be found in \citet{Cagetti2003},
+who uses a simple model similar to the one outlined in equations \ref{maxprob}
+and \ref{bc}. Important additions in his version of the model are a bequest 
+motive -- which, ceteris paribus, will increase the wealth holdings of elderly
+households -- and a simplified pension system, which guarantees each household
+a pension depending on their education level, and thereby lowers wealth 
+accumulation during working life. The idea behind the estimation strategy is 
+simple: given a stochastic process for household income, the parameters $\beta$,
+$\sigma$ and $\alpha$ pin down a solution to the household's savings problem 
+which allows one to simulate a theoretical wealth distribution from optimal 
+household behaviour. Therefore, it is possible to use the simulated method of
+moments to construct an estimator that chooses the triplet $(\delta,\sigma, 
+\alpha)$ which minimises the distance between empirical moments of the wealth
+distribution and its simulated counterparts. Given the high skewness of wealth
+data, Cagetti opts for median wealth by 5-year age group as the moment to match.
+As has become clear in the previous discussion, a crucial element driving 
+household choices in the model is the income risk they face, making the choice
+for the stochastic process representing this risk and its calibration a crucial
+step in modelling wealth distributions. Cagetti opts for a process consisting
+of a trend growth component common to all households, an age-education component
+estimated for CEX data, and an MA(1) process representing the stochastic nature
+of income. With his calibration, Cagetti finds low degrees of persistence, with
+pronounced heterogeneity across education groups, and high degrees of risk 
+aversion, implying a significant contribution of precautionary savings to 
+aggregate wealth. \\
+A very similar exercise is performed by \citet{HintermaierKoeniger2011}, who 
+construct a minimum distance estimator based on the shape of the cross-sectional
+distribution of wealth at different stages of the life cycle. That is, rather
+than simply targeting the 50th percentile of wealth holdings  as 
+\citet{Cagetti2003}, here all percentiles of the wealth distribution from 10 
+to 90 are considered. The reason for excluding the upper ten percentiles of the
+distribution are the well-known problems that a simple life-cycle model has in 
+matching the extreme levels of wealth concentration observed at the upper end 
+of the distribution, which might be driven by other motives than the buffer-
+stock and retirement savings motives included in the model. Increasing the 
+number of moments to match leads to estimates of the discount factor which are 
+an order of magnitude more precise than in \citet{Cagetti2003}. The estimate for
+the discount factor, at $\hat{\delta}=0.985$, is at the upper bound of the
+estimates in \citet{Cagetti2003}, while the estimated risk aversion parameter
+$\hat{\sigma}=1.08$ is only a third to one sixth as large as Cagetti's estimate,
+depending on the subgroup under consideration.  
+
+
 \citet{HintermaierKoeniger2011}
 \citet{CastanedaRiosRull2003}
 \citet{DPMRR2003}
-\citet{Cagetti2003}
 \citet{Floden2008}
 \citet{BenhabibBisinZhu2011}
 \citet{DeNardiYang2015}
