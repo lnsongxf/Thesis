@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  21 AUG 2015 16:04
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  15 SEP 2015 16:45
 entering extended mode
 **main*file.tex
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.tex"
@@ -641,39 +641,30 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count152
-) ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux" (C:\Users\tew207\Documents\GitHub\Thesis\titlepage.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\Dedication/dedication.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\Declaration/declaration.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\Acknowledgements/acknowledgements.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\introduction/introduction.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter1/chapter1.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.aux
-
-LaTeX Warning: Label `tb:market_lit' multiply defined.
-
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\import\import.sty"
+Package: import 2009/03/23  v 5.1
+) ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux"
 
 LaTeX Warning: Label `sec:disc' multiply defined.
 
-) (C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Try loading font information for OT1+bch on input line 74.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1bch.fd"
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 75.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1bch.fd"
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -690,8 +681,8 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 \everyMPtoPDFconversion=\toks42
 )
 \AtBeginShipoutBox=\box46
-Package backref Info: ** backref set up for natbib ** on input line 74.
-Package hyperref Info: Link coloring ON on input line 74.
+Package backref Info: ** backref set up for natbib ** on input line 75.
+Package hyperref Info: Link coloring ON on input line 75.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -700,9 +691,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.out") ("C:\Users\tew207\Documents\GitHub\Thesis\main file.out")
 \@outlinefile=\write4
@@ -749,29 +740,16 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box48
 \c@FBLTpage=\count159
 )
-LaTeX Info: Redefining \selectfont on input line 74.
+LaTeX Info: Redefining \selectfont on input line 75.
 
 (C:\Users\tew207\Documents\GitHub\Thesis\titlepage/titlepage.tex [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-No file titlepage.tex.
-(C:\Users\tew207\Documents\GitHub\Thesis\Dedication/dedication.tex [1
-
-
-
-])
-(C:\Users\tew207\Documents\GitHub\Thesis\Declaration/declaration.tex [2
-
-
-])
-(C:\Users\tew207\Documents\GitHub\Thesis\Acknowledgements/acknowledgements.tex [3
-
-
-])
-(C:\Users\tew207\Documents\GitHub\Thesis\Abstract/abstract.tex) [4
-
-] [5]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) (C:\Users\tew207\Documents\GitHub\Thesis\Dedication/dedication.te
+x [1])
+(C:\Users\tew207\Documents\GitHub\Thesis\Declaration/declaration.tex [2])
+(C:\Users\tew207\Documents\GitHub\Thesis\Acknowledgements/acknowledgements.tex [3])
+(C:\Users\tew207\Documents\GitHub\Thesis\Abstract/abstract.tex) [4] [5]
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.toc"
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -796,31 +774,21 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ]
 Chapter 1.
-[10
+(C:\Users\tew207\Documents\GitHub\Thesis\introduction/introduction.tex [10
 
-] (C:\Users\tew207\Documents\GitHub\Thesis\introduction/introduction.tex [11
-
-]) [12]
-
-LaTeX Warning: Reference `sec:conclusion' on page 13 undefined on input line 103.
-
-[13
-
-]
+]) [11]
 Chapter 2.
-[14
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter1/chapter1.tex
 
-] (C:\Users\tew207\Documents\GitHub\Thesis\chapter1/chapter1.tex
+LaTeX Warning: Reference `learning' on page 12 undefined on input line 19.
 
-LaTeX Warning: Reference `learning' on page 15 undefined on input line 19.
-
-[15
+[12
 
 ]
 
-LaTeX Warning: Reference `hist_cdfs' on page 16 undefined on input line 38.
+LaTeX Warning: Reference `hist_cdfs' on page 13 undefined on input line 38.
 
-[16]
+[13]
 
 ! LaTeX Error: File `' not found.
 
@@ -835,113 +803,201 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[17] [18] [19] [20]) [21]
+[14] [15] [16] [17] [18] [19]) [20]
 Chapter 3.
-[22
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.tex [21
 
-
-] (C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.tex [23
-
-] [24]
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 71.
+] [22] [23]
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 79.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsbch.fd"
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
- [25]) [26]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+
+
+! LaTeX Error: File `chapter2/BHPS_incvar' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...[width=\columnwidth]{chapter2/BHPS_incvar}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[24]) [25]
 Chapter 4.
-[27
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [26
 
-
-] (C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [28
-
-] [29] [30]
-<inc_ineq_attanasio2012.JPG, id=529, 767.86874pt x 566.86781pt>
+] [27] [28] [29]
+<inc_ineq_attanasio2012.JPG, id=531, 767.86874pt x 566.86781pt>
 File: inc_ineq_attanasio2012.JPG Graphic file (type jpg)
  <use inc_ineq_attanasio2012.JPG>
-<chg_debt_scf.JPG, id=543, 630.85687pt x 379.4175pt>
-File: chg_debt_scf.JPG Graphic file (type jpg)
- <use chg_debt_scf.JPG> [31] [32 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] [33] [34 <C:/User
-s/tew207/Documents/GitHub/Thesis/chg_debt_scf.JPG>] [35] [36]
-[37] [38] [39] [40] [41] [42] [43] [44]) [45]
+<chg_debt_scf.jpg, id=545, 630.85687pt x 379.4175pt>
+File: chg_debt_scf.jpg Graphic file (type jpg)
+ <use chg_debt_scf.jpg>
+
+! LaTeX Error: File `BHPS_incvar' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...raphics[width=0.85\textwidth]{BHPS_incvar}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[30] [31 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] [32] [33 <C:/Users/tew207/Documents/GitHu
+b/Thesis/chg_debt_scf.jpg>] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]) [44]
 Chapter 5.
-[46
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.tex
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ê in font bchr7t!
+ [45
+
+] [46] [47] [48] [49] [50] [51] [52] [53] [54]
+[55]
+
+Package caption Warning: \label before \caption on input line 69.
+See the caption package documentation for explanation.
 
 
-] (C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.tex [47
+LaTeX Warning: Reference `tb:market_lit' on page 56 undefined on input line 66.
 
-] [48] [49] [50] [51] [52] [53] [54] [55]
-[56]
-Overfull \hbox (44.30948pt too wide) in paragraph at lines 72--89
+[56] [57]
+Overfull \hbox (44.30948pt too wide) in paragraph at lines 70--87
  [][] 
  []
 
-[57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
-<can_mex_tariff.png, id=973, 908.39375pt x 660.4675pt>
-File: can_mex_tariff.png Graphic file (type png)
- <use can_mex_tariff.png>
-<can_usa_tariff.png, id=974, 908.39375pt x 660.4675pt>
-File: can_usa_tariff.png Graphic file (type png)
- <use can_usa_tariff.png> [72 <C:/Users/tew207/Documents/GitHub/Thesis/can_mex_tariff.png (PNG copy)>] <mex_can_tariff.p
-ng, id=980, 908.39375pt x 660.4675pt>
-File: mex_can_tariff.png Graphic file (type png)
- <use mex_can_tariff.png>
-<mex_usa_tariff.png, id=981, 908.39375pt x 660.4675pt>
-File: mex_usa_tariff.png Graphic file (type png)
- <use mex_usa_tariff.png>
-<usa_can_tariff.png, id=982, 908.39375pt x 660.4675pt>
-File: usa_can_tariff.png Graphic file (type png)
- <use usa_can_tariff.png>
-<usa_mex_tariff.png, id=983, 908.39375pt x 660.4675pt>
-File: usa_mex_tariff.png Graphic file (type png)
- <use usa_mex_tariff.png>
-(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex)
-Overfull \hbox (53.65271pt too wide) in paragraph at lines 282--321
+[58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+
+! LaTeX Error: File `tau_can_mex' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 \includegraphics[scale=0.5]{tau_can_mex}
+                                              
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `tau_can_usa' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 \includegraphics[scale=0.5]{tau_can_usa}
+                                              
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[75]
+
+! LaTeX Error: File `tau_mex_can' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 \includegraphics[scale=0.5]{tau_mex_can}
+                                              
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `tau_mex_usa' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258 \includegraphics[scale=0.5]{tau_mex_usa}
+                                              
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[76]
+
+! LaTeX Error: File `tau_usa_can' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266 \includegraphics[scale=0.5]{tau_usa_can}
+                                              
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `tau_usa_mex' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \includegraphics[scale=0.5]{tau_usa_mex}
+                                              
+I could not locate the file with any of these extensions:
+.png,.jpg,.pdf
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [77] [78]
+Overfull \hbox (53.65271pt too wide) in paragraph at lines 292--331
  [] 
  []
 
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_sr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_lr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr.tex))
-[73 <C:/Users/tew207/Documents/GitHub/Thesis/can_usa_tariff.png (PNG copy)>] [74 <C:/Users/tew207/Documents/GitHub/Thesi
-s/mex_can_tariff.png (PNG copy)> <C:/Users/tew207/Documents/GitHub/Thesis/mex_usa_tariff.png (PNG copy)>] [75 <C:/Users/
-tew207/Documents/GitHub/Thesis/usa_can_tariff.png (PNG copy)> <C:/Users/tew207/Documents/GitHub/Thesis/usa_mex_tariff.pn
-g (PNG copy)>] [76] [77] [78] [79] [80] [81] [82]
+[79] [80] [81] [82] [83] [84] [85]
 Chapter 6.
-[83
+(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [86
 
-
-] (C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [84
-
-] [85] [86]) [87]
+] [87] [88])
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.bbl" ("C:\Users\tew207\Documents\GitHub\Thesis\main file.brf")
 \tf@brf=\write8
 
-[88
+[89] [90
 
-
-] [89]
+] [91]
 Missing character: There is no Ô in font bchb7t!
 Missing character: There is no ø in font bchb7t!
 Missing character: There is no Ω in font bchb7t!
- [90] [91] [92] [93] [94] [95]) [96]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
- ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux"
-(C:\Users\tew207\Documents\GitHub\Thesis\titlepage.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\Dedication/dedication.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\Declaration/declaration.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\Acknowledgements/acknowledgements.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\introduction/introduction.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter1/chapter1.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.aux)
-(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+ [92] [93]
+Missing character: There is no ‚ in font bchb7t!
+Missing character: There is no Ä in font bchb7t!
+Missing character: There is no ê in font bchb7t!
+ [94] [95] [96] [97])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+ [98]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+ ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `main*file.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `main*file.brf' has not changed.
@@ -953,16 +1009,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 12965 strings out of 494053
- 194688 string characters out of 3146182
- 504852 words of memory out of 3000000
- 15593 multiletter control sequences out of 15000+200000
+ 12941 strings out of 494053
+ 192269 string characters out of 3146182
+ 493334 words of memory out of 3000000
+ 15592 multiletter control sequences out of 15000+200000
  41563 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 39i,18n,48p,3884b,647s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,19n,48p,3885b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed one
@@ -1000,16 +1058,17 @@ mex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "main file.pdf" (97 pages, 1009365 bytes).
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "main file.pdf" (99 pages, 683984 bytes).
 PDF statistics:
- 1315 PDF objects out of 1440 (max. 8388607)
- 286 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1365 PDF objects out of 1440 (max. 8388607)
+ 294 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

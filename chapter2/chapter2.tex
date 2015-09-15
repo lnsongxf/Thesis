@@ -61,6 +61,14 @@ over $h$ with weights corresponding to the relative frequency of age-groups in
 the empirical data. 
 
 \section{Data}
+As we are interested in the variability of our estimates, we are estimating the
+process described both on PSID and BHPS data. PSID data has the advantage of 
+providing a very long horizon (37 waves of data covering a total of 45 years),
+which allows for the analysis of subperiods to examine changes over time. The 
+BHPS, while more limited in time (18 waves of data covering 18 years) serves as
+a useful comparison, while also providing excellent measures of different 
+measures of household incomes pre- and post taxes and transfers, which enable us
+to investigate the implications for heterogeneous income processes from 
 The data is taken from all available waves of the PSID, that is years 1968 to
 2013 inclusive\footnote{Note that the PSID income variable refers to income in 
 the previous year, so when we talk about data from, e.g., year 1968, it is 
@@ -78,12 +86,25 @@ selection criteria leave us with 1685 individuals in our final sample
 \footnote{To create the longitudinal data set from the PSID cross-sections, we
 use the excellent \textit{PSIDtools} package \citep{Kohler2015}}. The main 
 variable of interest in the analysis is labour income, for which we use the 
-series of variables starting with \texttt{V74} in 1968\footnote{A complete of 
-all variables used is available on  
+series of variables starting with \texttt{V74} in 1968\footnote{A complete list
+of all variables used is available on  
 \href{https://github.com/nilshg/psidJulia/blob/master/create_panel.do}{my GitHub
 page}.}. Hourly earnings are taken from the variable starting with \texttt{V337}
 in 1968, while hours worked are taken from the variable starting with 
 \texttt{V47}. 
+\begin{figure}
+\includegraphics[width=\columnwidth]{BHPS_incvar}
+\caption{Variance of log income and 90/10 percentile width for our sample of
+BHPS households}
+\label{fig:bhps_incvar}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{PSID_incvar}
+\caption{Variance of log income and 90/10 percentile width for our sample of
+BHPS households}
+\label{fig:bhps_incvar}
+\end{figure}
  
 
 \section{Results}
