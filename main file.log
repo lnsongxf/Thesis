@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  16 SEP 2015 17:54
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  17 SEP 2015 18:13
 entering extended mode
 **main*file.tex
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.tex"
@@ -776,11 +776,15 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[14] [15] [16] [17] [18] [19]) [20]
-Chapter 3.
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.tex [21
+[14] [15] [16]
 
-] [22] [23]
+Package natbib Warning: Citation `KaplanViolante2010' on page 17 undefined on input line 157.
+
+[17] [18] [19] [20]) [21]
+Chapter 3.
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.tex [22
+
+] [23] [24]
 LaTeX Font Info:    Try loading font information for OMS+bch on input line 88.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsbch.fd"
@@ -803,7 +807,7 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[24]
+[25]
 
 ! LaTeX Error: File `PSID_incvar' not found.
 
@@ -818,33 +822,38 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [25] [26]
-Chapter 4.
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [27
 
-] [28] [29] [30]
-<inc_ineq_attanasio2012.JPG, id=548, 767.86874pt x 566.86781pt>
+Overfull \hbox (95.8713pt too wide) in paragraph at lines 121--141
+ [][] 
+ []
+
+) [26] [27]
+Chapter 4.
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [28
+
+] [29] [30] [31]
+<inc_ineq_attanasio2012.JPG, id=554, 767.86874pt x 566.86781pt>
 File: inc_ineq_attanasio2012.JPG Graphic file (type jpg)
- <use inc_ineq_attanasio2012.JPG> [31] [32 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] <chg_de
-bt_scf.jpg, id=578, 630.85687pt x 379.4175pt>
+ <use inc_ineq_attanasio2012.JPG> [32] [33 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] <chg_de
+bt_scf.jpg, id=584, 630.85687pt x 379.4175pt>
 File: chg_debt_scf.jpg Graphic file (type jpg)
 
-<use chg_debt_scf.jpg> [33] [34 <C:/Users/tew207/Documents/GitHub/Thesis/chg_debt_scf.jpg>] [35] [36] [37] [38] [39]
-[40] [41] [42] [43] [44]) [45]
+<use chg_debt_scf.jpg> [34] [35 <C:/Users/tew207/Documents/GitHub/Thesis/chg_debt_scf.jpg>] [36] [37] [38] [39] [40]
+[41] [42] [43] [44] [45]) [46]
 Chapter 5.
 (C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.tex
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ê in font bchr7t!
- [46
+ [47
 
-] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] [58]
+] [48] [49] [50] [51] [52] [53] [54] [55] [56]
+[57] [58] [59]
 Overfull \hbox (44.30948pt too wide) in paragraph at lines 70--87
  [][] 
  []
 
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75]
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
 
 ! LaTeX Error: File `tau_can_mex' not found.
 
@@ -873,7 +882,7 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[76]
+[77]
 
 ! LaTeX Error: File `tau_mex_can' not found.
 
@@ -902,7 +911,7 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[77]
+[78]
 
 ! LaTeX Error: File `tau_usa_can' not found.
 
@@ -931,7 +940,7 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [78] [79]
+(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [79] [80]
 Overfull \hbox (53.65271pt too wide) in paragraph at lines 292--331
  [] 
  []
@@ -939,29 +948,37 @@ Overfull \hbox (53.65271pt too wide) in paragraph at lines 292--331
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_sr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_lr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr.tex))
-[80] [81] [82] [83] [84] [85] [86]
+[81] [82] [83] [84] [85] [86] [87]
 Chapter 6.
-(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [87
+(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [88
 
-] [88] [89])
+] [89] [90])
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.bbl" ("C:\Users\tew207\Documents\GitHub\Thesis\main file.brf")
 \tf@brf=\write8
 
-[90] [91
+[91] [92
 
-] [92]
+] [93]
 Missing character: There is no Ô in font bchb7t!
 Missing character: There is no ø in font bchb7t!
 Missing character: There is no Ω in font bchb7t!
- [93] [94]
+ [94] [95]
 Missing character: There is no ‚ in font bchb7t!
 Missing character: There is no Ä in font bchb7t!
 Missing character: There is no ê in font bchb7t!
- [95] [96] [97] [98])
+ [96] [97] [98] [99])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
- [99]
+[100]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
- ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux")
+ ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux"
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `main*file.out' has not changed.
@@ -975,13 +992,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 12847 strings out of 494053
- 190664 string characters out of 3146182
- 491716 words of memory out of 3000000
- 15504 multiletter control sequences out of 15000+200000
+ 12858 strings out of 494053
+ 190875 string characters out of 3146182
+ 490921 words of memory out of 3000000
+ 15512 multiletter control sequences out of 15000+200000
  41563 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 39i,19n,50p,3885b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,19n,50p,3885b,646s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bits
 trea/charter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -997,9 +1014,9 @@ cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "main file.pdf" (100 pages, 688637 bytes).
+Output written on "main file.pdf" (101 pages, 692401 bytes).
 PDF statistics:
- 1384 PDF objects out of 1440 (max. 8388607)
- 297 named destinations out of 1000 (max. 500000)
+ 1392 PDF objects out of 1440 (max. 8388607)
+ 300 named destinations out of 1000 (max. 500000)
  339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

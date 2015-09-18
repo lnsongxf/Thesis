@@ -11,38 +11,38 @@
 \contentsline {section}{\numberline {2.3}A workhorse model}{15}{section.2.3}
 \contentsline {section}{\numberline {2.4}Saving motives}{16}{section.2.4}
 \contentsline {section}{\numberline {2.5}Income uncertainty and market structure}{17}{section.2.5}
-\contentsline {section}{\numberline {2.6}The role of housing}{17}{section.2.6}
-\contentsline {section}{\numberline {2.7}Closed and open economies}{17}{section.2.7}
-\contentsline {section}{\numberline {2.8}Wealth Distribution Papers}{17}{section.2.8}
-\contentsline {section}{\numberline {2.9}Conclusion}{19}{section.2.9}
-\contentsline {chapter}{\numberline {3}The effects of profile heterogeneity on estimates of income risk}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}A statistical model}{22}{section.3.2}
-\contentsline {section}{\numberline {3.3}Prior evidence}{24}{section.3.3}
-\contentsline {section}{\numberline {3.4}Data}{24}{section.3.4}
-\contentsline {section}{\numberline {3.5}Results}{25}{section.3.5}
-\contentsline {chapter}{\numberline {4}The implications of learning about income processes in the face of structural breaks for the household wealth distribution}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Stylized Facts}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}The Model}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Computational Algorithm}{39}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Quantitative Results}{41}{section.4.4}
-\contentsline {section}{\numberline {4.5}Extensions}{44}{section.4.5}
-\contentsline {section}{\numberline {4.6}Discussion}{45}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Extensions}{45}{subsection.4.6.1}
-\contentsline {chapter}{\numberline {5}The competitive effects of trade liberalisation in North America: An empirical application of the Melitz and Ottaviano Model}{46}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Related Literature}{51}{section.5.2}
-\contentsline {section}{\numberline {5.3}Model and Estimation Equations}{53}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The Role of Market Entry}{56}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Application}{64}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Preferential Trade Liberalization}{66}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Dataset}{67}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Estimation}{71}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Results \& Discussion}{72}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusion}{75}{section.5.6}
-\contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{76}{section.5.7}
-\contentsline {section}{\numberline {5.8}Appendix B: Conversion Table}{80}{section.5.8}
-\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{80}{section.5.9}
-\contentsline {chapter}{\numberline {6}Conclusion}{87}{chapter.6}
-\contentsline {chapter}{Bibliography}{91}{chapter*.27}
+\contentsline {section}{\numberline {2.6}The role of housing}{18}{section.2.6}
+\contentsline {section}{\numberline {2.7}Closed and open economies}{18}{section.2.7}
+\contentsline {section}{\numberline {2.8}Wealth Distribution Papers}{18}{section.2.8}
+\contentsline {section}{\numberline {2.9}Conclusion}{20}{section.2.9}
+\contentsline {chapter}{\numberline {3}The effects of profile heterogeneity on estimates of income risk}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}A statistical model}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Prior evidence}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Data}{25}{section.3.4}
+\contentsline {section}{\numberline {3.5}Results}{26}{section.3.5}
+\contentsline {chapter}{\numberline {4}The implications of learning about income processes in the face of structural breaks for the household wealth distribution}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Stylized Facts}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}The Model}{37}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Computational Algorithm}{40}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Quantitative Results}{42}{section.4.4}
+\contentsline {section}{\numberline {4.5}Extensions}{45}{section.4.5}
+\contentsline {section}{\numberline {4.6}Discussion}{46}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Extensions}{46}{subsection.4.6.1}
+\contentsline {chapter}{\numberline {5}The competitive effects of trade liberalisation in North America: An empirical application of the Melitz and Ottaviano Model}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}Related Literature}{52}{section.5.2}
+\contentsline {section}{\numberline {5.3}Model and Estimation Equations}{54}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The Role of Market Entry}{57}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Application}{65}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Preferential Trade Liberalization}{67}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Dataset}{68}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Estimation}{72}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Results \& Discussion}{73}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusion}{76}{section.5.6}
+\contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{77}{section.5.7}
+\contentsline {section}{\numberline {5.8}Appendix B: Conversion Table}{81}{section.5.8}
+\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{81}{section.5.9}
+\contentsline {chapter}{\numberline {6}Conclusion}{88}{chapter.6}
+\contentsline {chapter}{Bibliography}{92}{chapter*.28}

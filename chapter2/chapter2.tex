@@ -119,21 +119,48 @@ BHPS households}
 \section{Results}
 \begin{table}%
 \begin{tabular}{l|cccccc}
-                    &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
+                     &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
 \hline
 \hline \\
-Guvenen (2009), RIP & 0.988 &  0.015           &   0.061                &       --          &        --        &        --             \\
-Guvenen Matlab, RIP & 0.935 &  0.010           &   0.023                &       --          &        --        &        --             \\
-Short sample, RIP   & 0.951 &  0.011           &   0.043                &       --          &        --        &        --             \\
-Full sample, RIP    & 0.920 &  0.014           &   0.067                &       --          &        --        &        --             \\
+Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$ \\
+\hline \\
+Gross labour income   & 0.925 &  0.045           &   0.135                &       0.0         &        --        &        --             \\
+Net labour income     & 0.867 &  0.065           &   0.077                &       0.017       &        --        &        --             \\
+Net household income  & 0.921 &  0.026           &   0.046                &       0.012       &        --        &        --             \\
+Net household income (deflated) & 0.817 &  0.038 &   0.038                &       0.084       &        --        &        --             \\
 \hline
-Guvenen (2009), HIP & 0.821 &  0.029           &   0.047                &   0.022           &     0.00038      &     --0.23            \\
-Guvenen Matlab, HIP & 0.853 &  0.013           &   0.030                &   0.030           &     0.00031      &     --0.30            \\
-Short sample, HIP   & 0.855 &  0.017           &   0.018                &   0.022           &     0.00030      &     --0.32            \\
-Full sample, HIP    & 0.839 &  0.017           &   0.064                &   0.047           &     0.00026      &     --0.32            \\
+Heterogeneous income process; $\sigma^2_{\beta}$ unrestricted \\
 \hline
+Gross labour income   & 0.719 &  0.106           &   0.080                &       0.036       &     0.00032      &       -0.51           \\
+Net labour income     & 0.808 &  0.073           &   0.070                &       0.032       &     0.00019      &       -0.59           \\
+Net household income  & 0.857 &  0.027           &   0.056                &       0.052       &     0.00011      &       -0.42           \\
+Net household income (deflated) & 0.812 &  0.039 &   0.042                &       0.100       &        0.0       &       -1.0            \\
+\hline-
 \end{tabular}
 \caption{Results for the PSID sample 1968-1996; Guvenen (2009) refers to published results, Guvenen Matlab to results obtained by running
 the code available on the journal website, short sample to my own estimation with the 1968-1996 data, full sample to the 1968-2013 data.}
-\label{hip_rip_results}
+\label{PSID_results}
+\end{table}
+
+\begin{table}%
+\begin{tabular}{l|cccccc}
+                    &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
+\hline
+\hline \\
+Guvenen (2009)   & 0.988 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
+Guvenen Matlab   & 0.935 &  0.010           &   0.023                &                   &        --        &        --             \\
+1968-1996 sample & 0.932 &  0.010           &   0.036                &       0.084       &        --        &        --             \\
+1968-2013 sample & 0.920 &  0.014           &   0.067                &       --          &        --        &        --             \\
+\hline
+Guvenen (2009)   & 0.821 &  0.029           &   0.047                &   0.022           &     0.00038      &     --0.23            \\
+Guvenen Matlab   & 0.853 &  0.013           &   0.030                &   0.030           &     0.00031      &     --0.30            \\
+1968-1996 Sample & 0.907 &  0.010           &   0.058                &   0.036           &     0.00015      &       0.05            \\
+1968-1996 Sample & 0.906 &  0.010           &   0.057                &   0.039           &     0.00015      &     --7.5e-6          \\
+1968-1996 Sample & 0.903 &  0.010           &   0.056                &   0.046           &     0.00017      &     --0.11            \\
+1968-1996 Sample & 0.903 &  0.010           &   0.056                &   0.046           &     0.00017      &     --0.11            \\
+1968-2013 sample & 0.839 &  0.017           &   0.064                &   0.047           &     0.00026      &     --0.32            \\
+\hline
+\end{tabular}
+\caption{Results for the BHPS sample 1992-2009, different income measures.}
+\label{BHPS_results}
 \end{table}
