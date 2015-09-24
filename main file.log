@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  24 SEP 2015 10:48
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  24 SEP 2015 12:15
 entering extended mode
 **main*file.tex
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.tex"
@@ -395,13 +395,31 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 \titlewidthlast=\dimen132
 \titlewidthfirst=\dimen133
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen134
+\epsfysize=\dimen135
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.jpg,.pdf,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen134
-\extrarowheight=\dimen135
+\col@sep=\dimen136
+\extrarowheight=\dimen137
 \NC@list=\toks30
 \extratabsurround=\skip68
 \backup@length=\skip69
@@ -410,8 +428,8 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box33
 \sift@deathcycles=\count121
-\@vwid@loff=\dimen136
-\@vwid@roff=\dimen137
+\@vwid@loff=\dimen138
+\@vwid@roff=\dimen139
 )
 \c@taburow=\count122
 \tabu@nbcols=\count123
@@ -419,15 +437,15 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@Xcol=\count125
 \tabu@alloc=\count126
 \tabu@nested=\count127
-\tabu@target=\dimen138
-\tabu@spreadtarget=\dimen139
-\tabu@naturalX=\dimen140
-\tabucolX=\dimen141
-\tabu@Xsum=\dimen142
-\extrarowdepth=\dimen143
-\abovetabulinesep=\dimen144
-\belowtabulinesep=\dimen145
-\tabustrutrule=\dimen146
+\tabu@target=\dimen140
+\tabu@spreadtarget=\dimen141
+\tabu@naturalX=\dimen142
+\tabucolX=\dimen143
+\tabu@Xsum=\dimen144
+\extrarowdepth=\dimen145
+\abovetabulinesep=\dimen146
+\belowtabulinesep=\dimen147
+\tabustrutrule=\dimen148
 \tabu@thebody=\toks31
 \tabu@footnotes=\toks32
 \tabu@box=\box34
@@ -441,19 +459,19 @@ Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box38
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen147
+\bigstrutjot=\dimen149
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
-\captionmargin=\dimen148
-\captionmargin@=\dimen149
-\captionwidth=\dimen150
-\caption@indent=\dimen151
-\caption@parindent=\dimen152
-\caption@hangindent=\dimen153
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@indent=\dimen153
+\caption@parindent=\dimen154
+\caption@hangindent=\dimen155
 )
 \c@float@type=\count128
 \float@exts=\toks33
@@ -463,9 +481,9 @@ Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \FR@everyfloat=\toks34
 \flrow@foot=\insert233
-\FB@wd=\dimen154
-\FBo@wd=\dimen155
-\FBc@wd=\dimen156
+\FB@wd=\dimen156
+\FBo@wd=\dimen157
+\FBc@wd=\dimen158
 \FBo@ht=\skip71
 \FBc@ht=\skip72
 \FBf@ht=\skip73
@@ -481,7 +499,7 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \Zhsize=\skip79
 \sZhsize=\skip80
 \flrow@rowbox=\box41
-\FR@Zunitlength=\dimen157
+\FR@Zunitlength=\dimen159
 \c@FBcnt=\count133
 \FPOScnt=\count134
 \LTleft=\skip81
@@ -523,8 +541,8 @@ Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count135
 \calc@Bcount=\count136
-\calc@Adimen=\dimen158
-\calc@Bdimen=\dimen159
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
 \calc@Askip=\skip100
 \calc@Bskip=\skip101
 LaTeX Info: Redefining \setlength on input line 76.
@@ -551,31 +569,31 @@ Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen160
-\lightrulewidth=\dimen161
-\cmidrulewidth=\dimen162
-\belowrulesep=\dimen163
-\belowbottomsep=\dimen164
-\aboverulesep=\dimen165
-\abovetopsep=\dimen166
-\cmidrulesep=\dimen167
-\cmidrulekern=\dimen168
-\defaultaddspace=\dimen169
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
 \@cmidla=\count139
 \@cmidlb=\count140
-\@aboverulesep=\dimen170
-\@belowrulesep=\dimen171
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
 \@thisruleclass=\count141
 \@lastruleclass=\count142
-\@thisrulewidth=\dimen172
+\@thisrulewidth=\dimen174
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen173
-\TX@old@table=\dimen174
-\TX@old@col=\dimen175
-\TX@target=\dimen176
-\TX@delta=\dimen177
+\TX@col@width=\dimen175
+\TX@old@table=\dimen176
+\TX@old@col=\dimen177
+\TX@target=\dimen178
+\TX@delta=\dimen179
 \TX@cols=\count143
 \TX@ftn=\toks38
 )
@@ -625,41 +643,45 @@ Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\import\import.sty"
 Package: import 2009/03/23  v 5.1
-) ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for OT1+bch on input line 75.
+) ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux"
+
+LaTeX Warning: Label `fig:bhps_incvar' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 77.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1bch.fd"
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count152
-\scratchdimen=\dimen178
+\scratchdimen=\dimen180
 \scratchbox=\box45
 \nofMPsegments=\count153
 \nofMParguments=\count154
 \everyMPshowfont=\toks40
 \MPscratchCnt=\count155
-\MPscratchDim=\dimen179
+\MPscratchDim=\dimen181
 \MPnumerator=\count156
 \everyMPtoPDFconversion=\toks41
 )
 \AtBeginShipoutBox=\box46
-Package backref Info: ** backref set up for natbib ** on input line 75.
-Package hyperref Info: Link coloring ON on input line 75.
+Package backref Info: ** backref set up for natbib ** on input line 77.
+Package hyperref Info: Link coloring ON on input line 77.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -668,9 +690,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count157
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.out") ("C:\Users\tew207\Documents\GitHub\Thesis\main file.out")
 \@outlinefile=\write4
@@ -717,7 +739,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box48
 \c@FBLTpage=\count158
 )
-LaTeX Info: Redefining \selectfont on input line 75.
+LaTeX Info: Redefining \selectfont on input line 77.
 
 (C:\Users\tew207\Documents\GitHub\Thesis\titlepage/titlepage.tex [1
 
@@ -772,7 +794,7 @@ Type  H <return>  for immediate help.
 l.78 \includegraphics[width=\columnwidth]{}
                                            
 I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
+.png,.jpg,.pdf,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -793,167 +815,160 @@ File: omsbch.fd
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
  [26]
+Package epstopdf Info: Source file: <BHPS_incvar.eps>
+(epstopdf)                    date: 2015-09-23 12:41:10
+(epstopdf)                    size: 56652 bytes
+(epstopdf)             Output file: <BHPS_incvar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-24 12:10:57
+(epstopdf)                    size: 16548 bytes
+(epstopdf)             Command: <epstopdf --outfile=BHPS_incvar-eps-converted-to.pdf BHPS_incvar.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
 
-! LaTeX Error: File `BHPS_incvar' not found.
+<BHPS_incvar-eps-converted-to.pdf, id=504, 1156.32pt x 578.16pt>
+File: BHPS_incvar-eps-converted-to.pdf Graphic file (type pdf)
+ <use BHPS_incvar-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <PSID_incvar.eps>
+(epstopdf)                    date: 2015-09-15 19:05:23
+(epstopdf)                    size: 47457 bytes
+(epstopdf)             Output file: <PSID_incvar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-24 12:10:58
+(epstopdf)                    size: 15909 bytes
+(epstopdf)             Command: <epstopdf --outfile=PSID_incvar-eps-converted-to.pdf PSID_incvar.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...graphics[width=\columnwidth]{BHPS_incvar}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<PSID_incvar-eps-converted-to.pdf, id=505, 1156.32pt x 578.16pt>
+File: PSID_incvar-eps-converted-to.pdf Graphic file (type pdf)
+ <use PSID_incvar-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <BHPS_fitted_profiles.eps>
+(epstopdf)                    date: 2015-09-23 12:41:14
+(epstopdf)                    size: 87062 bytes
+(epstopdf)             Output file: <BHPS_fitted_profiles-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-24 12:10:59
+(epstopdf)                    size: 21486 bytes
+(epstopdf)             Command: <epstopdf --outfile=BHPS_fitted_profiles-eps-converted-to.pdf BHPS_fitted_profiles.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
 
-
-! LaTeX Error: File `PSID_incvar' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 ...graphics[width=\columnwidth]{PSID_incvar}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `BHPS_fitted_profiles' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 ...width=\columnwidth]{BHPS_fitted_profiles}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+<BHPS_fitted_profiles-eps-converted-to.pdf, id=506, 867.24pt x 722.7pt>
+File: BHPS_fitted_profiles-eps-converted-to.pdf Graphic file (type pdf)
+ <use BHPS_fitted_profiles-eps-converted-to.pdf>
 Overfull \hbox (95.8713pt too wide) in paragraph at lines 131--151
  [][] 
  []
 
-) [27] [28]
+) [27 <C:/Users/tew207/Documents/GitHub/Thesis/BHPS_incvar-eps-converted-to.pdf>] [28 <C:/Users/tew207/Documents/GitHub/
+Thesis/PSID_incvar-eps-converted-to.pdf>] [29 <C:/Users/tew207/Documents/GitHub/Thesis/BHPS_fitted_profiles-eps-converte
+d-to.pdf>] [30]
 Chapter 4.
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [29
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [31
 
-] [30] [31] [32]
-<inc_ineq_attanasio2012.JPG, id=569, 767.86874pt x 566.86781pt>
+] [32] [33] [34]
+<inc_ineq_attanasio2012.JPG, id=704, 767.86874pt x 566.86781pt>
 File: inc_ineq_attanasio2012.JPG Graphic file (type jpg)
- <use inc_ineq_attanasio2012.JPG> [33] [34 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] <chg_de
-bt_scf.jpg, id=599, 630.85687pt x 379.4175pt>
+ <use inc_ineq_attanasio2012.JPG> [35] [36 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] <chg_de
+bt_scf.jpg, id=735, 630.85687pt x 379.4175pt>
 File: chg_debt_scf.jpg Graphic file (type jpg)
 
-<use chg_debt_scf.jpg> [35] [36 <C:/Users/tew207/Documents/GitHub/Thesis/chg_debt_scf.jpg>] [37] [38] [39] [40] [41]
-[42] [43] [44] [45] [46]) [47]
+<use chg_debt_scf.jpg> [37] [38 <C:/Users/tew207/Documents/GitHub/Thesis/chg_debt_scf.jpg>] [39] [40] [41] [42] [43]
+[44] [45] [46] [47] [48]) [49]
 Chapter 5.
 (C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.tex
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ê in font bchr7t!
- [48
+ [50
 
-] [49] [50] [51] [52] [53] [54] [55] [56] [57]
-[58] [59] [60]
+] [51] [52] [53] [54] [55] [56] [57] [58] [59]
+[60] [61] [62]
 Overfull \hbox (44.30948pt too wide) in paragraph at lines 70--87
  [][] 
  []
 
-[61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77]
+[63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+Package epstopdf Info: Source file: <tau_can_mex.eps>
+(epstopdf)                    date: 2015-09-12 16:59:16
+(epstopdf)                    size: 63557 bytes
+(epstopdf)             Output file: <tau_can_mex-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-12 16:59:26
+(epstopdf)                    size: 20545 bytes
+(epstopdf)             Command: <epstopdf --outfile=tau_can_mex-eps-converted-to.pdf tau_can_mex.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
 
-! LaTeX Error: File `tau_can_mex' not found.
+<tau_can_mex-eps-converted-to.pdf, id=1194, 650.43pt x 433.62pt>
+File: tau_can_mex-eps-converted-to.pdf Graphic file (type pdf)
+ <use tau_can_mex-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <tau_can_usa.eps>
+(epstopdf)                    date: 2015-09-12 16:58:46
+(epstopdf)                    size: 64930 bytes
+(epstopdf)             Output file: <tau_can_usa-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-12 16:59:26
+(epstopdf)                    size: 20354 bytes
+(epstopdf)             Command: <epstopdf --outfile=tau_can_usa-eps-converted-to.pdf tau_can_usa.eps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \includegraphics[scale=0.5]{tau_can_mex}
-                                              
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<tau_can_usa-eps-converted-to.pdf, id=1195, 650.43pt x 433.62pt>
+File: tau_can_usa-eps-converted-to.pdf Graphic file (type pdf)
+ <use tau_can_usa-eps-converted-to.pdf> [80 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_mex-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <tau_mex_can.eps>
+(epstopdf)                    date: 2015-09-12 16:59:07
+(epstopdf)                    size: 64892 bytes
+(epstopdf)             Output file: <tau_mex_can-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-12 16:59:27
+(epstopdf)                    size: 20664 bytes
+(epstopdf)             Command: <epstopdf --outfile=tau_mex_can-eps-converted-to.pdf tau_mex_can.eps>
+(epstopdf)             \includegraphics on input line 252.
+Package epstopdf Info: Output file is already uptodate.
 
+<tau_mex_can-eps-converted-to.pdf, id=1249, 650.43pt x 433.62pt>
+File: tau_mex_can-eps-converted-to.pdf Graphic file (type pdf)
+ <use tau_mex_can-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <tau_mex_usa.eps>
+(epstopdf)                    date: 2015-09-12 16:58:30
+(epstopdf)                    size: 64919 bytes
+(epstopdf)             Output file: <tau_mex_usa-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-12 16:59:27
+(epstopdf)                    size: 20802 bytes
+(epstopdf)             Command: <epstopdf --outfile=tau_mex_usa-eps-converted-to.pdf tau_mex_usa.eps>
+(epstopdf)             \includegraphics on input line 258.
+Package epstopdf Info: Output file is already uptodate.
 
-! LaTeX Error: File `tau_can_usa' not found.
+<tau_mex_usa-eps-converted-to.pdf, id=1250, 650.43pt x 433.62pt>
+File: tau_mex_usa-eps-converted-to.pdf Graphic file (type pdf)
+ <use tau_mex_usa-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <tau_usa_can.eps>
+(epstopdf)                    date: 2015-09-12 16:58:56
+(epstopdf)                    size: 62878 bytes
+(epstopdf)             Output file: <tau_usa_can-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-12 16:59:28
+(epstopdf)                    size: 20263 bytes
+(epstopdf)             Command: <epstopdf --outfile=tau_usa_can-eps-converted-to.pdf tau_usa_can.eps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.244 \includegraphics[scale=0.5]{tau_can_usa}
-                                              
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<tau_usa_can-eps-converted-to.pdf, id=1251, 650.43pt x 433.62pt>
+File: tau_usa_can-eps-converted-to.pdf Graphic file (type pdf)
+ <use tau_usa_can-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <tau_usa_mex.eps>
+(epstopdf)                    date: 2015-09-12 16:57:32
+(epstopdf)                    size: 63369 bytes
+(epstopdf)             Output file: <tau_usa_mex-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-12 16:59:28
+(epstopdf)                    size: 20580 bytes
+(epstopdf)             Command: <epstopdf --outfile=tau_usa_mex-eps-converted-to.pdf tau_usa_mex.eps>
+(epstopdf)             \includegraphics on input line 272.
+Package epstopdf Info: Output file is already uptodate.
 
-[78]
-
-! LaTeX Error: File `tau_mex_can' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 \includegraphics[scale=0.5]{tau_mex_can}
-                                              
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `tau_mex_usa' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 \includegraphics[scale=0.5]{tau_mex_usa}
-                                              
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[79]
-
-! LaTeX Error: File `tau_usa_can' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266 \includegraphics[scale=0.5]{tau_usa_can}
-                                              
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `tau_usa_mex' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272 \includegraphics[scale=0.5]{tau_usa_mex}
-                                              
-I could not locate the file with any of these extensions:
-.png,.jpg,.pdf
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [80] [81]
+<tau_usa_mex-eps-converted-to.pdf, id=1252, 650.43pt x 433.62pt>
+File: tau_usa_mex-eps-converted-to.pdf Graphic file (type pdf)
+ <use tau_usa_mex-eps-converted-to.pdf>
+(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [81 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_usa-eps-conv
+erted-to.pdf>] [82 <C:/Users/tew207/Documents/GitHub/Thesis/tau_mex_can-eps-converted-to.pdf> <C:/Users/tew207/Documents
+/GitHub/Thesis/tau_mex_usa-eps-converted-to.pdf>] [83 <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_can-eps-converted
+-to.pdf> <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_mex-eps-converted-to.pdf>] [84]
 Overfull \hbox (53.65271pt too wide) in paragraph at lines 292--331
  [] 
  []
@@ -961,31 +976,31 @@ Overfull \hbox (53.65271pt too wide) in paragraph at lines 292--331
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_sr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_lr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr.tex))
-[82] [83] [84] [85] [86] [87] [88]
+[85] [86] [87] [88] [89] [90] [91]
 Chapter 6.
-(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [89
+(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [92
 
-] [90] [91])
+] [93] [94])
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.bbl" ("C:\Users\tew207\Documents\GitHub\Thesis\main file.brf")
 \tf@brf=\write8
 
-[92] [93
+[95] [96
 
-] [94] [95]
+] [97] [98]
 Missing character: There is no Ô in font bchb7t!
 Missing character: There is no ø in font bchb7t!
 Missing character: There is no Ω in font bchb7t!
- [96]
+ [99]
 Missing character: There is no ‚ in font bchb7t!
 Missing character: There is no Ä in font bchb7t!
 Missing character: There is no ê in font bchb7t!
- [97] [98] [99] [100] [101])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
- [102]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+ [100] [101] [102] [103] [104])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+ [105]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main*file.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `main*file.brf' has not changed.
@@ -994,13 +1009,16 @@ Package rerunfilecheck Info: File `main*file.brf' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 12876 strings out of 494053
- 191363 string characters out of 3146182
- 492080 words of memory out of 3000000
- 15525 multiletter control sequences out of 15000+200000
+ 13065 strings out of 494053
+ 195436 string characters out of 3146182
+ 495116 words of memory out of 3000000
+ 15694 multiletter control sequences out of 15000+200000
  41563 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  39i,19n,50p,3885b,663s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1019,9 +1037,9 @@ cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "main file.pdf" (103 pages, 698349 bytes).
+Output written on "main file.pdf" (106 pages, 866584 bytes).
 PDF statistics:
- 1415 PDF objects out of 1440 (max. 8388607)
- 304 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1855 PDF objects out of 2073 (max. 8388607)
+ 310 named destinations out of 1000 (max. 500000)
+ 384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
