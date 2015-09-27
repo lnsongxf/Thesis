@@ -1,48 +1,49 @@
 \select@language {english}
 \contentsline {chapter}{Contents}{6}{chapter*.1}
 \contentsline {chapter}{List of Tables}{8}{chapter*.2}
-\contentsline {chapter}{List of Figures}{9}{chapter*.3}
-\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motivation}{10}{section.1.1}
-\contentsline {section}{\numberline {1.2}Outline}{10}{section.1.2}
-\contentsline {chapter}{\numberline {2}Models of the wealth distribution}{12}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}
-\contentsline {section}{\numberline {2.2}Stylised facts}{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}A workhorse model}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Saving motives}{16}{section.2.4}
-\contentsline {section}{\numberline {2.5}Income uncertainty and market structure}{17}{section.2.5}
-\contentsline {section}{\numberline {2.6}The role of housing}{18}{section.2.6}
-\contentsline {section}{\numberline {2.7}Closed and open economies}{19}{section.2.7}
-\contentsline {section}{\numberline {2.8}Wealth Distribution Papers}{19}{section.2.8}
-\contentsline {section}{\numberline {2.9}Conclusion}{21}{section.2.9}
-\contentsline {chapter}{\numberline {3}The effects of profile heterogeneity on estimates of income risk}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}A statistical model}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Prior evidence}{26}{section.3.3}
-\contentsline {section}{\numberline {3.4}Data}{26}{section.3.4}
-\contentsline {section}{\numberline {3.5}Results}{27}{section.3.5}
-\contentsline {chapter}{\numberline {4}The implications of learning about income processes in the face of structural breaks for the household wealth distribution}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Stylized Facts}{35}{section.4.2}
-\contentsline {section}{\numberline {4.3}The Model}{40}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Computational Algorithm}{43}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Quantitative Results}{45}{section.4.4}
-\contentsline {section}{\numberline {4.5}Extensions}{48}{section.4.5}
-\contentsline {section}{\numberline {4.6}Discussion}{49}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Extensions}{49}{subsection.4.6.1}
-\contentsline {chapter}{\numberline {5}The competitive effects of trade liberalisation in North America: An empirical application of the Melitz and Ottaviano Model}{50}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{50}{section.5.1}
-\contentsline {section}{\numberline {5.2}Related Literature}{55}{section.5.2}
-\contentsline {section}{\numberline {5.3}Model and Estimation Equations}{57}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The Role of Market Entry}{60}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Application}{68}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Preferential Trade Liberalization}{70}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Dataset}{71}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Estimation}{75}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Results \& Discussion}{76}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusion}{79}{section.5.6}
-\contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{80}{section.5.7}
-\contentsline {section}{\numberline {5.8}Appendix B: Conversion Table}{85}{section.5.8}
-\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{85}{section.5.9}
-\contentsline {chapter}{\numberline {6}Conclusion}{92}{chapter.6}
-\contentsline {chapter}{Bibliography}{96}{chapter*.29}
+\contentsline {chapter}{List of Figures}{10}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{12}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{12}{section.1.1}
+\contentsline {section}{\numberline {1.2}Outline}{12}{section.1.2}
+\contentsline {chapter}{\numberline {2}Quantitative Models of the Wealth Distribution}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Stylised facts}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}A workhorse model}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}Saving motives}{19}{section.2.4}
+\contentsline {section}{\numberline {2.5}Income uncertainty and market structure}{20}{section.2.5}
+\contentsline {section}{\numberline {2.6}The role of housing}{21}{section.2.6}
+\contentsline {section}{\numberline {2.7}Closed and open economies}{22}{section.2.7}
+\contentsline {section}{\numberline {2.8}Wealth Distribution Papers}{22}{section.2.8}
+\contentsline {section}{\numberline {2.9}Conclusion}{24}{section.2.9}
+\contentsline {chapter}{\numberline {3}The Effects of Profile Heterogeneity on Estimates of Income Risk}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
+\contentsline {section}{\numberline {3.2}A statistical model}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Prior evidence}{31}{section.3.3}
+\contentsline {section}{\numberline {3.4}Data}{31}{section.3.4}
+\contentsline {section}{\numberline {3.5}Results}{32}{section.3.5}
+\contentsline {chapter}{\numberline {4}Wealth Distributions in Heterogeneous Income Process Models with Learning}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{37}{section.4.1}
+\contentsline {section}{\numberline {4.2}Stylized Facts}{40}{section.4.2}
+\contentsline {section}{\numberline {4.3}The Model}{45}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Computational Algorithm}{48}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Quantitative Results}{49}{section.4.4}
+\contentsline {section}{\numberline {4.5}Calibrating the model}{51}{section.4.5}
+\contentsline {section}{\numberline {4.6}Comparative Statics}{52}{section.4.6}
+\contentsline {section}{\numberline {4.7}Discussion}{62}{section.4.7}
+\contentsline {section}{\numberline {4.8}Appendix A: Comparative statics results}{62}{section.4.8}
+\contentsline {chapter}{\numberline {5}The Competitive Effects of Trade Liberalisation in North America: An Empirical Application of the Melitz and Ottaviano Model}{70}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{70}{section.5.1}
+\contentsline {section}{\numberline {5.2}Related Literature}{75}{section.5.2}
+\contentsline {section}{\numberline {5.3}Model and Estimation Equations}{77}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The Role of Market Entry}{80}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Application}{88}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Preferential Trade Liberalization}{90}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Dataset}{91}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Estimation}{95}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Results \& Discussion}{96}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusion}{99}{section.5.6}
+\contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{100}{section.5.7}
+\contentsline {section}{\numberline {5.8}Appendix B: Conversion Table}{105}{section.5.8}
+\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{105}{section.5.9}
+\contentsline {chapter}{\numberline {6}Conclusion}{112}{chapter.6}
+\contentsline {chapter}{Bibliography}{116}{chapter*.47}

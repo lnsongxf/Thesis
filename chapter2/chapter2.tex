@@ -1,7 +1,7 @@
 \section{Introduction}
-As has become clear from the discussion in the previous chapter, a crucial
+As has become clear from the discussion in the preceding chapter, a crucial
 ingredient to any model of household savings is an estimate of the risk that
-households are facing in the form of their income process. While traditionally
+households are facing in the form of their income process. Traditionally,
 researchers have relied on a parsimonious AR(1) specification with a transitory
 and a persistent shock component, which can be represented as a Markov chain
 and thus helps to ease the computational burden. Recent research has cast doubt
@@ -11,8 +11,56 @@ capabilities have allowed to solve models with larger state spaces, so that
 there is a renewed interest in estimating richer statistical processes for
 household income. \vspace{1cm}
 \\
-\textbf{Insert discussion of recent papers based on social security data:
-\citet{GKOS2015}, \citet{DHPRV2013}}
+The labour economics literature of income processes has long attempted to model
+household earnings dynamics using a variety of rich time series models with 
+different AR and MA specifications. Early attempts to exploit longitudinal data
+on household's income include the seminal work of \citet{MaCurdy1982}, who fits
+ARMA processes to the income levels of a sample of prime age males from the first
+ten waves of the PSID and concludes that the data is best described by either an
+ARMA(1,2) or an ARMA(2,1) process; \citet{AbowdCard89}, who analyse data from the
+PSID, the NLS and SIME/DIME and settle for an MA(2) description of the data as
+most appropriate. Both \cite{MaCurdy1982} and \citet{AbowdCard89} conclude that 
+the autoregressive component of the stochastic process describing income 
+residuals has to have a unit root, a conclusion that is called into question by
+\citet{Baker1997}, who develops econometric tests that reject a specification 
+with $\rho=1$, and favour a specification with what he calls heterogeneous 
+profiles, that is, an individual specific slope component in the income process.
+This approach had been previously applied in longitudinal data on American 
+scientists\footnote{The National Science Foundation's Register of Technical and
+Scientific Personell, a dataset comprised of bi-yearly income observations on 
+Ph.D. holders in the STEM fields.} by \citet{LillardWeiss1978} and in data on 279
+Swedish scientists by \citet{Hause1980}. While these papers rely on a deterministic
+structure for individual wage growth over the life-cycle, \citet{Guvenen2009}
+offers a model that fuses these approaches, including both deterministic 
+components for the level and slope of income, as well as a stochastic AR(1)
+component delivering persistent shocks. As we will base our analysis on this 
+model, we defer the detailed model description to the next section. \\
+While most of the work discussed so far has relied on the use of survey data of
+income, which is plagued by measurement error and hence cannot correctly identify
+the variance of transitory income shocks, in recent years researchers have been 
+able to make use of the huge data base of the US Social Security administration,
+which offers exact data on incomes of millions of American workers over long 
+periods of time. The first papers to make use of this data were \citet{KopczukSaezSong2010},
+who focus on the evolution of cross-sectional income inequality over time and
+the distinction between permanent and transitory shocks to income, and 
+\citet{DHPRV2013}, who use a similar data set of tax returns to answer a very 
+similar question -- we will return to the implications of their findings for 
+macroeconomic models in chapter 3. More interesting in the present context is
+a recent paper by \citet{GKOS2015}, who use the Master Earnings
+File of the Social Security administration for the years 1978 to 2010 to 
+construct an extremely large panel of income observations for a sample of 10\%
+of all US workers that were issued a Social Security number. From this data set,
+the authors conclude that the distribution of income shocks is not normal, with
+a kurtosis ten- to fiveteen times that of a Normal distribution. Fitting processes
+similar to that in \citet{Guvenen2009} to the data, they conclude that the data
+is best described by a model including heterogeneity in individual specific 
+growth rates and a mixture of (at least) two independent AR(1) processes with 
+different innovation variance. 
+Finally, some authors have attempted to extend the basic ARMA model in other 
+directions, adding e.g. ARCH effects to capture stochastic volatility in income
+innovations (\citealt{MeghirPistaferri2004}), allowing for individual-specific
+income \textit{processes}, rather than simply different means and variances for 
+the same process (\citealt{BrowningEjrnaesAlvarez2010})
 
 \section{A statistical model}
 To inform the simulations in the following chapter, this thesis will rely on an
@@ -46,7 +94,8 @@ y_{h,t}^i - g(\theta_t, \pmb{X}_{h,t}^i)$ and the variance-covariance
 structure implied by the model. In the present context, this strategy has first
 been employed by \citet{Baker1997}, who estimates a very similar model to the one
  described above, although the approach has been used before for estimating
-other models in labour economics, e.g. \citet{AbowdCard89}. Our model implies
+other models in labour economics, e.g. \citet{AbowdCard89}. Table 
+\ref{tab:hip_literature} summarizes findings of earlier papers. Our model implies
 theoretical variances and covariances given by:
 \begin{align}
 \var(\tilde{y}_{h,t}^i) = \underbrace{\sigma^2_{\alpha} + 2 \sigma_{\alpha \beta} h + \sigma^2_{\beta}}_{\text{contribution of profile heterogeneity}} + \var(z^i_{h,t}) + \phi_t^2 \sigma^2_{\varepsilon} \\
@@ -61,6 +110,7 @@ over $h$ with weights corresponding to the relative frequency of age-groups in
 the empirical data.
 
 \section{Prior evidence}
+\begin{table}
 \begin{tabular}{l|c|c|c|c|c|c}
 
                         & $\rho$ & $\sigma^2_{\eta}$ & $\sigma^2_{\varepsilon}$ & $\sigma^2_{\alpha}$ & $\sigma^2_{\beta}$ & $cov(\alpha,\beta)$ \\
@@ -68,6 +118,9 @@ the empirical data.
 \citet{Baker1997}       & 0.423  &   0.089           &     --                   &     0.355           &       0.00081      &      -0.014          \\
 \citet{Haider2001}      & 0.639  & 0.057--0.166      &     --                   &     0.295           &       0.00041      &      -0.0083
 \end{tabular}
+\caption{Previous estimates of profile heterogeneity in different data sets}
+\label{tab:hip_literature}
+\end{table}
 
 \section{Data}
 As we are interested in the variability of our estimates, we are estimating the
@@ -113,7 +166,7 @@ BHPS households}
 \includegraphics[width=\columnwidth]{PSID_incvar}
 \caption{Variance of log income and 90/10 percentile width for our sample of
 BHPS households}
-\label{fig:bhps_incvar}
+\label{fig:psid_incvar}
 \end{figure}
 
 \begin{figure}
@@ -127,40 +180,83 @@ BHPS households}
 
 
 \section{Results}
+Table \ref{tab:BHPS_results} shows the results of estimating both RIP and HIP
+processes on our sample of households from the BHPS, using the four different
+income measures described previously. The results are largely unsurprising 
+qualitatively, with the variance of persistent shocks declining from 0.1 for
+the most volatile process (gross labour earnings) to 0.07 for net labour earnings,
+to 0.027 for net household income. A similar pattern can be observed for the 
+transitory shock, declining from 0.08 to 0.07 and 0.056, respectively. The 
+estimates for the main parameter of interest, the cross-sectional dispersion 
+in individual specific growth rates $\beta^i$ behaves accordingly, dropping from 
+0.00032 (consistent with the findings for the main PSID sample in 
+\citet{Guvenen2009}), to 0.00019 and 0.00011. Interestingly, some of the decrease
+in the parameters that increase cross-sectional dispersion over the life-cycle
+of a cohort is offset by a rise in the cross-sectional inequality in intercepts, 
+$\var_{\alpha}$ rises from 0.036 in the gross labour income sample to 0.052 in 
+the net household income sample. The persistence of 
+
 \begin{table}%
 \begin{tabular}{l|cccccc}
                      &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
 \hline
-\hline \\
-Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$ \\
+\hline
+\multicolumn{7}{c}{Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$} \\
 \hline \\
 Gross labour income   & 0.925 &  0.045           &   0.135                &       0.0         &        --        &        --             \\
 Net labour income     & 0.867 &  0.065           &   0.077                &       0.017       &        --        &        --             \\
 Net household income  & 0.921 &  0.026           &   0.046                &       0.012       &        --        &        --             \\
 Net household income (deflated) & 0.817 &  0.038 &   0.038                &       0.084       &        --        &        --             \\
 \hline
-Heterogeneous income process; $\sigma^2_{\beta}$ unrestricted \\
+\multicolumn{7}{c}{Heterogeneous income process; $\sigma^2_{\beta}$ unrestricted} \\
 \hline
 Gross labour income   & 0.719 &  0.106           &   0.080                &       0.036       &     0.00032      &       -0.51           \\
 Net labour income     & 0.808 &  0.073           &   0.070                &       0.032       &     0.00019      &       -0.59           \\
 Net household income  & 0.857 &  0.027           &   0.056                &       0.052       &     0.00011      &       -0.42           \\
 Net household income (deflated) & 0.812 &  0.039 &   0.042                &       0.100       &        0.0       &       -1.0            \\
-\hline-
+\hline
 \end{tabular}
 \caption{Results for the PSID sample 1968-1996; Guvenen (2009) refers to published results, Guvenen Matlab to results obtained by running
 the code available on the journal website, short sample to my own estimation with the 1968-1996 data, full sample to the 1968-2013 data.}
-\label{PSID_results}
+\label{tab:BHPS_results}
+\end{table}
+
+\begin{table}%
+\begin{tabular}{l|cccccc}
+                       &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
+\hline
+\hline
+\multicolumn{7}{c}{Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$} \\
+\hline \\
+PSID, 1968--1986      & 0.960 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
+                &\footnotesize{(NaN)}&\footnotesize{(NaN)}&\footnotesize{(NaN)}& \footnotesize{(NaN)} &          &                       \\
+PSID, 1987--2013      & 0.939 &  0.017           &   0.095                &       0.110       &        --        &        --             \\
+                &\footnotesize{(NaN)}&\footnotesize{(NaN)}&\footnotesize{(NaN)}& \footnotesize{(NaN)} &          &                       \\
+\hline
+\multicolumn{7}{c}{Heterogeneous income process: $\sigma^2_{\beta}$ unrestricted} \\
+\hline
+PSID, 1968--1986      & 0.885 &  0.013           &   0.043                &       0.110       &      0.00001     &      -0.42            \\
+           & \footnotesize{(6.19)}  & \footnotesize{(3.016)}& \footnotesize{(0.322)} & \footnotesize{(0.0)}&\footnotesize{(6.74)}  & \footnotesize{(954596.4)}    \\
+PSID, 1987--2013      & 0.854 &  0.032           &   0.085                &       0.097       &      0.00025     &      -0.31            \\
+           & \footnotesize{(7.99)}  & \footnotesize{(170084.7)}& \footnotesize{(0.854)} & \footnotesize{(512842.6)}&\footnotesize{(656.74)}  & \footnotesize{(954596.4)}    \\
+\hline-
+\end{tabular}
+\caption{Results for PSID subsamples 1968 to 1986 and 1987 to 2013}
+\label{tab:psid_subsample}
 \end{table}
 
 \begin{table}%
 \begin{tabular}{l|cccccc}
                     &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
 \hline
-\hline \\
+\hline 
+\multicolumn{7}{c}{Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$} \\
 Guvenen (2009)   & 0.988 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
 Guvenen Matlab   & 0.935 &  0.010           &   0.023                &                   &        --        &        --             \\
 1968-1996 sample & 0.932 &  0.010           &   0.036                &       0.084       &        --        &        --             \\
 1968-2013 sample & 0.920 &  0.014           &   0.067                &       --          &        --        &        --             \\
+\hline
+\multicolumn{7}{c}{Heterogeneous income process: $\sigma^2_{\beta}$ unrestricted} \\
 \hline
 Guvenen (2009)   & 0.821 &  0.029           &   0.047                &   0.022           &     0.00038      &     --0.23            \\
 Guvenen Matlab   & 0.853 &  0.013           &   0.030                &   0.030           &     0.00031      &     --0.30            \\

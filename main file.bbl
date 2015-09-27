@@ -42,11 +42,6 @@
   U.S. Wage Inequality: Re-Assessing the Revisionists,'' NBER Working Papers
   11627, National Bureau of Economic Research, Inc September 2005.
 
-\harvarditem[Autor et al.]{Autor, Katz and Kearney}{2008}{AutorKatzKearney2008}
-{\bf \bysame{}, \bysame{}, and \bysame{}}, ``Trends in U.S. Wage Inequality:
-  Revising the Revisionists,'' {\it The Review of Economics and Statistics},
-  May 2008, {\it 90} (2), 300--323.
-
 \harvarditem[Baker]{Baker}{1997}{Baker1997}
 {\bf Baker, Michael}, ``{Growth-Rate Heterogeneity and the Covariance Structure
   of Life-Cycle Earnings},'' {\it Journal of Labor Economics}, April 1997, {\it
@@ -75,11 +70,6 @@
 {\bf Benhabib, Jess, Alberto Bisin, and Shenghao Zhu}, ``The Distribution of
   Wealth and Fiscal Policy in Economies With Finitely Lived Agents,'' {\it
   Econometrica}, 01 2011, {\it 79} (1), 123--157.
-
-\harvarditem[Bernard and Jensen]{Bernard and Jensen}{1995}{BernardJensen1995}
-{\bf Bernard, Andrew and Bradford Jensen}, ``Exporters, Jobs and Wages in U.S.
-  Manufacturing,'' {\it Brookings Papers on Economic Activity: Microeconomics},
-  1995, pp.~67--112.
 
 \harvarditem[Bernard et al.]{Bernard, Jensen and Schott}{2006a}{Bernard2006a}
 {\bf Bernard, Andrew~B., J.~Bradford Jensen, and Peter~K. Schott}, ``{Survival
@@ -112,6 +102,12 @@
   Consumption and Saving,'' {\it Journal of Economic Perspectives}, Summer
   2001, {\it 15} (3), 3--22.
 
+\harvarditem[Browning et al.]{Browning, Ejrn�s and
+  Alvarez}{2010}{BrowningEjrnaesAlvarez2010}
+{\bf \bysame{}, Mette Ejrn�s, and Javier Alvarez}, ``{Modelling Income
+  Processes with Lots of Heterogeneity},'' {\it Review of Economic Studies},
+  2010, {\it 77} (4), 1353--1381.
+
 \harvarditem[Cagetti]{Cagetti}{2003}{Cagetti2003}
 {\bf Cagetti, Marco}, ``Wealth Accumulation over the Life Cycle and
   Precautionary Savings,'' {\it Journal of Business \& Economic Statistics},
@@ -135,20 +131,17 @@
   household debt,'' {\it Journal of Monetary Economics}, January 2009, {\it 56}
   (1), 1--16.
 
-\harvarditem[Card et al.]{Card, Heining and Kline}{2013}{CardHeinigKline2013}
-{\bf Card, David, J�rg Heining, and Patrick Kline}, ``Workplace Heterogeneity
-  and the Rise of West German Wage Inequality,'' {\it The Quarterly Journal of
-  Economics}, 2013, {\it 128} (3), 967--1015.
-
-\harvarditem[Carroll]{Carroll}{2000}{Carroll2000}
-{\bf Carroll, Christopher~D.}, ``Solving consumption models with multiplicative
-  habits,'' {\it Economics Letters}, July 2000, {\it 68} (1), 67--77.
-
 \harvarditem[Castaneda et al.]{Castaneda, Diaz-Gimenez and
   Rios-Rull}{2003}{CastanedaRiosRull2003}
 {\bf Castaneda, Ana, Javier Diaz-Gimenez, and Jose-Victor Rios-Rull},
   ``Accounting for the U.S. Earnings and Wealth Inequality,'' {\it Journal of
   Political Economy}, August 2003, {\it 111} (4), 818--857.
+
+\harvarditem[Chang et al.]{Chang, Hong and
+  Karabarbounis}{2013}{ChangHongKarabarbounis2015}
+{\bf Chang, Yongsung, Jay Hong, and Marios Karabarbounis}, ``Life Cycle
+  Uncertainty and Portfolio Choice Puzzles,'' 2013 Meeting Papers 595, Society
+  for Economic Dynamics 2013.
 
 \harvarditem[Chen et al.]{Chen, Imbs and Scott}{2009}{Chen2009}
 {\bf Chen, Natalie, Jean Imbs, and Andrew Scott}, ``The dynamics of trade and
@@ -205,6 +198,11 @@
   entry and exit in U.S. manufacturing industries},'' {\it RAND Journal of
   Economics}, 1988, {\it 19} (4), 495--515.
 
+\harvarditem[Dynan et al.]{Dynan, Skinner and Zeldes}{2004}{DSK2004}
+{\bf Dynan, Karen~E., Jonathan Skinner, and Stephen~P. Zeldes}, ``Do the Rich
+  Save More?,'' {\it Journal of Political Economy}, April 2004, {\it 112} (2),
+  397--444.
+
 \harvarditem[Floden]{Floden}{2008}{Floden2008}
 {\bf Floden, Martin}, ``{Aggregate Savings When Individual Income Varies},''
   {\it Review of Economic Dynamics}, January 2008, {\it 11} (1), 70--82.
@@ -246,6 +244,11 @@
 {\bf \bysame{}}, ``An Empirical Investigation of Labor Income Processes,'' {\it
   Review of Economic Dynamics}, January 2009, {\it 12} (1), 58--79.
 
+\harvarditem[Guvenen and Smith]{Guvenen and Smith}{2014}{GuvenenSmith2014}
+{\bf \bysame{} and Anthony~A. Smith}, ``{Inferring Labor Income Risk and
+  Partial Insurance From Economic Choices},'' {\it Econometrica}, November
+  2014, {\it 82}, 2085--2129.
+
 \harvarditem[Guvenen et al.]{Guvenen, Karahan, Ozkan and Song}{2015}{GKOS2015}
 {\bf \bysame{}, Fatih Karahan, Serdar Ozkan, and Jae Song}, ``{What Do Data on
   Millions of U.S. Workers Reveal about Life-Cycle Earnings Risk?},'' Working
@@ -255,6 +258,10 @@
 {\bf Haider, Steven~J}, ``Earnings Instability and Earnings Inequality of Males
   in the United States: 1967-1991,'' {\it Journal of Labor Economics}, October
   2001, {\it 19} (4), 799--836.
+
+\harvarditem[Hause]{Hause}{1980}{Hause1980}
+{\bf Hause, John~C}, ``{The Fine Structure of Earnings and the On-the-Job
+  Training Hypothesis},'' {\it Econometrica}, May 1980, {\it 48} (4), 1013--29.
 
 \harvarditem[Head and Ries]{Head and Ries}{1999}{Head1999}
 {\bf Head, Keith and John Ries}, ``{Rationalization effects of tariff
@@ -274,6 +281,10 @@
   Consumer Wealth Distribution,'' {\it Review of Economic Dynamics}, April
   2011, {\it 14} (2), 317--338.
 
+\harvarditem[Hlavac]{Hlavac}{2004}{Hlavac2014}
+{\bf Hlavac, Mark}, ``stargazer: LaTeX code and ASCII text for well-formatted
+  regression and summary statistics tables. R package version 5.1,'' CRAN 2004.
+
 \harvarditem[Hoffmann]{Hoffmann}{2013}{Hoffmann2013}
 {\bf Hoffmann, Florian}, ``HIP, RIP and the Robustness of Empirical Earnings
   Processes,'' 2013.
@@ -282,17 +293,6 @@
 \harvarditem[Iacoviello]{Iacoviello}{2008}{Iacoviello2008}
 {\bf Iacoviello, Matteo}, ``Household Debt and Income Inequality, 1963-2003,''
   {\it Journal of Money, Credit and Banking}, 08 2008, {\it 40} (5), 929--965.
-
-\harvarditem[Jantti and Jenkins]{Jantti and Jenkins}{2013}{JanttiJenkins2013}
-{\bf Jantti, Markus and Stephen~P. Jenkins}, ``Income mobility,'' ISER Working
-  Paper Series 2013-23, Institute for Social and Economic Research November
-  2013.
-
-\harvarditem[Kambourov and Manovskii]{Kambourov and
-  Manovskii}{2009}{KambourovManovskii2009}
-{\bf Kambourov, Gueorgui and Iourii Manovskii}, ``Occupational Specificity Of
-  Human Capital,'' {\it International Economic Review}, 02 2009, {\it 50} (1),
-  63--115.
 
 \harvarditem[Kaplan and Violante]{Kaplan and
   Violante}{2010}{KaplanViolante2010}
@@ -325,6 +325,16 @@
 {\bf Ma, Lin}, ``Globalization and Top Income Shares,'' Technical Report,
   University of Michigan 2013.
 \newblock Working Paper.
+
+\harvarditem[MaCurdy]{MaCurdy}{1982}{MaCurdy1982}
+{\bf MaCurdy, Thomas~E.}, ``The Use of Time Series Processes to Model the Error
+  Structure of Earnings in a Longitudinal Data Analysis,'' {\it Journal of
+  Econometrics}, 1982, {\it 18} (1), 83--114.
+
+\harvarditem[Meghir and Pistaferri]{Meghir and
+  Pistaferri}{2004}{MeghirPistaferri2004}
+{\bf Meghir, Costas and Luigi Pistaferri}, ``{Income Variance Dynamics and
+  Heterogeneity},'' {\it Econometrica}, 01 2004, {\it 72} (1), 1--32.
 
 \harvarditem[Melitz]{Melitz}{2003}{Melitz2003}
 {\bf Melitz, Marc~J.}, ``The Impact of Trade on Intra-Industry Reallocations
@@ -403,6 +413,11 @@
 {\bf van Treeck, Till}, ``Did inequality cause the U.S. financial crisis?,''
   IMK Working Paper 91-2012, IMK at the Hans Boeckler Foundation, Macroeconomic
   Policy Institute 2012.
+
+\harvarditem[Weiss and Lillard]{Weiss and Lillard}{1978}{LillardWeiss1978}
+{\bf Weiss, Yoram and Lee~A Lillard}, ``{Experience, Vintage, and Time Effects
+  in the Growth of Earnings: American Scientists, 1960-1970},'' {\it Journal of
+  Political Economy}, June 1978, {\it 86} (3), 427--47.
 
 \harvarditem[Yang]{Yang}{2009}{Yang2009}
 {\bf Yang, Fang}, ``Consumption over the Life Cycle: How Different is
