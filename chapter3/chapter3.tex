@@ -97,7 +97,7 @@ recently other authors have found a larger increase in consumption inequality
 using different data sources that arguably suffer from less measurement error than
 the aggregate CEX data. \citet{HeathcotePerriViolante2010} use CEX spending data
  to document a very modest increase in consumption inequality, while 
-\citet{AguiarBils2011} use the difference between income and spending in CEX data
+\citet{AguiarBils2015} use the difference between income and spending in CEX data
  to document a rise in consumption inequality that is almost as large as the rise
  in income inequality and \citet{AHP2013} argue that, looking at some of the more
 precisely measured items in the CEX, one finds that consumption inequality has 
@@ -113,7 +113,7 @@ supply. Most relevant to this work is the demand side argument of \citet{Krueger
 who explain the rise in indebtedness with a limited commitment model in which the
  variance of the transitory component rises and hence more insurance is required,
  and, indeed, optimal from a welfare perspective. However, as \citet{Cordoba2008}
- points out, their model produces to empirically unappealing results: for one, 
+ points out, their model produces two empirically unappealing results: for one, 
 wealth holdings are not concentrated at the top of the distribution, and second, 
 the model predicts a large fraction of agents in the economy with negative wealth 
 holdings, when their number really is close to zero in the data. Furthermore,
@@ -178,22 +178,19 @@ income processes and learning for the aggregate wealth distribution have so far
 not been examined to the best of our knowledge.
 Consumers maximize
 \begin{align}
-E_0 &\left[ \sum_{t=0}^{T} \beta^{t} \frac{\left( c_{t}^{1-\gamma} \left( 
-\frac{c_{t}}{h_{t}} \right)^{\gamma} \right)^{1-\sigma}}{1-\sigma} \right] \label{eq:maxprob} \\
-\intertext{s.t. } &h_{t+1} = (1-\lambda)h_t + \lambda c_t \label{eq:habits} \\
-			      &a_{t+1} = (1+r)a_t + y_t - c_t \label{eq:bc} \\
+E_0 &\left[ \sum_{t=0}^{T} \beta^{t} \frac{c_{t}^{1-\sigma}}{1-\sigma} \right] \label{eq:maxprob} \\
+\intertext{s.t. } &a_{t+1} = (1+r)a_t + y_t - c_t \label{eq:bc} \\
 				  &y_{t}^i = g(\theta^0, X_t^i) + f(\theta^i, X_t^i) + z_t^i + \epsilon_t^i \label{eq:incproc} \\
   				  &a_{t+1} \geq \underline{a} \label{eq:borrcons} 
 \end{align}
-where $c_t$ is consumption in period $t$, $h_t$ is the habit stock accumulated up 
-to period $t$, $a_t$ are asset holdings subject to a borrowing constraint 
-$\underline{a}$ -- the specification of which will not be straightforward in 
-this model and requires some further discussion -- and $y_t^i$ is individual 
-income, that can further be broken down into several parts: 
+where $c_t$ is consumption in period $t$, $a_t$ are asset holdings subject to 
+a borrowing constraint  $\underline{a}$, and $y_t^i$ is individual 
+income, which follows the heterogeneous income specification in logs discussed
+in chapter \ref{ch:income}: 
 \begin{equation*}
 y_{t}^i = g(\theta^0, X_t^i) + f(\theta^i, X_t^i) + z_t^i + \epsilon_t^i 
 \end{equation*}
-where $g(\theta^0, X_t^i)$ captures age effects and individual specific 
+Here, $g(\theta^0, X_t^i)$ captures age effects and individual specific 
 characteristics such as education, $z_t^i$ is an autoregressive process of order
  one, and $f(\cdot)$ is an individual specific function that plays the decisive
 role in introducing heterogeneity and learning in the model.
@@ -205,22 +202,24 @@ z_t^i &= \rho z_{t-1}^i + \eta_t^i \\
 The parameters $\alpha$ and $\beta$ are randomly distributed over the population 
 and govern the evolution of lifetime income over time. Furthermore, they are 
 unknown to individuals upon entering the labour market, meaning that in order to
- calculate an expected lifetime income to base consumption (and thus, implicitly, 
-habit) choices on, consumers in the model have to hold beliefs over the values 
-of their individual parameters. Here again we follow Guvenen in assuming that 
-these beliefs are updated in a Bayesian fashion, which means beliefs are updated 
-by solving a Kalman filtering problem. \\
+ calculate an expected lifetime income to base consumption choices on, consumers 
+in the model have to form beliefs over the values of their individual parameters. 
+Here again we follow Guvenen in assuming that these beliefs are formed optimally
+in a Bayesian fashion, which means solving a Kalman filtering problem. 
 Denoting by $S^i_{t+1}$ the vector of parameters $\alpha^i$, $\beta^i$ and 
 $z^i_{t+1}$ and by $F$ the coefficient vector in the state space representation,
- we can derive an optimal forecast based of Bayesian updating for the evolution of 
-the individuals belief about the evolution of $S^i_t$ as 
+the evolution is governed by the law of motion:
 \begin{align}
 \hat{S}^i_{t|t} &= \hat{S}^i_{t|t-1} + P_{t|t-1} H_t [H_t' P_{t|t-1} H_t + R]^{-1}(y_t^i - H_t' \hat{S}^i_{t|t-1}) \label{eq:KFS} \\
 \hat{S}^i_{t+1|t} &= F \hat{S}^i_{t|t} \label{eq:TES}
 \end{align}
-where $P_{t|t}$ is the variance-covariance matrix of $\hat{S}^i_{t|t}$ and $R$ 
-is the variance of the transitory shock. A similar expression can be derived for 
-the evolution of $P_{t+1|t}$:
+where we denote by $\hat{S}^i_{t|t}$ the optimal belief about the individual specific
+parameters of the income process in period $t$ after having observed the realisation
+of $y_t^i$, and by $\hat{S}^i_{t+1|t}$ the optimal forecast based on those beliefs,
+assuming that the transition matrix $F$ is known to the household. $P_{t|t}$ is 
+the variance-covariance matrix of $\hat{S}^i_{t|t}$ and $R$  is the variance of 
+the transitory shock. A similar expression can be derived for the evolution of 
+$P_{t+1|t}$:
 \begin{align}
 P_{t|t} &= P_{t|t-1} - P_{t|t-1} H_t [ H_t' P_{t|t-1} H_t + R]^{-1} H_t' P_{t|t-1} \label{eq:KFP} \\
 P_{t+1|t} &= F P_{t|t} F' + Q \label{eq:TEP}
@@ -243,6 +242,34 @@ of income is known exactly, conditional on current beliefs:
 $$ 
 \hat{y}^i_{t+1} \sim \mathcal{N}(\hat{\alpha}_{t|t} + (t+1)\hat{\beta}^i_{t|t} + \rho \hat{z}_{t|t}, \sigma^2_{\alpha} + t^2 \sigma^2_{\beta} + 2t\sigma_{\alpha \beta} + \sigma^2_{\eta} + \sigma^2_{\varepsilon}
 $$
+An important issue when trying to match empirical wealth distributions is the 
+specification of the pension system. The household problem during retirement is 
+straightforward to solve in the absence of uncertainty; it is given by
+\begin{align}\label{eq:retirement}
+V^R_t(a_t,\bar{y}) &= \max_{c_t, a_{t+1}} u(c_t) + \delta V^R_{t+1}(a_{t+1},y^R)
+\intertext{s.t.}   &a_{t+1} = (1+r)a_t + \bar{y} - c_t \\
+				   &y^R =  M(\bar{y}, \bar{Y})\\
+  				   &a_{t+1} \geq \underline{a}
+\end{align}
+where $M$ is a benefit function that emulates the US Social Security system and 
+is specified following much of the literature on life-cycle models (cp. 
+\citet{STY2004}, \citet{HintermaierKoeniger2011}, \citet{GuvenenSmith2014}, 
+amongst others) as a function depending on average lifetime income  of an 
+individual, $\bar{y}$, relative to the economy-wide average income $\bar{Y}$:
+$$
+y^P = \begin{cases} 0.9\bar{y} & \text{if} \bar{y} < 0.3\bar{Y}  \\
+    0.27 + 0.32(\bar{y} - 0.3) & \text{if} \bar{y} \leq 2.0\bar{Y} \\
+    0.814 + 0.15(\bar{y}- 2.0) & \text{if} \bar{y} \leq 4.1\bar{Y} \\
+           1.129 \bar{Y}       & \text{if} \bar{y} > 4.1 \bar{Y}
+      \end{cases}
+$$
+Note that this system attenuates the inequality in lifetime income created by 
+the stochastic process for income by providing higher replacement rates for 
+poor households than for rich households. To avoid adding another state variable
+to the model, we replace the true value of $\bar{y}$ by an estimate derived
+from running the cross-sectional regression 
+    
+
 
 
 \subsection{Computational Algorithm}
@@ -257,10 +284,15 @@ The household's pension problem can be solved analytically, while the household'
 working life problem is solved recursively on all grid points in the four-
 dimensional state space. To evaluate the continuation value function on the right-
 hand side of the Bellman equation, we employ quadrilinear interpolation combined
-with Gauss-Hermite quadrature on ten nodes for the numerical integration. In the
-simulation step, we initialise initial wealth by drawing from the empirical 
+with Gauss-Hermite quadrature on ten nodes for the numerical integration
+\footnote{In particular, the linear interpolation was performed using the 
+\texttt{ApproXD.jl} package \citep{Oswald2014}, while the Gauss-Hermite nodes
+were derived using the \texttt{FastGaussQuadrature.jl} package \citep{Townsend2015}.}. In the
+simulation step, we initialise household wealth holdings by drawing from the empirical 
 wealth distribution for 23 to 25 year old households from the Survey of Consumer
-Finances, data that is available in \cite{HintermaierKoeniger2011}. 
+Finances, data that is available in \cite{HintermaierKoeniger2011}, and check 
+the sensitivity of model results to this choice by comparing them to the 
+alternative of zero wealth holdings at age 20 for all households. 
 
 
 \pagebreak
@@ -334,8 +366,9 @@ The results can be seen in table \ref{tab:calibration_results}.
 \hline                          
 PSID 1968-1996 (no lifecycle)    &  0.962 & 1.41    \\
 PSID 1968-1996 (with lifecycle)  &  0.984 & 3.55    \\
+                           & \footnotesize{(0.036)} & \footnotesize{(0.003)} \\
 BHPS gross labour income         &  0.958 & 2.24    \\
-BHPS gross labour income         &  0.962 & 1.45    \\
+BHPS net labour income           &  0.962 & 1.45    \\
 BHPS net household income        &  0.977 & 1.5     \\
 \hline
 \end{tabular}
@@ -426,13 +459,18 @@ wealth holdings. Indeed, our model nests the model in \citet{HintermaierKoeniger
 as a special case with $\sigma^2_{\alpha}$ and $\sigma^2_{\beta}$ equal to zero,
 and as figures \ref{fig:winfriedcompare} and \ref{fig:winfriedcompare_agedetail} in 
 the appendix show, the model fits the data well with this version of the RIP 
-process.
+process. \\
+The finding that it is mainly the variability of lifetime income that drives
+wealth accumulation in the model echoes the work of \citet{Floden2008}, who 
+shows that the \citet{Aiyagari1994} result of an increase in aggregate wealth 
+holdings in incomplete markets economies with idiosyncratic income variations
+obtains even when all uncertainty about future income is removed, 
 
 \begin{table}%
 \begin{tabular}{|l|cccccc}
                     & $\rho$ & $\sigma^2_{\eta}$ & $\sigma^2_{\varepsilon}$ & $\sigma^2_{\alpha}$ & $\sigma^2_{\beta}$ & $cov(\alpha,\beta)$ \\
-Lowest realization  & -0.09   &   -0.06           &   -0.04                  &     0.02            &     -0.29          &    -0.22   \\
-Highest realizatoin &  0.31   &    0.35           &    0.09                  &     0.11            &      0.41          &     0.05   \\
+Lowest realisation  & -0.09   &   -0.06           &   -0.04                  &     0.02            &     -0.29          &    -0.22   \\
+Highest realisation &  0.31   &    0.35           &    0.09                  &     0.11            &      0.41          &     0.05   \\
 \end{tabular}
 \caption{Standard deviation of lifetime income (multiples of baseline)}
 \label{tab:lifetime_dispersion}
@@ -499,7 +537,20 @@ distribution and risk implied by the heterogeneous income process. To salvage
 the model, ad-hoc changes to the belief structure of agents can be made, although
 at this point it becomes a bit of a free-for-all and the model can be made to
 predict any pattern in the data with a suitable choice of initial beliefs.
-
+Building on the work in this chapter, future research should consider the implications
+of other more realistic income processes on the wealth distribution, to the 
+extent that they can be formulated parsimoniously enough not to increase the 
+computational burden beyond reason. An example would be the work by 
+\citet{MeghirPistaferri2004}, who model the conditional variance of income
+shocks using an ARCH model and show analytically that the addition of individual-
+specific heterogeneity in the innovation variance leads to both a larger dispersion
+of savings rates and higher aggregate saving. A further case of interest would be
+the specification derived by \citet{GKOS2015}, which adapts the income process
+used in this chapter by adding two more AR(1) components with different innovation
+variances, so that households are subject to potential shocks of different 
+magnitude. As the evidence points to this process being the best description 
+of the income risk households are facing in reality, the implications of this
+process for the wealth distribution should be investigated further. 
 
 \section{Appendix A: Comparative statics results}
 

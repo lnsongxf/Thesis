@@ -51,18 +51,42 @@ File of the Social Security administration for the years 1978 to 2010 to
 construct an extremely large panel of income observations for a sample of 10\%
 of all US workers that were issued a Social Security number. From this data set,
 the authors conclude that the distribution of income shocks is not normal, with
-a kurtosis ten- to fiveteen times that of a Normal distribution. Fitting processes
+a kurtosis ten- to fifteen times that of a Normal distribution. Fitting processes
 similar to that in \citet{Guvenen2009} to the data, they conclude that the data
 is best described by a model including heterogeneity in individual specific 
 growth rates and a mixture of (at least) two independent AR(1) processes with 
 different innovation variance. 
+Some more recent papers take the opposite stance though and argue that profile
+heterogeneity is in fact not present in the variance-covariance structure of 
+income data. \citet{Hoffmann2013} uses administrative records from the German
+Institut f\"ur Arbeitsmarkt- und Berufsforschung (IAB), which allows to construct
+individual-specific earnings histories for up to 120 quarters and is fairly large,
+representing a 2\% sample of all German salaried employees. Given the structure 
+of the data, it is possible to control for age and cohort effects better than 
+in the PSID, were small sample sizes force aggregation of age groups. Hoffman 
+finds intercept heterogeneity ($\sigma^2_{\alpha}$) to be an important feature
+when trying to fit the data irrespective across all specification of income 
+processes under consideration, but argues that heterogeneity in income growth
+rates becomes insignificant once the variance of the initial value of the 
+persistent component is adequately controlled for. Along similar lines, \citet{Hryshko2012} 
+conducts Monte Carlo simulations to show that if a misspecified HIP model is 
+estimated on a synthetic dataset generated from an underlying process with
+$\sigma^2_{\beta}=0$, an econometrician will generally find statistically 
+significant levels of profile heterogeneity. 
 Finally, some authors have attempted to extend the basic ARMA model in other 
 directions, adding e.g. ARCH effects to capture stochastic volatility in income
 innovations (\citealt{MeghirPistaferri2004}), allowing for individual-specific
 income \textit{processes}, rather than simply different means and variances for 
 the same process (\citealt{BrowningEjrnaesAlvarez2010})
+It is thus fair to say that the literature has not yet reached a firm conclusion 
+on the correct specification of the income process households are facing. This 
+chapter will undertake a modest attempt at adding to the evidence by estimating
+RIP and HIP processes on different samples of income data. To our knowledge, 
+this is the first study to use all available waves for the PSID, ranging from 
+1968 to 2013, and the first study to estimate HIP processes from data coming
+from the British Household Panel Study (BHPS).
 
-\section{A statistical model}
+\section{The statistical model}
 To inform the simulations in the following chapter, this thesis will rely on an
 estimated heterogeneous income profiles (HIP) income process in the spirit of
 \citet{Guvenen2009}. The process to be estimated is of the form

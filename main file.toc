@@ -13,37 +13,37 @@
 \contentsline {section}{\numberline {2.5}Income uncertainty and market structure}{20}{section.2.5}
 \contentsline {section}{\numberline {2.6}The role of housing}{21}{section.2.6}
 \contentsline {section}{\numberline {2.7}Closed and open economies}{22}{section.2.7}
-\contentsline {section}{\numberline {2.8}Wealth Distribution Papers}{22}{section.2.8}
-\contentsline {section}{\numberline {2.9}Conclusion}{24}{section.2.9}
-\contentsline {chapter}{\numberline {3}The Effects of Profile Heterogeneity on Estimates of Income Risk}{26}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
-\contentsline {section}{\numberline {3.2}A statistical model}{29}{section.3.2}
-\contentsline {section}{\numberline {3.3}Prior evidence}{31}{section.3.3}
-\contentsline {section}{\numberline {3.4}Data}{31}{section.3.4}
-\contentsline {section}{\numberline {3.5}Results}{32}{section.3.5}
-\contentsline {chapter}{\numberline {4}Wealth Distributions in Heterogeneous Income Process Models with Learning}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Stylized Facts}{40}{section.4.2}
-\contentsline {section}{\numberline {4.3}The Model}{45}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Computational Algorithm}{48}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Quantitative Results}{49}{section.4.4}
-\contentsline {section}{\numberline {4.5}Calibrating the model}{51}{section.4.5}
-\contentsline {section}{\numberline {4.6}Comparative Statics}{52}{section.4.6}
-\contentsline {section}{\numberline {4.7}Discussion}{62}{section.4.7}
-\contentsline {section}{\numberline {4.8}Appendix A: Comparative statics results}{62}{section.4.8}
-\contentsline {chapter}{\numberline {5}The Competitive Effects of Trade Liberalisation in North America: An Empirical Application of the Melitz and Ottaviano Model}{70}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{70}{section.5.1}
-\contentsline {section}{\numberline {5.2}Related Literature}{75}{section.5.2}
-\contentsline {section}{\numberline {5.3}Model and Estimation Equations}{77}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The Role of Market Entry}{80}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Application}{88}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Preferential Trade Liberalization}{90}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Dataset}{91}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Estimation}{95}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Results \& Discussion}{96}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusion}{99}{section.5.6}
-\contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{100}{section.5.7}
-\contentsline {section}{\numberline {5.8}Appendix B: Conversion Table}{105}{section.5.8}
-\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{105}{section.5.9}
-\contentsline {chapter}{\numberline {6}Conclusion}{112}{chapter.6}
-\contentsline {chapter}{Bibliography}{116}{chapter*.47}
+\contentsline {section}{\numberline {2.8}Wealth Distribution Papers}{23}{section.2.8}
+\contentsline {section}{\numberline {2.9}Conclusion}{29}{section.2.9}
+\contentsline {chapter}{\numberline {3}The Effects of Profile Heterogeneity on Estimates of Income Risk}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{30}{section.3.1}
+\contentsline {section}{\numberline {3.2}The statistical model}{33}{section.3.2}
+\contentsline {section}{\numberline {3.3}Prior evidence}{35}{section.3.3}
+\contentsline {section}{\numberline {3.4}Data}{35}{section.3.4}
+\contentsline {section}{\numberline {3.5}Results}{39}{section.3.5}
+\contentsline {chapter}{\numberline {4}Wealth Distributions in Heterogeneous Income Process Models with Learning}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{42}{section.4.1}
+\contentsline {section}{\numberline {4.2}Stylized Facts}{45}{section.4.2}
+\contentsline {section}{\numberline {4.3}The Model}{50}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Computational Algorithm}{54}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Quantitative Results}{55}{section.4.4}
+\contentsline {section}{\numberline {4.5}Calibrating the model}{57}{section.4.5}
+\contentsline {section}{\numberline {4.6}Comparative Statics}{58}{section.4.6}
+\contentsline {section}{\numberline {4.7}Discussion}{68}{section.4.7}
+\contentsline {section}{\numberline {4.8}Appendix A: Comparative statics results}{69}{section.4.8}
+\contentsline {chapter}{\numberline {5}The Competitive Effects of Trade Liberalisation in North America: An Empirical Application of the Melitz and Ottaviano Model}{76}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{76}{section.5.1}
+\contentsline {section}{\numberline {5.2}Related Literature}{81}{section.5.2}
+\contentsline {section}{\numberline {5.3}Model and Estimation Equations}{83}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The Role of Market Entry}{86}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Application}{94}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Preferential Trade Liberalization}{96}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Dataset}{97}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Estimation}{101}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Results \& Discussion}{102}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusion}{105}{section.5.6}
+\contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{106}{section.5.7}
+\contentsline {section}{\numberline {5.8}Appendix B: Industry list, NAICS classification}{111}{section.5.8}
+\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{113}{section.5.9}
+\contentsline {chapter}{\numberline {6}Conclusion}{119}{chapter.6}
+\contentsline {chapter}{Bibliography}{123}{chapter*.46}

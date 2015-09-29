@@ -32,8 +32,14 @@ income uncertainty and market structure is examined in more detail.
 \section{Stylised facts}
 The most notable and consistent fact that emerges when looking at wealth
 distributions across all countries and different time periods is that wealth
-is highly unevenly distributed, much more so than income. This can be readily
-seen when comparing Gini indices and top shares of income and wealth, as in
+is highly unevenly distributed, much more so than income. \citet{Vermeulen2014}
+argues that wealth holdings are so concentrated, that even surveys employing 
+designs that feature oversampling of richer households (such as the US Survey of
+Consumer Finances (SCF), or the British Wealth and Asset Survey (WAS)) 
+underestimate the percentage share of wealth held by the highest percentile of the
+wealth distribution by anywhere from one to five percentage points, while surveys
+that don't oversample underestimate the share by up to ten percentage points.
+Keeping this in mind, the een when comparing Gini indices and top shares of income and wealth, as in
 Table \ref{tab:gini_topshares} or looking at histograms and cdfs of wealth and
 income distributions as in Figure \ref{fig:was_wealthholdings}. It is important to note
 that in producing these aggregate numbers and figures, one necessarily has
@@ -182,16 +188,47 @@ and the consumption element of housing purchases make this asset fundamentally
 different from the one-period riskless bond considered in our workhorse model.
 A number of authors have considered the effects of allowing households to save
 in housing assets in addition to financial assets: \citet{CampbellHercovitz2009} 
-
-
-
-
-\citet{CampbellHercovitz2005}
-\citet{Yang2009}
-\citet{Iacoviello2008}
+and \citet{CampbellHercovitz2005}, \citet{Yang2009}, \citet{Iacoviello2008}
 
 \section{Closed and open economies}
-On the endogeneity of interest rates
+One key decision when building a model of wealth accumulation is the question
+of how the interest rate on savings is determined. Traditionally, the 
+macroeconomic literature has viewed the interest rate as an endogenous parameter,
+pinned down by the marginal product of capital from the economies production 
+function and the quantity of capital available, which in turn is governed by 
+household's savings decisions. In fact, the main contribution of the seminal 
+work by \citet{Aiyagari1994} was to highlight the effect of idiosyncratic income
+risk and borrowing constraints, two key features of the heterogeneous agent models
+most frequently used to examine questions related to the wealth distribution,
+on the steady state interest rate. Aiyagari shows that compared to a standard 
+growth model, the steady state stock of capital in a closed incomplete markets
+economy is higher, and, correspondingly, the steady state interest rate is lower
+because of precautionary savings induced by income uncertainty.
+Another problem introduced by endogenous interest rates is a computational one,
+the determination of the interest rate requires asset market clearing, which 
+implies that household savings choices have to be consistent with each other
+in each period. 
+For these reasons, many researchers have opted for treating the interest rate
+as an exogenous parameter, set anywhere between three \citep{Cagetti2003} and
+5.2 \citep{GourinchasParker2002} percent. Whether this is justified will depend
+on two things: theoretically, one has to ask whether general equilibrium effects
+are likely to alter the answer to the question at hand, while empirically the 
+question of the elasticity of the interest rate to changes in aggregate wealth.
+In general equilibrium models in the tradition of \cite{Aiyagari1994}, this 
+elasticity is given by the sensitivity of the marginal product of capital to
+the quantity of aggregate capital, which can be determined from the production 
+function. While the Cobb-Douglas function is the function of choice in the 
+literature (see e.g. \citealt{CastanedaRiosRull2003}), recent work by 
+\citet{Piketty2014} casts doubt on the appropriateness of this assumption and 
+argues for a functional form implying a lower elasticity of the interest rate
+to increases in the capital stock. Irrespective of the choice of the production 
+function though, one has to ask who valid the assumption of a closed economy, in 
+which household savings have direct impacts on the quantity of productive capital
+in the economy, is. Given the deep international integration of modern financial
+markets, it appears that the open economy assumption often used in international
+economics to describe economies that can not set interest rates might be useful
+when thinking about the dynamics of interest rates in response to changes in 
+saving behaviour in the local economy
 
 \section{Wealth Distribution Papers}
 In the last years, many authors have used the increasing possibilities offered
@@ -236,23 +273,105 @@ construct a minimum distance estimator based on the shape of the cross-sectional
 distribution of wealth at different stages of the life cycle. That is, rather
 than simply targeting the 50th percentile of wealth holdings  as 
 \citet{Cagetti2003}, here all percentiles of the wealth distribution from 10 
-to 90 are considered. The reason for excluding the upper ten percentiles of the
-distribution are the well-known problems that a simple life-cycle model has in 
-matching the extreme levels of wealth concentration observed at the upper end 
-of the distribution, which might be driven by other motives than the buffer-
-stock and retirement savings motives included in the model. Increasing the 
-number of moments to match leads to estimates of the discount factor which are 
-an order of magnitude more precise than in \citet{Cagetti2003}. The estimate for
-the discount factor, at $\hat{\delta}=0.985$, is at the upper bound of the
-estimates in \citet{Cagetti2003}, while the estimated risk aversion parameter
-$\hat{\sigma}=1.08$ is only a third to one sixth as large as Cagetti's estimate,
-depending on the subgroup under consideration.  
+to 90 are considered. Increasing the number of moments to match leads to estimates 
+of the discount factor which are an order of magnitude more precise than in 
+\citet{Cagetti2003}. The estimate for the discount factor, at $\hat{\delta}=0.985$, 
+is at the upper bound of the estimates in \citet{Cagetti2003}, while the 
+estimated risk aversion parameter $\hat{\sigma}=1.08$ is only a third to one 
+sixth as large as Cagetti's estimate, depending on the subgroup under consideration. \\
+Exercises like the ones by \citet{Cagetti2003} and \citet{HintermaierKoeniger2011}
+repeatedly come to one conclusion: while a simple life-cycle incomplete markets
+model with idiosyncratic income shocks calibrated from income data can match 
+parts of the wealth distribution well, and generate the correct ordering of 
+inequality in wealth, income, and consumption -- wealth being more unequally 
+distributed than income, which in turn is more unequally distributed than 
+consumption -- it fails to capture the extremely high dispersion in wealth, 
+especially at the top of the distribution\footnote{Indeed, this is the reason
+cited in \citet{HintermaierKoeniger2011} for excluding the top decile of the 
+wealth distribution from the targeted moments: the model has no chance of capturing
+the extremely high net worth of the richest households, which exceeds 150 times
+average yearly income in the 2007 SCF.}. 
+
+A straightforward way of improving the fit of the more standard model is employing an
+income process that features large persistent shocks with low probability, as 
+first popularised by \citet{CastanedaRiosRull2003}. Their specification of the 
+income process is a four-state Markov chain, the highest state of which is only
+reached with very low probability, has a persistence of about five years, and
+implies an income 1000 times higher than median income. In this setup, it is evident
+that simple consumption smoothing considerations lead to very high savings rates
+for rich households, which in turn lead to a large wealth concentration at the 
+top end of the distribution. It is however questionable to what extent models 
+relying on this type of income process, which cannot be reconciled with the 
+evidence from micro-level surveys on household incomes, can be used to inform 
+policy analysis; a recent example of this problem can be found in the work of 
+\cite{KindermannKrueger2014}, who investigate optimal labour income taxation
+in an Aiyagari-Bewley-Huggett style model featuring a similar income process and
+validating their model by fitting the top tail of the empirical wealth distribution.
+Unsurprisingly, they find very high optimal tax rates of around 90 percent on 
+top earners, however this result is entirely driven by the income process used
+and subsequent work by \cite{BadelHuggett2014} demonstrates that optimal tax
+rates are significantly lower if one includes an earnings process based on 
+human capital formation, which is parametrised to mirror the empirical evolution
+of earnings dispersion.
+This shows that a model that fits the wealth distribution is not necessarily 
+suited for policy evaluation, especially if the good fit is the artefact of
+model assumptions that have little empirical support and gives reason to 
+include more realistic features of the economic environment into the model 
+which might help to explain observed patterns in the data. A number of researchers
+have extended the baseline model in various dimensions, some of which we will 
+discuss here\footnote{The discussion here draws on the work by \cite{DeNardi2015}.}.
+
+One line of work considers the role of preferences in driving inequality in 
+wealth accumulation. 
+\citet{DPMRR2003} can also be seen as an example to investigate the role of 
+preferences in shaping the wealth distribution, as they include habits in the 
+utility function of their model. 
+
+A further obvious way to the extend the model is by moving from a simple life-
+cycle perspective to an overlapping generations (OLG) model, in which inequalities
+can be transmitted across generations and hence accumulate over time. This 
+transmission mechanism can work through either assets directly, by adding 
+a bequest motive to the agents utility function which prevents them from drawing
+down assets in old age, or through heritability of human capital in the form 
+of skills or learning ability. The role of inheritance rose to prominence in the 
+empirical literature with a dispute between \citet{KotlikoffSummers1981}, who 
+estimate that around 80\% of total wealth is inherited, while just 20\% is 
+the result of life-cycle saving, and \citet{Modigliani1986}, who argues that the 
+role of the sources of wealth accumulations is exactly reversed. Recently, Thomas
+Piketty and a number of co-authors (\citealt{Piketty2011}, 
+\citealt{PikettyPostelRosenthal2014}, \citealt{PikettyZucman2015}) revive this
+debate using long-run time series from France and drawing on other work from 
+the UK and Germany, finding large variations in the annual flow of inheritance
+as a share of total wealth, but concluding that the overall importance of inheritance
+in shaping the wealth distribution is closer to Kotlikoff and Summer's estimates
+than to Modigliani's. The correct estimation of the role of inherited wealth is
+further complicated by the possibility of inter vivos transfers, which are not
+captured by inheritance tax data. This point is made forcefully by 
+\citet{GaleScholz1994}, who use data on transfers from the SCF to estimate that
+20 percent of aggregate wealth is passed on across generations via inter vivos
+transfers (compared to 31 percent as inheritances by their accounting). While
+the empirical estimation of intergenerational transfers of financial assets is
+not entirely straightforward, the question of the intergenerational transfer 
+of ability is even more complicated. Researchers have adopted a wide range of 
+specifications for modelling this transfer, based on models of parental 
+investments in their childrens' education, or taken the shortcut of directly 
+assuming that children receive draws from productivity distributions, the 
+mean and/or variance of which are directly linked to the parental realisation 
+of productivity. 
+
+L
 
 
-\citet{CastanedaRiosRull2003}
-\citet{DPMRR2003}
+
 \citet{Floden2008}
-\citet{BenhabibBisinZhu2011}
+An entirely different way of increasing the dispersion of wealth predicted by 
+models is to allow for differential rates of return, a feature that finds 
+support in a vast macro-finance literature on the equity premium puzzle (for 
+a survey see \cite{SiegelThaler1997}), as well as the literature on households'
+portfolio choices ( , while \citet{GuisoHaliassosJiappeli2003} review the 
+European evidence
+
+Differential rates of return: \citet{BenhabibBisinZhu2011}
 \citet{DeNardiYang2015}
 
 \section{Conclusion}

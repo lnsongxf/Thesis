@@ -88,7 +88,7 @@ Samianego (2008)   & Entry Rates (yearly)  \newline Europe \newline 97-04  & Pap
 \end{table} 
 \end{center}
 
-In order to aggregate the different studies, we compute percentile-based rankings of the industries for each study (to account for the different number of industries across studies) and then average the percentiles across studies. Based on these average percentiles, we can then split the sample according to the short- and long-run distinction made in the model: those industries above the 60th percentile are taken to represent the dynamic, "free entry" sample and thus the long run, while those industries below the 40th percentile are taken to represent the short run. This procedure leads us to split the sample three-ways: Food, Beverages and Tobacco, Textiles as well as Chemicals, Fuels, Plastics, Rubber fall into the long run category, Machinery and Transportation Equipment, Manufacturing not else classified and Wood and Cork make up the short run category. The three remaining industries (Paper and Printing, Basic and Manufactured Metal Products and Other Non-Metallic Mineral Products) are too close to the median to be classified either way and are thus dropped from the sample\footnote{Due to different classification systems, the aggregation of studies was not always exact and some industry groups are quite heterogeneous when sub-industries are considered. For further details on the aggregation see Appendix B}. \\
+In order to aggregate the different studies, we compute percentile-based rankings of the industries for each study (to account for the different number of industries across studies) and then average the percentiles across studies. Based on these average percentiles, we can then split the sample according to the short- and long-run distinction made in the model: those industries above the 70th percentile are taken to represent the dynamic, "free entry" sample and thus the long run, while those industries below the 40th percentile are taken to represent the short run. This procedure leads us to split the sample three-ways: Tobacco, Food Processing, Paper, Chemicals, Primary Metals and Petroleum industries fall into the long run category, while Furniture, Wood, Nonelectrical Machineries, Fabricated Metals, Printing, Apparel, and Instruments are taken to represent the short run of the model. The remaining industries are too close to the median to be classified either way and are thus dropped from the sample, which leaves us with 1863 year-industry-country pair observations for the free entry sample, and 1701 observations for the fixed entry sample\footnote{Due to different classification systems, the aggregation of studies was not always exact and some industry groups are quite heterogeneous when sub-industries are considered. For further details on the aggregation see Appendix B}. \\
 A little thought experiment may clarify the role that market entry effects play in muddling the distinction between short-- and long--run equilibria. The Melitz and Ottaviano (2008) model yields opposing predictions on the effects of trade liberalization on country-level economic variables such as prices, productivity and mark-ups. The reason for the differences, as we have seen, lies in the assumptions on market structure: there are two different equilibria depending on whether entry into a market is allowed. We repeat them here for convenience:
 \begin{align*}
 c_D^k &= c_M^k \frac{\bar{N}^*}{N^*} \left( 1+ \frac{\bar{N}}{\bar{N}^*} \frac{\theta^*}{1-\theta^*} \right) \\
@@ -165,9 +165,9 @@ where now $h$ is the domestic economy, $f$ is the foreign economy, and, with a s
 
 \subsection{Dataset}
 
-The database we utilize covers the period 1994-2006 for NAFTA member countries -- Canada, Mexico, and the US -- and nine manufacturing sectors. For our factory gate price data, we use the producer price index (PPI) as reported by CANSIM, the Banco de Mexico, and the U.S. Bureau of Labor Statistics, respectively. All indices are normalized to equal 100 in 2003. While the majority of the manufacturing data collected is reported at the two-digit level according to ISIC Rev. 3, we aggregate all data according to NACIS in order to keep consistency throughout the analysis (see Table \ref{tb:isic_class} for the manufacturing classification breakdown). While the main part of our analysis rests on data aggregated at the two-digit level, we were also able to assemble a data set at the four-digit level, which we will use to check the robustness of our results. 
+The database we utilize covers the period 1988-2014 for NAFTA member countries -- Canada, Mexico, and the US -- and nine manufacturing sectors at the ISIC two digit level, which includes 86 industries . For our factory gate price data, we use the producer price index (PPI) as reported by CANSIM, the Banco de Mexico, and the U.S. Bureau of Labor Statistics, respectively. All indices are normalized to equal 100 in 2003. While the majority of the manufacturing data collected is reported at the two-digit level according to ISIC Rev. 3, we aggregate all data according to NACIS in order to keep consistency throughout the analysis (see Table \ref{tab:naics4diglist} for the manufacturing classification breakdown). While the main part of our analysis rests on data aggregated at the two-digit level, we were also able to assemble a data set at the four-digit level, which we will use to check the robustness of our results. 
 
-The value of markups is not easily observable, and thus we follow the calculation as outlined in the recent literature on industrial organization, and similarly used by \citet{Chen2009}, although with a subtle modification. We compute average markups as the ratio of sectoral turnover relative to total variable costs, which are computed as the sum of intermediate inputs and labor costs as reported by the OECD STAN database.\footnote{In contrast, \citet{Chen2009} calculate average markups as the ratio of turnover relative to the sum of the costs of materials, consumables, and staff costs.} Due to the unavailability of data on sectoral turnover, we use sectoral production as a proxy. While turnover may be slightly higher than production\footnote{Production represents the value of goods produced in a year, whether they are sold or stocked.} in a given year if all of the produced goods are sold along with any stored goods from previous years, according to the OECD these measures will converge in the long term. Fixed costs are excluded from the calculation, as they will cause a negative bias between markups and openness. As the number of foreign firms increases due to a decrease in trade costs, the market share for domestic producers falls; because this will spread fixed costs across a smaller share of production, average total costs will increase contemporaneously \citep{Chen2009}. 
+The value of markups is not easily observable, and thus we follow the calculation as outlined in the recent literature on industrial organization, and similarly used by \citet{Chen2009}, although with a subtle modification. We compute average markups as the ratio of sectoral turnover relative to total variable costs, which are computed as the sum of intermediate inputs and labour costs as reported by the OECD STAN database.\footnote{In contrast, \citet{Chen2009} calculate average markups as the ratio of turnover relative to the sum of the costs of materials, consumables, and staff costs.} Due to the unavailability of data on sectoral turnover, we use sectoral production as a proxy. While turnover may be slightly higher than production\footnote{Production represents the value of goods produced in a year, whether they are sold or stocked.} in a given year if all of the produced goods are sold along with any stored goods from previous years, according to the OECD these measures will converge in the long term. Fixed costs are excluded from the calculation, as they will cause a negative bias between markups and openness. As the number of foreign firms increases due to a decrease in trade costs, the market share for domestic producers falls; because this will spread fixed costs across a smaller share of production, average total costs will increase contemporaneously \citep{Chen2009}. 
 
 Labor productivity is calculated as the ratio between real value added and total employment. Value added is reported by the OECD STAN database, while employment data is provided by LABORSTA, the statistical department of the International Labor Organization (ILO). 
 
@@ -285,52 +285,121 @@ The only empirical application of the Melitz--Ottaviano (2008) model to date sug
 
 \newpage
 
-\section{Appendix B: Conversion Table}
+\section{Appendix B: Industry list, NAICS classification}
 
-\begin{center}
-\begin{table*}[ht] \caption{Manufacturing Sectors: ISIC Rev. 3 to ISIC Rev. 2 Conversion}\label{tb:isic_class}
-{\small 
-\hfill{}
-\begin{tabular}{| p{8cm} | p{8cm} |} 
-\hline
-\textbf{ISIC Rev. 3}&\textbf{ISIC Rev. 2}\\
-\hline
-\hline
-D15: Foods, products, and beverages &  31: Food, beverages, and tobacco\\
-D16: Tobacco products & \\
-\hline
-D17: Textiles & \\
-D18: Wearing apparel, dressing and dyeing of fur & 32: Textile, wearing apparel, and leather industries\\
-D19: Tanning and dressing of leather, manufacture of luggage, handbags, saddlery, harness and footwear & \\
-\hline
-D20: Wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials & 33:Wood and Wood Products, Including Furniture\\
-\hline
-D21: Paper and paper products & 34: Paper and paper products, printing and publishing\\ 
-D22: Publishing, printing, and reproduction of recorded media & \\
-\hline
-D23: Coke, refined petroleum products and nuclear fuel & \\
-D24: Chemicals and chemical products & 35: Chemical, petroleum, coal, rubber and plastic products\\
-D25: Rubber and plastics products & \\
-\hline
-D26: Other non-metallic mineral products & 36: Non-metallic mineral products, except products of petroleum and coal\\
-\hline
-D27: Basic metals & 37: Basic Metal Industries\\
-\hline
-D28: Fabricated metal products, except machinery and equipment & \\
-D29: Machinery and equipment n.e.c. & \\
-D30: Office, accounting and computing machinery & \\
-D31: Electrical machinery and apparatus n.e.c. & 38: Fabricated metal products, machinery and equipment\\
-D32: Radio, television and communication equipment and apparatus & \\
-D33: Medical, precision and optical instruments, watches and clocks & \\
-D34: Motor vehicles, trailers and semi-trailers & \\
-D35: Other transport equipment & \\
-\hline
-D36: Manufacture of furniture; manufacturing n.e.c. & 39: Other Manufacturing Industries\\
-D37: Recycling & \\
-\hline
-\end{tabular}}
-\end{table*}
-\end{center}
+\begin{longtable}{cl}
+\caption{Industry List, NAICS 4-digit}\label{tab:naics4diglist}
+NAICS 4-digit & Industry \\
+3111 &	Animal Food Manufacturing \\
+3112 &	Grain and Oilseed Milling \\
+3113 &	Sugar and Confectionery Product Manufacturing \\
+3114 &	Fruit and Vegetable Preserving and Specialty Food Manufacturing \\
+3115 &	Dairy Product Manufacturing \\
+3116 &	Animal Slaughtering and Processing \\
+3118 &	Bakeries and Tortilla Manufacturing \\
+3119 &	Other Food Manufacturing \\
+3121 &	Beverage Manufacturing \\
+3132 &	Fabric Mills \\
+3133 &	Textile and Fabric Finishing and Fabric Coating Mills \\
+3149 &	Other Textile Product Mills \\
+3152 &	Cut and Sew Apparel Manufacturing \\
+3159 &	Apparel Accessories and Other Apparel Manufacturing \\
+3169 &	Other Leather and Allied Product Manufacturing \\
+3211 &	Sawmills and Wood Preservation \\
+3212 &	Veneer, Plywood, and Engineered Wood Product Manufacturing \\
+3219 &	Other Wood Product Manufacturing \\
+3221 &	Pulp, Paper, and Paperboard Mills \\
+3222 &	Converted Paper Product Manufacturing \\
+3231 &	Printing and Related Support Activities \\
+3241 &	Petroleum and Coal Products Manufacturing \\
+3251 &	Basic Chemical Manufacturing \\
+3254 &	Pharmaceutical and Medicine Manufacturing \\
+3255 &	Paint, Coating, and Adhesive Manufacturing \\
+3256 &	Soap, Cleaning Compound, and Toilet Preparation Manufacturing \\
+3259 &	Other Chemical Product and Preparation Manufacturing \\
+3262 &	Rubber Product Manufacturing \\
+3271 &	Clay Product and Refractory Manufacturing \\
+3273 &	Cement and Concrete Product Manufacturing \\
+3274 &	Lime and Gypsum Product Manufacturing \\
+3279 &	Other Nonmetallic Mineral Product Manufacturing \\
+3312 &	Steel Product Manufacturing from Purchased Steel \\
+3313 &	Alumina and Aluminum Production and Processing \\
+3314 &	Nonferrous Metal (except Aluminum) Production and Processing \\
+3315 &	Foundries \\
+3321 &	Forging and Stamping \\
+3322 &	Cutlery and Handtool Manufacturing \\
+3323 &	Architectural and Structural Metals Manufacturing \\
+3324 &	Boiler, Tank, and Shipping Container Manufacturing \\
+3325 &	Hardware Manufacturing \\
+3326 &	Spring and Wire Product Manufacturing \\
+3327 &	Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing \\
+3329 &	Other Fabricated Metal Product Manufacturing \\
+3331 &	Agriculture, Construction, and Mining Machinery Manufacturing \\
+3332 &	Industrial Machinery Manufacturing \\
+3333 &	Commercial and Service Industry Machinery Manufacturing \\
+3334 &	Ventilation, Heating, Air-Conditioning, \& Commercial Refrig. Eq. Manuf. \\
+3335 &	Metalworking Machinery Manufacturing \\
+3336 &	Engine, Turbine, and Power Transmission Equipment Manufacturing \\
+3339 &	Other General Purpose Machinery Manufacturing \\
+3342 &	Communications Equipment Manufacturing \\
+3344 &	Semiconductor and Other Electronic Component Manufacturing \\
+3345 &	Navigational, Measuring, Electromedical, and Control Instrum. Manuf. \\
+3351 &	Electric Lighting Equipment Manufacturing \\
+3352 &	Household Appliance Manufacturing \\
+3353 &	Electrical Equipment Manufacturing \\
+3359 &	Other Electrical Equipment and Component Manufacturing \\
+3362 &	Motor Vehicle Body and Trailer Manufacturing \\
+3363 &	Motor Vehicle Parts Manufacturing \\
+3371 &	Household and Institutional Furniture and Kitchen Cabinet Manufacturing \\
+3372 &	Office Furniture (including Fixtures) Manufacturing \\
+3379 &	Other Furniture Related Product Manufacturing \\
+3399 &	Other Miscellaneous Manufacturing \\
+\end{longtable}
+
+%\begin{center}
+%\begin{table*}[ht] \caption{Manufacturing Sectors: ISIC Rev. 3 to ISIC Rev. 2 Conversion}\label{tb:isic_class}
+%{\small 
+%\hfill{}
+%\begin{tabular}{| p{8cm} | p{8cm} |} 
+%\hline
+%\textbf{ISIC Rev. 3}&\textbf{ISIC Rev. 2}\\
+%\hline
+%\hline
+%D15: Foods, products, and beverages &  31: Food, beverages, and tobacco\\
+%D16: Tobacco products & \\
+%\hline
+%D17: Textiles & \\
+%D18: Wearing apparel, dressing and dyeing of fur & 32: Textile, wearing apparel, and leather industries\\
+%D19: Tanning and dressing of leather, manufacture of luggage, handbags, saddlery, harness and footwear & \\
+%\hline
+%D20: Wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials & 33:Wood and Wood Products, Including Furniture\\
+%\hline
+%D21: Paper and paper products & 34: Paper and paper products, printing and publishing\\ 
+%D22: Publishing, printing, and reproduction of recorded media & \\
+%\hline
+%D23: Coke, refined petroleum products and nuclear fuel & \\
+%D24: Chemicals and chemical products & 35: Chemical, petroleum, coal, rubber and plastic products\\
+%D25: Rubber and plastics products & \\
+%\hline
+%D26: Other non-metallic mineral products & 36: Non-metallic mineral products, except products of petroleum and coal\\
+%\hline
+%D27: Basic metals & 37: Basic Metal Industries\\
+%\hline
+%D28: Fabricated metal products, except machinery and equipment & \\
+%D29: Machinery and equipment n.e.c. & \\
+%D30: Office, accounting and computing machinery & \\
+%D31: Electrical machinery and apparatus n.e.c. & 38: Fabricated metal products, machinery and equipment\\
+%D32: Radio, television and communication equipment and apparatus & \\
+%D33: Medical, precision and optical instruments, watches and clocks & \\
+%D34: Motor vehicles, trailers and semi-trailers & \\
+%D35: Other transport equipment & \\
+%\hline
+%D36: Manufacture of furniture; manufacturing n.e.c. & 39: Other Manufacturing Industries\\
+%D37: Recycling & \\
+%\hline
+%\end{tabular}}
+%\end{table*}
+%\end{center}
 
 \section{Appendix C: Regression Results}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  27 SEP 2015 20:56
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  29 SEP 2015 18:02
 entering extended mode
 **main*file.tex
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.tex"
@@ -821,7 +821,7 @@ Chapter 1.
 Chapter 2.
 (C:\Users\tew207\Documents\GitHub\Thesis\Chapter1/chapter1.tex [14
 
-] [15]
+] [15] [16]
 Package epstopdf Info: Source file: <was_wealth_holdings.eps>
 (epstopdf)                    date: 2015-09-26 22:04:06
 (epstopdf)                    size: 42611 bytes
@@ -829,26 +829,45 @@ Package epstopdf Info: Source file: <was_wealth_holdings.eps>
 (epstopdf)                    date: 2015-09-26 22:05:22
 (epstopdf)                    size: 16195 bytes
 (epstopdf)             Command: <epstopdf --outfile=was_wealth_holdings-eps-converted-to.pdf was_wealth_holdings.eps>
-(epstopdf)             \includegraphics on input line 78.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<was_wealth_holdings-eps-converted-to.pdf, id=391, 1011.78pt x 722.7pt>
+<was_wealth_holdings-eps-converted-to.pdf, id=399, 1011.78pt x 722.7pt>
 File: was_wealth_holdings-eps-converted-to.pdf Graphic file (type pdf)
  <use was_wealth_holdings-eps-converted-to.pdf>
-[16] [17 <C:/Users/tew207/Documents/GitHub/Thesis/was_wealth_holdings-eps-converted-to.pdf>] [18] [19] [20] [21]
-[22] [23] [24]) [25]
-Chapter 3.
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.tex [26
+[17 <C:/Users/tew207/Documents/GitHub/Thesis/was_wealth_holdings-eps-converted-to.pdf>] [18] [19] [20] [21] [22]
+[23] [24] [25]
 
-] [27] [28] [29] [30]
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 141.
+Package natbib Warning: Citation `DeNardi2015' on page 26 undefined on input line 322.
+
+[26]
+
+Package natbib Warning: Citation `KotlikoffSummers1981' on page 27 undefined on input line 337.
+
+
+Package natbib Warning: Citation `Modigliani1986' on page 27 undefined on input line 339.
+
+
+Package natbib Warning: Citation `PikettyPostelRosenthal2014' on page 27 undefined on input line 342.
+
+
+Package natbib Warning: Citation `PikettyZucman2015' on page 27 undefined on input line 342.
+
+
+Package natbib Warning: Citation `GaleScholz1994' on page 27 undefined on input line 350.
+
+[27] [28]) [29]
+Chapter 3.
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter2/chapter2.tex [30
+
+] [31] [32] [33] [34] [35]
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 165.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsbch.fd"
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
- [31]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
 Package epstopdf Info: Source file: <BHPS_incvar.eps>
 (epstopdf)                    date: 2015-09-23 12:41:10
 (epstopdf)                    size: 56652 bytes
@@ -856,10 +875,10 @@ Package epstopdf Info: Source file: <BHPS_incvar.eps>
 (epstopdf)                    date: 2015-09-24 12:10:57
 (epstopdf)                    size: 16548 bytes
 (epstopdf)             Command: <epstopdf --outfile=BHPS_incvar-eps-converted-to.pdf BHPS_incvar.eps>
-(epstopdf)             \includegraphics on input line 159.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 
-<BHPS_incvar-eps-converted-to.pdf, id=650, 1156.32pt x 578.16pt>
+<BHPS_incvar-eps-converted-to.pdf, id=717, 1156.32pt x 578.16pt>
 File: BHPS_incvar-eps-converted-to.pdf Graphic file (type pdf)
  <use BHPS_incvar-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <PSID_incvar.eps>
@@ -869,10 +888,10 @@ Package epstopdf Info: Source file: <PSID_incvar.eps>
 (epstopdf)                    date: 2015-09-24 12:10:58
 (epstopdf)                    size: 15909 bytes
 (epstopdf)             Command: <epstopdf --outfile=PSID_incvar-eps-converted-to.pdf PSID_incvar.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
-<PSID_incvar-eps-converted-to.pdf, id=651, 1156.32pt x 578.16pt>
+<PSID_incvar-eps-converted-to.pdf, id=718, 1156.32pt x 578.16pt>
 File: PSID_incvar-eps-converted-to.pdf Graphic file (type pdf)
  <use PSID_incvar-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <BHPS_fitted_profiles.eps>
@@ -882,102 +901,104 @@ Package epstopdf Info: Source file: <BHPS_fitted_profiles.eps>
 (epstopdf)                    date: 2015-09-24 12:10:59
 (epstopdf)                    size: 21486 bytes
 (epstopdf)             Command: <epstopdf --outfile=BHPS_fitted_profiles-eps-converted-to.pdf BHPS_fitted_profiles.eps>
-(epstopdf)             \includegraphics on input line 173.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<BHPS_fitted_profiles-eps-converted-to.pdf, id=652, 867.24pt x 722.7pt>
+<BHPS_fitted_profiles-eps-converted-to.pdf, id=719, 867.24pt x 722.7pt>
 File: BHPS_fitted_profiles-eps-converted-to.pdf Graphic file (type pdf)
  <use BHPS_fitted_profiles-eps-converted-to.pdf>
-[32 <C:/Users/tew207/Documents/GitHub/Thesis/BHPS_incvar-eps-converted-to.pdf>]
-Overfull \hbox (21.26837pt too wide) in paragraph at lines 200--220
+[36] [37 <C:/Users/tew207/Documents/GitHub/Thesis/BHPS_incvar-eps-converted-to.pdf> <C:/Users/tew207/Documents/GitHub/Th
+esis/PSID_incvar-eps-converted-to.pdf>] [38 <C:/Users/tew207/Documents/GitHub/Thesis/BHPS_fitted_profiles-eps-converted-
+to.pdf>]
+Overfull \hbox (21.26837pt too wide) in paragraph at lines 224--244
  [][] 
  []
 
 
-Overfull \hbox (5.87247pt too wide) in paragraph at lines 225--244
+Overfull \hbox (5.87247pt too wide) in paragraph at lines 249--268
  [][] 
  []
 
-) [33 <C:/Users/tew207/Documents/GitHub/Thesis/PSID_incvar-eps-converted-to.pdf>] [34 <C:/Users/tew207/Documents/GitHub/
-Thesis/BHPS_fitted_profiles-eps-converted-to.pdf>] [35] [36]
+) [39] [40] [41]
 Chapter 4.
-(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [37
+(C:\Users\tew207\Documents\GitHub\Thesis\chapter3/chapter3.tex [42
 
-] [38] [39]
-<inc_ineq_attanasio2012.JPG, id=852, 767.86874pt x 566.86781pt>
+] [43] [44]
+<inc_ineq_attanasio2012.JPG, id=927, 767.86874pt x 566.86781pt>
 File: inc_ineq_attanasio2012.JPG Graphic file (type jpg)
- <use inc_ineq_attanasio2012.JPG> [40] [41 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] <chg_de
-bt_scf.jpg, id=882, 630.85687pt x 379.4175pt>
+ <use inc_ineq_attanasio2012.JPG> [45] [46 <C:/Users/tew207/Documents/GitHub/Thesis/inc_ineq_attanasio2012.JPG>] <chg_de
+bt_scf.jpg, id=957, 630.85687pt x 379.4175pt>
 File: chg_debt_scf.jpg Graphic file (type jpg)
 
-<use chg_debt_scf.jpg> [42] [43 <C:/Users/tew207/Documents/GitHub/Thesis/chg_debt_scf.jpg>] [44] [45] [46]
-LaTeX Font Info:    Try loading font information for U+eus on input line 244.
+<use chg_debt_scf.jpg> [47] [48 <C:/Users/tew207/Documents/GitHub/Thesis/chg_debt_scf.jpg>] [49] [50] [51]
+LaTeX Font Info:    Try loading font information for U+eus on input line 243.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\ueus.fd"
 File: ueus.fd 2009/06/22 v3.00 Euler Script
-) [47] [48] [49] [50] [51]
-Overfull \hbox (10.90793pt too wide) in paragraph at lines 358--364
+) [52] [53] [54] [55] [56] [57]
+Overfull \hbox (10.90793pt too wide) in paragraph at lines 391--397
  [][] 
  []
 
-[52] [53] <comp_stat_rho.pdf, id=1011, 722.7pt x 576.35326pt>
+[58] [59] <comp_stat_rho.pdf, id=1115, 722.7pt x 576.35326pt>
 File: comp_stat_rho.pdf Graphic file (type pdf)
  <use comp_stat_rho.pdf>
-<comp_stat_rho_agedetail.pdf, id=1012, 867.24pt x 720.89326pt>
+<comp_stat_rho_agedetail.pdf, id=1116, 867.24pt x 720.89326pt>
 File: comp_stat_rho_agedetail.pdf Graphic file (type pdf)
  <use comp_stat_rho_agedetail.pdf>
-<comp_stat_eta.pdf, id=1013, 722.7pt x 576.35326pt>
+<comp_stat_eta.pdf, id=1117, 722.7pt x 576.35326pt>
 File: comp_stat_eta.pdf Graphic file (type pdf)
  <use comp_stat_eta.pdf>
-<comp_stat_eta_agedetail.pdf, id=1014, 867.24pt x 720.89326pt>
+<comp_stat_eta_agedetail.pdf, id=1118, 867.24pt x 720.89326pt>
 File: comp_stat_eta_agedetail.pdf Graphic file (type pdf)
  <use comp_stat_eta_agedetail.pdf>
-<comp_stat_beta.pdf, id=1015, 722.7pt x 576.35326pt>
+<comp_stat_beta.pdf, id=1119, 722.7pt x 576.35326pt>
 File: comp_stat_beta.pdf Graphic file (type pdf)
  <use comp_stat_beta.pdf>
-<comp_stat_beta_agedetail.pdf, id=1016, 867.24pt x 720.89326pt>
+<comp_stat_beta_agedetail.pdf, id=1120, 867.24pt x 720.89326pt>
 File: comp_stat_beta_agedetail.pdf Graphic file (type pdf)
- <use comp_stat_beta_agedetail.pdf> [54] [55 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_rho.pdf>] [56 <C:/Users/
-tew207/Documents/GitHub/Thesis/comp_stat_rho_agedetail.pdf>] [57 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eta.
-pdf>] [58 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eta_agedetail.pdf>] [59 <C:/Users/tew207/Documents/GitHub/T
-hesis/comp_stat_beta.pdf>] [60 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_beta_agedetail.pdf>] [61] <comp_stat_a
-lpha.pdf, id=1307, 722.7pt x 576.35326pt>
+ <use comp_stat_beta_agedetail.pdf> [60] [61 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_rho.pdf>] [62 <C:/Users/
+tew207/Documents/GitHub/Thesis/comp_stat_rho_agedetail.pdf>] [63 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eta.
+pdf>] [64 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eta_agedetail.pdf>] [65 <C:/Users/tew207/Documents/GitHub/T
+hesis/comp_stat_beta.pdf>] [66 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_beta_agedetail.pdf>] [67] <comp_stat_a
+lpha.pdf, id=1414, 722.7pt x 576.35326pt>
 File: comp_stat_alpha.pdf Graphic file (type pdf)
 
-<use comp_stat_alpha.pdf> <comp_stat_alpha_agedetail.pdf, id=1308, 867.24pt x 720.89326pt>
+<use comp_stat_alpha.pdf> [68] <comp_stat_alpha_agedetail.pdf, id=1420, 867.24pt x 720.89326pt>
 File: comp_stat_alpha_agedetail.pdf Graphic file (type pdf)
 
-<use comp_stat_alpha_agedetail.pdf> <comp_stat_eps.pdf, id=1309, 722.7pt x 701.92236pt>
+<use comp_stat_alpha_agedetail.pdf> <comp_stat_eps.pdf, id=1421, 722.7pt x 701.92236pt>
 File: comp_stat_eps.pdf Graphic file (type pdf)
  <use comp_stat_eps.pdf>
-<comp_stat_eps_agedetail.pdf, id=1310, 867.24pt x 720.89326pt>
+<comp_stat_eps_agedetail.pdf, id=1422, 867.24pt x 720.89326pt>
 File: comp_stat_eps_agedetail.pdf Graphic file (type pdf)
  <use comp_stat_eps_agedetail.pdf>
-<winfriedcompare.pdf, id=1311, 722.7pt x 576.35326pt>
+<winfriedcompare.pdf, id=1423, 722.7pt x 576.35326pt>
 File: winfriedcompare.pdf Graphic file (type pdf)
  <use winfriedcompare.pdf>
 File: comp_stat_eps_agedetail.pdf Graphic file (type pdf)
  <use comp_stat_eps_agedetail.pdf>
-<effect_rho.pdf, id=1312, 578.16pt x 395.67827pt>
+<effect_rho.pdf, id=1424, 578.16pt x 395.67827pt>
 File: effect_rho.pdf Graphic file (type pdf)
- <use effect_rho.pdf>) [62] [63 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_alpha.pdf>] [64 <C:/Users/tew207/Docu
-ments/GitHub/Thesis/comp_stat_alpha_agedetail.pdf>] [65 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eps.pdf>] [66
- <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eps_agedetail.pdf>] [67 <C:/Users/tew207/Documents/GitHub/Thesis/win
-friedcompare.pdf>] [68] [69 <C:/Users/tew207/Documents/GitHub/Thesis/effect_rho.pdf>]
+ <use effect_rho.pdf>) [69 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_alpha.pdf>] [70 <C:/Users/tew207/Documents
+/GitHub/Thesis/comp_stat_alpha_agedetail.pdf>] [71 <C:/Users/tew207/Documents/GitHub/Thesis/comp_stat_eps.pdf>] [72 <C:/
+Users/tew207/Documents/GitHub/Thesis/comp_stat_eps_agedetail.pdf>]
+[73 <C:/Users/tew207/Documents/GitHub/Thesis/winfriedcompare.pdf>] [74] [75 <C:/Users/tew207/Documents/GitHub/Thesis/eff
+ect_rho.pdf>]
 Chapter 5.
 (C:\Users\tew207\Documents\GitHub\Thesis\chapter4/chapter4.tex
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ê in font bchr7t!
- [70
+ [76
 
-] [71] [72] [73] [74] [75] [76] [77] [78] [79]
-[80] [81] [82]
+] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+[86] [87] [88]
 Overfull \hbox (44.30948pt too wide) in paragraph at lines 70--87
  [][] 
  []
 
-[83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99]
+[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105]
 Package epstopdf Info: Source file: <tau_can_mex.eps>
 (epstopdf)                    date: 2015-09-12 16:59:16
 (epstopdf)                    size: 63557 bytes
@@ -988,7 +1009,7 @@ Package epstopdf Info: Source file: <tau_can_mex.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_can_mex-eps-converted-to.pdf, id=1920, 650.43pt x 433.62pt>
+<tau_can_mex-eps-converted-to.pdf, id=2028, 650.43pt x 433.62pt>
 File: tau_can_mex-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_can_mex-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_can_usa.eps>
@@ -1001,9 +1022,9 @@ Package epstopdf Info: Source file: <tau_can_usa.eps>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_can_usa-eps-converted-to.pdf, id=1921, 650.43pt x 433.62pt>
+<tau_can_usa-eps-converted-to.pdf, id=2029, 650.43pt x 433.62pt>
 File: tau_can_usa-eps-converted-to.pdf Graphic file (type pdf)
- <use tau_can_usa-eps-converted-to.pdf> [100 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_mex-eps-converted-to.pdf>]
+ <use tau_can_usa-eps-converted-to.pdf> [106 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_mex-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <tau_mex_can.eps>
 (epstopdf)                    date: 2015-09-12 16:59:07
 (epstopdf)                    size: 64892 bytes
@@ -1014,7 +1035,7 @@ Package epstopdf Info: Source file: <tau_mex_can.eps>
 (epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_mex_can-eps-converted-to.pdf, id=1975, 650.43pt x 433.62pt>
+<tau_mex_can-eps-converted-to.pdf, id=2083, 650.43pt x 433.62pt>
 File: tau_mex_can-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_mex_can-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_mex_usa.eps>
@@ -1027,7 +1048,7 @@ Package epstopdf Info: Source file: <tau_mex_usa.eps>
 (epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_mex_usa-eps-converted-to.pdf, id=1976, 650.43pt x 433.62pt>
+<tau_mex_usa-eps-converted-to.pdf, id=2084, 650.43pt x 433.62pt>
 File: tau_mex_usa-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_mex_usa-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_usa_can.eps>
@@ -1040,7 +1061,7 @@ Package epstopdf Info: Source file: <tau_usa_can.eps>
 (epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_usa_can-eps-converted-to.pdf, id=1977, 650.43pt x 433.62pt>
+<tau_usa_can-eps-converted-to.pdf, id=2085, 650.43pt x 433.62pt>
 File: tau_usa_can-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_usa_can-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_usa_mex.eps>
@@ -1053,64 +1074,71 @@ Package epstopdf Info: Source file: <tau_usa_mex.eps>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_usa_mex-eps-converted-to.pdf, id=1978, 650.43pt x 433.62pt>
+<tau_usa_mex-eps-converted-to.pdf, id=2086, 650.43pt x 433.62pt>
 File: tau_usa_mex-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_usa_mex-eps-converted-to.pdf>
-(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [101 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_usa-eps-con
-verted-to.pdf>] [102 <C:/Users/tew207/Documents/GitHub/Thesis/tau_mex_can-eps-converted-to.pdf> <C:/Users/tew207/Documen
-ts/GitHub/Thesis/tau_mex_usa-eps-converted-to.pdf>] [103 <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_can-eps-conver
-ted-to.pdf> <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_mex-eps-converted-to.pdf>] [104]
-Overfull \hbox (53.65271pt too wide) in paragraph at lines 293--332
+(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [107 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_usa-eps-con
+verted-to.pdf>] [108 <C:/Users/tew207/Documents/GitHub/Thesis/tau_mex_can-eps-converted-to.pdf> <C:/Users/tew207/Documen
+ts/GitHub/Thesis/tau_mex_usa-eps-converted-to.pdf>] [109 <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_can-eps-conver
+ted-to.pdf> <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_mex-eps-converted-to.pdf>] [110]
+Overfull \hbox (426.79135pt too wide) detected at line 291
  [] 
  []
 
-(C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_sr.tex)
-(C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex)
-(C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_lr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr.tex))
-[105] [106] [107] [108] [109] [110] [111]
-Chapter 6.
-(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [112
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.292 NAICS 4-digit &
+                      Industry \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
 
-] [113] [114])
+[111] [112] (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex)
+(C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex)
+(C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_mark_lr.tex)
+(C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr.tex)) [113] [114] [115] [116] [117] [118]
+Chapter 6.
+(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [119
+
+] [120] [121])
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.bbl" ("C:\Users\tew207\Documents\GitHub\Thesis\main file.brf")
 \tf@brf=\write8
 
-[115] [116
+[122] [123
 
-] [117]
+] [124]
 Missing character: There is no Ô in font bchb7t!
 Missing character: There is no ø in font bchb7t!
 Missing character: There is no Ω in font bchb7t!
- [118] [119]
+ [125] [126]
 Missing character: There is no ‚ in font bchb7t!
 Missing character: There is no Ä in font bchb7t!
 Missing character: There is no ê in font bchb7t!
- [120] [121] [122] [123] [124])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [125]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+ [127] [128] [129] [130] [131] [132])
 
-("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+[133]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+ ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main*file.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `main*file.brf' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 13309 strings out of 494053
- 200074 string characters out of 3146182
- 500264 words of memory out of 3000000
- 15879 multiletter control sequences out of 15000+200000
- 42963 words of font info for 88 fonts, out of 3000000 for 9000
+ 13425 strings out of 494053
+ 202194 string characters out of 3146182
+ 502214 words of memory out of 3000000
+ 15967 multiletter control sequences out of 15000+200000
+ 45062 words of font info for 91 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 39i,19n,50p,3267b,661s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,19n,52p,3267b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bits
 trea/charter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -1124,12 +1152,12 @@ blic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb>
-Output written on "main file.pdf" (126 pages, 1216471 bytes).
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/euler/eusm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "main file.pdf" (134 pages, 1275276 bytes).
 PDF statistics:
- 2609 PDF objects out of 2984 (max. 8388607)
- 347 named destinations out of 1000 (max. 500000)
+ 2760 PDF objects out of 2984 (max. 8388607)
+ 373 named destinations out of 1000 (max. 500000)
  465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

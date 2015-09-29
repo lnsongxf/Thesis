@@ -8,10 +8,15 @@
   Employment Contracts},'' {\it American Economic Review}, March 1987, {\it 77}
   (1), 50--68.
 
-\harvarditem[Aguiar and Bils]{Aguiar and Bils}{2011}{AguiarBils2011}
-{\bf Aguiar, Mark~A. and Mark Bils}, ``Has Consumption Inequality Mirrored
-  Income Inequality?,'' NBER Working Papers 16807, National Bureau of Economic
-  Research, Inc February 2011.
+\harvarditem[Aguiar and Bils]{Aguiar and Bils}{2015}{AguiarBils2015}
+{\bf Aguiar, Mark and Mark Bils}, ``{Has Consumption Inequality Mirrored Income
+  Inequality?},'' {\it American Economic Review}, September 2015, {\it 105}
+  (9), 2725--56.
+
+\harvarditem[Aiyagari]{Aiyagari}{1994}{Aiyagari1994}
+{\bf Aiyagari, S~Rao}, ``Uninsured Idiosyncratic Risk and Aggregate Saving,''
+  {\it The Quarterly Journal of Economics}, August 1994, {\it 109} (3),
+  659--84.
 
 \harvarditem[Arkolakis et al.]{Arkolakis, Costinot and
   Rodriguez-Clare}{2012a}{Arkolakisetal2012a}
@@ -41,6 +46,11 @@
 {\bf Autor, David~H., Lawrence~F. Katz, and Melissa~S. Kearney}, ``Trends in
   U.S. Wage Inequality: Re-Assessing the Revisionists,'' NBER Working Papers
   11627, National Bureau of Economic Research, Inc September 2005.
+
+\harvarditem[Badel and Huggett]{Badel and Huggett}{2014}{BadelHuggett2014}
+{\bf Badel, Alejandro and Mark Huggett}, ``{Taxing top earners: a human capital
+  perspective},'' Working Papers 2014-17, Federal Reserve Bank of St. Louis
+  July 2014.
 
 \harvarditem[Baker]{Baker}{1997}{Baker1997}
 {\bf Baker, Michael}, ``{Growth-Rate Heterogeneity and the Covariance Structure
@@ -230,10 +240,21 @@
   Changes in American Income Inequality,'' NBER Working Papers 15351, National
   Bureau of Economic Research, Inc September 2009.
 
+\harvarditem[Gourinchas and Parker]{Gourinchas and
+  Parker}{2002}{GourinchasParker2002}
+{\bf Gourinchas, Pierre-Olivier and Jonathan~A. Parker}, ``Consumption Over the
+  Life Cycle,'' {\it Econometrica}, January 2002, {\it 70} (1), 47--89.
+
 \harvarditem[Grossman and Helpman]{Grossman and
   Helpman}{1990}{GrossmanHelpman1990}
 {\bf Grossman, Gene~M and Elhanan Helpman}, ``{Trade, Innovation, and
   Growth},'' {\it American Economic Review}, May 1990, {\it 80} (2), 86--91.
+
+\harvarditem[Guiso et al.]{Guiso, Haliassos and
+  Jappelli}{2003}{GuisoHaliassosJiappeli2003}
+{\bf Guiso, Luigi, Michael Haliassos, and Tullio Jappelli}, ``{Household
+  stockholding in Europe: where do we stand and where do we go?},'' {\it
+  Economic Policy}, 04 2003, {\it 18} (36), 123--170.
 
 \harvarditem[Guvenen]{Guvenen}{2007}{Guvenen2007}
 {\bf Guvenen, Fatih}, ``Learning Your Earning: Are Labor Income Shocks Really
@@ -290,6 +311,11 @@
   Processes,'' 2013.
 \newblock Working Paper.
 
+\harvarditem[Hryshko]{Hryshko}{2012}{Hryshko2012}
+{\bf Hryshko, Dmytro}, ``{Labor income profiles are not heterogeneous: Evidence
+  from income growth rates},'' {\it Quantitative Economics}, 07 2012, {\it 3}
+  (2), 177--209.
+
 \harvarditem[Iacoviello]{Iacoviello}{2008}{Iacoviello2008}
 {\bf Iacoviello, Matteo}, ``Household Debt and Income Inequality, 1963-2003,''
   {\it Journal of Money, Credit and Banking}, 08 2008, {\it 40} (5), 929--965.
@@ -304,6 +330,13 @@
 {\bf Kilian, Lutz, Alessandro Rebucci, and Nikola Spatafora}, ``Oil shocks and
   external balances,'' {\it Journal of International Economics}, April 2009,
   {\it 77} (2), 181--194.
+
+\harvarditem[Kindermann and Krueger]{Kindermann and
+  Krueger}{2024}{KindermannKrueger2014}
+{\bf Kindermann, Fabian and Dirk Krueger}, ``{High Marginal Tax Rates on the
+  Top 1\%? Lessons from a Life Cycle Model with Idiosyncratic Income Risk},''
+  PIER Working Paper Archive 14-036, Penn Institute for Economic Research,
+  Department of Economics, University of Pennsylvania October 2024.
 
 \harvarditem[Kohler]{Kohler}{2015}{Kohler2015}
 {\bf Kohler, Ulrich}, ``{PSIDTOOLS: Stata module to facilitate access to Panel
@@ -377,15 +410,24 @@
   Background, and Estate Taxation,'' NBER Working Papers 21047, National Bureau
   of Economic Research, Inc March 2015.
 
+\harvarditem[Oswald]{Oswald}{2014}{Oswald2014}
+{\bf Oswald, Florian}, ``High Dimensional Function Approximation in Julia,''
+  \url{https://github.com/floswald/ApproXD.jl} 2014.
+
 \harvarditem[Ottaviano et al.]{Ottaviano, Tabuchi and
   Thisse}{2002}{Ottaviano2002}
 {\bf Ottaviano, Gianmarco I.~P., Takatoshi Tabuchi, and Jacques-Francois
   Thisse}, ``{Agglomeration and Trade Revisited},'' {\it International Economic
   Review}, 2002, {\it 43} (2), 409--436.
 
+\harvarditem[Piketty]{Piketty}{2011}{Piketty2011}
+{\bf Piketty, Thomas}, ``{On the Long-Run Evolution of Inheritance: France
+  1820--2050},'' {\it The Quarterly Journal of Economics}, 2011, {\it 126} (3),
+  1071--1131.
+
 \harvarditem[Piketty]{Piketty}{2014}{Piketty2014}
-{\bf Piketty, Thomas}, {\it Capital in the 21st Century}, Harvard University
-  Press, 2014.
+{\bf \bysame{}}, {\it Capital in the 21st Century}, Harvard University Press,
+  2014.
 
 \harvarditem[Piketty and Saez]{Piketty and Saez}{2003}{PikettySaez2003}
 {\bf \bysame{} and Emmanuel Saez}, ``Income Inequality In The United States,
@@ -405,6 +447,22 @@
   States since 1913: Evidence from Capitalized Income Tax Data,'' NBER Working
   Paper October 2014.
 
+\harvarditem[Siegel and Thaler]{Siegel and Thaler}{1997}{SiegelThaler1997}
+{\bf Siegel, Jeremy~J. and Richard~H. Thaler}, ``{Anomalies: The Equity Premium
+  Puzzle},'' {\it Journal of Economic Perspectives}, Winter 1997, {\it 11} (1),
+  191--200.
+
+\harvarditem[Storesletten et al.]{Storesletten, Telmer and
+  Yaron}{2004}{STY2004}
+{\bf Storesletten, Kjetil, Christopher~I. Telmer, and Amir Yaron},
+  ``Consumption and risk sharing over the life cycle,'' {\it Journal of
+  Monetary Economics}, April 2004, {\it 51} (3), 609--633.
+
+\harvarditem[Townsend]{Townsend}{2015}{Townsend2015}
+{\bf Townsend, A.}, ``FastGaussQuadrature.jl,''
+  \url{https://github.com/ajt60gaibb/FastGaussQuadrature.jl} (GitHub
+  repository) 2015.
+
 \harvarditem[Trefler]{Trefler}{2004}{Trefler2004}
 {\bf Trefler, Daniel}, ``{The Long and Short of the Canada-U.S. Free Trade
   Agreement},'' {\it American Economic Review}, 2004, {\it 94} (4), 870--895.
@@ -413,6 +471,10 @@
 {\bf van Treeck, Till}, ``Did inequality cause the U.S. financial crisis?,''
   IMK Working Paper 91-2012, IMK at the Hans Boeckler Foundation, Macroeconomic
   Policy Institute 2012.
+
+\harvarditem[Vermeulen]{Vermeulen}{2014}{Vermeulen2014}
+{\bf Vermeulen, Philip}, ``{How fat is the top tail of the wealth
+  distribution?},'' Working Paper Series 1692, European Central Bank July 2014.
 
 \harvarditem[Weiss and Lillard]{Weiss and Lillard}{1978}{LillardWeiss1978}
 {\bf Weiss, Yoram and Lee~A Lillard}, ``{Experience, Vintage, and Time Effects
