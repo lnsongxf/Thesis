@@ -153,8 +153,8 @@ providing a very long horizon (37 waves of data covering a total of 45 years),
 which allows for the analysis of subperiods to examine changes over time. The
 BHPS, while more limited in time (18 waves of data covering 18 years) serves as
 a useful comparison, while also providing excellent measures of different
-measures of household incomes pre- and post taxes and transfers, which enable us
-to investigate the implications for heterogeneous income processes from
+measures of household incomes pre- and post taxes and transfers, which we will
+describe in more detail below. 
 The data is taken from all available waves of the PSID, that is years 1968 to
 2013 inclusive\footnote{Note that the PSID income variable refers to income in
 the previous year, so when we talk about data from, e.g., year 1968, it is
@@ -177,7 +177,46 @@ of all variables used is available on
 \href{https://github.com/nilshg/psidJulia/blob/master/create_panel.do}{my GitHub
 page}.}. Hourly earnings are taken from the variable starting with \texttt{V337}
 in 1968, while hours worked are taken from the variable starting with
-\texttt{V47}.
+\texttt{V47}. To extract the deterministic life-cycle component of the is 
+modelled as a cubic polynomial in experience,
+$g(\theta_t, \pmb{X}_{h,t}^i) = \gamma_0 + \gamma_1 h + \gamma_2 h^2 + \gamma_3 h^3$.
+Labour market experience itself is constructed as potential experience from 
+information on years of schooling. 
+ \\
+The BHPS data we're using comes from all available waves, covering the time 
+period from 1992 to 2008\footnote{To merge the BHPS data across waves, we use 
+code provided by \citet{Vandendriessche2015}.}. The raw data is then extended by
+the derived current annual and net household variable data set provided by 
+\citet{LevyJenkins2012}. This data set includes information on household income 
+that takes into account various government taxes and transfers, both at the 
+individual and the household level. For our purposes, we will use gross labour
+income of the household, which is available in the original BHPS data set;
+net household labour income, which considers taxes and tax credits, national
+insurance contributions, and occupational pension contributions; and net 
+household income, which adds investment income, pension income, and transfer
+income to net labour income. These three variables can be seen to represent 
+different levels of insurance available to the household: as taxes and (up to 
+a points) National Insurance contributions in Britain are progressive, they reduce
+the variability of the labour income process facing the household, while the
+benefits system, which includes housing benefit, job seekers benefits, disability
+insurance and various other payments, partially insures household income against
+unemployment and other catastrophic shocks. It is therefore expected that these
+measures of income imply less risk for the household than gross labour income,
+an effect that we will try to quantify below. As the time dimension is notably 
+shorter than in the PSID, we only require households to be in the sample 
+for five years, and consider up to ten lags for the covariances of residuals. 
+While previous authors have highlighted the importance of higher order covariances
+for identification of HIP processes, our sample sizes unfortunately are so small
+that for some cohorts there are less than 10 observations at lags larger than
+five, so that considering more lags is impossible. As for the PSID, we obtain
+income residuals by regressing each measure of income on a cubic polynomial 
+in experience, which is constructed from the school leaving age (or further
+education leaving age, where applicable). Figure \ref{fig:bhps_incvar} and
+\ref{fig:psid_incvar} show trends in the variance and the inter-decile range,
+two widely used measures of income dispersion, for our selected sample of households.
+Both datasets exhibit considerable variation in the dispersion of income over 
+the period under consideration, which motivates us to include time-varying
+variances for transitory and permanent shocks in the estimation.
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{BHPS_incvar}
@@ -204,6 +243,11 @@ BHPS households}
 
 
 \section{Results}
+Table \ref{tab:PSID_results} displays the results for the PSID sample of households.
+While the results can be considered to be qualitatively similar to those found
+in \citet{Guvenen2009}, interestingly the estimated dispersion of individual-
+specific growth rates declines from 0.00031 to 0.00025, a result that confirms
+the same finding in \citet{Hryshko2012}. 
 Table \ref{tab:BHPS_results} shows the results of estimating both RIP and HIP
 processes on our sample of households from the BHPS, using the four different
 income measures described previously. The results are largely unsurprising 
@@ -219,6 +263,17 @@ in the parameters that increase cross-sectional dispersion over the life-cycle
 of a cohort is offset by a rise in the cross-sectional inequality in intercepts, 
 $\var_{\alpha}$ rises from 0.036 in the gross labour income sample to 0.052 in 
 the net household income sample. The persistence of 
+
+\section{Discussion}
+Our estimates point to substantial uncertainty over the correct HIP process, 
+adding to a literature that has found vastly different estimates for all of the 
+main parameters. Further, we have documented that even applying the same estimation
+procedure to different subsamples of the same survey can deliver results that
+differ markedly. Lastly, our estimates based on different income measures from 
+the BHPS underscore the importance of partial insurance when trying to estimate
+household income risk from the data. In the next chapter, we will explore the
+quantitative implications of these differences for wealth accumulation in 
+life-cycle models with incomplete markets.
 
 \begin{table}%
 \begin{tabular}{l|cccccc}
@@ -245,29 +300,6 @@ the code available on the journal website, short sample to my own estimation wit
 \label{tab:BHPS_results}
 \end{table}
 
-\begin{table}%
-\begin{tabular}{l|cccccc}
-                       &$\rho$ & $\sigma^2_{\eta}$&$\sigma^2_{\varepsilon}$&$\sigma^2_{\alpha}$&$\sigma^2_{\beta}$&$\sigma_{\alpha \beta}$\\
-\hline
-\hline
-\multicolumn{7}{c}{Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$} \\
-\hline \\
-PSID, 1968--1986      & 0.960 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
-                &\footnotesize{(NaN)}&\footnotesize{(NaN)}&\footnotesize{(NaN)}& \footnotesize{(NaN)} &          &                       \\
-PSID, 1987--2013      & 0.939 &  0.017           &   0.095                &       0.110       &        --        &        --             \\
-                &\footnotesize{(NaN)}&\footnotesize{(NaN)}&\footnotesize{(NaN)}& \footnotesize{(NaN)} &          &                       \\
-\hline
-\multicolumn{7}{c}{Heterogeneous income process: $\sigma^2_{\beta}$ unrestricted} \\
-\hline
-PSID, 1968--1986      & 0.885 &  0.013           &   0.043                &       0.110       &      0.00001     &      -0.42            \\
-           & \footnotesize{(6.19)}  & \footnotesize{(3.016)}& \footnotesize{(0.322)} & \footnotesize{(0.0)}&\footnotesize{(6.74)}  & \footnotesize{(954596.4)}    \\
-PSID, 1987--2013      & 0.854 &  0.032           &   0.085                &       0.097       &      0.00025     &      -0.31            \\
-           & \footnotesize{(7.99)}  & \footnotesize{(170084.7)}& \footnotesize{(0.854)} & \footnotesize{(512842.6)}&\footnotesize{(656.74)}  & \footnotesize{(954596.4)}    \\
-\hline-
-\end{tabular}
-\caption{Results for PSID subsamples 1968 to 1986 and 1987 to 2013}
-\label{tab:psid_subsample}
-\end{table}
 
 \begin{table}%
 \begin{tabular}{l|cccccc}
@@ -275,20 +307,17 @@ PSID, 1987--2013      & 0.854 &  0.032           &   0.085                &     
 \hline
 \hline 
 \multicolumn{7}{c}{Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$} \\
-Guvenen (2009)   & 0.988 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
-Guvenen Matlab   & 0.935 &  0.010           &   0.023                &                   &        --        &        --             \\
 1968-1996 sample & 0.932 &  0.010           &   0.036                &       0.084       &        --        &        --             \\
 1968-2013 sample & 0.920 &  0.014           &   0.067                &       --          &        --        &        --             \\
+1968-1986 sample & 0.960 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
+1987-2013 sample & 0.939 &  0.017           &   0.095                &       0.110       &        --        &        --             \\
 \hline
 \multicolumn{7}{c}{Heterogeneous income process: $\sigma^2_{\beta}$ unrestricted} \\
 \hline
-Guvenen (2009)   & 0.821 &  0.029           &   0.047                &   0.022           &     0.00038      &     --0.23            \\
-Guvenen Matlab   & 0.853 &  0.013           &   0.030                &   0.030           &     0.00031      &     --0.30            \\
-1968-1996 Sample & 0.907 &  0.010           &   0.058                &   0.036           &     0.00015      &       0.05            \\
-1968-1996 Sample & 0.906 &  0.010           &   0.057                &   0.039           &     0.00015      &     --7.5e-6          \\
-1968-1996 Sample & 0.903 &  0.010           &   0.056                &   0.046           &     0.00017      &     --0.11            \\
-1968-1996 Sample & 0.903 &  0.010           &   0.056                &   0.046           &     0.00017      &     --0.11            \\
+1968-1996 sample & 0.853 &  0.013           &   0.030                &   0.030           &     0.00031      &     --0.30            \\
 1968-2013 sample & 0.839 &  0.017           &   0.064                &   0.047           &     0.00026      &     --0.32            \\
+1968-1986 sample & 0.885 &  0.013           &   0.043                &       0.110       &      0.00001     &      -0.42            \\
+1987-2013 sample & 0.854 &  0.032           &   0.085                &       0.097       &      0.00025     &      -0.31            \\
 \hline
 \end{tabular}
 \caption{Results for the BHPS sample 1992-2009, different income measures.}

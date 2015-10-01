@@ -133,7 +133,8 @@ in retirement. The implication of this simple model is that wealth accumulation
 on the household level solely depends on the length of the retirement period, 
 while in aggregate wealth accumulation crucially hinges on the growth rate
 of the economy. The crucial assumption that allows Modigliani and Brumberg to
-focus on consumption smoothing over the life cycle was that of constant income.
+focus on consumption smoothing over the life cycle was that of constant income,
+an assumption that is obviously incorrect and easily rejected by the data.
 
 
 \section{Income uncertainty and market structure}
@@ -165,15 +166,53 @@ implications derived from models with different insurance mechanisms. In a
 complete market setup, where households can fully insure income risk, 
 idiosyncratic changes in income should not translate into changes in consumption,
 implying a flat profile of cross-sectional consumption inequality over the life-
-cycle, irrespective of the underlying stochastic process governing income
-
-
-\citet{BlundellPistaferriPreston2008}
-
+cycle, irrespective of the underlying stochastic process governing income. This 
+is not the case in the absence of insurance opportunities, with the opposite 
+end of the model spectrum being inhabited by the Aiyagari-Bewley-Hugget-Imrohoroglu
+class of models (\citet{Aiyagari1994}, \citet{Bewley1977}, \citet{Huggett1993},
+\citet{Imrohoroglu1989}). These model don't feature any insurance possibilities
+apart from non-contingent one-period bonds and also deliver specific predictions
+on the relationship between income, consumption and savings\footnote{More precisely,
+the opposite end of the insurance spectrum would be a world that does not even
+offer noncontingent bonds, although this market structure is obviously not suited
+to examine any interesting economic question.}. The precise predictions of the 
+model for how households will consume and save depend crucially on the specification
+of the stochastic process governing income uncertainty -- essentially the object
+over which $\mathbb{E}$ in equation \ref{eq:maxprob} is defined. When applying an
+income process consisting of permanent and transitory shocks to this model, the 
+well-known\footnote{For a rigorous derivation refer to your favourite Macroeconomics
+textbook, e.g. \citet{LjungqvistSargent2012}, chapter 17.} results that consumption
+should react to permanent changes in income, while transitory changes in income
+should be buffered by saving and dissaving in the noncontingent bond. This 
+prediction of the model is exploited by some authors to elicit information on 
+the decomposition of income changes into permanent and transitory shocks using 
+consumption data: assuming that the model is correct, increases in income 
+inequality in the data that are accompanied by contemporary increases in consumption
+inequality must be induced by permanent shocks to income, while changes in the 
+income distribution that do not lead to changes in the consumption distribution
+can be seen to be the consequence of transitory shocks. \citet{BlundellPreston1998}
+is an example of a paper employing exactly this strategy to examine data 
+on consumption and income from the British Family Expenditure Survey to examine
+the properties of changes in the income distribution in Britain between 1968 
+and 1992. One problem of these studies however is a large literature documenting 
+"excess smoothness" of consumption in the data, that is showing that consumption
+does \textit{not} change one-for-one even with changes in income that are known
+to be permanent (are very detailed account on the early research on this can be
+found in \citealt{Deaton1992book}), implying that there are at least some 
+insurance opportunities available to households in the real world. Based on the 
+rejection of both full and no insurance in the data, an active literature has 
+developed trying to quantify the amount of insurance households have access to.
+\citet{KruegerPerri2004}
+\citet{HeathcoteStoreslettenViolante2004}
+\citet{HeathcoteStoreslettenViolante2007}
+\citet{BlundellPistaferriPreston2008} develop a novel imputation procedure 
+designed to alleviate measurement problems in PSID consumption data to test 
 \citet{KaplanViolante2010} examine how to what extent the empirical estimates
 of consumption insurance that \citet{BlundellPistaferriPreston2008} obtain can
 be replicated in a standard incomplete market model with capital as the only 
 savings vehicle. 
+
+
 
 \section{The role of housing}\label{housing}
 While much effort has been devoted to examining the implications of income risk
@@ -189,6 +228,8 @@ different from the one-period riskless bond considered in our workhorse model.
 A number of authors have considered the effects of allowing households to save
 in housing assets in addition to financial assets: \citet{CampbellHercovitz2009} 
 and \citet{CampbellHercovitz2005}, \citet{Yang2009}, \citet{Iacoviello2008}
+
+
 
 \section{Closed and open economies}
 One key decision when building a model of wealth accumulation is the question
@@ -321,13 +362,30 @@ which might help to explain observed patterns in the data. A number of researche
 have extended the baseline model in various dimensions, some of which we will 
 discuss here\footnote{The discussion here draws on the work by \cite{DeNardi2015}.}.
 
-One line of work considers the role of preferences in driving inequality in 
-wealth accumulation. 
-\citet{DPMRR2003} can also be seen as an example to investigate the role of 
-preferences in shaping the wealth distribution, as they include habits in the 
-utility function of their model. 
+A more realistic version on the role of the household income process in shaping
+the wealth distribution is the inclusion of entrepreneurial activity as an
+alternative to labour income. \citet{Quadrini2000} is an early attempt to 
+include business income in the model. His economy features infinitely lived 
+households, that have the opportunity to undertake entrepreneurial activity, but
+need to save up capital in order to start a business first. After having started
+the business, these agents face substantially higher risk than working households,
+a fact that combined with high borrowing costs and infinite lives leads to 
+wealth accumulation at the top of the distribution as large as in the data. 
+\citet{CagettiDeNardi2006} improve on this model by allowing for an endogenous
+choice in the amount of capital invested in the business, and in their model the
+potentially high rates of return on business activity are the main factor 
+affecting the right tail of the wealth distribution. This aspect makes their 
+model a close cousins to models that feature different rates of returns for 
+different asset classes, which we turn to later. \citet{CagettiDeNardi2006}
+also provide an empirical rationale for the modelling of entrepreneurial 
+activity, using SCF data to show that amongst the wealthiest 1\% of households,
+81\% are business owners or self employed, although this group of households 
+only accounts for 17\% of all households. They also show that amongst business
+owners, mean and median wealth are higher for those not actively engaged in 
+managing the business, providing support for models that feature an intergenerational
+transfer of assets, which we turn to next.
 
-A further obvious way to the extend the model is by moving from a simple life-
+A successful line of research extends the model by moving from a simple life-
 cycle perspective to an overlapping generations (OLG) model, in which inequalities
 can be transmitted across generations and hence accumulate over time. This 
 transmission mechanism can work through either assets directly, by adding 
@@ -354,25 +412,91 @@ the empirical estimation of intergenerational transfers of financial assets is
 not entirely straightforward, the question of the intergenerational transfer 
 of ability is even more complicated. Researchers have adopted a wide range of 
 specifications for modelling this transfer, based on models of parental 
-investments in their childrens' education, or taken the shortcut of directly 
+investments in their childrens' education, or taken the short cut of directly 
 assuming that children receive draws from productivity distributions, the 
 mean and/or variance of which are directly linked to the parental realisation 
-of productivity. 
+of productivity. \citet{DeNardi2004} examines both bequests and intergenerational
+transmission of ability in tandem, and shows that while the model fit is vastly
+improved by this mechanism, it still misses the very high concentration of 
+wealth in the top percentile of the wealth distribution.
 
-L
+
+Another line of work considers the role of preferences in driving inequality in 
+wealth accumulation. The obvious way to affect the distribution of wealth through
+preferences is by letting the discount factor vary across agents, an idea that 
+finds empirical support in work by \citet{Lawrance1991}, who finds significant
+heterogeneity in time preferences rates between poor and rich households using 
+an Euler equation based regression approach on PSID income and consumption data.
+The first work to leverage differential discount factors to increase wealth 
+dispersion in the Aiyagari-Bewley-Hugget framework is the seminal paper by
+\citet{KrusellSmith1998}, who experiment with three groups of agents exhibiting
+discount factors between 0.9858 and 0.993. Even with this seemingly small dispersion
+in preferences, the inequality in wealth holdings in the model rises dramatically,
+with the share of wealth held by the richest 1\% of households increasing from 
+three to 24 percent, and the Gini coefficient increasing from 0.25 to 0.82.
+This finding is corroborated in recent work by \citet{CarrollSlacalekTokuoka2014AER},
+who show that a model with a slightly higher dispersion in $\delta$ than in 
+\citet{KrusellSmith1998} can match both the Lorenz curve of net wealth and 
+financial wealth almost exactly. \citet{Cozzi2014} considers the implications of
+varying the other deep parameter in the preference structure, risk aversion. He
+ solves a model in which the population of agents has a mean risk aversion of 
+1.07, with a variance of 0.76, and shows that including this dimension of 
+heterogeneity helps the model fit the data almost as well as the stochastic-delta
+model of Krusell and Smith, although it misses the concentration in the top 
+percentile. Importantly, this model implies a significantly lower discount 
+factor between 0.87 and 0.89 depending on the calibration. Interestingly, Cozzi 
+combines his analysis with the estimation of income processes similar to the 
+restricted income processes we will estimate in chapter \ref{ch:income} for 
+subsamples of the PSID grouped by risk aversion, and finds significant 
+heterogeneity in the persistence of the permanent shock to income, estimated at 
+0.947 for the less risk averse subgroup and 0.935 for the group with high 
+risk aversion. 
+Going one step further than simply adjusting the parameters of the standard 
+CRRA utility function, \citet{DPMRR2003} depart from this utility function 
+altogether and investigate the role of habits in the utility function, first 
+introduced into the macroeconomic literature by \citet{Fuhrer2000} in the 
+context of a DSGE model of monetary policy. They show that while habits induce
+a significant increase in precautionary savings in the economy, they do not 
+help to bring the model closer to the empirical dispersion of wealth holdings,
+and on the contrary lower the Gini coefficient compared to a model without 
+habit formation. 
 
 
-
-\citet{Floden2008}
-An entirely different way of increasing the dispersion of wealth predicted by 
-models is to allow for differential rates of return, a feature that finds 
+As alluded to in the discussion of models with entrepreneurial activity, there is
+also a literature that increases wealth inequality predicted by Bewley style
+models by allowing for differential rates of return, a feature that finds 
 support in a vast macro-finance literature on the equity premium puzzle (for 
 a survey see \cite{SiegelThaler1997}), as well as the literature on households'
 portfolio choices ( , while \citet{GuisoHaliassosJiappeli2003} review the 
-European evidence
+European evidence)
+\citet{BenhabibBisinZhu2011} devise a peculiar model of differing rates of return,
+where the difference don't arise across asset classes, but across generations,
+with each generation of a household drawing an idiosyncratic interest rate for 
+its portfolio, which prevails for the entire span of its life\footnote{Highlighting
+the similarities between models of entrepreneurial activity and those featuring 
+different rates of return, Benhabib et al. motivate the inclusion of stochastic
+rates of return as an attempt to capture entrepreneurial risk.}. Combined with 
+altruism for future generations, this setup generates a consumption smoothing 
+motive across generations, with generations of a household that draw a high 
+rate of return accumulating assets to increase consumption of its descendants. 
+Benhabib et al. also offer some empirical support for the relevance of 
+heterogeneity in rates of return, citing a standard deviation of rates of return
+for housing equity of 14\%, and an even higher standard deviation in the rates
+of return for business equity, to asset classes which account for 28.2 and 27
+percent of total US household wealth, respectively. 
 
-Differential rates of return: \citet{BenhabibBisinZhu2011}
-\citet{DeNardiYang2015}
+Lastly, there might be institutional factors that exert differential influences
+on the savings behaviour of different agents. A prominent example of this can
+be found in the work of \citet{HubbardSkinnerZeldes1995}, who show that in a 
+model which includes a social security system based on asset-based means 
+testing, something that can be found in virtually all advanced economies, 
+there is a strong incentive for poor households not to accumulate any wealth,
+which increases wealth dispersion by lowering the wealth holdings at the bottom
+of the distribution. Other government programs such as Medicaid in the US might
+play a role in shaping the dissaving behaviour of elderly households, which the 
+standard model also has problems in replicating (see \citet{DeNardiFrenchJones2009}
+and \citeyear{DeNardiFrenchJones2010}, \citet{DeNardiFrenchJonesMcCauley2015}).  
+
 
 \section{Conclusion}
 This chapter provides an overview of stylised facts about the wealth 
@@ -386,7 +510,22 @@ distribution are the risks households are facing -- both on the income and the
 expenditure side -- and the financial markets available to them to insure 
 themselves against those risks and earn returns on their savings. Finally, the 
 far right tail of the wealth distribution seems to be driven by factors beyond 
-this and it is not clear whether variation in subjective discount factors, 
-entrepreneurial activity, or other factors are best suited to model wealth 
-accumulation at the top.
- 
+this, with modelling attempts featuring a vast array of different ingredients 
+succeeding in matching the distribution of wealth even for the richest house-
+holds. Given that vastly different approaches manage to fit the distribution, it
+is fair to say that so far there is no consensus on which mechanism is the most
+important one to include, and that all attempts to match the observed dispersion
+of wealth based on one of those mechanisms likely overstate the contribution of 
+that particular mechanism, as so far no attempts at building an overlapping 
+generations stochastic-beta model featuring differential rates of return, a 
+realistic tax and benefit system, entrepreneurial activity, intergenerational 
+transmission of financial wealth and ability, and human capital formation has 
+been made. Some progress is being made in this direction, e.g. in 
+\citet{DeNardiYang2015}, who combine intergenerational transfers of wealth and
+ability with an income process exhibiting higher income risk for rich households.
+Furthermore, virtually all of the papers discussed in this chapter 
+rely on a variation of a simple AR(1) income process, ignoring recent evidence
+on income processes from large administrative data sets, to be discussed in 
+chapter \ref{ch:income}. This means that the implications of heterogeneous income
+processes for the wealth distribution are not well understood, a gap in the 
+literature that \ref{ch:learning} will attempt to address. 
