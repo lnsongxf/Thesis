@@ -8,11 +8,6 @@
   Employment Contracts},'' {\it American Economic Review}, March 1987, {\it 77}
   (1), 50--68.
 
-\harvarditem[Aguiar and Bils]{Aguiar and Bils}{2015}{AguiarBils2015}
-{\bf Aguiar, Mark and Mark Bils}, ``{Has Consumption Inequality Mirrored Income
-  Inequality?},'' {\it American Economic Review}, September 2015, {\it 105}
-  (9), 2725--56.
-
 \harvarditem[Aiyagari]{Aiyagari}{1994}{Aiyagari1994}
 {\bf Aiyagari, S~Rao}, ``Uninsured Idiosyncratic Risk and Aggregate Saving,''
   {\it The Quarterly Journal of Economics}, August 1994, {\it 109} (3),
@@ -35,17 +30,6 @@
 {\bf Attanasio, Orazio and Guglielmo Weber}, ``Consumption and Saving: Models
   of Intertemporal Allocation and Their Implications for Public Policy,'' {\it
   Journal of Economic Literature}, September 2010, {\it 48} (3), 693--751.
-
-\harvarditem[Attanasio et al.]{Attanasio, Hurst and Pistaferri}{2013}{AHP2013}
-{\bf \bysame{}, Erik Hurst, and Luigi Pistaferri}, ``The Evolution of Income,
-  Consumption, and Leisure Inequality in the US, 1980-2010,'' in ``Improving
-  the Measurement of Consumer Expenditures,'' National Bureau of Economic
-  Research, Inc, 2013.
-
-\harvarditem[Autor et al.]{Autor, Katz and Kearney}{2005}{AutorKatzKearney2005}
-{\bf Autor, David~H., Lawrence~F. Katz, and Melissa~S. Kearney}, ``Trends in
-  U.S. Wage Inequality: Re-Assessing the Revisionists,'' NBER Working Papers
-  11627, National Bureau of Economic Research, Inc September 2005.
 
 \harvarditem[Badel and Huggett]{Badel and Huggett}{2014}{BadelHuggett2014}
 {\bf Badel, Alejandro and Mark Huggett}, ``{Taxing top earners: a human capital
@@ -81,6 +65,10 @@
   Wealth and Fiscal Policy in Economies With Finitely Lived Agents,'' {\it
   Econometrica}, 01 2011, {\it 79} (1), 123--157.
 
+\harvarditem[Bernanke]{Bernanke}{2005}{Bernanke2005}
+{\bf Bernanke, Ben~S.}, ``{The global saving glut and the U.S. current account
+  deficit},'' Technical Report 2005.
+
 \harvarditem[Bernard et al.]{Bernard, Jensen and Schott}{2006a}{Bernard2006a}
 {\bf Bernard, Andrew~B., J.~Bradford Jensen, and Peter~K. Schott}, ``{Survival
   of the best fit: Exposure to low-wage countries and the (uneven) growth of
@@ -91,10 +79,6 @@
 {\bf \bysame{}, \bysame{}, and \bysame{}}, ``{Trade costs, firms and
   productivity},'' {\it Journal of Monetary Economics}, July 2006, {\it 53}
   (5), 917--937.
-
-\harvarditem[Bertrand and Morse]{Bertrand and Morse}{2013}{BertrandMorse2012}
-{\bf Bertrand, Marianne and Adair Morse}, ``Trickle-Down Consumption,'' Working
-  Paper 18883, National Bureau of Economic Research March 2013.
 
 \harvarditem[Bewley]{Bewley}{1977}{Bewley1977}
 {\bf Bewley, Truman}, ``The permanent income hypothesis: A theoretical
@@ -145,12 +129,6 @@
   the Larger and Better Boats,'' 2007.
 \newblock Working Paper.
 
-\harvarditem[Campbell and Hercowitz]{Campbell and
-  Hercowitz}{2005}{CampbellHercovitz2005}
-{\bf Campbell, Jeffrey~R. and Zvi Hercowitz}, ``The Role of Collateralized
-  Household Debt in Macroeconomic Stabilization,'' NBER Working Papers 11330,
-  National Bureau of Economic Research, Inc May 2005.
-
 \harvarditem[Carroll et al.]{Carroll, Slacalek and
   Tokuoka}{2014}{CarrollSlacalekTokuoka2014AER}
 {\bf Carroll, Christopher~D., Jiri Slacalek, and Kiichi Tokuoka}, ``{The
@@ -185,11 +163,6 @@
   Ottaviano}, ``{Productivity and Firm Selection: Quantifying the 'New' Gains
   From Trade},'' {\it Economic Journal}, 2011, {\it 122}, 754--798.
 
-\harvarditem[Cordoba]{Cordoba}{2008}{Cordoba2008}
-{\bf Cordoba, Juan-Carlos}, ``U.S. inequality: Debt constraints or incomplete
-  asset markets?,'' {\it Journal of Monetary Economics}, March 2008, {\it 55}
-  (2), 350--364.
-
 \harvarditem[Costinot and Rodriguez-Clare]{Costinot and
   Rodriguez-Clare}{2014}{CostinotRodriguez2014}
 {\bf Costinot, Arnaud and Andres Rodriguez-Clare}, ``Trade Theory with Numbers:
@@ -201,6 +174,12 @@
 {\bf Cozzi, Marco}, ``{Risk Aversion Heterogeneity, Risky Jobs and Wealth
   Inequality},'' Working Papers 1286, Queen's University, Department of
   Economics December 2014.
+
+\harvarditem[Davies et al.]{Davies, Sandstrom, Shorrocks and
+  Wolff}{2007}{DaviesSandstormShorrocksWolff2007}
+{\bf Davies, James~B., Susanna Sandstrom, Anthony Shorrocks, and Edward~N.
+  Wolff}, ``{Estimating the Level and Distribution of Global Household
+  Wealth},'' Technical Report 2007.
 
 \harvarditem[Deaton]{Deaton}{1992}{Deaton1992book}
 {\bf Deaton, Angus}, {\it Understanding Consumption} number 9780198288244. In
@@ -276,11 +255,6 @@
 {\bf Glaeser, Edward~L.}, ``Psychology and the Market,'' {\it American Economic
   Review}, May 2004, {\it 94} (2), 408--413.
 
-\harvarditem[Gordon]{Gordon}{2009}{Gordon2009}
-{\bf Gordon, Robert~J.}, ``Misperceptions About the Magnitude and Timing of
-  Changes in American Income Inequality,'' NBER Working Papers 15351, National
-  Bureau of Economic Research, Inc September 2009.
-
 \harvarditem[Gourinchas and Parker]{Gourinchas and
   Parker}{2002}{GourinchasParker2002}
 {\bf Gourinchas, Pierre-Olivier and Jonathan~A. Parker}, ``Consumption Over the
@@ -329,13 +303,6 @@
 {\bf Head, Keith and John Ries}, ``{Rationalization effects of tariff
   reductions},'' {\it Journal of International Economics}, April 1999, {\it 47}
   (2), 295--320.
-
-\harvarditem[Heathcote et al.]{Heathcote, Perri and
-  Violante}{2010}{HeathcotePerriViolante2010}
-{\bf Heathcote, Jonathan, Fabrizio Perri, and Giovanni~L. Violante}, ``Unequal
-  We Stand: An Empirical Analysis of Economic Inequality in the United States:
-  1967-2006,'' {\it Review of Economic Dynamics}, January 2010, {\it 13} (1),
-  15--51.
 
 \harvarditem[Hintermaier and Koeniger]{Hintermaier and
   Koeniger}{2011}{HintermaierKoeniger2011}
@@ -417,11 +384,6 @@
   Intergenerational Transfers in Aggregate Capital Accumulation},'' {\it
   Journal of Political Economy}, August 1981, {\it 89} (4), 706--32.
 
-\harvarditem[Krueger and Perri]{Krueger and Perri}{2006}{KruegerPerri2006}
-{\bf Krueger, Dirk and Fabrizio Perri}, ``Does Income Inequality Lead to
-  Consumption Inequality? Evidence and Theory,'' {\it Review of Economic
-  Studies}, 2006, {\it 73} (1), 163--193.
-
 \harvarditem[Krusell et al.]{Krusell, Smith and Jr.}{1998}{KrusellSmith1998}
 {\bf Krusell, Per, Anthony~A. Smith, and Jr.}, ``Income and Wealth
   Heterogeneity in the Macroeconomy,'' {\it Journal of Political Economy},
@@ -441,11 +403,6 @@
 \harvarditem[Lucas]{Lucas}{2004}{Lucas2004}
 {\bf Lucas, Robert}, ``The Industrial Revolution - Past and Future,'' Essay,
   Federal Reserve Bank of Minneapolis May 2004.
-
-\harvarditem[Ma]{Ma}{2013}{Ma2013}
-{\bf Ma, Lin}, ``Globalization and Top Income Shares,'' Technical Report,
-  University of Michigan 2013.
-\newblock Working Paper.
 
 \harvarditem[MaCurdy]{MaCurdy}{1982}{MaCurdy1982}
 {\bf MaCurdy, Thomas~E.}, ``The Use of Time Series Processes to Model the Error
@@ -492,11 +449,6 @@
 \harvarditem[Moore]{Moore}{2003}{Moore2003}
 {\bf Moore, David~W.}, ``Half of Young People Expect to Strike It Rich,'' March
   2003.
-
-\harvarditem[Narajabad]{Narajabad}{2012}{Narajabad2012}
-{\bf Narajabad, Borghan~Nezami}, ``Information Technology and the Rise of
-  Household Bankruptcy,'' {\it Review of Economic Dynamics}, October 2012, {\it
-  15} (4), 526--550.
 
 \harvarditem[Nardi]{Nardi}{2004}{DeNardi2004}
 {\bf Nardi, Mariacristina}, ``{Wealth Inequality and Intergenerational
@@ -549,11 +501,6 @@
 {\bf \bysame{}}, {\it Capital in the 21st Century}, Harvard University Press,
   2014.
 
-\harvarditem[Piketty and Saez]{Piketty and Saez}{2003}{PikettySaez2003}
-{\bf \bysame{} and Emmanuel Saez}, ``Income Inequality In The United States,
-  1913-1998,'' {\it The Quarterly Journal of Economics}, February 2003, {\it
-  118} (1), 1--39.
-
 \harvarditem[Piketty and Zucman]{Piketty and Zucman}{2015}{PikettyZucman2015}
 {\bf \bysame{} and Gabriel Zucman}, ``Wealth and inheritance in the long run,''
   in Anthony~B. Atkinson and Francois Bourguignon, eds., {\it Handbook of
@@ -602,11 +549,6 @@
 \harvarditem[Trefler]{Trefler}{2004}{Trefler2004}
 {\bf Trefler, Daniel}, ``{The Long and Short of the Canada-U.S. Free Trade
   Agreement},'' {\it American Economic Review}, 2004, {\it 94} (4), 870--895.
-
-\harvarditem[van Treeck]{van Treeck}{2012}{vanTreeck2012}
-{\bf van Treeck, Till}, ``Did inequality cause the U.S. financial crisis?,''
-  IMK Working Paper 91-2012, IMK at the Hans Boeckler Foundation, Macroeconomic
-  Policy Institute 2012.
 
 \harvarditem[Vandendriessche]{Vandendriessche}{2015}{Vandendriessche2015}
 {\bf Vandendriessche, Damien}, ``Stata command to merge BHPS and Understanding
