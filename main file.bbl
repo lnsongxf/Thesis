@@ -151,12 +151,6 @@
   Household Debt in Macroeconomic Stabilization,'' NBER Working Papers 11330,
   National Bureau of Economic Research, Inc May 2005.
 
-\harvarditem[Campbell and Hercowitz]{Campbell and
-  Hercowitz}{2009}{CampbellHercovitz2009}
-{\bf \bysame{} and \bysame{}}, ``Welfare implications of the transition to high
-  household debt,'' {\it Journal of Monetary Economics}, January 2009, {\it 56}
-  (1), 1--16.
-
 \harvarditem[Carroll et al.]{Carroll, Slacalek and
   Tokuoka}{2014}{CarrollSlacalekTokuoka2014AER}
 {\bf Carroll, Christopher~D., Jiri Slacalek, and Kiichi Tokuoka}, ``{The
@@ -243,6 +237,12 @@
 {\bf Dynan, Karen~E., Jonathan Skinner, and Stephen~P. Zeldes}, ``Do the Rich
   Save More?,'' {\it Journal of Political Economy}, April 2004, {\it 112} (2),
   397--444.
+
+\harvarditem[Fernández-Villaverde and Krueger]{Fernández-Villaverde and
+  Krueger}{2011}{FernandezVillaverdeKrueger2011}
+{\bf Fernández-Villaverde, Jesús and Dirk Krueger}, ``{Consumption And Saving
+  Over The Life Cycle: How Important Are Consumer Durables?},'' {\it
+  Macroeconomic Dynamics}, November 2011, {\it 15} (05), 725--770.
 
 \harvarditem[Floden]{Floden}{2008}{Floden2008}
 {\bf Floden, Martin}, ``{Aggregate Savings When Individual Income Varies},''
@@ -337,12 +337,6 @@
   1967-2006,'' {\it Review of Economic Dynamics}, January 2010, {\it 13} (1),
   15--51.
 
-\harvarditem[Heathcote et al.]{Heathcote, Storesletten and
-  Violante}{2007}{HeathcoteStoreslettenViolante2007}
-{\bf \bysame{}, Kjetil Storesletten, and Giovanni~L Violante}, ``Consumption
-  and Labour Supply with Partial Insurance: An Analytical Framework,'' CEPR
-  Discussion Papers 6280, C.E.P.R. Discussion Papers May 2007.
-
 \harvarditem[Hintermaier and Koeniger]{Hintermaier and
   Koeniger}{2011}{HintermaierKoeniger2011}
 {\bf Hintermaier, Thomas and Winfried Koeniger}, ``On the Evolution of the US
@@ -382,6 +376,11 @@
 {\bf Imrohoruglu, Ayse}, ``{Cost of Business Cycles with Indivisibilities and
   Liquidity Constraints},'' {\it Journal of Political Economy}, December 1989,
   {\it 97} (6), 1364--83.
+
+\harvarditem[Jenkins]{Jenkins}{2010}{Jenkins2010}
+{\bf Jenkins, Stephen~P.}, ``{The British Household Panel Survey and its Income
+  Data},'' IZA Discussion Papers 5242, Institute for the Study of Labor (IZA)
+  October 2010.
 
 \harvarditem[Kaplan and Violante]{Kaplan and
   Violante}{2010}{KaplanViolante2010}
@@ -432,6 +431,12 @@
 {\bf Lawrance, Emily~C}, ``{Poverty and the Rate of Time Preference: Evidence
   from Panel Data},'' {\it Journal of Political Economy}, February 1991, {\it
   99} (1), 54--77.
+
+\harvarditem[Ljungqvist and Sargent]{Ljungqvist and
+  Sargent}{2012}{LjungqvistSargent2012}
+{\bf Ljungqvist, Lars and Thomas~J. Sargent}, {\it {Recursive Macroeconomic
+  Theory, Third Edition}}, Vol.~1 of {\em MIT Press Books}, The MIT Press, June
+  2012.
 
 \harvarditem[Lucas]{Lucas}{2004}{Lucas2004}
 {\bf Lucas, Robert}, ``The Industrial Revolution - Past and Future,'' Essay,
@@ -602,6 +607,12 @@
 {\bf van Treeck, Till}, ``Did inequality cause the U.S. financial crisis?,''
   IMK Working Paper 91-2012, IMK at the Hans Boeckler Foundation, Macroeconomic
   Policy Institute 2012.
+
+\harvarditem[Vandendriessche]{Vandendriessche}{2015}{Vandendriessche2015}
+{\bf Vandendriessche, Damien}, ``Stata command to merge BHPS and Understanding
+  Society (UKHLS),''
+  \url{http://www.parisschoolofeconomics.eu/docs/vandendriessche-damien/bhps_ukhls.zip}
+  2015.
 
 \harvarditem[Vermeulen]{Vermeulen}{2014}{Vermeulen2014}
 {\bf Vermeulen, Philip}, ``{How fat is the top tail of the wealth

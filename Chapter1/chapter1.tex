@@ -39,28 +39,22 @@ Consumer Finances (SCF), or the British Wealth and Asset Survey (WAS))
 underestimate the percentage share of wealth held by the highest percentile of the
 wealth distribution by anywhere from one to five percentage points, while surveys
 that don't oversample underestimate the share by up to ten percentage points.
-Keeping this in mind, the een when comparing Gini indices and top shares of income and wealth, as in
-Table \ref{tab:gini_topshares} or looking at histograms and cdfs of wealth and
-income distributions as in Figure \ref{fig:was_wealthholdings}. It is important to note
+Keeping this in mind, figure \ref{fig:was_wealthholdings} presents evidence on 
+household wealth from the most recent wave of the WAS, which surveyed over 
+20,000 British households in the years 2010 to 2012. The first thing that becomes
+obvious from the figure is the very unequal distribution of wealth. While households
+in the lowest two percentiles hold virtually no wealth apart from physical 
+wealth, which includes possessions such as vehicles and furniture, wealth holdings
+grow exponentially when we move up the distribution, with the top percentile 
+holding twice as much wealth as the ninth percentile. It is important to note
 that in producing these aggregate numbers and figures, one necessarily has
-to make decisions on how exactly to construct measures of income and wealth,
+to make decisions on how exactly to construct and aggregate measures of wealth,
 which will have to be kept in mind when comparing model predictions with
-empirical numbers. When constructing an income measure, the obvious starting
-point are labour earnings, and for many economic applications simply
-observing an individual's wages will be enough. When thinking about questions
-of consumption smoothing though, we are ultimately interested in accounting
-for all claims on consumption goods available to an individual or household
-in a given period, and while for most people the largest part of these claims
-stem from labour earnings, we will also want to account for the effect of
-government programs (by constructing a post-tax, post-transfer income measure),
-income from accumulated assets, and potentially even informal insurance
-arrangements such as inter-vivos transfers between family and friends.
-In constructing wealth measures, we again have to think closely about the
-question we are trying to answer when constructing them. If the goal is to
-account for all productive capital in the economy that can be used in
-production, a measure of total net wealth aggregating all forms of asset and
-debt classes, and including some durable consumption goods such as cars. When
-thinking about the role of wealth in helping the household to smooth out
+empirical numbers. If the goal is to account for all productive capital in the 
+economy that can be used in production, a measure of total net wealth aggregating 
+all forms of asset and debt classes, and including some durable consumption 
+goods such as cars. When thinking about the role of wealth in helping the 
+household to smooth out
 income fluctuations, it might be more appropriate to exclude very illiquid
 assets such as housing, and look more closely at the role of debt for households
 which might be at their borrowing constraint and are thus vulnerable to
@@ -69,16 +63,9 @@ illiquid assets) is positive. Finally, important questions are raised by
 the existence of various government and private pension schemes, which have
 to be factored in when constructing measures of a household's lifetime
 resources, but whose exact value might be uncertain (for the case of defined
-contribution plans) and not well understood by households themselves.
-
-
-\begin{table}%
-\begin{tabular}{lcr}
-
-\end{tabular}
-\caption{Measures of wealth concentration in different data sets.}
-\label{tab:gini_topshares}
-\end{table}
+contribution plans) and not well understood by households themselves. Figure
+\ref{fig:was_wealthholdings} makes clear that this is a non-trivial issue, as
+implied pension wealth is a significant portion of household portfolios.
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{was_wealth_holdings}
@@ -134,8 +121,9 @@ on the household level solely depends on the length of the retirement period,
 while in aggregate wealth accumulation crucially hinges on the growth rate
 of the economy. The crucial assumption that allows Modigliani and Brumberg to
 focus on consumption smoothing over the life cycle was that of constant income,
-an assumption that is obviously incorrect and easily rejected by the data.
-
+an assumption that is obviously incorrect and easily rejected by the data. We 
+will therefore next discuss the implications of introducing income fluctuations
+into the basic model.
 
 \section{Income uncertainty and market structure}
 With the assumption of a non-constant income stream, it becomes important to 
@@ -202,34 +190,82 @@ found in \citealt{Deaton1992book}), implying that there are at least some
 insurance opportunities available to households in the real world. Based on the 
 rejection of both full and no insurance in the data, an active literature has 
 developed trying to quantify the amount of insurance households have access to.
-\citet{KruegerPerri2004}
-\citet{HeathcoteStoreslettenViolante2004}
-\citet{HeathcoteStoreslettenViolante2007}
 \citet{BlundellPistaferriPreston2008} develop a novel imputation procedure 
-designed to alleviate measurement problems in PSID consumption data to test 
-\citet{KaplanViolante2010} examine how to what extent the empirical estimates
+designed to alleviate measurement problems in PSID consumption data to test the
+degree of partial insurance. Their estimates imply that households are almost
+perfectly able to insulate consumption from transitory shocks, as a standard
+Bewley model would predict, but, in contrast to the model predictions, also that
+around 40\% of permanent shocks to income can be insured against. 
+\citet{KaplanViolante2010} examine to what extent the empirical estimates
 of consumption insurance that \citet{BlundellPistaferriPreston2008} obtain can
 be replicated in a standard incomplete market model with capital as the only 
-savings vehicle. 
-
-
+savings vehicle. They find that the model replicates the high degree of insurance
+against transitory shocks, but fails to generate enough insurance against permanent
+shock; a version of the model with a natural borrowing constraint\footnote{This
+is one of the loosest possible borrowing constraints commonly used in the literature,
+it implies that households can borrow up to the capitalised value of the income
+stream until the end of life that would obtain if they were hit by the worst 
+sequence of income shocks possible.} generates an insurance coefficient of 22\%, 
+while one without borrowing only delivers 7\% insurance. They also show that the model generates
+too much insurance for older workers and too little for younger workers, which, 
+just as the importance of the role of borrowing constraints, is consistent with
+the empirical finding in \citet{BlundellPistaferriPreston2008} that insurance
+coefficients are much higher in a sample of high wealth households compared to 
+a sample of low wealth households. All of this suggests that in order to accurately
+assess self insurance in a quantitative model, it is important for the model to
+capture the wealth accumulation adequately, as wealth holdings might significantly
+change the insurance options of households, even if that wealth was accumulated
+for reasons entirely different from the self-insurance motives present in the 
+simple incomplete markets model.
 
 \section{The role of housing}\label{housing}
-While much effort has been devoted to examining the implications of income risk
-and market structure for wealth accumulation through precautionary savings, it 
-is undeniable that a large part of household saving happens in the form of an
-asset which cannot perform the role of buffering against income shocks: housing.
-As figure \ref{fig:was_wealthholdings} demonstrates using data from the US SCF and
-the British Wealth and Asset Survey, by far the largest share of household
+One important component of household saving for which the motives to accumulate
+it are more complex than a simple self-insurance model would imply is housing. 
+As figure \ref{fig:was_wealthholdings} demonstrates using data from the most 
+recent British Wealth and Asset Survey, by far the largest share of household
 portfolios is invested in housing wealth, with the notable exception of the
-very richest households. The illiquidity of housing, the high transaction costs
-and the consumption element of housing purchases make this asset fundamentally
-different from the one-period riskless bond considered in our workhorse model.
+very richest households. Similar portfolio allocations can be observed for all
+advanced economies, \citet{FernandezVillaverdeKrueger2011} for example show that
+households between the 30th and 80th percentile of the wealth distribution hold
+in excess of 60\% of their total assets in housing wealth. The illiquidity of 
+housing, the high transaction costs and the consumption element of housing 
+purchases make this asset fundamentally different from the one-period riskless 
+bond considered in our workhorse model, and imply that it offers only very limited
+insurance opportunities against short-term income fluctuations. Furthermore, 
+housing differs from other assets in that it also offers the household housing
+services, that is an investment in real estate is at the same time the purchase
+of a durable good. Hence, the introduction of housing into our simple model
+above does not only mean a departure from having a simple asset $a_t$ in 
+equation \ref{bc}, it also means having an additional consumption good which 
+does not perish, possibly altering the households utility function in equation
+\ref{maxprob}, if the utility derived from the housing good is of a different 
+form that that derived from instantaneous consumption. 
 A number of authors have considered the effects of allowing households to save
-in housing assets in addition to financial assets: \citet{CampbellHercovitz2009} 
-and \citet{CampbellHercovitz2005}, \citet{Yang2009}, \citet{Iacoviello2008}
-
-
+in housing assets in addition to financial assets. \citet{Yang2009} constructs
+synthetic cohorts to examine consumption data from the CEX in tandem with asset
+allocation data from the SCF and documents diverging consumption patterns over 
+the life-cycle for housing compared to non-housing goods. She also shows that
+wealth accumulation is markedly different for home owners compared to renters,
+with home owners holding much more wealth in retirement than non-owners, in 
+contrast to the predictions of a simple life-cycle model. She also shows that
+a model which includes housing services in the utility function and features
+borrowing constraints coupled with downpayments for housing purchases (which 
+prevent many agents from accumulating housing wealth early in life) and transaction
+costs in the adjustment of the housing stock (which slows the decumulation of
+housing assets at the end of life) can match the key empirical facts. 
+\citet{FernandezVillaverdeKrueger2011} present an argument along similar lines 
+and build a model with endogenous borrowing constraints in which durable consumption
+goods (which can be seen as housing) act as collateral. Here, the model predicts
+accumulation of durable goods early in life, with high consumption of nondurables
+and accumulation of financial assets later in life, in line with the data. 
+\citet{Iacoviello2008} considers a similar model and shows that the presence
+of housing assets in the model can lead to a decoupling of the joint evolution
+of cross-sectional consumption and income inequality that was at the heart of
+the literature identifying permanent and transitory income shocks from precisely
+this relationship. This again highlights the crucial importance of getting the 
+mechanisms driving households' wealth accumulation right if one wants to draw 
+conclusions about the risk households are facing from quantitative models of 
+household consumption and savings.
 
 \section{Closed and open economies}
 One key decision when building a model of wealth accumulation is the question
@@ -245,16 +281,20 @@ on the steady state interest rate. Aiyagari shows that compared to a standard
 growth model, the steady state stock of capital in a closed incomplete markets
 economy is higher, and, correspondingly, the steady state interest rate is lower
 because of precautionary savings induced by income uncertainty.
-Another problem introduced by endogenous interest rates is a computational one,
-the determination of the interest rate requires asset market clearing, which 
-implies that household savings choices have to be consistent with each other
-in each period. 
+However, allowing for an endogenous interest rates introduces additional complexity
+into the model as the determination of the interest rate requires asset market 
+clearing, which implies that household savings choices have to be consistent 
+with each other in each period. For many modern life-cycle models which feature
+large, high-dimensional state spaces, this additional computational burden
+might make the model solution infeasible.
 For these reasons, many researchers have opted for treating the interest rate
 as an exogenous parameter, set anywhere between three \citep{Cagetti2003} and
 5.2 \citep{GourinchasParker2002} percent. Whether this is justified will depend
 on two things: theoretically, one has to ask whether general equilibrium effects
 are likely to alter the answer to the question at hand, while empirically the 
-question of the elasticity of the interest rate to changes in aggregate wealth.
+question of how high the elasticity of the interest rate to changes in aggregate 
+wealth is will determine how problematic omitting this feedback mechanism from 
+the model is.
 In general equilibrium models in the tradition of \cite{Aiyagari1994}, this 
 elasticity is given by the sensitivity of the marginal product of capital to
 the quantity of aggregate capital, which can be determined from the production 
@@ -263,13 +303,22 @@ literature (see e.g. \citealt{CastanedaRiosRull2003}), recent work by
 \citet{Piketty2014} casts doubt on the appropriateness of this assumption and 
 argues for a functional form implying a lower elasticity of the interest rate
 to increases in the capital stock. Irrespective of the choice of the production 
-function though, one has to ask who valid the assumption of a closed economy, in 
+function though, one has to ask how valid the assumption of a closed economy, in 
 which household savings have direct impacts on the quantity of productive capital
 in the economy, is. Given the deep international integration of modern financial
 markets, it appears that the open economy assumption often used in international
 economics to describe economies that can not set interest rates might be useful
 when thinking about the dynamics of interest rates in response to changes in 
-saving behaviour in the local economy
+saving behaviour in the local economy. \citet{DaviesSandstormShorrocksWolff2007}
+show that even the US as the economy with the -- by far -- largest net wealth
+holdings only accounts for around 30\% of global net wealth. This suggests that 
+any excess negative or positive asset holding in an economy for which the asset
+market clearing condition does not hold locally can be absorbed by global financial
+markets. Indeed, \citet{Bernanke2005} famously argued that a "global savings
+glut" was sustaining large US current account deficits, suggesting that global
+financial markets allow even the largest asset market in the world to not clear
+for extended periods of time. These considerations motivate us to opt for an
+exogenous interest rate in chapter \ref{ch:learning}.
 
 \section{Wealth Distribution Papers}
 In the last years, many authors have used the increasing possibilities offered
@@ -460,7 +509,6 @@ a significant increase in precautionary savings in the economy, they do not
 help to bring the model closer to the empirical dispersion of wealth holdings,
 and on the contrary lower the Gini coefficient compared to a model without 
 habit formation. 
-
 
 As alluded to in the discussion of models with entrepreneurial activity, there is
 also a literature that increases wealth inequality predicted by Bewley style
