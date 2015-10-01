@@ -1,4 +1,4 @@
-\section{Introduction}
+\section[Introduction]{Introduction}
 As has become clear from the discussion in the preceding chapter, a crucial
 ingredient to any model of household savings is an estimate of the risk that
 households are facing in the form of their income process. Traditionally,
@@ -131,9 +131,12 @@ in a given year, and then averaging over all age groups present in a given year.
 The theoretical counterpart is obtained by simply calculating the corresponding
 variances and covariances from the formulas above, and forming weighted averages
 over $h$ with weights corresponding to the relative frequency of age-groups in
-the empirical data.
-
-\section{Prior evidence}
+the empirical data\footnotetext{All codes used in this chapter can be found on 
+my GitHub page: \href{https://github.com/nilshg/psidJulia}{psidJulia} for the
+code used to merge all waves of the PSID, extract the variance-covariance matrix
+of residuals and fit the process using a minimum distance estimator, 
+\href{https://github.com/nilshg/BHPStools}{BHPStools} for code that merges the
+18 waves of the BHPS and creates the residual variance-covariance matrix.}.
 \begin{table}
 \begin{tabular}{l|c|c|c|c|c|c}
 
@@ -241,14 +244,19 @@ BHPS households}
 \end{figure}
 
 
-
-
 \section{Results}
 Table \ref{tab:PSID_results} displays the results for the PSID sample of households.
 While the results can be considered to be qualitatively similar to those found
 in \citet{Guvenen2009}, interestingly the estimated dispersion of individual-
 specific growth rates declines from 0.00031 to 0.00025, a result that confirms
-the same finding in \citet{Hryshko2012}. 
+the same finding in \citet{Hryshko2012}. Furthermore, the difference in estimated
+persistence for the HIP and RIP is much smaller than that reported by Guvenen,
+and closer to the values found in \citet{Hryshko2012}\footnote{To ensure broad
+correctness of our estimation procedure, we also downloaded and ran the code of
+\citet{Guvenen2009} along with the original dataset used therein from the journal
+website. Unfortunately, we were unable to replicate the results reported in the 
+paper with this code; the results turn out to be much closer to our results reported
+here. The author did not respond to repeated emails asking for clarification.}.
 Table \ref{tab:BHPS_results} shows the results of estimating both RIP and HIP
 processes on our sample of households from the BHPS, using the four different
 income measures described previously. The results are largely unsurprising 
@@ -264,6 +272,25 @@ in the parameters that increase cross-sectional dispersion over the life-cycle
 of a cohort is offset by a rise in the cross-sectional inequality in intercepts, 
 $\var_{\alpha}$ rises from 0.036 in the gross labour income sample to 0.052 in 
 the net household income sample. The persistence of 
+The most peculiar set of estimates obtains for the deflated and equivalized
+measure of net household income. Here, the RIP process shows a much lower persistence
+as would be expected, while the variance of persistence shocks is surprisingly 
+higher than in then in the raw measure of net household income. The results
+for the HIP process indicate that the minimization routine hit the boundaries 
+on both $\sigma^2_{\beta}$\footnote{Which actually has a lower bound of 1e-6, so 
+is not exactly zero.} and $\cov(\alpha,\beta)$. A possible explanation for the 
+large difference in results compared to all other income processes can be seen 
+in figure \ref{fig:bhps_profiles}: as the equivalization largely removes the
+hump-shape of the experience profile in the data, the fitted regression line
+misses the sharp increase in income at the earliest stage of the life cycle, and
+instead takes a flat shape over the entire range. This necessarily implies an
+entirely different structure of residuals, with extremely large predicted residuals
+for the first years of working life. Given this, we will not consider the estimates
+for this process in the rest of this thesis\footnote{For the case of the HIP process 
+this isn't actually a choice, as the estimated parameters for $\sigma^2_{\beta}$ and
+$\cov{\alpha,\beta}$ imply a negative-definite variance covariance matrix for the
+bivariate Normal distribution from which $\alpha$ and $\beta$ are drawn, making it
+impossible to simulate an income distribution using these estimates.}.
 
 \section{Discussion}
 Our estimates point to substantial uncertainty over the correct HIP process, 
@@ -296,8 +323,7 @@ Net household income  & 0.857 &  0.027           &   0.056                &     
 Net household income (deflated) & 0.812 &  0.039 &   0.042                &       0.100       &        0.0       &       -1.0            \\
 \hline
 \end{tabular}
-\caption{Results for the PSID sample 1968-1996; Guvenen (2009) refers to published results, Guvenen Matlab to results obtained by running
-the code available on the journal website, short sample to my own estimation with the 1968-1996 data, full sample to the 1968-2013 data.}
+\caption{Results for the BHPS sample 1992--2008, different measures of household income}
 \label{tab:BHPS_results}
 \end{table}
 
@@ -309,7 +335,7 @@ the code available on the journal website, short sample to my own estimation wit
 \hline 
 \multicolumn{7}{c}{Restricted income process: $\sigma^2_{\beta} \stackrel{!}{=} 0$} \\
 1968-1996 sample & 0.932 &  0.010           &   0.036                &       0.084       &        --        &        --             \\
-1968-2013 sample & 0.920 &  0.014           &   0.067                &       --          &        --        &        --             \\
+1968-2013 sample & 0.920 &  0.014           &   0.067                &       0.076       &        --        &        --             \\
 1968-1986 sample & 0.960 &  0.015           &   0.061                &       0.058       &        --        &        --             \\
 1987-2013 sample & 0.939 &  0.017           &   0.095                &       0.110       &        --        &        --             \\
 \hline
@@ -317,10 +343,10 @@ the code available on the journal website, short sample to my own estimation wit
 \hline
 1968-1996 sample & 0.853 &  0.013           &   0.030                &   0.030           &     0.00031      &     --0.30            \\
 1968-2013 sample & 0.839 &  0.017           &   0.064                &   0.047           &     0.00026      &     --0.32            \\
-1968-1986 sample & 0.885 &  0.013           &   0.043                &       0.110       &      0.00001     &      -0.42            \\
+1968-1986 sample & 0.885 &  0.013           &   0.043                &       0.110       &      0.00028     &      -0.42            \\
 1987-2013 sample & 0.854 &  0.032           &   0.085                &       0.097       &      0.00025     &      -0.31            \\
 \hline
 \end{tabular}
-\caption{Results for the BHPS sample 1992-2009, different income measures.}
+\caption{Results for the PSID, different sample periods.}
 \label{tab:PSID_results}
 \end{table}

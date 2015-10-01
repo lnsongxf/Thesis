@@ -43,7 +43,7 @@ HIP process in determining the shape of the income distribution. Finally, the
 sensitivity of the model to changes in agents' initial beliefs and the role
 of systematic mistakes in beliefs is investigated.
 
-\pagebreak
+
 \section{The Model}\label{sec:model}
 
 Consumers maximize
@@ -162,10 +162,10 @@ Finances, data that is available in \cite{HintermaierKoeniger2011}. We check
 the sensitivity of model results to this choice by comparing them to the 
 alternative of zero wealth holdings at age 20 for all households and confirm both
 that there is no qualitative difference in model results, and that the quantitative
-differences are negligible.
+differences are negligible. All codes used in this chapter can be found in my 
+GitHub repository \href{https://github.com/nilshg/LearningModels}{LearningModels}.
 
 
-\pagebreak
 \section{Quantitative Results}\label{sec:qr}
 To take the model to the data, we follow the strategy in \citet{HintermaierKoeniger2011}
 and calibrate the model using a minimum 
@@ -174,10 +174,49 @@ distance estimator that minimizes the difference between wealth holdings at perc
 SCF can be readily obtained from the code of \citet{HintermaierKoeniger2011}, 
 while we use the UK Wealth and Asset survey to derive similar statistics for the 
 UK for fitting the model when the income process is derived from BHPS data.
-
-
-The results can be seen in table \ref{tab:calibration_results}.
-
+The target moments in the data are the wealth holdings at percentiles 10 to 90
+for prime age households (ages 26 to 55), as well as for young (ages 26 to 35), 
+middle aged (ages 36 to 45) and old (46 to 55) households\footnote{When using 
+WAS data, the age categories are all shifted back by one year (that is, young 
+households are aged 25 to 34), as this is the categorisation used in the survey.},
+which gives us a total of 324 moments to match. Stacking all of these moments
+into a vector $\mu$, and denoting the vector of percentile wealth holdings
+for households simulated from the model by $\theta$, the minimum distance estimator is 
+$$
+\min_{\delta, \sigma} \theta' I \theta
+$$
+\citet{HintermaierKoeniger2011} derive a normality result for the estimates obtained
+from this estimator, which allows us to compute standard errors as the main 
+diagonal of the inverse of the squared Jacobian, $trace((J'J)^(-1)$, where
+$$
+J = \left[ \frac{\partial \theta}{\partial \delta} \frac{\partial \theta}{\partial \sigma} \right]
+$$
+As our baseline estimate, we fit the HIP process estimated from the full sample 
+of PSID households from 1968 to 2013 in chapter \ref{ch:income}. From the minimum 
+distance estimation, we obtain a discount factor of $\delta=$ and a risk 
+aversion parameter $\sigma=$ as the best fit, although the value of the objective
+function at the minimum is still very high. The reason for this can be seen
+graphically in figure \ref{fig:baseline} and figure \ref{fig:baseline_agedetails}:
+the model entirely misses the shape of the empirical wealth distribution, predicting
+too little wealth at the low end of the distribution, significantly too high 
+wealth accumulation for households between the 20th and 70th percentile, and
+too small wealth holdings again for households at the highest percentiles
+\footnote{Note that in all plots, we only display wealth holdings in model and 
+data between the first and 90th percentile.}. Breaking the result down by age 
+groups, we see that young households are much poorer in the model than they are
+in the data, while older cohorts display much higher savings. From these results
+it is obvious that the shape of the wealth distribution predicted by the model
+is so fundamentally wrong that none of the processes estimated in chapter 
+\ref{ch:income} will stand a chance of matching the empirical wealth distribution.
+In the interest of brevity, we therefore skip a graphical presentation of the model
+fit for the processes estimated from BHPS data to the empirical wealth distribution
+in the WAS, and only report the results of the minimum distance estimation in 
+table \ref{tab:calibration_results}. It can be seen that all estimates of the 
+discount factor are significantly lower than those obtained by \citet{HintermaierKoeniger2011},
+an artefact of the fact that overall wealth accumulation in the life-cycle model
+featuring an HIP income process is much higher than in a comparable model 
+relying on a simple AR(1) income specification, as reported in the earlier 
+working paper version of \citet{Guvenen2007}. 
 
 \begin{table}%
 \begin{tabular}{|l|c|c|}
@@ -196,7 +235,7 @@ BHPS net household income        &  0.977 & 1.5     \\
 \label{tab:calibration_results}
 \end{table} 
 
-\pagebreak
+
 \section{Comparative Statics}\label{sec:comp_stats}
 Given the largely disappointing results of the calibration and simulation exercises,
 we now turn to some comparative statics exercises to elicit what features of the 
@@ -227,9 +266,7 @@ of any different savings behaviour of rich households in the model (as e.g. foun
 in the data by \citealt{DSK2004}), means that savings behaviour is not affected
 by this change. Similarly, changing the variance of the transitory shock does 
 not alter the results significantly, save for an overall increase in wealth holdings
-for the highest value of $\sigma^2_{\varepsilon}$. [NOTE: IF TIME PERSISTS, THINK
-ABOUT HOW THIS COMPARES TO KRUEGER/PERRIS RESULTS AND WHAT IT MEANS FOR THE CROSS
-SECTIONAL VARIANCE OF WEALTH HOLDINGS!]\footnote{Graphical results can be found
+for the highest value of $\sigma^2_{\varepsilon}$\footnote{Graphical results can be found
 in the Appendix}.
 The two parameters that have a markedly larger influence on the \textit{shape}
 of the predicted percentile distribution, and hence help the model get closer
@@ -335,19 +372,6 @@ Highest realisation &  0.31   &    0.35           &    0.09                  &  
 \end{figure}
 
 
-An important part of the mechanism explored quantitatively above was the interaction 
-between profile heterogeneity, initial beliefs and learning, the speed of which 
-in turn depended on the nature of the income process underlying the simulations. 
-Obviously, estimating the model using a more standard income process without 
-profile heterogeneity, as is done in most of the life-cycle literature, would 
-eliminate this mechanism completely, as there would be no meaningful learning 
-about the income process. However, recent work by \citet{Hoffmann2013} shows 
-that specification error in the income process can severely bias econometric
- results towards either over- or underestimating the importance of profile 
-heterogeneity. Hoffmann proposes a more general and flexible specification, 
-which is still tractable enough to be used in a dynamic programming problem.
-
-
 \section{The role of initial beliefs}
 One question when working with beliefs is obviously how initial beliefs are 
 derived. While the model so far had agents starting with random beliefs centred
@@ -423,7 +447,7 @@ of the income distribution.
 \label{fig:wrongbetabeliefs}%
 \end{figure}
 
-\pagebreak
+
 \section{Discussion}\label{sec:discussion}
 As this chapter has shown, the learning model of heterogeneous income processes
 fails in capturing the dynamics of the wealth distribution under all calibrations

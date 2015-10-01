@@ -1,0 +1,230 @@
+\documentclass[11pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage[nohead]{geometry}
+\usepackage[singlespacing]{setspace}
+\usepackage[bottom]{footmisc}
+\usepackage{indentfirst}
+\usepackage{endnotes}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{ragged2e}  
+\usepackage{arydshln}
+\usepackage{tabularx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\usepackage{breqn}
+\usepackage{afterpage}
+\usepackage{authblk}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{courier}
+\usepackage{authblk}
+\usepackage{parskip}
+\setlength{\parindent}{25pt}
+\usepackage{natbib}
+\setlength{\bibsep}{12pt}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+\geometry{left=1in,right=1in,top=1.00in,bottom=1.0in}
+ 
+
+\begin{document}
+
+\title{The Competitive Effects of Trade Liberalization in North America: An Empirical Application of the Melitz--Ottaviano Model}
+\author{Nils H. Gudat\thanks{Queen Mary, University of London. Email: \href{mailto:n.gudat@qmul.ac.uk}{n.gudat@qmul.ac.uk}.} } 
+\author{Ryan Weldzius\thanks{Department of Political Science, University of California, Los Angeles. Email: \href{mailto:rweldzius@ucla.edu}{rweldzius@ucla.edu}.}}
+\affil{}
+
+\date{August 2015}
+\maketitle
+
+\begin{center}
+\textbf{\LARGE Data Appendix} 
+\end{center}
+
+\begin{spacing}{1}
+
+\noindent \textbf{Tariffs ($\tau$)}
+	\begin{itemize}
+	
+	\item \emph{Definition}: All tariff data is downloaded from the \href{http://wits.worldbank.org/Default.aspx}{World Integrated Trade Solution (WITS)}, an online software package published by the World Bank in collaboration with UNCTAD, the WTO, International Trade Center, and the UN Statistical Division. WITS publishes annual trade and tariff data from two different sources: the World Bank IDB database and the UNCTAD TRAINS database. Unfortunately, neither database provides a complete time series for each country that is devoid of erratic (and unexplained) jumps in the data. Thus, we created a data set that uses mostly TRAINS preferential tariff (PRF) data, but supplements it with observations from TRAINS or WTO IDB applied tariffs (AHS) where appropriate (this choice will only make a difference where there is no trade observed between countries and hence no applied rate, but a preferential rate still exists). All tariff data is reported according to ISIC Rev. 3.1 and converted to NAICS. This leads to the following rules for construction for each country:
+		\begin{itemize}
+		\item \underline{Canada}: TRAINS PRF from 1989 to 1995, WTO AHS from 1996 to 2014.
+
+		\item \underline{Mexico}: TRAINS AHS from 1989 to 1994, TRAINS PRF from 1995 to 2009.
+
+		\item \underline{USA}: TRAINS PRF from 1980 to 1996; WTO AHS for 1997 to 2014.
+		\end{itemize}
+	\end{itemize}
+
+
+\noindent \textbf{Prices ($p$)}
+	\begin{itemize}
+	
+	\item \emph{Definition}: The Producer Price Index (PPI) measures the average change over time in selling prices received by domestic producers of goods and services. This measure contrasts with the Consumer Price Index (CPI) which measures the price change from the perspective of the consumer. 
+	
+	\item \underline{USA}: Producer price index (PPI) reported by commodity and converted to the North American Industry Classification System (NAICS) using the Bureau of Labor Statistics' (BLS) concordance table (1988-2014, 2003=100). All industries with more than one PPI reported (due to multiple commodities matching the industry) are averaged. Source: \href{http://www.bls.gov/ppi/#data}{Bureau of Labor Statistics}. %Accessed: 17 September 2015.
+		
+	\item \underline{Canada}: Industrial product price indexes, by North American Industry Classification System (NAICS), annual (index, 2003=100), Table 329-0077, 1993-2014. Industry price indexes, by industry and industry group (reported according to SIC and converted to NAICS), annual (index, 1992=100), Table 329-0001, 1988-1992. Source: \href{http://www5.statcan.gc.ca/cansim/a47}{Statistics Canada}. %Accessed: 31 August 2015.
+
+	\item \underline{Mexico}: Industrial producer price indices, total production by economic activity (ISIC Rev. 2), monthly (index, December 2003=100), 1988-2012. Monthly data are averaged to generate an annual price index, and ISIC Rev. 2 is converted to NAICS. Source: \href{http://www.inegi.org.mx/est/contenidos/proyectos/inp/INPP_CAB2003.aspx}{Instituto Nacional de Estadistica y Geografia}. %Accessed: 31 August 2015.
+	
+	\end{itemize}
+
+
+%\noindent \textbf{Markups ($\mu$)}
+%	\begin{itemize}
+	
+%	\item \emph{Definition}: We compute average markups as the ratio of sectoral turnover relative to total variable costs, which are computed as the sum of intermediate inputs and labor costs as reported by the OECD Structural Business Statistics (SDBS) database for all businesses (SSIS). Due to the unavailability of data on sectoral turnover, we use sectoral production as a proxy. While turnover may be slightly higher than production in a given year if all of the produced goods are sold along with any stored goods from previous years, according to the OECD these measures will converge in the long term. Fixed costs are excluded from the calculation, as they will cause a negative bias between markups and openness.
+	
+%	\item \textbf{Production}: Available for Canada (1990-2008), Mexico (1994-2007), and the {\color{red}U.S. (1997-2008) -- not available via NBER data; Ryan will check the 1992 Economic Census when received from library --} in current national currency (millions) from the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database}. From the OECD SDBS database: ``The value of production corresponds to the sum of the value of all finished products (including intermediary products sold in the same condition as received), of the net change of the value of work in progress and stocks of goods to be shipped in the same condition as received, of the variation of stocks of finished products and of those in progress, of the value of goods or services rendered to others, of the value of goods shipped in the same condition as received less the amount paid for these goods and of the value of fixed assets produced by the unit for its own use.''
+	
+%	\item \textbf{Gross Operating Surplus}: Available for Canada (1990-2008); {\color{red}no data for Mexico or the US}. From the OECD SDBS database: ``Gross operating surplus is the surplus generated by operating activities after deducting labour costs (compensation of employees), and, depending on the valuation used for value added, taxes minus subsidies on production from value added. It reflects the balance available to the unit which allows it to recompense the providers of own funds and debt, to pay taxes and eventually to finance all or a part of its investment, and so measures the surplus or deficit accruing from production before taking account of any interest, rent or similar charges payable on financial or tangible non-produced assets borrowed or rented by the unit, or any interest, rent or similar receipts receivable on financial or tangible non-produced assets owned by the unit.''
+	
+%	\item \textbf{Wages and Salaries (employees)}: Available for Canada (1990-2008, ISIC Rev. 3.1) in current national currency (millions) from the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database}; available for the U.S. (1988-2010, annually in nominal USD) from  the \href{http://www.nber.org/nberces/}{NBER-CES Manufacturing Industry Database} (Becker, Gray, and Marvakov, 2013).	 {\color{red}Mexico (1994-2003, missing 2001-2002)}, and {\color{red}the U.S. (1997-2008)} 
+	
+%	\end{itemize}
+
+\noindent \textbf{Productivity ($z$)}
+	\begin{itemize}
+	
+	\item \emph{Definition}: calculated as the ratio between real value-added and total employment, by manufacturing sector.
+	
+	\item \textbf{Value Added}:  Available for Canada (1990-2008, annually, millions of current CAD) from  the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database}, Mexico (1988-2007, annually, millions of current MXN) from the Annual Industrial Survey (\emph{Encuesta Industrial Anual}), which is published annually by   the \href{http://buscador.inegi.org.mx/search?q=encuesta+industrial+anual&client=ProductosR&proxystylesheet=ProductosR&num=10&getfields=*&sort=meta:edicion:D:E:::D&entsp=a__inegi_politica_p72&lr=lang_es\%7Clang_en&oe=UTF-8&ie=UTF-8&ip=10.210.100.253&entqr=3&filter=0&site=ProductosBuscador&tlen=260&ulang=en&start=0}{\emph{Instituto Nacional de Estadistica y Geografia}}, and the U.S. (1988-2010, annually, millions of current USD) from  the \href{http://www.nber.org/nberces/}{NBER-CES Manufacturing Industry Database} (Becker, Gray, and Marvakov, 2013). All value added data is converted into constant 2003 USD.		
+	
+	\item \textbf{Employment}: Available for Canada (1990-2008, annually, ISIC Rev. 3) from the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database},  Mexico (1988-1990, 1993, annual average, CMAP; 1994-1998, 2000-2007, annual average, ISIC Rev. 3.1) from the Annual Industrial Survey (\emph{Encuesta Industrial Anual}), which is published annually by   the \href{http://buscador.inegi.org.mx/search?q=encuesta+industrial+anual&client=ProductosR&proxystylesheet=ProductosR&num=10&getfields=*&sort=meta:edicion:D:E:::D&entsp=a__inegi_politica_p72&lr=lang_es\%7Clang_en&oe=UTF-8&ie=UTF-8&ip=10.210.100.253&entqr=3&filter=0&site=ProductosBuscador&tlen=260&ulang=en&start=0}{\emph{Instituto Nacional de Estadistica y Geografia}}, and the U.S. (1988-2010, annually, NAICS) from the \href{http://www.nber.org/nberces/}{NBER-CES Manufacturing Industry Database} (Becker, Gray, and Marvakov, 2013).  	
+	\end{itemize}
+	
+\noindent \textbf{Number of Firms ($D$)}
+	\begin{itemize}
+	
+	%\item \textbf{Enterprises}: Available for the {\color{red}USA (1998-2006)} and {\color{red}Canada (2000-2007)}. From the OECD SDBS database: ``An enterprise is a legal entity possessing the right to conduct business on its own; for example to enter into contracts, own property, incur liabilities for debts, and establish bank accounts. It may consist of one or more local units or establishments corresponding to production units situated in a geographically separate place and in which one or more persons work for the enterprise to which they belong.''
+
+	\item \textbf{Establishments}: Available for Canada (1990-2008, ISIC Rev. 3.1) from the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database}, for Mexico (1988-1990, 1993, CMAP; 1994-1998, 2000-2007, annual, ISIC Rev. 3.1) from the Annual Industrial Survey (\emph{Encuesta Industrial Anual}), which is published annually by   the \href{http://buscador.inegi.org.mx/search?q=encuesta+industrial+anual&client=ProductosR&proxystylesheet=ProductosR&num=10&getfields=*&sort=meta:edicion:D:E:::D&entsp=a__inegi_politica_p72&lr=lang_es\%7Clang_en&oe=UTF-8&ie=UTF-8&ip=10.210.100.253&entqr=3&filter=0&site=ProductosBuscador&tlen=260&ulang=en&start=0}{\emph{Instituto Nacional de Estadistica y Geografia}}, and the USA (1990-2010, NAICS) from the \href{http://www.bls.gov/cew/doc/titles/ownership/ownership_titles.htm}{Bureau of Labor Statistics}. The Canadian and Mexican data are converted to NAICS using appropriate correspondence tables. 
+		
+	\end{itemize}	
+
+
+\noindent \textbf{Market Size ($L$)}
+	\begin{itemize}
+	
+	\item \textbf{Gross Domestic Product}: Available for Canada, Mexico, and the U.S. (1988-2014) in constant 2005 USD from the \href{http://data.worldbank.org/data-catalog/world-development-indicators}{the World Bank's \emph{World Development Indicators}}.
+		
+	\end{itemize}	
+	
+\noindent \textbf{Wages ($w$)}
+	\begin{itemize}
+	
+	\item \emph{Definition}: Due to data availability, wages are calculated as the total wages paid per employee.
+
+	\item \textbf{Total Wages}: Available for Canada (1990-2008, ISIC Rev. 3.1, million current CAD) from the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database}, for Mexico (1988-1990, 1993, CMAP; 1994-1998, 2000-2007, annual, ISIC Rev. 3.1, million current MXN) from the Annual Industrial Survey (\emph{Encuesta Industrial Anual}), which is published annually by   the \href{http://buscador.inegi.org.mx/search?q=encuesta+industrial+anual&client=ProductosR&proxystylesheet=ProductosR&num=10&getfields=*&sort=meta:edicion:D:E:::D&entsp=a__inegi_politica_p72&lr=lang_es\%7Clang_en&oe=UTF-8&ie=UTF-8&ip=10.210.100.253&entqr=3&filter=0&site=ProductosBuscador&tlen=260&ulang=en&start=0}{\emph{Instituto Nacional de Estadistica y Geografia}}, and and the U.S. (1988-2010, NAICS, million current USD) from the \href{http://www.nber.org/nberces/}{NBER-CES Manufacturing Industry Database} (Becker, Gray, and Marvakov, 2013). The Canadian and Mexican data are converted to NAICS using appropriate correspondence tables, and all values are converted to constant 2005 USD. 
+		
+	\end{itemize}	
+
+
+\begin{table}[ht] 
+\caption{North American Industry Classification System (NAICS), 4-Digit} 
+\tiny  
+\begin{tabular} { ll } \\ 
+\textbf{Code} & \textbf{Industry Description}	 \\ \hline\hline		
+3111   &  Animal Food Manufacturing \\
+3112   &  Grain and Oilseed Milling \\
+3113   &  Sugar and Confectionery Product Manufacturing \\
+3114   &  Fruit and Vegetable Preserving and Specialty Food Manufacturing \\
+3115   &  Dairy Product Manufacturing \\
+3116   &  Animal Slaughtering and Processing \\
+3117   &  Seafood Product Preparation and Packaging \\
+3118   &  Bakeries and Tortilla Manufacturing \\
+3119   &  Other Food Manufacturing \\
+3121   &  Beverage Manufacturing \\
+3122   &  Tobacco Manufacturing \\
+3131   &  Fiber, Yarn, and Thread Mills \\
+3132   &  Fabric Mills \\
+3133   &  Textile and Fabric Finishing and Fabric Coating Mills \\
+3141   &  Textile Furnishings Mills \\
+3149   &  Other Textile Product Mills \\
+3151   &  Apparel Knitting Mills \\
+3152   &  Cut and Sew Apparel Manufacturing \\
+3159   &  Apparel Accessories and Other Apparel Manufacturing \\
+3161   &  Leather and Hide Tanning and Finishing \\
+3162   &  Footwear Manufacturing \\
+3211   &  Sawmills and Wood Preservation \\
+3212   &  Veneer, Plywood, and Engineered Wood Product Manufacturing \\
+3219   &  Other Wood Product Manufacturing \\
+3221   &  Pulp, Paper, and Paperboard Mills \\
+3222   &  Converted Paper Product Manufacturing \\
+3231   &  Printing and Related Support Activities \\
+3241   &  Petroleum and Coal Products Manufacturing \\
+3251   &  Basic Chemical Manufacturing \\
+3252   &  Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing \\
+3253   &  Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing \\
+3254   &  Pharmaceutical and Medicine Manufacturing \\
+3255   &  Paint, Coating, and Adhesive Manufacturing \\
+3256   &  Soap, Cleaning Compound, and Toilet Preparation Manufacturing \\
+3259   &  Other Chemical Product and Preparation Manufacturing \\
+3261   &  Plastics Product Manufacturing \\
+3262   &  Rubber Product Manufacturing \\
+3271   &  Clay Product and Refractory Manufacturing \\
+3272   &  Glass and Glass Product Manufacturing \\
+3273   &  Cement and Concrete Product Manufacturing \\
+3274   &  Lime and Gypsum Product Manufacturing \\
+3279   &  Other Nonmetallic Mineral Product Manufacturing \\
+3311   &  Iron and Steel Mills and Ferroalloy Manufacturing \\
+3312   &  Steel Product Manufacturing from Purchased Steel \\
+3313   &  Alumina and Aluminum Production and Processing \\
+3314   &  Nonferrous Metal (except Aluminum) Production and Processing \\
+3315   &  Foundries \\
+3321   &  Forging and Stamping \\
+3322   &  Cutlery and Handtool Manufacturing \\
+3323   &  Architectural and Structural Metals Manufacturing \\
+3324   &  Boiler, Tank, and Shipping Container Manufacturing \\
+3325   &  Hardware Manufacturing \\
+3326   &  Spring and Wire Product Manufacturing \\
+3327   &  Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing \\
+3328   &  Coating, Engraving, Heat Treating, and Allied Activities \\
+3329   &  Other Fabricated Metal Product Manufacturing \\
+3331   &  Agriculture, Construction, and Mining Machinery Manufacturing \\
+3332   &  Industrial Machinery Manufacturing \\
+3333   &  Commercial and Service Industry Machinery Manufacturing \\
+3334   &  Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing \\
+3335   &  Metalworking Machinery Manufacturing \\
+3336   &  Engine, Turbine, and Power Transmission Equipment Manufacturing \\
+3339   &  Other General Purpose Machinery Manufacturing \\
+3341   &  Computer and Peripheral Equipment Manufacturing \\
+3342   &  Communications Equipment Manufacturing \\
+3343   &  Audio and Video Equipment Manufacturing \\
+3344   &  Semiconductor and Other Electronic Component Manufacturing \\
+3345   &  Navigational, Measuring, Electromedical, and Control Instruments Manufacturing \\
+3346   &  Manufacturing and Reproducing Magnetic and Optical Media \\
+3351   &  Electric Lighting Equipment Manufacturing \\
+3352   &  Household Appliance Manufacturing \\
+3353   &  Electrical Equipment Manufacturing \\
+3359   &  Other Electrical Equipment and Component Manufacturing \\
+3361   &  Motor Vehicle Manufacturing \\
+3362   &  Motor Vehicle Body and Trailer Manufacturing \\
+3363   &  Motor Vehicle Parts Manufacturing \\
+3364   &  Aerospace Product and Parts Manufacturing \\
+3365   &  Railroad Rolling Stock Manufacturing \\
+3366   &  Ship and Boat Building \\
+3369   &  Other Transportation Equipment Manufacturing \\
+3371   &  Household and Institutional Furniture and Kitchen Cabinet Manufacturing \\
+3372   &  Office Furniture (including Fixtures) Manufacturing \\
+3379   &  Other Furniture Related Product Manufacturing \\
+3391   &  Medical Equipment and Supplies Manufacturing \\
+3399   &  Other Miscellaneous Manufacturing \\ \hline
+\end{tabular}
+\end{table}
+\end{spacing}
+
+\end{document}
