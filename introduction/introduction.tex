@@ -32,41 +32,46 @@ that numerically solved a household savings problem under uncertainty numericall
 Besides enabling researchers to numerically solve ever more complex optimisation
 problems with state spaces of ever more dimensions, the advancements in computer
 power have also vastly improved data processing capabilities, a development that
-in turn has led to surge in empirical work exploiting large microeconomic data
+in turn has led to a surge in empirical work exploiting large microeconomic data
 sets, the results of which can then be used to validate models of household
 and firm behaviour. \\
 The present work explores heterogeneity in two different classes of economic models,
 using both approaches outlined above. While the first part will build up towards
 a quantitative theoretical model of the wealth distribution, the merits of which
-will be evaluated against micro survey data. The second part will take the predictions
+will be evaluated against micro survey data, the second part will take the predictions
 of a micro-founded model of international trade and test them on data of firm 
 behaviour disaggregated at the industry-level. 
 
 \section{Outline}
-This thesis is structured as follows. Chapter 2 gives an overview of the research 
+This thesis is structured as follows. Chapter \ref{ch:wealthmodels} gives an overview of the research 
 on theoretical models of the household wealth distribution in the last two decades. 
-It will highlight the key empirical challenges by presenting stylized facts on 
-the cross sectional wealth distribution in a number of countries and their 
-evolution over time. Then, an overview of existing modelling approaches is presented,  
+It will highlight the key empirical challenges by presenting stylised facts on 
+the cross sectional wealth distribution using the most recent wave of the UK
+Wealth and Asset Survey as an example. Then, the workhorse model of the literature
+on household savings decision, the incomplete markets life-cycle model of consumption,
+is briefly reviewed along with recent work partial insurance in this model. 
+Then, extensions of the model which help it match the stylised facts of empirical
+wealth distributions are reviewed.
 
-Chapter 3 builds on the discussion in Chapter 2 by constructing a model of 
-learning about idiosyncratic income processes and using it to simulate wealth 
-distributions. As a first step, income processes with profile heterogeneity are 
-estimated for different sub-periods of PSID data from 1968 to 2013 and from BHPS 
+Chapter \ref{ch:income} builds on the discussion in Chapter \ref{ch:wealthmodels} 
+by estimating income processes with profile heterogeneity for different sub-periods 
+of PSID data from 1968 to 2013 and from BHPS 
 data in order to assess the stability of the cross-sectional variance of income 
-growth rates across time and labour markets. The estimates are then used as inputs 
+growth rates across time and income measures. The estimates are then used
+in chapter \ref{ch:learning} as inputs 
 in a structural model of household saving first employed by \citet{Guvenen2007}, 
-with the addition of both structural breaks in the cross-sectional variance of 
-growth rates and habits in consumption. The models predictions for the evolution
-of the US consumer wealth distribution are then benchmarked against data from the 
-Survey of Consumer Finances. 
+which is calibrated to the empirical wealth distribution using a minimum distance
+estimator. After discussing the model fit, comparative statics exercises are 
+performed on all parameters of the income process, the upper and lower bounds of
+which are taken from the universe of estimation results from chapter \ref{ch:income},
+to understand which parameters are most important for the model fit. 
 
-Chapter 4 gives a brief introduction into trade models based on firm-level 
+Chapter \ref{ch:trade} gives a brief introduction into trade models based on firm-level 
 heterogeneity, before developing an estimable model in the spirit of \citet{Chen2009}. 
 The model is then tested on a data set of prices, productivity, and markups for 
-nine manufacturing industries in the Canada, Mexico and the United States over 
+64 manufacturing industries in the Canada, Mexico and the United States over 
 the period of 1988 to 2010. In an extension of the approach of \citet{Chen2009},
- we also conduct a sub-sample analysis in which we split the same into fixed and 
+ a sub-sample analysis is conducted in which the observations are split into fixed and 
 free entry industries, based on a measure of firm turnover developed on the basis 
 of prior research. 
 

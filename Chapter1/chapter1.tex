@@ -4,7 +4,7 @@ The distribution of wealth and income has recently made a comeback to the
 centre of economic discourse in advanced economies. The ongoing rise of
 income inequality, observed since the early 1980s especially in Anglo-Saxon
 countries, has received renewed attention in the public sphere since the
-financial started taking its toll on living standards across the world. At
+financial crisis started taking its toll on living standards across the world. At
 the same time, the best-selling book by \citet{Piketty2014} led to a surge
 in interest in the role of capital in the economy, and, by extension, the
 distribution of wealth, both in the academic literature and the popular
@@ -15,7 +15,7 @@ of many sub-fields of economics for a long time. The income distribution has
 long been of interest to labour economists trying to understand the forces
 shaping the evolution of earnings in the labour market, while at least the
 accumulation of aggregate wealth plays a central role in macroeconomic
-models of economic growth. This chapter, as well as chapter three, 
+models of economic growth. This chapter, as well as chapter \ref{ch:learning}, 
 focuses on the intermediate step that takes us from an
 income to a wealth distribution - economic models of household saving.
 When attempting to build a model of the wealth distribution, the first
@@ -110,8 +110,9 @@ When trying to understand wealth distributions through the lens of the model
 outlined above, the key question is: why do households save? The basic model,
 in which consumers only care about the time path of instantaneous utility 
 derived from consumption, suggests that households will save if and only if
-it leads to preferential allocation of consumption over time -- they engage 
-in consumption smoothing. As \citet{BrowningCrossley2001} point out, consumption
+it leads to preferential allocation of consumption over time. If the utility function
+exhibits curvature, as the standard CRRA utility function does, households will
+prefer a smooth consumption path over time. As \citet{BrowningCrossley2001} point out, consumption
 smoothing can happen at different frequencies, depending on the exact set-up 
 of the model. In \citet{ModiglianiBrumberg1954} the main reason saving was the
 existence of a retirement period, which necessitates consumption smoothing over
@@ -122,7 +123,8 @@ while in aggregate wealth accumulation crucially hinges on the growth rate
 of the economy. The crucial assumption that allows Modigliani and Brumberg to
 focus on consumption smoothing over the life cycle was that of constant income,
 an assumption that is obviously incorrect and easily rejected by the data. We 
-will therefore next discuss the implications of introducing income fluctuations
+will therefore next discuss the implications of introducing income fluctuations,
+which will make consumption smoothing at shorter frequencies necessary,
 into the basic model.
 
 \section{Income uncertainty and market structure}
@@ -136,7 +138,7 @@ market \textit{incompleteness}. The most convenient, and at the same time most
 extreme, departure from the complete markets assumption is to assume away any
 sort of insurance markets except for very simple self-insurance through risk-
 free one-period bonds. This market structure is implicit in the formulation of
-the consumer problem in equation \ref{bc} -- there is just one asset for the 
+the consumer problem in equation (\ref{bc}) -- there is just one asset for the 
 household to sell or buy, and this asset has a certain payoff in the following 
 period, which is not contingent on the state of the world. The big advantage of 
 this setup is tractability: simple models of this kind can often be solved 
@@ -166,10 +168,10 @@ offer noncontingent bonds, although this market structure is obviously not suite
 to examine any interesting economic question.}. The precise predictions of the 
 model for how households will consume and save depend crucially on the specification
 of the stochastic process governing income uncertainty -- essentially the object
-over which $\mathbb{E}$ in equation \ref{eq:maxprob} is defined. When applying an
+over which $\mathbb{E}$ in equation (\ref{eq:maxprob}) is defined. When applying an
 income process consisting of permanent and transitory shocks to this model, the 
 well-known\footnote{For a rigorous derivation refer to your favourite Macroeconomics
-textbook, e.g. \citet{LjungqvistSargent2012}, chapter 17.} results that consumption
+textbook, e.g. \citet{LjungqvistSargent2012}, chapter 17.} result of the model is that consumption
 should react to permanent changes in income, while transitory changes in income
 should be buffered by saving and dissaving in the noncontingent bond. This 
 prediction of the model is exploited by some authors to elicit information on 
@@ -236,9 +238,9 @@ housing differs from other assets in that it also offers the household housing
 services, that is an investment in real estate is at the same time the purchase
 of a durable good. Hence, the introduction of housing into our simple model
 above does not only mean a departure from having a simple asset $a_t$ in 
-equation \ref{bc}, it also means having an additional consumption good which 
+equation (\ref{bc}), it also means having an additional consumption good which 
 does not perish, possibly altering the households utility function in equation
-\ref{maxprob}, if the utility derived from the housing good is of a different 
+(\ref{maxprob}), if the utility derived from the housing good is of a different 
 form that that derived from instantaneous consumption. 
 A number of authors have considered the effects of allowing households to save
 in housing assets in addition to financial assets. \citet{Yang2009} constructs
@@ -271,7 +273,7 @@ household consumption and savings.
 One key decision when building a model of wealth accumulation is the question
 of how the interest rate on savings is determined. Traditionally, the 
 macroeconomic literature has viewed the interest rate as an endogenous parameter,
-pinned down by the marginal product of capital from the economies production 
+pinned down by the marginal product of capital from the economy's production 
 function and the quantity of capital available, which in turn is governed by 
 household's savings decisions. In fact, the main contribution of the seminal 
 work by \citet{Aiyagari1994} was to highlight the effect of idiosyncratic income
@@ -321,11 +323,11 @@ for extended periods of time. These considerations motivate us to opt for an
 exogenous interest rate in chapter \ref{ch:learning}.
 
 \section{Wealth Distribution Papers}
-In the last years, many authors have used the increasing possibilities offered
+In the last years, many authors have used the possibilities offered
 by the increase in computing power to derive an additional implication from the
 broad class of incomplete market models outlined above: a simulated wealth 
 distribution. While there are many practical difficulties in creating model 
-outputs that can reasonably compared to the data collected in surveys (some of
+outputs that can reasonably be compared to the data collected in surveys (some of
 which have been alluded to in the above discussion on the definition of wealth),
 in principle the simulated wealth distribution derived from life-cycle models
 can be used to calibrate deep parameters of the model, provide an additional
@@ -334,18 +336,18 @@ and shed light on which mechanisms are crucial in driving the evolution of
 aggregate savings at different parts of the distribution. \\
 An early attempt to use the wealth distribution to estimate the parameters of
 a life-cycle model of household savings can be found in \citet{Cagetti2003},
-who uses a simple model similar to the one outlined in equations \ref{maxprob}
-and \ref{bc}. Important additions in his version of the model are a bequest 
+who uses a simple model similar to the one outlined in equations (\ref{maxprob})
+and (\ref{bc}). Important additions in his version of the model are a bequest 
 motive -- which, ceteris paribus, will increase the wealth holdings of elderly
 households -- and a simplified pension system, which guarantees each household
 a pension depending on their education level, and thereby lowers wealth 
 accumulation during working life. The idea behind the estimation strategy is 
-simple: given a stochastic process for household income, the parameters $\beta$,
-$\sigma$ and $\alpha$ pin down a solution to the household's savings problem 
+simple: given a stochastic process for household income, the discount rate $\delta$
+and the risk aversion parameter $\sigma$ pin down a solution to the household's savings problem 
 which allows one to simulate a theoretical wealth distribution from optimal 
 household behaviour. Therefore, it is possible to use the simulated method of
-moments to construct an estimator that chooses the triplet $(\delta,\sigma, 
-\alpha)$ which minimises the distance between empirical moments of the wealth
+moments to construct an estimator that chooses the vector $(\delta,\sigma)$ 
+which minimises the distance between empirical moments of the wealth
 distribution and its simulated counterparts. Given the high skewness of wealth
 data, Cagetti opts for median wealth by 5-year age group as the moment to match.
 As has become clear in the previous discussion, a crucial element driving 
@@ -515,8 +517,9 @@ also a literature that increases wealth inequality predicted by Bewley style
 models by allowing for differential rates of return, a feature that finds 
 support in a vast macro-finance literature on the equity premium puzzle (for 
 a survey see \cite{SiegelThaler1997}), as well as the literature on households'
-portfolio choices ( , while \citet{GuisoHaliassosJiappeli2003} review the 
-European evidence)
+portfolio choices (\citet{MankiwZeldes1991} discuss the equity market participation
+of US households, while \citet{GuisoHaliassosJiappeli2003} review the 
+European evidence).
 \citet{BenhabibBisinZhu2011} devise a peculiar model of differing rates of return,
 where the difference don't arise across asset classes, but across generations,
 with each generation of a household drawing an idiosyncratic interest rate for 

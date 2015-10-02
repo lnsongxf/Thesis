@@ -118,8 +118,9 @@
   Precautionary Savings,'' {\it Journal of Business \& Economic Statistics},
   July 2003, {\it 21} (3), 339--53.
 
-\harvarditem[Cagetti and Nardi]{Cagetti and Nardi}{2006}{CagettiDeNardi2006}
-{\bf \bysame{} and Mariacristina~De Nardi}, ``{Entrepreneurship, Frictions, and
+\harvarditem[Cagetti and DeNardi]{Cagetti and
+  DeNardi}{2006}{CagettiDeNardi2006}
+{\bf \bysame{} and Mariacristina DeNardi}, ``{Entrepreneurship, Frictions, and
   Wealth},'' {\it Journal of Political Economy}, October 2006, {\it 114} (5),
   835--870.
 
@@ -193,6 +194,37 @@
   Panel of U.S. Tax Returns,'' {\it Brookings Papers on Economic Activity},
   2013, {\it 46} (1 (Spring)), 67--142.
 
+\harvarditem[DeNardi]{DeNardi}{2004}{DeNardi2004}
+{\bf DeNardi, Mariacristina}, ``{Wealth Inequality and Intergenerational
+  Links},'' {\it Review of Economic Studies}, 07 2004, {\it 71}, 743--768.
+
+\harvarditem[DeNardi]{DeNardi}{2015}{DeNardi2015}
+{\bf \bysame{}}, ``{Quantitative Models of Wealth Inequality: A Survey},'' NBER
+  Working Papers 21106, National Bureau of Economic Research, Inc April 2015.
+
+\harvarditem[DeNardi and Yang]{DeNardi and Yang}{2015}{DeNardiYang2015}
+{\bf \bysame{} and Fang Yang}, ``Wealth Inequality, Family Background, and
+  Estate Taxation,'' NBER Working Papers 21047, National Bureau of Economic
+  Research, Inc March 2015.
+
+\harvarditem[DeNardi et al.]{DeNardi, French and
+  Jones}{2010}{DeNardiFrenchJones2010}
+{\bf \bysame{}, Eric French, and John~B. Jones}, ``{Why Do the Elderly Save?
+  The Role of Medical Expenses},'' {\it Journal of Political Economy}, 02 2010,
+  {\it 118} (1), 39--75.
+
+\harvarditem[DeNardi et al.]{DeNardi, French and
+  Jones}{2009}{DeNardiFrenchJones2009}
+{\bf \bysame{}, \bysame{}, and John~Bailey Jones}, ``{Life Expectancy and Old
+  Age Savings},'' {\it American Economic Review}, May 2009, {\it 99} (2),
+  110--15.
+
+\harvarditem[DeNardi et al.]{DeNardi, French, Jones and
+  McCauley}{2015}{DeNardiFrenchJonesMcCauley2015}
+{\bf \bysame{}, \bysame{}, \bysame{}, and Jeremy McCauley}, ``{Medical Spending
+  of the U.S. Elderly},'' NBER Working Papers 21270, National Bureau of
+  Economic Research, Inc June 2015.
+
 \harvarditem[Diaz et al.]{Diaz, Pijoan-Mas and Rios-Rull}{2003}{DPMRR2003}
 {\bf Diaz, Antonia, Josep Pijoan-Mas, and Jose-Victor Rios-Rull},
   ``Precautionary savings and wealth distribution under habit formation
@@ -213,9 +245,9 @@
   Save More?,'' {\it Journal of Political Economy}, April 2004, {\it 112} (2),
   397--444.
 
-\harvarditem[Fernández-Villaverde and Krueger]{Fernández-Villaverde and
+\harvarditem[Fernandez-Villaverde and Krueger]{Fernandez-Villaverde and
   Krueger}{2011}{FernandezVillaverdeKrueger2011}
-{\bf Fernández-Villaverde, Jesús and Dirk Krueger}, ``{Consumption And Saving
+{\bf Fernandez-Villaverde, Jesus and Dirk Krueger}, ``{Consumption And Saving
   Over The Life Cycle: How Important Are Consumer Durables?},'' {\it
   Macroeconomic Dynamics}, November 2011, {\it 15} (05), 725--770.
 
@@ -353,11 +385,11 @@
   {\it 77} (2), 181--194.
 
 \harvarditem[Kindermann and Krueger]{Kindermann and
-  Krueger}{2024}{KindermannKrueger2014}
+  Krueger}{2014}{KindermannKrueger2014}
 {\bf Kindermann, Fabian and Dirk Krueger}, ``{High Marginal Tax Rates on the
   Top 1\%? Lessons from a Life Cycle Model with Idiosyncratic Income Risk},''
   PIER Working Paper Archive 14-036, Penn Institute for Economic Research,
-  Department of Economics, University of Pennsylvania October 2024.
+  Department of Economics, University of Pennsylvania October 2014.
 
 \harvarditem[Kohler]{Kohler}{2015}{Kohler2015}
 {\bf Kohler, Ulrich}, ``{PSIDTOOLS: Stata module to facilitate access to Panel
@@ -401,6 +433,11 @@
   Structure of Earnings in a Longitudinal Data Analysis,'' {\it Journal of
   Econometrics}, 1982, {\it 18} (1), 83--114.
 
+\harvarditem[Mankiw and Zeldes]{Mankiw and Zeldes}{1991}{MankiwZeldes1991}
+{\bf Mankiw, N.~Gregory and Stephen~P. Zeldes}, ``{The consumption of
+  stockholders and nonstockholders},'' {\it Journal of Financial Economics},
+  March 1991, {\it 29} (1), 97--112.
+
 \harvarditem[Meghir and Pistaferri]{Meghir and
   Pistaferri}{2004}{MeghirPistaferri2004}
 {\bf Meghir, Costas and Luigi Pistaferri}, ``{Income Variance Dynamics and
@@ -441,38 +478,6 @@
 \harvarditem[Moore]{Moore}{2003}{Moore2003}
 {\bf Moore, David~W.}, ``Half of Young People Expect to Strike It Rich,'' March
   2003.
-
-\harvarditem[Nardi]{Nardi}{2004}{DeNardi2004}
-{\bf Nardi, Mariacristina}, ``{Wealth Inequality and Intergenerational
-  Links},'' {\it Review of Economic Studies}, 07 2004, {\it 71}, 743--768.
-
-\harvarditem[Nardi]{Nardi}{2015}{DeNardi2015}
-{\bf Nardi, Mariacristina~De}, ``{Quantitative Models of Wealth Inequality: A
-  Survey},'' NBER Working Papers 21106, National Bureau of Economic Research,
-  Inc April 2015.
-
-\harvarditem[De~Nardi and Yang]{De~Nardi and Yang}{2015}{DeNardiYang2015}
-{\bf Nardi, Mariacristina~De and Fang Yang}, ``Wealth Inequality, Family
-  Background, and Estate Taxation,'' NBER Working Papers 21047, National Bureau
-  of Economic Research, Inc March 2015.
-
-\harvarditem[Nardi et al.]{Nardi, French and
-  Jones}{2010}{DeNardiFrenchJones2010}
-{\bf Nardi, Mariacristina~De, Eric French, and John~B. Jones}, ``{Why Do the
-  Elderly Save? The Role of Medical Expenses},'' {\it Journal of Political
-  Economy}, 02 2010, {\it 118} (1), 39--75.
-
-\harvarditem[Nardi et al.]{Nardi, French and
-  Jones}{2009}{DeNardiFrenchJones2009}
-{\bf \bysame{}, \bysame{}, and John~Bailey Jones}, ``{Life Expectancy and Old
-  Age Savings},'' {\it American Economic Review}, May 2009, {\it 99} (2),
-  110--15.
-
-\harvarditem[Nardi et al.]{Nardi, French, Jones and
-  McCauley}{2015}{DeNardiFrenchJonesMcCauley2015}
-{\bf \bysame{}, \bysame{}, \bysame{}, and Jeremy McCauley}, ``{Medical Spending
-  of the U.S. Elderly},'' NBER Working Papers 21270, National Bureau of
-  Economic Research, Inc June 2015.
 
 \harvarditem[Oswald]{Oswald}{2014}{Oswald2014}
 {\bf Oswald, Florian}, ``High Dimensional Function Approximation in Julia,''
