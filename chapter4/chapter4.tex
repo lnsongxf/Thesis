@@ -123,13 +123,7 @@ Starting from the equations for prices, productivity and markups derived within 
 \end{split}\end{align}
 In the above equation, the number of firms serving the domestic market, $N$, has been replaced by the more readily observable number of domestic firms producing for the domestic market, $D$, where $D=N \left( \frac{c_D}{c_M} \right)^k$. The short--run dynamics are estimated in the first part of the equation, with regressors expressed in first differences. The long run is represented by the term in brackets. From the perspective of this model, we would expect $\beta_1>0$, an increase in domestic import tariffs increases relative prices in the short-run, and correspondingly $\beta_2>0$. The model predicts a dampening effect of the number of domestic firms on domestic prices, which should be reflected by $\beta_3<0$, and the opposite for foreign firms, $\beta_4<0$. As we expect the coefficient on the error correction term, $\gamma$, to be negative, a reversal the 
 
-As previously discussed, all aggregate variables (prices, markups, productivity) are ultimately functions of the cost-cutoff level $c_D$, leading to very similar estimation equations for our three dependent variables. The equation markups is:
-\begin{align}
-\begin{split}\label{eq:gw-estimation-markup}
-\Delta \ln \left( \frac{\bar{\mu}_{it}}{\bar{\mu}_{it}^*} \right) = &\beta_0 + \beta_1 \Delta \tau_{it} + \beta_2 \Delta \tau_{it}^* + \beta_3 \Delta \ln \theta_{it} + \beta_4 \Delta \ln \theta_{it}^* + \beta_5 \Delta \ln D_{it} + \beta_6 \Delta \ln D_{it}^*\\ 
-&+ \gamma \left[ \ln \left( \frac{\bar{\mu}_{it-1}}{\bar{\mu}_{it-1}^*} \right) + \delta_0 + \delta_1 \ln L_{t-1} + \delta_2\ln L_{t-1}^* + \delta_3  \tau_{i,t-1} + \delta_4  \tau_{i,t-1}^* \right] + \varepsilon_{ijt} 
-\end{split}
-\end{align}
+As previously discussed, all aggregate variables (prices, markups, productivity) are ultimately functions of the cost-cutoff level $c_D$, leading to a very similar estimation equations for our other dependent variable.
 The effect of tariffs, openness, number of firms and market size on productivity is estimated by:
 \begin{align}
 \begin{split}\label{eq:gw-estimation-productivity}
@@ -149,7 +143,19 @@ run changes in cost cutoffs for two countries, but instead to a decline in the c
 long run.}. While making the exposition clearer and helping to elicit the effects at work in the model, this setup is clearly not an accurate description of the reality of trade relationships in modern industrialized economies. Taking the United States as an example, while the two other countries in our data set, Canada and Mexico, are its largest 
 trading partners, they only account for 16.6 and 13.5\% of all US trade by value, 
 respectively\footnote{See \href{http://goo.gl/2C0saQ}{Top U.S. Trade Partners, U.S. International Trade Administration}}. 
-Even the largest 30 US trading partners only account for about 86\% of US trade, highlighting the fragmented nature of international trade. While the Melitz-Ottaviano model can be extended to an arbitrary number of countries, it is clearly not feasible to assemble a data set on all trade partners of the NAFTA countries. We do however want to recognize the multi-country structure of NAFTA by taking into account third country effects of trade barriers. Here, NAFTA can be interpreted as a preferential liberalization of Mexico \textit{vis-a-vis} the US and Canada, as Mexico had the highest tariff barriers to start off with. In the three country case, we expect the country with the lowest sum of bilateral trade barriers to have the lowest cost cutoff, as it becomes the best export hub. To account for this, we amend equations \ref{eq:gw-estimation-prices}, \ref{eq:gw-estimation-markup} and \ref{eq:gw-estimation-productivity} by including the relevant third country tariffs. The estimation equation for the effects of trade barriers on prices then becomes:
+Even the largest 30 US trading partners only account for about 86\% of US trade, 
+highlighting the fragmented nature of international trade. While the Melitz-Ottaviano 
+model can be extended to an arbitrary number of countries, it is clearly not 
+feasible to assemble a data set on all trade partners of the NAFTA countries. 
+We do however want to recognize the multi-country structure of NAFTA by taking 
+into account third country effects of trade barriers. Here, NAFTA can be 
+interpreted as a preferential liberalization of Mexico \textit{vis-a-vis} the
+ US and Canada, as Mexico had the highest tariff barriers to start off with. 
+In the three country case, we expect the country with the lowest sum of bilateral
+ trade barriers to have the lowest cost cutoff, as it becomes the best export hub.
+ To account for this, we amend equations \ref{eq:gw-estimation-prices}, and \ref{eq:gw-estimation-productivity} 
+by including the relevant third country tariffs. The estimation equation for 
+the effects of trade barriers on prices then becomes:
 
 \begin{align}
 \begin{split}\label{eq:gw-estimation-prices-third-country}
@@ -162,28 +168,87 @@ Even the largest 30 US trading partners only account for about 86\% of US trade,
 &+ \left. \delta_5 \ln  \tau_{i,t-1}^*  + \delta_6 \Delta \ln \tau_{it}^{ht} + \delta_7 \Delta \ln \tau_{it}^{th} 
  + \delta_8 \Delta \ln \tau_{it}^{ft} + \delta_9 \Delta \ln \tau_{it}^{th} \bigg] \right. + \varepsilon_{ijt} 
 \end{split}\end{align}
-where now $h$ is the domestic economy, $f$ is the foreign economy, and, with a slight abuse of notation, a $t$ superscript denotes the third country for each country pair (e.g. when estimating the Canada-US relationship, $\tau^{th}$ are Mexican tariffs on Canadian goods, while $\tau^{ht}$ are Canadian tariffs on Mexican goods). Both the equations for markups and productivity will be amended accordingly. 
+where now $h$ is the domestic economy, $f$ is the foreign economy, and, with a slight abuse of notation, a $t$ superscript denotes the third country for each country pair (e.g. when estimating the Canada-US relationship, $\tau^{th}$ are Mexican tariffs on Canadian goods, while $\tau^{ht}$ are Canadian tariffs on Mexican goods). The equation for productivity will be amended accordingly. 
 
 \subsection{Dataset}
 
-The database we utilize covers the period 1988-2014 for NAFTA member countries -- Canada, Mexico, and the US -- and nine manufacturing sectors at the ISIC two digit level, which includes 86 industries . For our factory gate price data, we use the producer price index (PPI) as reported by CANSIM, the Banco de Mexico, and the U.S. Bureau of Labor Statistics, respectively. All indices are normalized to equal 100 in 2003. While the majority of the manufacturing data collected is reported at the two-digit level according to ISIC Rev. 3, we aggregate all data according to NACIS in order to keep consistency throughout the analysis (see Table \ref{tab:naics4diglist} for the manufacturing classification breakdown). While the main part of our analysis rests on data aggregated at the two-digit level, we were also able to assemble a data set at the four-digit level, which we will use to check the robustness of our results. 
 
-The value of markups is not easily observable, and thus we follow the calculation as outlined in the recent literature on industrial organization, and similarly used by \citet{Chen2009}, although with a subtle modification. We compute average markups as the ratio of sectoral turnover relative to total variable costs, which are computed as the sum of intermediate inputs and labour costs as reported by the OECD STAN database.\footnote{In contrast, \citet{Chen2009} calculate average markups as the ratio of turnover relative to the sum of the costs of materials, consumables, and staff costs.} Due to the unavailability of data on sectoral turnover, we use sectoral production as a proxy. While turnover may be slightly higher than production\footnote{Production represents the value of goods produced in a year, whether they are sold or stocked.} in a given year if all of the produced goods are sold along with any stored goods from previous years, according to the OECD these measures will converge in the long term. Fixed costs are excluded from the calculation, as they will cause a negative bias between markups and openness. As the number of foreign firms increases due to a decrease in trade costs, the market share for domestic producers falls; because this will spread fixed costs across a smaller share of production, average total costs will increase contemporaneously \citep{Chen2009}. 
+Our database covers the period 1990-2007 for the North American Free Trade Agreement 
+(NAFTA) member countries -- Canada, Mexico, and the U.S. -- and 64 (4-digit) manufacturing sectors. 
+The main explanatory variable in this analysis is the tariff imposed on foreign 
+products. All tariff data is downloaded from the \href{http://wits.worldbank.org/Default.aspx}{World Integrated Trade Solution (WITS)},
+ an online software package published by the World Bank in collaboration with 
+UNCTAD, the WTO, International Trade Center, and the UN Statistical Division. 
+WITS publishes annual trade and tariff data from two different sources: the World
+ Bank IDB database and the UNCTAD TRAINS database. Unfortunately, neither database 
+provides a complete time series for each country that is devoid of erratic 
+(and unexplained) jumps in the data. Thus, we created a data set that uses mostly 
+TRAINS preferential tariff (PRF) data, but supplements it with observations from 
+TRAINS or WTO IDB applied tariffs (AHS) where appropriate (this choice will only 
+make a difference where there is no trade observed between countries and hence 
+no applied rate, but a preferential rate still exists). All tariff data is reported 
+according to ISIC Rev. 3.1 and converted to NAICS. This leads to the following 
+rules for each country: (1) Canada: TRAINS PRF from 1989 to 1995, WTO AHS from 
+1996 to 2014. (2) Mexico: TRAINS AHS from 1989 to 1994, TRAINS PRF from 1995 to 2009. 
+(3) USA: TRAINS PRF from 1980 to 1996; WTO AHS for 1997 to 2014.
 
-Labor productivity is calculated as the ratio between real value added and total employment. Value added is reported by the OECD STAN database, while employment data is provided by LABORSTA, the statistical department of the International Labor Organization (ILO). 
+For our factory gate price data, we use the producer price index (PPI) as reported 
+by CANSIM, the Banco de Mexico, and the U.S. Bureau of Labor Statistics, respectively.
+ All indices are normalized to equal 100 in 2003.
 
-The main explanatory variable in this analysis is the tariff imposed on foreign products. The simple average for tariffs disaggregated at the two-digit level (ISIC Rev. 2) imposed on the bi-lateral trading partners within NAFTA were taken from the World Integrated Trade Solution (WITS), which is a resource developed by the World Bank. The changes in import tariffs across all industries for each country-pair are illustrated in Figures \ref{fig:can_mex} -- \ref{fig:usa_mex}, including the maximum and minimum tariff for each year. The tariffs imposed by the U.S. on Canadian and Mexican goods, and those imposed by Canada on Mexican and U.S. goods approached zero by 1999--2000, while the Mexican imposed tariffs fluctuated drastically throughout the time period, with some tariffs reaching 30\%. The average, maximum, and minimum tariffs by country and sector are also detailed in Table \ref{tab:sumstats}, as well as the other main variables in this analysis.
+Labor productivity is calculated as the ratio between real value-added and total 
+employment, as provided by the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database} 
+for Canada, the \href{http://buscador.inegi.org.mx/search?q=encuesta+industrial+anual&client=ProductosR&proxystylesheet=ProductosR&num=10&getfields=*&sort=meta:edicion:D:E:::D&entsp=a__inegi_politica_p72&lr=lang_es\%7Clang_en&oe=UTF-8&ie=UTF-8&ip=10.210.100.253&entqr=3&filter=0&site=ProductosBuscador&tlen=260&ulang=en&start=0}{\emph{Instituto Nacional de Estadistica y Geografia}} 
+(INEGI) for Mexico, and the \href{http://www.nber.org/nberces/}{NBER-CES Manufacturing Industry Database}
+ for the U.S. (Becker, Gray, and Marvakov, 2013). All value-added data is 
+converted into constant 2005 USD. The number of establishments in each sector is 
+taken from the OECD and and INEGI for Canada and Mexico, respectively, and from 
+the \href{http://www.bls.gov/cew/doc/titles/ownership/ownership_titles.htm}{Bureau of Labor Statistics} 
+for the U.S. Market size is measured by the value of GDP for each country, which 
+is available in constant 2005 USD from the \href{http://data.worldbank.org/data-catalog/world-development-indicators}{the World Bank's \emph{World Development Indicators}}.
+ And finally, our wage data comes from the \href{http://stats.oecd.org/index.aspx?queryid=224}{OECD SDBS database} 
+for Canada, the \href{http://buscador.inegi.org.mx/search?q=encuesta+industrial+anual&client=ProductosR&proxystylesheet=ProductosR&num=10&getfields=*&sort=meta:edicion:D:E:::D&entsp=a__inegi_politica_p72&lr=lang_es\%7Clang_en&oe=UTF-8&ie=UTF-8&ip=10.210.100.253&entqr=3&filter=0&site=ProductosBuscador&tlen=260&ulang=en&start=0}{\emph{Instituto Nacional de Estadistica y Geografia}} for Mexico, and the \href{http://www.nber.org/nberces/}{NBER-CES Manufacturing Industry Database} for the U.S. (Becker, Gray, and Marvakov, 2013). The Canadian and Mexican data are converted to NAICS using appropriate correspondence tables, and all values are converted to constant 2005 USD. 
 
-To construct the openness variable, we calculate the ratio of imports relative to the sum of imports and domestic production, as in \citet{Chen2009}. The bilateral trade data for each country-pair comes from the OECD STAN database and measured in current USD. Domestic production is calculated as the difference between total sectoral output and exports. The sectoral output data are also taken from the OECD STAN database (measured in current units of national currency) and converted to current USD using the OECD-reported exchange rates. In order to check the reliability of our measure of openness, we also use the UPenn openness index. 
+As discussed in the previous section, for all of the log-linearised equations, 
+we replace the number of firms serving the domestic market, $N$, with the number 
+of domestic firms producing for the domestic market, $D$. Unfortunately, this 
+data is not available for all three countries during the specified time period, 
+and thus we utilize the number of establishments, which will always be higher 
+than the firm count as each firm may have multiple establishments. As long as 
+the average number of establishments per firm remains constant, this should not 
+present a problem, as our model is estimated in first differences. It is however 
+not obvious that this relationship will remain constant in response to a trade 
+liberalization. In fact, the main channel through which welfare gains arise in 
+the model is the reallocation of production from unproductive to more productive 
+firms, with less productive firms exiting the market and more productive firms 
+expanding. If this displacement happens through larger firms taking over 
+establishments of less productive ones, we would expect the number of establishments 
+to stay constant, while the number of domestic producers falls (i.e. the number 
+of establishments per firm increases). If on the other hand larger firms are simply 
+able to expand production in existing establishments, this effect would be absent.  
 
-As discussed in the previous section, for all of the log-linearised equations, we replace the number of firms serving the domestic market, $N$, with the number of domestic firms producing for the domestic market, $D$. Unfortunately, this data is not available for all three countries during the specified time period, and thus we utilize the number of establishments, which will always be higher than the firm count as each firm may have multiple establishments. As long as the average number of establishments per firm remains constant, this should not present a problem, as our model is estimated in first differences. It is however not obvious that this relationship will remain constant in response to a trade liberalization. In fact, the main channel through which welfare gains arise in the model is the reallocation of production from unproductive to more productive firms, with less productive firms exiting the market and more productive firms expanding. If this displacement happens through larger firms taking over establishments of less productive ones, we would expect the number of establishments to stay constant, while the number of domestic producers falls (i.e. the number of establishments per firm increases). If on the other hand larger firms are simply able to expand production in existing establishments, this effect would be absent.  
-
-The control variables used in the regressions include nominal wages and size of the economy, both of which are provided by LABORSTA. Wages are disaggregated according to ISIC Rev. 3 and reported in national currency units per hour for all wage earners (as before, we convert all data into ISIC Rev. 2 and current USD). For the size of the economy $L$, we utilize the total economically active population for manufacturing. Moreover, there are missing values for the US and Mexico\footnote{We use interpolated data for the years 1999, 2001, and 2003 for the US, and 1992, 1994, 1996, 1998, 2001-2003 for Mexico.} and thus we use interpolated data for these years.
 
 \subsection{Estimation}
-As outlined at the beginning of Section \ref{sec:app}, we follow the estimation strategy of Chen et al. (2009); however, while they use changes in domestic and foreign import penetration in sector $i$ at time $t$ as the main explanatory variables for changes in price, markups, and labour productivity, we use this as a control variable and instead rely on the domestic tariff rate ($\tau$) imposed on foreign goods imported from the trading partner and the foreign tariff rate ($\tau^*$) imposed on domestic goods exported to the trading partner as the main explanatory variables. To test the competitive effects of trade liberalization, we use the difference in differences approach with fixed--effects on the country--pair, industry, and year. In the short run we use the log first-difference in the explanatory and dependent variables, whereas we use a lag operator on the explanatory variables and an error correction term to estimate the dynamics in the long run. Moreover, because our variables are stationary in a unit root sense and serially correlated, we utilize a panel-specific AR(1) autocorrelation structure and perform our regressions using a Generalized Least Squares estimation strategy. 
+As outlined at the beginning of Section \ref{sec:app}, we follow the estimation 
+strategy of Chen et al. (2009); however, while they use changes in domestic and 
+foreign import penetration in sector $i$ at time $t$ as the main explanatory 
+variables for changes in prices, and labour productivity, we use this as
+ a control variable and instead rely on the domestic tariff rate ($\tau$) 
+imposed on foreign goods imported from the trading partner and the foreign tariff 
+rate ($\tau^*$) imposed on domestic goods exported to the trading partner as the 
+main explanatory variables. To test the competitive effects of trade liberalization, 
+we use the difference in differences approach with fixed--effects on the 
+country--pair, industry, and year. In the short run we use the log first-difference 
+in the explanatory and dependent variables, whereas we use a lag 
+operator on the explanatory variables and an error correction term to estimate the
+ dynamics in the long run. 
 
-Table \ref{tb:comp_stats} outlines the comparative statics for the theoretical model, with subscript $sr$ denoting the "short run" and $lr$ denoting the "long run". Notice that in the long run theory suggests that the pro--competitive effects are reversed and actually take an anti--competitive nature as firms are able to relocate to new markets. Interestingly, as we will exhibit in the following section, our analysis does not provide the same long-run dynamics.
+Table \ref{tb:comp_stats} outlines the comparative statics for the theoretical 
+model, with subscript $sr$ denoting the "short run" and $lr$ denoting the "long 
+run". Notice that in the long run theory suggests that the pro--competitive 
+effects are reversed and actually take an anti--competitive nature as firms are 
+able to relocate to new markets. Interestingly, as we will exhibit in the 
+following section, our analysis does not provide the same long-run dynamics.
 
 \begin{center}
 \begin{table*}[ht] \caption{Comparative Statics -- Model Predictions}\label{tb:comp_stats}
@@ -210,36 +275,86 @@ $L^*$      &    & +  &    & +  &    & --\\
 
 
 \section{Results \& Discussion}\label{sec:disc4}
-Tables \ref{tb:prices_sr}, \ref{tb:markup_sr} and \ref{tb:productivity_sr} present 
-our results on the short-run effects of trade liberalization on prices, markups 
+Tables \ref{tb:prices_sr}, and \ref{tb:productivity_sr} present 
+our results on the short-run effects of trade liberalization on prices 
 and productivity, respectively. Column (1) in each table presents the results from 
-our theoretical estimations in equations \ref{eq:gw-estimation-prices}, 
-\ref{eq:gw-estimation-markup}, and \ref{eq:gw-estimation-productivity}, 
+our theoretical estimations in equations \ref{eq:gw-estimation-prices} and \ref{eq:gw-estimation-productivity}, 
 respectively\footnote{All codes used to obtain the results of this chapter are 
 available from my GitHub repository 
-\href{https://github.com/nilshg/TradeProductivity}{TradeProductivity}.}. 
-Beginning with table \ref{tb:prices_sr}, we see that the signs on the tariff 
-measures are as predicted -- a decrease in the domestic tariff will decrease the 
-relative price in the short-run -- but only the foreign tariff measure is significant. 
-The measure of openness, on the other hand, is as predicted in the model and both coefficients are significant at the 1\% level. Finally, contrary to the model's predictions the number of firms serving the domestic market does not have any effect on prices. The results for this model specification on markups are similar, with the openness measure as predicted and significant and no effect from the change in domestic firms (see Table \ref{tb:markup_sr}); in this case, however, the change in the domestic tariff is positive as predicted and significant at the 10\% level, whereas the foreign tariff rate has the opposite effect than the model predicts, albeit insignificant. Finally, Table \ref{tb:productivity_sr} shows the effects on industry productivity with different results than predicted by the model. Although the domestic tariff measure is positive and significant, we see that the openness measures have the opposite effect than the model predicts and are highly significant; an increase in domestic import penetration actually brings about a \textit{decrease} in productivity in the short-run.
+\href{https://github.com/nilshg/TradeProductivity}{TradeProductivity}.}, with 
+fixed effects at the country-industry pair. Column (2) shows the same regression
+employing fixed effects on the country-pair level, while columns (3) and (4) 
+give results for the sub sample of free entry and fixed entry firms, respectively, 
+with each regression again estimated using fixed effects at the country-industry
+level. Columns (5) and (6) show the regression results for the same regressions
+as in columns (3) and (4), albeit with fixed effects at the country-pair level. \\
+The table shows that the effects of tariff barriers on outcomes is very imprecisely
+measured. While the signs on the coefficients point overwhelmingly in the direction
+implied by theory -- higher domestic tariffs increase domestic prices in the short
+run, while higher foreign tariffs lower them --, only two model specifications
+show significant coefficients. Furthermore, the effect of domestic tariffs is
+more precisely estimated than that of foreign tariffs, a pattern that repeats
+itself when looking at the estimated coefficients on our measure of firms. Here,
+the foreign number of firms is generally estimated more precisely, and again all
+signs on the coefficients confirm the theoretical predictions. Table \ref{tb:productivity_sr}
+repeats the analysis with relative productivity as the dependent variable. Here
+the results are more precisely estimated and more consistent across specifications; 
+a higher domestic tariff lowers domestic productivity, while a higher number of
+domestic firms serves to increase it. Again, there is a marked difference in 
+the precision of estimates for foreign and domestic variables, which can most 
+likely be explained by the structure of our data set. Given that we are employing
+three country pairs in the estimation, not all countries contribute equally to
+domestic and foreign variables. Specifically, the ordering of our data set implies
+that Canada serves as the domestic market for two thirds of the data set (country
+pairs Canada-Mexico, Canada-USA), while the USA are the foreign market for 
+two thirds of the data set. As our data set is assembled from a variety of sources, 
+there are different patterns of missing data, and possibly different degrees of
+measurement error in the data from different countries. Hence, different independent
+variables might be affected differently by problems with the data for a specific
+country. \\
+Tables \ref{tb:prices_sr_third} and \ref{tb:productivity_sr_third} show the results
+for the inclusion of third country variables. This specification again lowers
+the precision of estimated effects of domestic and foreign tariffs, rendering
+all coefficients insignificant. There is some evidence of the effect of third
+country tariffs on relative prices in two countries, with domestic tariffs on
+third country products increasing the domestic inflation rate, while third country
+tariffs on foreign country imports lower the relative growth rate of the domestic
+price level. This provides some support for the mechanism put forward in 
+\citet{MelitzOttaviano2008}, with those countries with the lowest overall sum 
+of tariff barriers having the lowest price level. The results for the 
+productivity equations are very similar. \\
+Turning to the long run of the model, \ref{tb:prices_lr} and \ref{tb:productivity_lr}
+show the results of estimating the error correction model specifications on prices
+and productivity, respectively. First we note that the coefficient on the lagged
+dependent variable is between zero and one and highly significant, indicating 
+that the error correction specification is correct. There is little evidence
+of meaningful effects of trade barriers in the long run, with the exception 
+of a negative effect of foreign tariffs on the long run price level in the domestic
+country, a finding that runs directly contrary to the theory. Furthermore, the 
+effect of market size is directly opposed to what the theory predicts, with large
+and significant positive effects of domestic market size on domestic inflation (and
+large negative effects on the level of productivity). \ref{tb:productivity_lr} 
+however can be seen to vindicate the different theoretical predictions for short-
+and long run when viewed through the lens of market entry; columns (3), (4), (5)
+and (6) show that the effects of lagged variables are much stronger and the 
+speed of mean reversion is much faster for those industries that are closer to 
+the free entry ideal, as the model would predict.
 
-Columns (2) and (3) are modified to include the log first-difference in relative tariffs and openness, as well as the log first-difference in the lagged dependent variable.
 
-In the short run, the signs for all short--run effects of tariff reductions are as predicted and highly significant. Table \ref{tb:prices_sr} presents the effects of tariff reductions on prices in the short run. A decrease in domestic tariffs causes a decrease in relative prices, whereas foreign tariffs actually increase prices. The openness variables that are the main explanatory variable in \citet{Chen2009} are not significant when the tariffs are included, as the tariff provides a more accurate measure of openness between the country-pair; it should be noted, however, that the signs on the openness variable follow the predicted signs from the model when tariffs are excluded from the regression analysis. 
-
-Similar to relative prices, Table \ref{tb:markup_sr} focuses on price markups, and suggests that a decrease in domestic tariffs will likewise decrease domestic markups, with profit margins actually increasing with foreign tariffs. While the coefficients are no longer significant, the signs still match the predicted theory and hold with the different model specifications. In contrast, Table \ref{tb:productivity_sr} focuses on labour productivity, and suggests that domestic tariff reductions will increase productivity, with foreign tariffs causing the opposite effect.
-
-The main contribution of this paper comes from the long--run effects of trade liberalization as presented in Tables \ref{tb:prices_lr}, \ref{tb:markup_lr}, and \ref{tb:productivity_lr}. Table \ref{tb:prices_lr} focuses on the long--run effects of liberalization on relative prices. While the sign on the coefficient in question (i.e., lagged domestic tariffs) is positive, which is in direct contrast to the theory of Melitz and Ottaviano (2009), the results are not significant. However, the market size ($L$) has a positive and highly significant effect on relative prices in the long--run, thus contradicting theory that the most productive firms will relocate to a less competitive market and the short--run gains from trade will converge back to their equilibrium levels. As firms leave the market, relative prices remain low according to this analysis.
-
-While the sign on tariffs was in contrast to the theory, the competitive effect of trade openness on relative markups (as presented in Table \ref{tb:markup_lr}) does follow the theory of Melitz and Ottaviano, with decreasing tariffs causing an increase in relative markups in the long--run. Moreover, now the size of the market ($L$) has a negative impact on markups, which supports the anti-competitive effects in the long--run when firms have the option to relocate to a less competitive market. 
-
-Finally, Table \ref{tb:productivity_lr} presents the results for the long--run effects of tariff reductions on labour productivity. Similar to the theoretical predictions, labour productivity is reversed in the long run.
-
-While the estimation results of Chen et al. on country-pairs within the European Union followed those predicted by the model of Melitz and Ottaviano, the long--run results in this analysis were in contradiction to the theory with regards to prices; however, the models predictions do hold for relative markups and productivity. The estimation results for the short--run follow the model's predictions and are highly significant.
-
-\section{Conclusion}\label{sec:conc}
-The only empirical application of the Melitz--Ottaviano (2008) model to date suggested that the long--run effects of trade liberalization are anti--competitive, that is, there will be a reversal in any competitive gains as firms are allowed to move to new markets. However, largely due to the year restrictions in their database, the results from Chen et al. (2009) are insignificant in the long run, and thus merely suggestive. While this paper replicates their analysis with only minor conceptual changes, our use of NAFTA as a defining multilateral trade agreement and the 12-years of data available after its implementation, provides new insights into the long--run dynamics of international trade agreements. While the theory suggests a reversal of competitive effects in the aggregate, this paper illustrates that the competitive effects are merely assuaged, but certainly not reversed. This adds credence to the pro-liberalization camp of policy makers who argue for the social welfare improving competitive effects of trade liberalization in the short--, medium--, and long term.
-
+\section{Discussion}\label{sec:conc}
+The only empirical application of the Melitz--Ottaviano (2008) model to date 
+suggested that the long--run effects of trade liberalization are anti--competitive,
+ that is, there will be a reversal in any competitive gains as firms are allowed
+ to move to new markets. This chapter added to the evidence on the model's
+prediction by estimating the relationship between trade barriers, number of 
+firms, market size and prices as well as productivity. While the model's 
+predictions are largely confirmed in the short run, the estimates for the 
+long run behaviour of aggregate variables provide little support for the 
+reversion of the effect of trade barriers in the long run. Evidence in support
+of the theory presented here included the role of third country trade barriers
+in shaping relative performance between two trade partners, as well as a finding
+of stronger reactions to long run changes in trade barriers by industries that
+have high turnover rates, therefore being close to the model concept of free entry.
 
 \newpage
 
@@ -424,24 +539,12 @@ NAICS 4-digit & Industry \\
 
 \begin{table}
 \tiny
-\begin{center}\caption{Prices (Short Run), all country pairs\label{tb:prices_sr}}
+\begin{center}\caption{Prices (Short Run), all country pairs, third country 
+variables included\label{tb:prices_sr_third}}
 \input{gw_price_sr_third.tex}
 \end{center}
 \end{table}
 
-\begin{table}
-\tiny
-\begin{center}\caption{Prices (Short Run), all country pairs\label{tb:prices_sr}}
-\input{gw_price_sr_canmex_jumps_smoothed.tex}
-\end{center}
-\end{table}
-
-\begin{table}
-\tiny
-\begin{center}\caption{Markups (Short Run), all country pairs\label{tb:markup_sr}}
-\input{gw_mark_sr.tex}
-\end{center}
-\end{table}
 
 \begin{table}
 \tiny
@@ -452,16 +555,25 @@ NAICS 4-digit & Industry \\
 
 \begin{table}
 \tiny
+\begin{center} \caption{Productivity (Short Run), all country pairs, third country 
+variables included\label{tb:productivity_sr_third}}
+\input{gw_prod_sr_third.tex}
+\end{center}
+\end{table}
+
+\begin{table}
+\tiny
 \begin{center}\caption{Prices (Long Run), all country pairs\label{tb:prices_lr}}
 \input{gw_price_lr.tex}
 \end{center}
 \end{table}
 
-
+\renewcommand{\arraystretch}{1}
 \begin{table}
 \tiny
-\begin{center}\caption{Markups (Long Run), all country pairs\label{tb:markup_lr}}
-\input{gw_mark_lr.tex}
+\begin{center}\caption{Prices (Long Run), all country pairs, third country
+variables included\label{tb:prices_lr_third}}
+\input{gw_price_lr_third.tex}
 \end{center}
 \end{table}
 
@@ -469,6 +581,15 @@ NAICS 4-digit & Industry \\
 \tiny
 \begin{center}\caption{Productivity (Long Run), all country pairs\label{tb:productivity_lr}}
 \input{gw_prod_lr.tex}
+\end{center}
+\end{table}
+
+
+\begin{table}
+\tiny
+\begin{center}\caption{Productivity (Long Run), all country pairs, third country 
+variables included\label{tb:productivity_lr_third}}
+\input{gw_prod_lr_third.tex}
 \end{center}
 \end{table}
 

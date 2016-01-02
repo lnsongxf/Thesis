@@ -1,6 +1,23 @@
 \section{Introduction}
 The preceding two chapters have pointed out the importance of developing quantitative
-economic model 
+economic models of household saving and the important interconnections between
+savings, insurance, and income risk. This chapter builds on the discussion of 
+the previous chapter by calibrating a model of household saving featuring a
+heterogeneous income process to empirical data on the wealth distribution and
+assessing the models fit under different parametrisations of the income process.
+The main finding is that including profile heterogeneity significantly worsens
+the models ability to fit the data moments, a finding which is robust across
+all income processes estimated in the previous chapter. We then conduct comparative
+statics exercises to explore what drives this result. These exercises show that
+it is precisely the main difference that separates HIP from RIP processes --
+the lower estimated persistence and variance of transitory shocks -- which 
+keeps the model from matching the shape of the empirical wealth distribution. 
+While lifetime inequality in an income distribution simulated from an HIP process
+with modest amounts of profile heterogeneity is just as high as that found in an
+income distribution simulated from a persistent AR(1) process with high innovation
+variance, the different mechanism generating this inequality crucially alters
+household savings behaviour. 
+\vspace{0.5cm}   \\
 The model employed  in this chapter is a standard incomplete markets life-cycle 
 model of household  
 consumption and savings as described in chapter \ref{ch:wealthmodels}, with the
@@ -31,7 +48,9 @@ modelling of income risk, a process that, if the HIP specification estimated
 in chapter \ref{ch:income} is correct, significantly overstates both the magnitude
 and the persistence of permanent shocks to household income. Therefore, this 
 chapter examines theoretical wealth distributions coming out of models relying
-on the HIP process for household income, with and without learning. Using the
+on the HIP process for household income, under the assumption that households 
+are imperfectly informed about the parameters of their individual income 
+process, but able to learn them over the course of their working life. Using the
 parameter estimates from chapter \ref{ch:income}, it explores the implications
 of changes over time and across household income measures for the predicted
 wealth distribution. Following \citet{HintermaierKoeniger2011}, it then uses 
@@ -196,15 +215,30 @@ of PSID households from 1968 to 2013 in chapter \ref{ch:income}. From the minimu
 distance estimation, we obtain a discount factor of $\delta=$ and a risk 
 aversion parameter $\sigma=$ as the best fit, although the value of the objective
 function at the minimum is still very high. The reason for this can be seen
-graphically in figure \ref{fig:baseline} and figure \ref{fig:baseline_agedetails}:
+graphically in figure \ref{fig:baseline} and figure \ref{fig:baseline_agedetail}:
 the model entirely misses the shape of the empirical wealth distribution, predicting
-too little wealth at the low end of the distribution, significantly too high 
+too little wealth at the low end of the distribution, too high 
 wealth accumulation for households between the 20th and 70th percentile, and
 too small wealth holdings again for households at the highest percentiles
 \footnote{Note that in all plots, we only display wealth holdings in model and 
 data between the first and 90th percentile.}. Breaking the result down by age 
 groups, we see that young households are much poorer in the model than they are
-in the data, while older cohorts display much higher savings. From these results
+in the data, while older cohorts display much higher savings. 
+
+\begin{figure}%
+\includegraphics[width=\columnwidth]{baseline}%
+\caption{Baseline model (PSID HIP income process), calibrated fit}%
+\label{fig:baseline}%
+\end{figure}
+
+\begin{figure}%
+\includegraphics[width=\columnwidth]{baseline_agedetail}%
+\caption{Baseline model (PSID HIP income process), calibrated fit by age group}%
+\label{fig:baseline_agedetail}%
+\end{figure}
+
+
+From these results
 it is obvious that the shape of the wealth distribution predicted by the model
 is so fundamentally wrong that none of the processes estimated in chapter 
 \ref{ch:income} will stand a chance of matching the empirical wealth distribution.
@@ -216,19 +250,44 @@ discount factor are significantly lower than those obtained by \citet{Hintermaie
 an artefact of the fact that overall wealth accumulation in the life-cycle model
 featuring an HIP income process is much higher than in a comparable model 
 relying on a simple AR(1) income specification, as reported in the earlier 
-working paper version of \citet{Guvenen2007}. 
+working paper version of \citet{Guvenen2007}. In the first row, we also report 
+the results for fitting a model using the HIP parameters estimated from the PSID
+data, but excluding the deterministic life cycle profile of earnings, 
+$g_t(\theta_0, X_t^i)$, which is the exact income process used in \citet{Guvenen2007}.
+The results show that the estimated discount factor is almost exactly that 
+used in Guvenen's paper, at 0.961, and importantly significantly lower than 
+all other discount factors, estimated including the respective life-cycle profiles
+of earnings extracted from the different data sets. Intuitively, this result
+stems from the fact that without the deterministic income profile, the mean 
+of households' expected earnings distributions is much closer to zero, creating
+a larger precautionary savings motive. The minimum distance estimator then tries
+to counterbalance this by choosing a lower discount factor, lowering aggregate
+savings by making households more patient. This suggests that the increase in 
+aggregate savings coming from an HIP based model as reported in the earliest 
+working paper version of \citet{Guvenen2007} is somewhat overstated when 
+the life-cycle profile of earnings is disregarded\footnote{Although it has to 
+be noted here that, at least for our measures of gross labour incomes, the processes
+we estimate might understate the true "disaster risk" in income, given that the 
+sample selection process excluded households with zero earnings. \citet{GKOS2015}
+make some effort to alleviating this problem by introducing a mixture of AR(1)
+components into an HIP process, with one of the AR(1) processes capturing the 
+very low likelihood of extremely large shocks to household income.}. 
 
 \begin{table}%
 \begin{tabular}{|l|c|c|}
 \hline
        Income Process            & $\delta$ & $\sigma$ \\
 \hline                          
-PSID 1968-1996 (no lifecycle)    &  0.962 & 1.41    \\
-PSID 1968-1996 (with lifecycle)  &  0.973 & 1.90    \\
-                 & \footnotesize{(0.0008)} & \footnotesize{(0.006)} \\
-BHPS gross labour income         &  0.958 & 2.24    \\
-BHPS net labour income           &  0.962 & 1.45    \\
-BHPS net household income        &  0.977 & 1.5     \\
+PSID 1968-2013 (no lifecycle)    &  0.961 & 1.41    \\
+                  & \footnotesize{(0.0008)} & \footnotesize{(0.006)} \\ 
+PSID 1968-2013 (with lifecycle)  &  0.973 & 1.90    \\
+                  & \footnotesize{(0.0008)} & \footnotesize{(0.006)} \\
+BHPS gross labour income         &  0.967 & 0.621    \\
+                  & \footnotesize{(0.00027)} & \footnotesize{(0.041)} \\
+BHPS net labour income           &  0.965 & 0.5    \\
+                  & \footnotesize{(0.00046)} & \footnotesize{(0.036)} \\
+BHPS net household income        &  0.975 & 1.28     \\
+                  & \footnotesize{(0.0069)} & \footnotesize{(0.166)} \\
 \hline
 \end{tabular}
 \caption{Calibrating the model for different income risk profiles}
@@ -280,7 +339,12 @@ smaller. This is not very surprising, as the implications of lowering $\rho$
 for the half-life of a persistent shock become less severe the lower the starting
 value of $\rho$ -- as figure \ref{fig:effect_rho} demonstrates, the half life
 of a persistent shock under the baseline $\rho=0.85$ is about four years, while 
-for $\rho=0.72$ it is two years and for $\rho=0.92$ it is eight years. 
+for $\rho=0.72$ it is two years and for $\rho=0.92$ it is eight years. The model
+with a high value of the persistent shock performs especially well in capturing
+the higher wealth accumulation at the higher end of the distribution for the oldest
+groups of households, which is exactly when we would expect the effect of a 
+series of persistent shocks accumulating over the life-cycle to play the biggest
+role. 
 Figures \ref{fig:comp_stat_eta} and \ref{fig:comp_stat_eta_agedetail} display
 the results for changes in the variance of persistence shocks. Just as in the 
 case of an increase in persistence $\rho$, increasing the variance of the persistent
@@ -316,7 +380,16 @@ wealth holdings. Indeed, our model nests the model in \citet{HintermaierKoeniger
 as a special case with $\sigma^2_{\alpha}$ and $\sigma^2_{\beta}$ equal to zero,
 and as figures \ref{fig:winfriedcompare} and \ref{fig:winfriedcompare_agedetail} in 
 the appendix show, the model fits the data well with this version of the RIP 
-process. \\
+process. To illustrate the vast improvement in model fit, it is instructive
+to consider the value of the objective function, which gives the sum of the 
+squared difference between model and data moments for all 324 targeted moments:
+while the best fit of the HIP models implies a value of the objective function
+of between 350 and 900, the RIP process specified with the parametrisation of
+\citet{HintermaierKoeniger2011} reaches a minimum at 78\footnote{Our results are
+not exactly the same as those derived in \citet{HintermaierKoeniger2011}, as we 
+employ a different solution technique, which implies a less accurate solution to 
+the model, and our model lacks some features present in their paper, notably a
+rigorous treatment of the US tax system and uncertain lifespans after retirement.}.\\
 The finding that it is mainly the variability of lifetime income that drives
 wealth accumulation in the model echoes the work of \citet{Floden2008}, who 
 shows that the \citet{Aiyagari1994} result of an increase in aggregate wealth 
@@ -337,25 +410,25 @@ Highest realisation &  0.31   &    0.35           &    0.09                  &  
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{comp_stat_rho}
-\caption{Comparative statics for variance of individual-specific intercepts, prime age}
+\caption{Comparative statics for persistence of AR(1) component, prime age}
 \label{fig:comp_stat_rho}
 \end{figure}
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{comp_stat_rho_agedetail}
-\caption{Comparative statics for variance of individual-specific intercepts, by age groups}
+\caption{Comparative statics for persistence of AR(1) component, by age groups}
 \label{fig:comp_stat_rho_agedetail}
 \end{figure}
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{comp_stat_eta}
-\caption{Comparative statics for variance of individual-specific intercepts, prime age}
+\caption{Comparative statics for innovation variance of persistent shock, prime age}
 \label{fig:comp_stat_eta}
 \end{figure}
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{comp_stat_eta_agedetail}
-\caption{Comparative statics for variance of individual-specific intercepts, by age groups}
+\caption{Comparative statics for innovation variance of persistent shock, by age groups}
 \label{fig:comp_stat_eta_agedetail}
 \end{figure}
 
@@ -394,8 +467,10 @@ large amounts of borrowing in the present, for which optimistic people would hav
 to find lenders who share their beliefs.}, we can use our model to assess what 
 would happen if people would indeed act on them. Figure \ref{fig:optimisticbeta}
 shows the wealth distribution that obtains if all agents start with a belief 
-that is one percentage point above their original initial belief. As expected,
-the entire wealth distribution is shifted down
+that is one percentage point above their original initial belief. The results
+are not as striking as one might have expected, with the entire wealth distribution
+apart from the lowest percentile, which is constrained in any case, being shifted
+down, albeit not by much.
 
 The second scenario under consideration is related to the shifts in the US 
 income distribution happening throughout the 80s and 90s. As has been well documented,
@@ -411,7 +486,7 @@ true distribution of $\beta$
 start life with a belief one percentage point below their original initial belief,
 those in percentiles 60 to 80 half a percentage point lower, those in percentiles
 20 to 40 half a percentage point higher, and those in the bottom quintile one 
-percentage point higher. The results in figure \ref{fig:wrongbetabelief} show 
+percentage point higher. The results in figure \ref{fig:experiment} show 
 a tilting of the wealth distribution, with agents at the upper end accumulating
 more wealth, since they ascribe a larger part of their good fortune to permanent
 shocks given that they systematically underestimate their deterministic growth
@@ -436,15 +511,14 @@ of the income distribution.
 
 \begin{figure}%
 \includegraphics[width=\columnwidth]{optimisticbeta}%
-\caption{Effects of incorrect initial beliefs}%
+\caption{Effects of optimistic initial beliefs}%
 \label{fig:optimisticbeta}%
 \end{figure}
 
-
 \begin{figure}%
-\includegraphics[width=\columnwidth]{wrongbetabelief}%
-\caption{Effects of incorrect initial beliefs}%
-\label{fig:wrongbetabeliefs}%
+\includegraphics[width=\columnwidth]{experiment}%
+\caption{Effects of beliefs based on previous income growth rates}%
+\label{fig:experiment}%
 \end{figure}
 
 
