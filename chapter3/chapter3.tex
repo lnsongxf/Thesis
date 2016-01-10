@@ -225,16 +225,16 @@ data between the first and 90th percentile.}. Breaking the result down by age
 groups, we see that young households are much poorer in the model than they are
 in the data, while older cohorts display much higher savings. 
 
-\begin{figure}%
-\includegraphics[width=\columnwidth]{baseline}%
-\caption{Baseline model (PSID HIP income process), calibrated fit}%
-\label{fig:baseline}%
+\begin{figure}
+\includegraphics[width=\columnwidth]{baseline}
+\caption{Baseline model (PSID HIP income process), calibrated fit}
+\label{fig:baseline}
 \end{figure}
 
-\begin{figure}%
-\includegraphics[width=\columnwidth]{baseline_agedetail}%
-\caption{Baseline model (PSID HIP income process), calibrated fit by age group}%
-\label{fig:baseline_agedetail}%
+\begin{figure}
+\includegraphics[width=\columnwidth]{baseline_agedetail}
+\caption{Baseline model (PSID HIP income process), calibrated fit by age group}
+\label{fig:baseline_agedetail}
 \end{figure}
 
 
@@ -273,7 +273,7 @@ make some effort to alleviating this problem by introducing a mixture of AR(1)
 components into an HIP process, with one of the AR(1) processes capturing the 
 very low likelihood of extremely large shocks to household income.}. 
 
-\begin{table}%
+\begin{table}
 \begin{tabular}{|l|c|c|}
 \hline
        Income Process            & $\delta$ & $\sigma$ \\
@@ -305,7 +305,7 @@ and then vary each of the 8 parameters governing the model solution by solving
 the model in turn for its highest and lowest realization. The parameter values
 used are summarized in table \ref{tab:comp_stat_parameters}. 
 
-\begin{table}%
+\begin{table}
 \begin{tabular}{|l|cccccccc|}
                   & $\delta$ & $\sigma$ & $\rho$ & $\sigma^2_{\eta}$ & $\sigma^2_{\varepsilon}$ & $\sigma^2_{\alpha}$ & $\sigma^2_{\beta}$ & $cov(\alpha,\beta)$ \\
 Lowest realization  &  0.94  &  1.05  & 0.72   &    0.01           &    0.02                  &     0.01            &      0.00068       &    -1.     \\
@@ -397,7 +397,7 @@ holdings in incomplete markets economies with idiosyncratic income variations
 obtains even when all uncertainty about future income is removed, so that 
 saving is purely driven by the consumption smoothing motive. 
 
-\begin{table}%
+\begin{table}
 \begin{tabular}{|l|cccccc}
                     & $\rho$ & $\sigma^2_{\eta}$ & $\sigma^2_{\varepsilon}$ & $\sigma^2_{\alpha}$ & $\sigma^2_{\beta}$ & $cov(\alpha,\beta)$ \\
 Lowest realisation  & -0.09   &   -0.06           &   -0.04                  &     0.02            &     -0.29          &    -0.22   \\
@@ -509,16 +509,54 @@ to the consumption distribution could then, according to our model, be hysteresi
 in belief formation of agents entering the labour market at different points
 of the income distribution.
 
-\begin{figure}%
-\includegraphics[width=\columnwidth]{optimisticbeta}%
-\caption{Effects of optimistic initial beliefs}%
-\label{fig:optimisticbeta}%
+\begin{figure}
+\includegraphics[width=\columnwidth]{optimisticbeta}
+\caption{Effects of optimistic initial beliefs}
+\label{fig:optimisticbeta}
 \end{figure}
 
-\begin{figure}%
-\includegraphics[width=\columnwidth]{experiment}%
-\caption{Effects of beliefs based on previous income growth rates}%
-\label{fig:experiment}%
+\begin{figure}
+\includegraphics[width=\columnwidth]{experiment}
+\caption{Effects of beliefs based on previous income growth rates}
+\label{fig:experiment}
+\end{figure}
+
+\section{Incorporating disaster risk}
+Figure \ref{fig:disaster} shows the effect of including the subjective possibility 
+of a zero income realisation on savings profiles. It is noted that the actual 
+underlying income process is not altered, so that while agents expect a zero 
+income realisation with probability $\xi$ in each period, it actually never 
+materialises, so that the income histories in this model economy are exactly 
+the same as in our previous examples. 
+\begin{figure}
+\includegraphics[width=\columnwidth]{disaster}
+\caption{Effects of subjective belief about probability of zero income 
+            realisation}
+\label{fig:disaster}
+\end{figure}
+
+\section{Bequest motives}
+Figure \ref{fig:bequests} shows the effect of including a bequest motive, modelled
+as in e.g. \citet{KopczukLupton2007}. In this model economy, the working life 
+problem is equivalent to that outlined in equation \ref{eq:bellman}, while the
+retirement problem is adapted to include a positive probability of dying in 
+each period (taking from U.S. mortality statistics) and utility from dying with
+positive asset holdings. The household problem is:
+\begin{align}\label{eq:retirement_bequest}
+\max_{\{c_t\}_{t=1}^{T}} \sum_{t = 1}^{T} \delta^t (1-\zeta)u(c_t) + \zeta \kappa a_t 
+\end{align}
+subject to the same constraints as in equation \ref{eq:retirement}. 
+Here, $\zeta$ is the age-varying probability of dying before next period, while
+$\kappa$ is a constant scaling parameter measuring the importance of bequests 
+relative to personal consumption. This 
+specification implies that bequests are a luxury good, as the marginal utility
+of leaving a bequest increases in the level of wealth holdings. This assumption 
+is standard in the literature on bequests. 
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{bequest_motive}
+\caption{Effects of bequest motive}
+\label{fig:bequests}
 \end{figure}
 
 
