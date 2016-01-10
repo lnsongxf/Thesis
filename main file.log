@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  2 OCT 2015 14:41
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.9)  10 JAN 2016 17:36
 entering extended mode
 **main*file.tex
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.tex"
@@ -690,8 +690,7 @@ Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\import\import.sty"
 Package: import 2009/03/23  v 5.1
-) ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux" (C:\Users\tew207\Documents\GitHub\Thesis\Data_Appendix.tex.au
-x))
+) ("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux" (C:\Users\tew207\Documents\GitHub\Thesis\Data_Appendix.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
@@ -826,10 +825,10 @@ Chapter 2.
 
 ] [18]
 Package epstopdf Info: Source file: <was_wealth_holdings.eps>
-(epstopdf)                    date: 2015-09-26 22:04:06
+(epstopdf)                    date: 2015-09-26 21:04:06
 (epstopdf)                    size: 42611 bytes
 (epstopdf)             Output file: <was_wealth_holdings-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-26 22:05:22
+(epstopdf)                    date: 2015-09-26 21:05:22
 (epstopdf)                    size: 16195 bytes
 (epstopdf)             Command: <epstopdf --outfile=was_wealth_holdings-eps-converted-to.pdf was_wealth_holdings.eps>
 (epstopdf)             \includegraphics on input line 71.
@@ -857,10 +856,10 @@ LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
  [47] [48]
 Package epstopdf Info: Source file: <BHPS_incvar.eps>
-(epstopdf)                    date: 2015-09-23 12:41:10
+(epstopdf)                    date: 2015-09-23 11:41:10
 (epstopdf)                    size: 56652 bytes
 (epstopdf)             Output file: <BHPS_incvar-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-24 12:10:57
+(epstopdf)                    date: 2015-09-24 11:10:57
 (epstopdf)                    size: 16548 bytes
 (epstopdf)             Command: <epstopdf --outfile=BHPS_incvar-eps-converted-to.pdf BHPS_incvar.eps>
 (epstopdf)             \includegraphics on input line 228.
@@ -869,10 +868,10 @@ Package epstopdf Info: Output file is already uptodate.
 File: BHPS_incvar-eps-converted-to.pdf Graphic file (type pdf)
  <use BHPS_incvar-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <PSID_incvar.eps>
-(epstopdf)                    date: 2015-09-15 19:05:23
+(epstopdf)                    date: 2015-09-15 18:05:23
 (epstopdf)                    size: 47457 bytes
 (epstopdf)             Output file: <PSID_incvar-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-24 12:10:58
+(epstopdf)                    date: 2015-09-24 11:10:58
 (epstopdf)                    size: 15909 bytes
 (epstopdf)             Command: <epstopdf --outfile=PSID_incvar-eps-converted-to.pdf PSID_incvar.eps>
 (epstopdf)             \includegraphics on input line 235.
@@ -882,10 +881,10 @@ Package epstopdf Info: Output file is already uptodate.
 File: PSID_incvar-eps-converted-to.pdf Graphic file (type pdf)
  <use PSID_incvar-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <BHPS_fitted_profiles.eps>
-(epstopdf)                    date: 2015-09-23 12:41:14
+(epstopdf)                    date: 2015-09-23 11:41:14
 (epstopdf)                    size: 87062 bytes
 (epstopdf)             Output file: <BHPS_fitted_profiles-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-24 12:10:59
+(epstopdf)                    date: 2015-09-24 11:10:59
 (epstopdf)                    size: 21486 bytes
 (epstopdf)             Command: <epstopdf --outfile=BHPS_fitted_profiles-eps-converted-to.pdf BHPS_fitted_profiles.eps>
 (epstopdf)             \includegraphics on input line 242.
@@ -991,10 +990,10 @@ Overfull \hbox (44.30948pt too wide) in paragraph at lines 71--88
 
 [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118]
 Package epstopdf Info: Source file: <tau_can_mex.eps>
-(epstopdf)                    date: 2015-09-12 16:59:16
+(epstopdf)                    date: 2015-09-12 15:59:16
 (epstopdf)                    size: 63557 bytes
 (epstopdf)             Output file: <tau_can_mex-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 16:59:26
+(epstopdf)                    date: 2015-09-12 15:59:26
 (epstopdf)                    size: 20545 bytes
 (epstopdf)             Command: <epstopdf --outfile=tau_can_mex-eps-converted-to.pdf tau_can_mex.eps>
 (epstopdf)             \includegraphics on input line 365.
@@ -1004,10 +1003,10 @@ Package epstopdf Info: Output file is already uptodate.
 File: tau_can_mex-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_can_mex-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_can_usa.eps>
-(epstopdf)                    date: 2015-09-12 16:58:46
+(epstopdf)                    date: 2015-09-12 15:58:46
 (epstopdf)                    size: 64930 bytes
 (epstopdf)             Output file: <tau_can_usa-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 16:59:26
+(epstopdf)                    date: 2015-09-12 15:59:26
 (epstopdf)                    size: 20354 bytes
 (epstopdf)             Command: <epstopdf --outfile=tau_can_usa-eps-converted-to.pdf tau_can_usa.eps>
 (epstopdf)             \includegraphics on input line 371.
@@ -1015,113 +1014,113 @@ Package epstopdf Info: Output file is already uptodate.
 
 <tau_can_usa-eps-converted-to.pdf, id=2337, 650.43pt x 433.62pt>
 File: tau_can_usa-eps-converted-to.pdf Graphic file (type pdf)
- <use tau_can_usa-eps-converted-to.pdf> [119 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_mex-eps-converted-to.pdf>]
+ <use tau_can_usa-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_mex_can.eps>
-(epstopdf)                    date: 2015-09-12 16:59:07
+(epstopdf)                    date: 2015-09-12 15:59:07
 (epstopdf)                    size: 64892 bytes
 (epstopdf)             Output file: <tau_mex_can-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 16:59:27
+(epstopdf)                    date: 2015-09-12 15:59:27
 (epstopdf)                    size: 20664 bytes
 (epstopdf)             Command: <epstopdf --outfile=tau_mex_can-eps-converted-to.pdf tau_mex_can.eps>
-(epstopdf)             \includegraphics on input line 379.
+(epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_mex_can-eps-converted-to.pdf, id=2391, 650.43pt x 433.62pt>
+<tau_mex_can-eps-converted-to.pdf, id=2338, 650.43pt x 433.62pt>
 File: tau_mex_can-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_mex_can-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_mex_usa.eps>
-(epstopdf)                    date: 2015-09-12 16:58:30
+(epstopdf)                    date: 2015-09-12 15:58:30
 (epstopdf)                    size: 64919 bytes
 (epstopdf)             Output file: <tau_mex_usa-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 16:59:27
+(epstopdf)                    date: 2015-09-12 15:59:27
 (epstopdf)                    size: 20802 bytes
 (epstopdf)             Command: <epstopdf --outfile=tau_mex_usa-eps-converted-to.pdf tau_mex_usa.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_mex_usa-eps-converted-to.pdf, id=2392, 650.43pt x 433.62pt>
+<tau_mex_usa-eps-converted-to.pdf, id=2339, 650.43pt x 433.62pt>
 File: tau_mex_usa-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_mex_usa-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_usa_can.eps>
-(epstopdf)                    date: 2015-09-12 16:58:56
+(epstopdf)                    date: 2015-09-12 15:58:56
 (epstopdf)                    size: 62878 bytes
 (epstopdf)             Output file: <tau_usa_can-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 16:59:28
+(epstopdf)                    date: 2015-09-12 15:59:28
 (epstopdf)                    size: 20263 bytes
 (epstopdf)             Command: <epstopdf --outfile=tau_usa_can-eps-converted-to.pdf tau_usa_can.eps>
-(epstopdf)             \includegraphics on input line 393.
+(epstopdf)             \includegraphics on input line 389.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_usa_can-eps-converted-to.pdf, id=2393, 650.43pt x 433.62pt>
+<tau_usa_can-eps-converted-to.pdf, id=2340, 650.43pt x 433.62pt>
 File: tau_usa_can-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_usa_can-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <tau_usa_mex.eps>
-(epstopdf)                    date: 2015-09-12 16:57:32
+(epstopdf)                    date: 2015-09-12 15:57:32
 (epstopdf)                    size: 63369 bytes
 (epstopdf)             Output file: <tau_usa_mex-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-12 16:59:28
+(epstopdf)                    date: 2015-09-12 15:59:28
 (epstopdf)                    size: 20580 bytes
 (epstopdf)             Command: <epstopdf --outfile=tau_usa_mex-eps-converted-to.pdf tau_usa_mex.eps>
-(epstopdf)             \includegraphics on input line 399.
+(epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
 
-<tau_usa_mex-eps-converted-to.pdf, id=2394, 650.43pt x 433.62pt>
+<tau_usa_mex-eps-converted-to.pdf, id=2341, 650.43pt x 433.62pt>
 File: tau_usa_mex-eps-converted-to.pdf Graphic file (type pdf)
  <use tau_usa_mex-eps-converted-to.pdf>
-(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex) [120 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_usa-eps-con
-verted-to.pdf>] [121 <C:/Users/tew207/Documents/GitHub/Thesis/tau_mex_can-eps-converted-to.pdf> <C:/Users/tew207/Documen
-ts/GitHub/Thesis/tau_mex_usa-eps-converted-to.pdf>] [122 <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_can-eps-conver
-ted-to.pdf> <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_mex-eps-converted-to.pdf>] [123]
-Overfull \hbox (426.79135pt too wide) detected at line 418
+(C:\Users\tew207\Documents\GitHub\Thesis\sumstats.tex)
+Overfull \hbox (426.79135pt too wide) detected at line 412
  [] 
  []
 
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.419 NAICS 4-digit &
+l.413 NAICS 4-digit &
                       Industry \\
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[124] [125] [126] [127] (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex)
-(C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr_third.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex)
-(C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr_third.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex)
+[119 <C:/Users/tew207/Documents/GitHub/Thesis/tau_can_mex-eps-converted-to.pdf>] [120] [121]
+(C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_sr_third.tex
+) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_sr_third.tex
+) (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr.tex)
 (C:\Users\tew207\Documents\GitHub\Thesis\gw_price_lr_third.tex) (C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr.tex)
-(C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr_third.tex) [128] [129] [130] [131] [132] [133] [134] [135]
-No file Data_Appendix.tex.tex.
-)
+(C:\Users\tew207\Documents\GitHub\Thesis\gw_prod_lr_third.tex) [122] [123 <C:/Users/tew207/Documents/GitHub/Thesis/tau_c
+an_usa-eps-converted-to.pdf> <C:/Users/tew207/Documents/GitHub/Thesis/tau_mex_can-eps-converted-to.pdf>] [124 <C:/Users/
+tew207/Documents/GitHub/Thesis/tau_mex_usa-eps-converted-to.pdf> <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_can-ep
+s-converted-to.pdf>] [125] [126 <C:/Users/tew207/Documents/GitHub/Thesis/tau_usa_mex-eps-converted-to.pdf>] [127]
+[128] [129] [130] [131] [132] [133] (C:\Users\tew207\Documents\GitHub\Thesis\Data_Appendix.tex [134
+
+] [135]) [136])
 Chapter 6.
-(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [136
+(C:\Users\tew207\Documents\GitHub\Thesis\conclusion/conclusion.tex [137
 
 
-
-] [137]) [138]
+] [138]) [139]
 ("C:\Users\tew207\Documents\GitHub\Thesis\main file.bbl" ("C:\Users\tew207\Documents\GitHub\Thesis\main file.brf")
 \tf@brf=\write8
 
-[139] [140
+[140] [141
 
-] [141]
+] [142]
 Missing character: There is no ï in font bchb7t!
 Missing character: There is no ¿ in font bchb7t!
 Missing character: There is no ½ in font bchb7t!
- [142] [143] [144]
+ [143] [144] [145]
 Missing character: There is no â in font bchb7t!
 Missing character: There is no € in font bchb7t!
 Missing character: There is no  in font bchb7t!
- [145] [146] [147] [148] [149] [150]
+ [146] [147] [148] [149] [150] [151]
 Missing character: There is no â in font bchr7t!
 Missing character: There is no € in font bchr7t!
 Missing character: There is no “ in font bchr7t!
- [151])
+ [152])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
- [152]
+ [153]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 
-("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux" (C:\Users\tew207\Documents\GitHub\Thesis\Data_Appendix.tex.aux)
-)
+("C:\Users\tew207\Documents\GitHub\Thesis\main file.aux" (C:\Users\tew207\Documents\GitHub\Thesis\Data_Appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `main*file.out' has not changed.
@@ -1131,9 +1130,9 @@ Package rerunfilecheck Info: File `main*file.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 13579 strings out of 494053
- 205984 string characters out of 3146182
- 558365 words of memory out of 3000000
+ 13581 strings out of 494053
+ 206070 string characters out of 3146182
+ 565365 words of memory out of 3000000
  16063 multiletter control sequences out of 15000+200000
  43131 words of font info for 89 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1156,9 +1155,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 sfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on "main file.pdf" (153 pages, 1338516 bytes).
+Output written on "main file.pdf" (154 pages, 1350834 bytes).
 PDF statistics:
- 3136 PDF objects out of 3580 (max. 8388607)
+ 3162 PDF objects out of 3580 (max. 8388607)
  420 named destinations out of 1000 (max. 500000)
  475 words of extra memory for PDF output out of 10000 (max. 10000000)
 

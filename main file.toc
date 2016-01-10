@@ -42,8 +42,8 @@
 \contentsline {section}{\numberline {5.5}Results \& Discussion}{115}{section.5.5}
 \contentsline {section}{\numberline {5.6}Discussion}{118}{section.5.6}
 \contentsline {section}{\numberline {5.7}Appendix A: Figures, Summary Statistics, Results}{119}{section.5.7}
-\contentsline {section}{\numberline {5.8}Appendix B: Industry list, NAICS classification}{124}{section.5.8}
-\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{128}{section.5.9}
-\contentsline {section}{\numberline {5.10}Appendix D: Data Appendix}{128}{section.5.10}
-\contentsline {chapter}{\numberline {6}Conclusion}{136}{chapter.6}
-\contentsline {chapter}{Bibliography}{140}{chapter*.48}
+\contentsline {section}{\numberline {5.8}Appendix B: Industry list, NAICS classification}{119}{section.5.8}
+\contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{122}{section.5.9}
+\contentsline {section}{\numberline {5.10}Appendix D: Data Appendix}{122}{section.5.10}
+\contentsline {chapter}{\numberline {6}Conclusion}{137}{chapter.6}
+\contentsline {chapter}{Bibliography}{141}{chapter*.48}
