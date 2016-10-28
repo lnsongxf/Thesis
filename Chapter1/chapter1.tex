@@ -84,7 +84,7 @@ accumulation.}. The model can be written as a single household solving the
 problem
 
 \begin{align}
-\max_{\{c_{t+j}\}_{j=0}^{T-t}} \sum_{j=0}^{\infty} \delta^{t+j} \mathbb{E}_t \big[ u(c_{t+j}, z_{t+j}) \big] \label{maxprob}
+\max_{c_t} \sum_{j=0}^{T-t} \delta^{t+j} \mathbb{E}_t \big[ u(c_{t+j}, z_{t+j}) \big] \label{maxprob}
 \intertext{subject to} 
 a_{t+1} = (1+r)(a_t + y_t - c_t) \label{bc}
 \end{align}

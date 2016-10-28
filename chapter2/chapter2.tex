@@ -92,8 +92,8 @@ estimated heterogeneous income profiles (HIP) income process in the spirit of
 \citet{Guvenen2009}. The process to be estimated is of the form
 
 \begin{align}
-y_{h,t}^i &= g(\theta_t, \pmb{X}_{h,t}^i) + \alpha^i + \beta^i h + z_{h,t}^i + \phi \varepsilon_{h,t}^i \label{incproc} \\
-z_{h,t} &= \rho z_{h-1,t-1} + \pi_t \eta_{h,t}^i \label{persshock}
+y_{h,t}^i &= g(\theta_t, \pmb{X}_{h,t}^i) + \alpha^i + \beta^i h + z_{h,t}^i + \phi_t \varepsilon_{h,t}^i \label{incproc} \\
+z_{h,t}^i &= \rho z_{h-1,t-1}^i + \pi_t \eta_{h,t}^i \label{persshock}
 \end{align}
 
 where $y_{h,t}^i$ are the log earnings of individual $i$, who has $h$ years of
@@ -110,7 +110,7 @@ $\sigma^2_{\eta}$ and $\sigma^2_{\varepsilon}$, respectively. As discussed
 above, the variances of both permanent and transitory shocks have seen large
 swings over the past decades, to capture this we are allowing for time-variation
 in the innovation variance (denoted $\pi_t$ for the innovation to the persistent
-shock component and $\varphi_t$ for the transitory counterpart). \\
+shock component and $\phi_t$ for the transitory counterpart). \\
 To estimate the parameters of the model, an equally weighted minimum distance
 estimator is used to minimise the distance between the empirically observed
 variance-covariance structure of residual earnings (defined as $\tilde{y} \equiv
@@ -184,9 +184,9 @@ page}.}. Hourly earnings are taken from the variable starting with \texttt{V337}
 in 1968, while hours worked are taken from the variable starting with
 \texttt{V47}. To extract the deterministic life-cycle component of the is 
 modelled as a cubic polynomial in experience,
-$g(\theta_t, \pmb{X}_{h,t}^i) = \gamma_0 + \gamma_1 h + \gamma_2 h^2 + \gamma_3 h^3$.
-Labour market experience itself is constructed as potential experience from 
-information on years of schooling. 
+$g(\theta_t^0, \pmb{X}_{h,t}^i) = \theta_{0,t} + \theta_{1,t} h 
++ \theta_{2,t} h^2 + \theta_{3,t} h^3$. Labour market experience itself is 
+constructed as potential experience from information on years of schooling. 
  \\
 The BHPS data we are using comes from all available waves, covering the time 
 period from 1992 to 2008\footnote{To merge the BHPS data across waves, we use 

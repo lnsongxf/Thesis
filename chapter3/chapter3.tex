@@ -69,7 +69,9 @@ Consumers maximize
 \begin{align}
 E_0 &\left[ \sum_{t=0}^{T} \beta^{t} \frac{c_{t}^{1-\sigma}}{1-\sigma} \right] \label{eq:maxprob} \\
 \intertext{s.t. } &a_{t+1} = (1+r)a_t + y_t - c_t \label{eq:bc} \\
-				  &y_{t}^i = g(\theta^0, X_t^i) + f(\theta^i, X_t^i) + z_t^i + \epsilon_t^i \label{eq:incproc} \\
+				  &y_{t}^i = \begin{cases} (\theta^0, X_t^i) + f(\theta^i, X_t^i) + z_t^i + \epsilon_t^i \label{eq:incproc} &  \text{ for } t<R \\
+                                           y^R & \text{ for } t>= R
+                             \end{cases} \\
   				  &a_{t+1} \geq \underline{a} \label{eq:borrcons} 
 \end{align}
 where $c_t$ is consumption in period $t$, $a_t$ are asset holdings subject to 
@@ -77,15 +79,19 @@ a borrowing constraint  $\underline{a}$, and $y_t^i$ is individual
 income, which follows the heterogeneous income specification in logs discussed
 in chapter \ref{ch:income}: 
 \begin{equation*}
-y_{t}^i = g(\theta^0, X_t^i) + f(\theta^i, X_t^i) + z_t^i + \epsilon_t^i 
+y_{t}^i = g(\theta^0, X_t^i) + f(\theta^i, X_t^i) + z_t^i + \varepsilon_t^i 
 \end{equation*}
 Here, $g(\theta^0, X_t^i)$ captures age effects and individual specific 
-characteristics such as education, $z_t^i$ is an autoregressive process of order
- one, and $f(\cdot)$ is an individual specific function that plays the decisive
-role in introducing heterogeneity and learning in the model.
+characteristics such as experience and education\footnote{In keeping with chapter three, 
+$\theta^0$ will be modelled as a cubic polynomial in experience, with the parameters
+obtained from a pooled regression on the data underlying the estimates in that 
+chapter.}, $z_t^i$ is an autoregressive process of order one equivalent to 
+the one used in chapter 3, $\varepsilon$ is a transitory shock following a standard normal 
+distribution and $f(\cdot)$ is an individual specific function that plays the decisive
+role in introducing heterogeneity and learning in the model. Here, $f(\cdot)$ 
+is defined as:
 \begin{align*}
 f(\theta^i, X_t^i) &= \alpha^i + \beta^i t \\
-z_t^i &= \rho z_{t-1}^i + \eta_t^i \\
 \theta^i &\sim N \left[ \begin{pmatrix} 0 \\ 0 \end{pmatrix}, \begin{pmatrix} \sigma_{\alpha}^2 & \sigma_{\alpha \beta} \\ \sigma_{\alpha \beta} & \sigma_{\beta}^2 \end{pmatrix} \right]
 \end{align*}
 The parameters $\alpha$ and $\beta$ are randomly distributed over the population 
@@ -274,8 +280,8 @@ components into an HIP process, with one of the AR(1) processes capturing the
 very low likelihood of extremely large shocks to household income.}. 
 
 \begin{table}
-\begin{tabular}{|l|c|c|}
-\hline
+\begin{tabular}{l|c|c}
+
        Income Process            & $\delta$ & $\sigma$ \\
 \hline                          
 PSID 1968-2013 (no lifecycle)    &  0.961 & 1.41    \\
@@ -288,7 +294,7 @@ BHPS net labour income           &  0.965 & 0.5    \\
                   & \footnotesize{(0.00046)} & \footnotesize{(0.036)} \\
 BHPS net household income        &  0.975 & 1.28     \\
                   & \footnotesize{(0.0069)} & \footnotesize{(0.166)} \\
-\hline
+
 \end{tabular}
 \caption{Calibrating the model for different income risk profiles}
 \label{tab:calibration_results}
@@ -306,8 +312,9 @@ the model in turn for its highest and lowest realization. The parameter values
 used are summarized in table \ref{tab:comp_stat_parameters}. 
 
 \begin{table}
-\begin{tabular}{|l|cccccccc|}
+\begin{tabular}{l|cccccccc}
                   & $\delta$ & $\sigma$ & $\rho$ & $\sigma^2_{\eta}$ & $\sigma^2_{\varepsilon}$ & $\sigma^2_{\alpha}$ & $\sigma^2_{\beta}$ & $cov(\alpha,\beta)$ \\
+                \hline
 Lowest realization  &  0.94  &  1.05  & 0.72   &    0.01           &    0.02                  &     0.01            &      0.00068       &    -1.     \\
 Baseline            &  0.96  &  2.0   & 0.85   &    0.03           &    0.05                  &     0.05            &      0.00038       &    -0.3    \\
 Highest realizatoin &  0.98  &  3.0   & 0.92   &    0.05           &    0.13                  &     0.10            &      0.00001       &     0.     \\
@@ -398,8 +405,9 @@ obtains even when all uncertainty about future income is removed, so that
 saving is purely driven by the consumption smoothing motive. 
 
 \begin{table}
-\begin{tabular}{|l|cccccc}
+\begin{tabular}{l|cccccc}
                     & $\rho$ & $\sigma^2_{\eta}$ & $\sigma^2_{\varepsilon}$ & $\sigma^2_{\alpha}$ & $\sigma^2_{\beta}$ & $cov(\alpha,\beta)$ \\
+                    \hline 
 Lowest realisation  & -0.09   &   -0.06           &   -0.04                  &     0.02            &     -0.29          &    -0.22   \\
 Highest realisation &  0.31   &    0.35           &    0.09                  &     0.11            &      0.41          &     0.05   \\
 \end{tabular}
@@ -521,43 +529,43 @@ of the income distribution.
 \label{fig:experiment}
 \end{figure}
 
-\section{Incorporating disaster risk}
-Figure \ref{fig:disaster} shows the effect of including the subjective possibility 
-of a zero income realisation on savings profiles. It is noted that the actual 
-underlying income process is not altered, so that while agents expect a zero 
-income realisation with probability $\xi$ in each period, it actually never 
-materialises, so that the income histories in this model economy are exactly 
-the same as in our previous examples. 
-\begin{figure}
-\includegraphics[width=\columnwidth]{disaster}
-\caption{Effects of subjective belief about probability of zero income 
-            realisation}
-\label{fig:disaster}
-\end{figure}
-
-\section{Bequest motives}
-Figure \ref{fig:bequests} shows the effect of including a bequest motive, modelled
-as in e.g. \citet{KopczukLupton2007}. In this model economy, the working life 
-problem is equivalent to that outlined in equation \ref{eq:bellman}, while the
-retirement problem is adapted to include a positive probability of dying in 
-each period (taking from U.S. mortality statistics) and utility from dying with
-positive asset holdings. The household problem is:
-\begin{align}\label{eq:retirement_bequest}
-\max_{\{c_t\}_{t=1}^{T}} \sum_{t = 1}^{T} \delta^t (1-\zeta)u(c_t) + \zeta \kappa a_t 
-\end{align}
-subject to the same constraints as in equation \ref{eq:retirement}. 
-Here, $\zeta$ is the age-varying probability of dying before next period, while
-$\kappa$ is a constant scaling parameter measuring the importance of bequests 
-relative to personal consumption. This 
-specification implies that bequests are a luxury good, as the marginal utility
-of leaving a bequest increases in the level of wealth holdings. This assumption 
-is standard in the literature on bequests. 
-
-\begin{figure}
-\includegraphics[width=\columnwidth]{bequest_motive}
-\caption{Effects of bequest motive}
-\label{fig:bequests}
-\end{figure}
+%\section{Incorporating disaster risk}
+%Figure \ref{fig:disaster} shows the effect of including the subjective possibility 
+%of a zero income realisation on savings profiles. It is noted that the actual 
+%underlying income process is not altered, so that while agents expect a zero 
+%income realisation with probability $\xi$ in each period, it actually never 
+%materialises, so that the income histories in this model economy are exactly 
+%the same as in our previous examples. 
+%\begin{figure}
+%\includegraphics[width=\columnwidth]{disaster}
+%\caption{Effects of subjective belief about probability of zero income 
+            %realisation}
+%\label{fig:disaster}
+%\end{figure}
+%
+%\section{Bequest motives}
+%Figure \ref{fig:bequests} shows the effect of including a bequest motive, modelled
+%as in e.g. \citet{KopczukLupton2007}. In this model economy, the working life 
+%problem is equivalent to that outlined in equation \ref{eq:bellman}, while the
+%retirement problem is adapted to include a positive probability of dying in 
+%each period (taking from U.S. mortality statistics) and utility from dying with
+%positive asset holdings. The household problem is:
+%\begin{align}\label{eq:retirement_bequest}
+%\max_{\{c_t\}_{t=1}^{T}} \sum_{t = 1}^{T} \delta^t (1-\zeta)u(c_t) + \zeta \kappa a_t 
+%\end{align}
+%subject to the same constraints as in equation \ref{eq:retirement}. 
+%Here, $\zeta$ is the age-varying probability of dying before next period, while
+%$\kappa$ is a constant scaling parameter measuring the importance of bequests 
+%relative to personal consumption. This 
+%specification implies that bequests are a luxury good, as the marginal utility
+%of leaving a bequest increases in the level of wealth holdings. This assumption 
+%is standard in the literature on bequests. 
+%
+%\begin{figure}
+%\includegraphics[width=\columnwidth]{bequest_motive}
+%\caption{Effects of bequest motive}
+%\label{fig:bequests}
+%\end{figure}
 
 
 \section{Discussion}\label{sec:discussion}
