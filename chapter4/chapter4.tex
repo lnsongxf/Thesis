@@ -20,18 +20,18 @@ The effects of free trade in North America have been scrutinised in a large numb
 
 \section{Model and Estimation Equations}\label{sec:mo}
 
-The \citet{MelitzOttaviano2008} model is a synthesis of the contributions of \citet{Melitz2003}, who introduces firm heterogeneity through random draws of a cost parameter for firms entering the market, and \citet{Ottaviano2002}, who develop a model with endogenous markups arising from a linear consumer demand system with horizontal product differentiation. The model yields equilibrium conditions that determine a cost cut-off level, i.e. a level of productivity below which firms are not able to compete in the marketplace. This cut-off level uniquely determines all relevant aggregate variables in the model, namely the distribution of prices, markups and productivity. Importantly, the equilibrium conditions of the model economy are different depending on whether firm entry is allowed or not. Without firm entry, the model captures a short-run equilibrium, with the cost cutoffs in two markets given by:
+The \citet{MelitzOttaviano2008} model is a synthesis of the contributions of \citet{Melitz2003}, who introduces firm heterogeneity through random draws of a cost parameter for firms entering the market, and \citet{Ottaviano2002}, who develop a model with endogenous markups arising from a linear consumer demand system with horizontal product differentiation. The model yields equilibrium conditions that determine a cost cut-off level, i.e. a level of productivity below which firms are not able to compete in the marketplace. This cut-off level uniquely determines all relevant aggregate variables in the model, namely the distribution of prices, markups and productivity. Importantly, the equilibrium conditions of the model economy are different depending on whether firm entry is allowed or not. Without firm entry, the model captures a short-run equilibrium, with the cost cutoffs in two markets given by (as shown in \citet{MelitzOttaviano2008}, following the notation in \citet{Chen2009}):
 \begin{align}
 N = \bar{N} \left( \frac{c_D}{c_M} \right)^k + \bar{N}^* \frac{1}{\tau^k}\left( \frac{c_D}{c_M^*} \right)^k \label{eq:m-o-supply-n} \\
 N^* = \bar{N}^* \left( \frac{c_D^*}{c_M^*} \right)^k + \bar{N} \frac{1}{\left( \tau^* \right)^k}\left( \frac{c_D^*}{c_M} \right)^k \label{eq:m-o-supply-n*}
 \end{align}
-Here, a star denotes the foreign market, $\bar{N}$ is the fixed number of incumbents in a market and $N$ is the number of firms that are producing. $c_M$ is the upper bound of the distribution of cost draws, $c_D$ is the cut-off level, i.e. the highest cost draw that allows a firm to earn non-negative profits. $\tau>1$ is the iceberg cost of trade faced by foreign companies exporting to the domestic market and can be interpreted as a measure of trade costs, tariffs and other impediments to trade. \\
-The long-run equilibrium of the economy allows for firm entry into a market, so that the number of firms in a market is now endogenously determined by a zero profit condition for entrants that balances a fixed cost of entry with the expected profits when drawing a cost level from the (known) cost distribution of a country. The equilibrium conditions pinning down the cost cut-off are
+Here, a star denotes the foreign market, $\bar{N}$ is the fixed number of incumbents in a market and $N$ is the number of firms that are producing. $c_M$ is the upper bound of the distribution of cost draws, $c_D$ is the cut-off level, i.e. the highest cost draw that allows a firm to earn non-negative profits. $\tau>1$ is the iceberg cost of trade faced by foreign companies exporting to the domestic market and can be interpreted as a measure of trade costs, tariffs and other impediments to trade. $k$ is the shape parameter of the cost distribution, assumed to be Pareto. \\
+The long-run equilibrium of the economy allows for firm entry into a market, so that the number of firms in a market is now endogenously determined by a zero profit condition for entrants that balances a fixed cost of entry with the expected profits when drawing a cost level from the (known) cost distribution of a country. \citet{MelitzOttaviano2008} show that the equilibrium conditions pinning down the cost cut-off are
 \begin{align}
 c_D = \left[ \frac{\phi c_M^k}{L} \frac{1-(\tau^*)^{-k}}{1-(\tau\tau^{*})^{-k}} \right]^{\frac{1}{k+2}} \\
 c_D^* = \left[ \frac{\phi c_M^k}{L^*} \frac{1-\tau^{-k}}{1-(\tau\tau^{*})^{-k}} \right]^{\frac{1}{k+2}},
 \end{align}
-where $L$ is the size of the domestic market. Since all aggregate variables in the Melitz and Ottaviano model are linear functions of the cost cut-off, equations describing the relative price, markup and productivity levels in two countries connected by trade can easily be found by simply dividing the expressions for $c_D$ by those for $c_D^*$. This gives, for the price level in the short run:
+where $L$ is the size of the domestic market and $\phi=2\gamma(k+1)(k+2)$. Since all aggregate variables in the Melitz and Ottaviano model are linear functions of the cost cut-off, equations describing the relative price, markup and productivity levels in two countries connected by trade can easily be found by simply dividing the expressions for $c_D$ by those for $c_D^*$. This gives, for the price level in the short run:
 \begin{align}
 \left( \frac{\bar{p}}{\bar{p}^*} \right)^k = \left( \frac{c_D}{c_D^*} \right)^k = \left(\frac{c_M}{c_M^*} \right)^k \frac{\bar{N}^*}{\bar{N}} \frac{N}{N^*} \frac{1 + \frac{\bar{N}}{\bar{N}^*} \left(\frac{1}{\tau^*} \frac{c_M^*}{c_M} \right)^k}{1 + \frac{\bar{N}^*}{\bar{N}} \left(\frac{1}{\tau} \frac{c_M}{c_M^*} \right)^k} \label{eq:mo-relprice-sr}
 \end{align}
@@ -58,9 +58,9 @@ Larger markets exhibit higher labour productivity, while the effects of $\theta$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{The Role of Market Entry}
-Following the arguments in \citet{Trefler2004}, we want to exploit the nature of NAFTA being close to a natural experiment and hence try to identify the effect of the policy measures (i.e. the changes in tariff rates) separately from the effects of trade openness in general. There is evidence that trade openness -- measured by the import penetration of a certain country or industry, as in \citet{Chen2009} -- is affected by a number of external forces, including oil prices \citep{Kilian2009}, credit conditions \citep{Chor2012}, shared culture and language between countries and many more. Prior work of \citet{Bernard2006} suggests that U.S. tariff rates throughout the 1980s, at an average level between four and five percent, accounted for about the same fraction of trade costs as costs directly attached to shipping the good, i.e. freight and insurance, so we expect them to have a sizeable impact on trade flows between countries and hence the competitive environment. \vspace{0.5cm} \\
+Following the arguments in \citet{Trefler2004}, we want to exploit the nature of NAFTA being close to a natural experiment and hence try to identify the effect of the policy measures (i.e. the changes in tariff rates) separately from the effects of trade openness in general. There is evidence that trade openness -- measured by the import penetration of a certain country or industry, as in \citet{Chen2009} -- is affected by a number of external forces, including oil prices \citep{Kilian2009}, credit conditions \citep{Chor2012}, shared culture and language between countries and many more. Prior work of \citet{Bernard2006} suggests that U.S. tariff rates throughout the 1980s, at an average level between four and five percent, accounted for about the same fraction of trade costs as costs directly attached to shipping the good, i.e. freight and insurance, so we expect them to have a similar impact on trade flows between countries and hence the competitive environment. \vspace{0.5cm} \\
 
-As we have seen in the exposition of the Melitz and Ottaviano model above, there is one crucial caveat in taking the model to the data: due to the static nature of the model, the comparative static results just compare one steady state with another, while being silent about the transitional dynamics. The estimation strategy of \citet{Chen2009} tries to account for this by estimating an error correction model to identify the long-run separately from the short-run, but their results are mixed for the long run and it cannot be ruled out that this is due to the estimation procedure. Therefore, we try to address this issue in a more direct way: as short- and long-run in the model differ only in the possibility of firm entry, we separate industries into those with a fixed number of firms and those with low entry barriers. This distinction then gives us industries that represent the short- and long-run and we can directly investigate whether the coefficients on the relevant variables differ significantly\footnote{We were inspired to do so by \citet{Head1999} who use the classification to test competing theories of trade that rely on different market structures.}. This approach, however, leads to two issues that need to be addressed before implementation. First, it is not \textit{a priori} obvious how to measure the entry conditions in an industry; while the theoretical model uses the number of firms, this could in practice either refer to firms or to establishments (i.e. different production sites run by the same parent company), or even to employees, as firms in the model use unit labour input. Second, there is no reason to believe that different measures of entry and exit dynamics are exogenous with respect to trade openness -- indeed in the model trade openness is a key factor in the entry decision of firms, but in the real world there might be various other factors that might lead to industries being asymmetrically affected by a change in trade costs, hence biasing our results. To tackle both these issues, we aim to construct a robust measure of industry dynamics by aggregating multiple studies that examine firm and employment turnover in Canada, Mexico and the United States as well as Europe over different time periods. With this, we hope to identify those industries that are either very dynamic or very static over a broad set of different measures, regions and time periods. Table \ref{tb:market_lit} gives an overview of the studies used and a glance at their respective results, showing considerable variation in the dynamics of entry and job creation in different manufacturing sectors.
+As we have seen in the exposition of the Melitz and Ottaviano model above, there is one crucial caveat in taking the model to the data: due to the static nature of the model, the comparative static results just compare one steady state with another, while being silent about the transitional dynamics. The estimation strategy of \citet{Chen2009} tries to account for this by estimating an error correction model to identify the long-run separately from the short-run, but their results are mixed for the long run and it cannot be ruled out that this is due to the estimation procedure. Therefore, we try to address this issue in a more direct way: as short- and long-run in the model differ only in the possibility of firm entry, we separate industries into those with low firm-churn rate and those with low entry barriers. This distinction then gives us industries that represent the short- and long-run and we can directly investigate whether the coefficients on the relevant variables differ significantly\footnote{We were inspired to do so by \citet{Head1999} who use the classification to test competing theories of trade that rely on different market structures.}. This approach, however, leads to two issues that need to be addressed before implementation. First, it is not \textit{a priori} obvious how to measure the entry conditions in an industry; while the theoretical model uses the number of firms, this could in practice either refer to firms or to establishments (i.e. different production sites run by the same parent company), or even to employees, as firms in the model use unit labour input. Second, there is no reason to believe that different measures of entry and exit dynamics are exogenous with respect to trade openness -- indeed in the model trade openness is a key factor in the entry decision of firms, but in the real world there might be various other factors that might lead to industries being asymmetrically affected by a change in trade costs, hence biasing our results. To tackle both these issues, we aim to construct a robust measure of industry dynamics by aggregating multiple studies that examine firm and employment turnover in Canada, Mexico and the United States as well as Europe over different time periods. With this, we hope to identify those industries that are either very dynamic or very static over a broad set of different measures, regions and time periods. Table \ref{tb:market_lit} gives an overview of the studies used and a glance at their respective results, showing considerable variation in the dynamics of entry and job creation in different manufacturing sectors.
  
 \begin{center}
 \begin{table}
@@ -85,13 +85,13 @@ Samianego (2008)   & Entry Rates (yearly)  \newline Europe \newline 97-04  & Pap
 \end{table} 
 \end{center}
 
-In order to aggregate the different studies, we compute percentile-based rankings of the industries for each study (to account for the different number of industries across studies) and then average the percentiles across studies. Based on these average percentiles, we can then split the sample according to the short- and long-run distinction made in the model: those industries above the 70th percentile are taken to represent the dynamic, "free entry" sample and thus the long run, while those industries below the 40th percentile are taken to represent the short run. This procedure leads us to split the sample three-ways: Tobacco, Food Processing, Paper, Chemicals, Primary Metals and Petroleum industries fall into the long run category, while Furniture, Wood, Non-electrical Machineries, Fabricated Metals, Printing, Apparel, and Instruments are taken to represent the short run of the model. The remaining industries are too close to the median to be classified either way and are thus dropped from the sample, which leaves us with 1863 year-industry-country pair observations for the free entry sample, and 1701 observations for the fixed entry sample\footnote{Due to different classification systems, the aggregation of studies was not always exact and some industry groups are quite heterogeneous when sub-industries are considered. For further details on the aggregation see Appendix B}. \\
+In order to aggregate the different studies, we compute percentile-based rankings of the industries for each study (to account for the different number of industries across studies) and then average the percentiles across studies. Based on these average percentiles, we can then split the sample according to the short- and long-run distinction made in the model: those industries above the 70th percentile are taken to represent the dynamic, "free entry" sample and thus the long run, while those industries below the 40th percentile are taken to represent the short run. This procedure leads us to split the sample three-ways: Tobacco, Food Processing, Paper, Chemicals, Primary Metals and Petroleum industries are classified into the long run category, while Furniture, Wood, Non-electrical Machineries, Fabricated Metals, Printing, Apparel, and Instruments are taken to represent the short run of the model. The remaining industries are too close to the median to be classified either way and are thus dropped from the sample, which leaves us with 1863 year-industry-country pair observations for the free entry sample, and 1701 observations for the fixed entry sample\footnote{Due to different classification systems, the aggregation of studies was not always exact and some industry groups are quite heterogeneous when sub-industries are considered. For further details on the aggregation see Appendix B}. \\
 A little thought experiment may clarify the role that market entry effects play in muddling the distinction between short-- and long--run equilibria. The Melitz and Ottaviano (2008) model yields opposing predictions on the effects of trade liberalization on country-level economic variables such as prices, productivity and mark-ups. The reason for the differences, as we have seen, lies in the assumptions on market structure: there are two different equilibria depending on whether entry into a market is allowed. We repeat them here for convenience:
 \begin{align*}
 c_D^k &= c_M^k \frac{\bar{N}^*}{N^*} \left( 1+ \frac{\bar{N}}{\bar{N}^*} \left(\frac{1}{\tau^*}{c_M^*}{c_M}\right)^k \right) \\
 c_D^{k+2} &= \frac{\phi c_M^k}{\Upsilon L} \left(1- \left(\frac{1}{\tau}{c_M}{c_M^*}\right)^k \right)
 \end{align*}
-In model terms, only one of these two equations holds at any given time, and it is posited that the first equation captures the short run effects of trade liberalization, while in the long run firms are allowed to enter the markets and the effects of trade barriers are determined by the second equation. No further assumptions on the nature of the firm's entry decisions or capital adjustment costs are made that could help separate short- from long run. However, in reality, it seems to be more natural to assume that there is a gradual evolution from one equilibrium to the other, and this view is borne out by data on firm entry and exits showing that in a given year, only between five and ten percent of firms in a given industry are new entrants, while over longer horizons this figure goes up to 80 percent. Hence, it seems to be reasonable to model the transition from the short- to the long run equilibrium by introducing a parameter $\alpha$ that governs the fraction of firms entering an industry. The effects of this parameter are most clear on the productivity side, given that firms cannot change their productivity level, the new productivity distribution will be a weighted average of new entrants' and existing firms' productivity. As the examples in Chen et al. are formulated with respect to relative prices, and we are using their notation, we will discuss the effects of limited firm entry in the price level case as well. The argument carries through if one is ready to assume a nominal rigidity that prevents incumbents from re-optimizing their prices, similar to the assumptions made in New Keynesian monetary models. Similar to the productivity level, the price level is then a weighted average of new and old prices (for simplicity, here we abstract from substitution effects induced by the new relative prices of new and old producers):
+In model terms, only one of these two equations holds at any given time, and it is posited that the first equation captures the short run effects of trade liberalization, while in the long run firms are allowed to enter the markets and the effects of trade barriers are determined by the second equation. No further assumptions on the nature of the firm's entry decisions or capital adjustment costs are made that could help separate short- from long run. However, in reality, it seems to be more natural to assume that there is a gradual evolution from one equilibrium to the other, and this view is borne out by data on firm entry and exits in the studies reviewed above, showing that in a given year, only between five and ten percent of firms in a given industry are new entrants, while over longer horizons this figure goes up to 80 percent. Hence, it seems to be reasonable to model the transition from the short- to the long run equilibrium by introducing a parameter $\alpha$ that governs the fraction of firms entering an industry. The effects of this parameter are most clear on the productivity side, given that firms cannot -- by assumption -- change their productivity level, the new productivity distribution will be a weighted average of new entrants' and existing firms' productivity. As the examples in Chen et al. are formulated with respect to relative prices, and we are using their notation, we will discuss the effects of limited firm entry in the price level case as well. The argument carries through if one is ready to assume a nominal rigidity that prevents incumbents from re-optimizing their prices, similar to the assumptions made in New Keynesian monetary models. Similar to the productivity level, the price level is then a weighted average of new and old prices (for simplicity, here we abstract from substitution effects induced by the new relative prices of new and old producers):
 \begin{align*}
 \bar{p} &=\alpha \bar{p}^{LR} + (1-\alpha) \bar{p}^{SR} \\
 				&=\alpha c_D^{LR} + (1-\alpha) c_D^{SR} \\
@@ -117,7 +117,7 @@ Starting from the equations for prices, productivity and markups derived within 
 \begin{split}\label{eq:gw-estimation-prices}
 \Delta \ln \left( \frac{\bar{p}_{it}}{\bar{p}_{it}^*} \right) = &\beta_0 + \beta_1 \Delta \ln \tau_{it} + \beta_2 \Delta \ln \tau_{it}^* + \beta_3 \Delta \ln D_{it} + \beta_4 \Delta \ln D_{it}^* \\ &+ \gamma \left[ \ln \left( \frac{\bar{p}_{it-1}}{\bar{p}_{it-1}^*} \right) + \delta_0 + \delta_1 \ln L_{t-1} + \delta_2\ln L_{t-1}^* + \delta_3 \ln  \tau_{i,t-1} + \delta_4 \ln  \tau_{i,t-1}^* \right] + \varepsilon_{ijt} 
 \end{split}\end{align}
-In the above equation, the number of firms serving the domestic market, $N$, has been replaced by the more readily observable number of domestic firms producing for the domestic market, $D$, where $D=N \left( \frac{c_D}{c_M} \right)^k$. The short--run dynamics are estimated in the first part of the equation, with regressors expressed in first differences. The long run is represented by the term in brackets. From the perspective of this model, we would expect $\beta_1>0$, an increase in domestic import tariffs increases relative prices in the short-run, and correspondingly $\beta_2>0$. The model predicts a dampening effect of the number of domestic firms on domestic prices, which should be reflected by $\beta_3<0$, and the opposite for foreign firms, $\beta_4<0$. As we expect the coefficient on the error correction term, $\gamma$, to be negative, a reversal the 
+In the above equation, which is a log-linear combination of equations \ref{eq:mo-rel-price-sr} and \ref{eq:mo-rel-price-lr}, the number of firms serving the domestic market, $N$, has been replaced by the more readily observable number of domestic firms producing for the domestic market, $D$, where $D=N \left( \frac{c_D}{c_M} \right)^k$. The short--run dynamics are estimated in the first part of the equation, with regressors expressed in first differences. The long run is represented by the term in brackets. From the perspective of this model, we would expect $\beta_1>0$, an increase in domestic import tariffs increases relative prices in the short-run, and correspondingly $\beta_2>0$. The model predicts a dampening effect of the number of domestic firms on domestic prices, which should be reflected by $\beta_3<0$, and the opposite for foreign firms, $\beta_4<0$. The equation is essentially the same used by \ref{Chen2009}, albeit with the openness share replaced by the tariff level, which under the assumption that tariff changes are exogenous to relative price changes, means that there is no need to instrument for our main explanatory variable.
 
 As previously discussed, all aggregate variables (prices, markups, productivity) are ultimately functions of the cost-cutoff level $c_D$, leading to a very similar estimation equations for our other dependent variable.
 The effect of tariffs, openness, number of firms and market size on productivity is estimated by:
@@ -228,9 +228,9 @@ As outlined at the beginning of Section \ref{sec:app}, we follow the estimation
 strategy of Chen et al. (2009); however, while they use changes in domestic and 
 foreign import penetration in sector $i$ at time $t$ as the main explanatory 
 variables for changes in prices, and labour productivity, we use this as
- a control variable and instead rely on the domestic tariff rate ($\tau$) 
+ a control variable and instead rely on the domestic tariff rate ($\tau_{it}$) 
 imposed on foreign goods imported from the trading partner and the foreign tariff 
-rate ($\tau^*$) imposed on domestic goods exported to the trading partner as the 
+rate ($\tau_{it}^*$) imposed on domestic goods exported to the trading partner as the 
 main explanatory variables. To test the competitive effects of trade liberalization, 
 we use the difference in differences approach with fixed--effects on the 
 country--pair, industry, and year. In the short run we use the log first-difference 
@@ -287,7 +287,7 @@ The table shows that the effects of tariff barriers on outcomes is very imprecis
 measured. While the signs on the coefficients point overwhelmingly in the direction
 implied by theory -- higher domestic tariffs increase domestic prices in the short
 run, while higher foreign tariffs lower them --, only two model specifications
-show significant coefficients. Furthermore, the effect of domestic tariffs is
+show significant coefficients. Furthermore, the coefficient on the effect of domestic tariffs is
 more precisely estimated than that of foreign tariffs, a pattern that repeats
 itself when looking at the estimated coefficients on our measure of firms. Here,
 the foreign number of firms is generally estimated more precisely, and again all
@@ -474,9 +474,30 @@ NAICS 4-digit code & Industry \\
 3371 &	Household and Institutional Furniture and Kitchen Cabinet Manufacturing \\
 3372 &	Office Furniture (including Fixtures) Manufacturing \\
 3379 &	Other Furniture Related Product Manufacturing \\
+
 3399 &	Other Miscellaneous Manufacturing \\
 \end{longtable}
 \end{spacing}
+
+\begin{table}
+\begin{tabular}{l|c}
+\textbf{Industry}	&	\textbf{Average percentile} \\
+\hline
+Food, beverages, tobacco	&	84 \\
+Chemical, Rubber, Plastics, Fuel	&	66 \\
+Paper and Printing	&	58 \\
+Other non-metallic mineral prod	&	56\\
+Basic metals and fabricated metal prod	&	56 \\
+Textiles	&	52\\
+Machinery and transport equipment&		41\\
+Manufacturing not else classified, recycling	&	29\\
+Wood and Cork	&	22 \\
+
+\end{tabular}
+\caption{Average percentile ranking of industries across 
+papers reviewed, where the industry at percentile 100 has the lowest turnover
+rate in a given paper.}
+\end{table}
 \clearpage
 
 \section{Appendix C: Regression Results}
@@ -488,6 +509,7 @@ All regression tables have been autogenerated using the stargazer package \citep
 \input{gw_price_sr.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market.
 \clearpage
 
 \begin{table}[h!b]
@@ -497,14 +519,20 @@ variables included\label{tb:prices_sr_third}}
 \input{gw_price_sr_third.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
+$h$ is the domestic market, $f$ the foreign market, and $t$ the third market.
+
 \clearpage
+
 \begin{table}[h!b]
 \tiny
 \begin{center} \caption{Productivity (Short Run), all country pairs\label{tb:productivity_sr}}
 \input{gw_prod_sr.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
 \clearpage
+
 \begin{table}[h!b]
 \tiny
 \begin{center} \caption{Productivity (Short Run), all country pairs, third country 
@@ -512,14 +540,20 @@ variables included\label{tb:productivity_sr_third}}
 \input{gw_prod_sr_third.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
+$h$ is the domestic market, $f$ the foreign market, and $t$ the third market.
 \clearpage
+
 \begin{table}[h!b]
 \tiny
 \begin{center}\caption{Prices (Long Run), all country pairs\label{tb:prices_lr}}
 \input{gw_price_lr.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
+In the long run, market size $L$ replaces the number of firms $D$.
 \clearpage
+
 \renewcommand{\arraystretch}{1}
 \begin{table}[h!b]
 \tiny
@@ -528,14 +562,21 @@ variables included\label{tb:prices_lr_third}}
 \input{gw_price_lr_third.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
+In the long run, market size $L$ replaces the number of firms $D$. 
+$h$ is the domestic market, $f$ the foreign market, and $t$ the third market.
 \clearpage
+
 \begin{table}[h!b]
 \tiny
 \begin{center}\caption{Productivity (Long Run), all country pairs\label{tb:productivity_lr}}
 \input{gw_prod_lr.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
+In the long run, market size $L$ replaces the number of firms $D$. 
 \clearpage
+
 \begin{table}[h!b]
 \tiny
 \begin{center}\caption{Productivity (Long Run), all country pairs, third country 
@@ -543,6 +584,9 @@ variables included\label{tb:productivity_lr_third}}
 \input{gw_prod_lr_third.tex}
 \end{center}
 \end{table}
+With $\tau$ denoting tariff levels, $D$ the number of firms serving the domestic market. 
+In the long run, market size $L$ replaces the number of firms $D$. 
+$h$ is the domestic market, $f$ the foreign market, and $t$ the third market.
 
 \section{Appendix D: Data Appendix}
 \begin{spacing}{1}
