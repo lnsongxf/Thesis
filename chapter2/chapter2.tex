@@ -69,7 +69,8 @@ when trying to fit the data irrespective across all specification of income
 processes under consideration, but argues that heterogeneity in income growth
 rates becomes insignificant once the variance of the initial value of the 
 persistent component is adequately controlled for. Along similar lines, \citet{Hryshko2012} 
-conducts Monte Carlo simulations to show that if a misspecified HIP model is 
+conducts Monte Carlo simulations to show that if a misspecified heterogeneous 
+income process (HIP) model is 
 estimated on a synthetic dataset generated from an underlying process with
 $\sigma^2_{\beta}=0$, an econometrician will generally find statistically 
 significant levels of profile heterogeneity. 
@@ -97,7 +98,9 @@ z_{h,t}^i &= \rho z_{h-1,t-1}^i + \pi_t \eta_{h,t}^i \label{persshock}
 \end{align}
 
 where $y_{h,t}^i$ are the log earnings of individual $i$, who has $h$ years of
-labour market experience in period $t$. The function $g()$ is assumed to be
+labour market experience\footnote{The definition of $h$ in BHPS and PSID is 
+discussed in more detailed in the following section.}
+ in period $t$. The function $g()$ is assumed to be
 a cubic polynomial in experience, while the individual specific parameters
 $\alpha^i$ and $\beta^i$ -- modelled as random variables with mean zero and
 variance $\sigma^2_{\alpha}$ and $\sigma^2_{\beta}$, respectively --
@@ -172,8 +175,17 @@ to ease comparisons, we stick to the sample selection criteria used in
     \item Hours worked between 520 and 5110
 \end{itemize}
 For inclusion in our sample, an individual has to fulfil all of the above
-conditions for at least 20, not necessarily consecutive, years. These sample
-selection criteria leave us with 1685 individuals in our final sample
+conditions for at least 20, not necessarily consecutive, years. Figure 
+\ref{fig:psid_sample} shows the sample size over the entire time horizon.
+
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{PSID_sample}
+\caption{Size of PSID estimation sample}
+\label{fig:psid_sample}
+\end{figure}
+
+
 \footnote{To create the longitudinal data set from the PSID cross-sections, we
 use the excellent \textit{PSIDtools} package \citep{Kohler2015}}. The main
 variable of interest in the analysis is labour income, for which we use the
@@ -202,19 +214,33 @@ insurance contributions, and occupational pension contributions; and net
 household income, which adds investment income, pension income, and transfer
 income to net labour income. These three variables can be seen to represent 
 different levels of insurance available to the household: as taxes and (up to 
-a points) National Insurance contributions in Britain are progressive, they reduce
+a point) National Insurance contributions in Britain are progressive, they reduce
 the variability of the labour income process facing the household, while the
 benefits system, which includes housing benefit, job seekers benefits, disability
 insurance and various other payments, partially insures household income against
 unemployment and other catastrophic shocks. It is therefore expected that these
 measures of income imply less risk for the household than gross labour income,
-an effect that we will try to quantify below. As the time dimension is notably 
+an effect that we will try to quantify below.
+Potential labour market experience $h$ is calculated from information on the age
+at which the household head finished either first or secondary education, which
+other than in the PSID is available directly in the BHPS data set. 
+As the time dimension is notably 
 shorter than in the PSID, we only require households to be in the sample 
 for five years, and consider up to ten lags for the covariances of residuals. 
 While previous authors have highlighted the importance of higher order covariances
 for identification of HIP processes, our sample sizes unfortunately are so small
 that for some cohorts there are less than 10 observations at lags larger than
-five, so that considering more lags is impossible. As for the PSID, we obtain
+five, so that considering more lags is impossible. Figure \ref{fig:BHPS_sample_size}
+shows the evolution of the sample size for the BHPS data set over time.
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{BHPS_incvar}
+\caption{Size of BHPS estimation sample}
+\label{fig:BHPS_sample_size}
+\end{figure}
+
+
+As for the PSID, we obtain
 income residuals by regressing each measure of income on a cubic polynomial 
 in experience, which is constructed from the school leaving age (or further
 education leaving age, where applicable). Figure \ref{fig:bhps_incvar} and

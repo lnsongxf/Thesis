@@ -3,32 +3,36 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Histograms and cdfs of household net wealth in different data sets.\relax }}{20}{figure.caption.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Variance of log income and 90/10 percentile width for our sample of BHPS households\relax }}{49}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Variance of log income and 90/10 percentile width for our sample of BHPS households\relax }}{50}{figure.caption.7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Log mean income and fitted experience profiles for the BHPS 1992 -- 2009\relax }}{51}{figure.caption.8}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Size of PSID estimation sample\relax }}{48}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Size of BHPS estimation sample\relax }}{50}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Variance of log income and 90/10 percentile width for our sample of BHPS households\relax }}{51}{figure.caption.8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Variance of log income and 90/10 percentile width for our sample of BHPS households\relax }}{52}{figure.caption.9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Log mean income and fitted experience profiles for the BHPS 1992 -- 2009\relax }}{53}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Baseline model (PSID HIP income process), calibrated fit\relax }}{65}{figure.caption.11}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Baseline model (PSID HIP income process), calibrated fit by age group\relax }}{66}{figure.caption.12}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparative statics for persistence of AR(1) component, prime age\relax }}{72}{figure.caption.16}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparative statics for persistence of AR(1) component, by age groups\relax }}{73}{figure.caption.17}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparative statics for innovation variance of persistent shock, prime age\relax }}{74}{figure.caption.18}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparative statics for innovation variance of persistent shock, by age groups\relax }}{75}{figure.caption.19}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparative statics for variance of individual-specific growth rates, prime age\relax }}{76}{figure.caption.20}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparative statics for variance of individual-specific growth rates, by age groups\relax }}{77}{figure.caption.21}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Effects of optimistic initial beliefs\relax }}{80}{figure.caption.22}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Effects of beliefs based on previous income growth rates\relax }}{81}{figure.caption.23}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Comparative statics for variance of individual-specific intercepts, prime age\relax }}{83}{figure.caption.24}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparative statics for variance of individual-specific intercepts, by age group\relax }}{84}{figure.caption.25}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Comparative statics for variance of transitory shocks, prime age\relax }}{85}{figure.caption.26}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Comparative statics for variance of transitory shocks, by age group\relax }}{86}{figure.caption.27}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Model fit when income is an RIP process with $\rho =0.95$ and $\sigma ^2_{\eta }=0.5$\relax }}{87}{figure.caption.28}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Model fit when income is an RIP process with $\rho =0.95$ and $\sigma ^2_{\eta }=0.5$, by age groups\relax }}{88}{figure.caption.29}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Effects of lowering $\rho $ on half life of persistent shocks\relax }}{89}{figure.caption.30}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Baseline model (PSID HIP income process), calibrated fit\relax }}{67}{figure.caption.13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Baseline model (PSID HIP income process), calibrated fit by age group\relax }}{68}{figure.caption.14}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparative statics for persistence of AR(1) component, prime age\relax }}{75}{figure.caption.18}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparative statics for persistence of AR(1) component, by age groups\relax }}{76}{figure.caption.19}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparative statics for innovation variance of persistent shock, prime age\relax }}{77}{figure.caption.20}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparative statics for innovation variance of persistent shock, by age groups\relax }}{78}{figure.caption.21}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparative statics for variance of individual-specific growth rates, prime age\relax }}{79}{figure.caption.22}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparative statics for variance of individual-specific growth rates, by age groups\relax }}{80}{figure.caption.23}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Effects of optimistic initial beliefs\relax }}{83}{figure.caption.24}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Effects of beliefs based on previous income growth rates\relax }}{84}{figure.caption.25}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Effects of subjective belief about probability of zero income realisation\relax }}{85}{figure.caption.26}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Effects of bequest motive\relax }}{87}{figure.caption.27}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Comparative statics for variance of individual-specific intercepts, prime age\relax }}{89}{figure.caption.28}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Comparative statics for variance of individual-specific intercepts, by age group\relax }}{90}{figure.caption.29}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Comparative statics for variance of transitory shocks, prime age\relax }}{91}{figure.caption.30}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Comparative statics for variance of transitory shocks, by age group\relax }}{92}{figure.caption.31}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Model fit when income is an RIP process with $\rho =0.95$ and $\sigma ^2_{\eta }=0.5$\relax }}{93}{figure.caption.32}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Model fit when income is an RIP process with $\rho =0.95$ and $\sigma ^2_{\eta }=0.5$, by age groups\relax }}{94}{figure.caption.33}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Effects of lowering $\rho $ on half life of persistent shocks\relax }}{95}{figure.caption.34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Canadian Tariff on Mexican Goods\relax }}{119}{figure.caption.33}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Canadian Tariff on U.S. Goods\relax }}{119}{figure.caption.34}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Mexican Tariff on Canadian Goods\relax }}{120}{figure.caption.35}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Mexican Tariff on U.S. Goods\relax }}{120}{figure.caption.36}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip U.S. Tariff on Canadian Goods\relax }}{121}{figure.caption.37}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip U.S. Tariff on Mexican Goods\relax }}{121}{figure.caption.38}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Canadian Tariff on Mexican Goods\relax }}{125}{figure.caption.37}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Canadian Tariff on U.S. Goods\relax }}{125}{figure.caption.38}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Mexican Tariff on Canadian Goods\relax }}{126}{figure.caption.39}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Mexican Tariff on U.S. Goods\relax }}{126}{figure.caption.40}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip U.S. Tariff on Canadian Goods\relax }}{127}{figure.caption.41}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \relax \fontsize {10.95}{13.6}\selectfont \abovedisplayskip 11\p@ plus3\p@ minus6\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 9\p@ plus3\p@ minus5\p@ \parsep 4.5\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip U.S. Tariff on Mexican Goods\relax }}{127}{figure.caption.42}
 \addvspace {10\p@ }
