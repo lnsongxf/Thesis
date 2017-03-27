@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=main file.tex
 
 [Frame0_View0,0]
-TopLine=88
-Cursor=3580
+TopLine=92
+Cursor=2797
 
 [Frame1]
 Flags=0
@@ -30,7 +30,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=Dedication\dedication.tex
 
@@ -48,7 +48,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=Acknowledgements\acknowledgements.tex
 
@@ -66,7 +66,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=Declaration\declaration.tex
 
@@ -84,7 +84,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=Abstract\abstract.tex
 
@@ -102,7 +102,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=introduction\introduction.tex
 
@@ -120,13 +120,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=Chapter1\chapter1.tex
 
 [Frame6_View0,0]
-TopLine=224
-Cursor=18083
+TopLine=37
+Cursor=44138
 
 [Frame7]
 Flags=0
@@ -138,13 +138,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=chapter2\chapter2.tex
 
 [Frame7_View0,0]
-TopLine=69
-Cursor=7284
+TopLine=261
+Cursor=18284
 
 [Frame8]
 Flags=0
@@ -156,12 +156,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=chapter3\chapter3.tex
 
 [Frame8_View0,0]
-TopLine=325
+TopLine=218
 Cursor=22259
 
 [Frame9]
@@ -174,13 +174,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=chapter4\chapter4.tex
 
 [Frame9_View0,0]
-TopLine=568
-Cursor=61130
+TopLine=329
+Cursor=33592
 
 [Frame10]
 Flags=0
@@ -192,7 +192,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=conclusion\conclusion.tex
 
@@ -210,7 +210,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1718
-NormalPos.bottom=893
+NormalPos.bottom=730
 Class=LaTeXView
 Document=Data_Appendix.tex
 
@@ -218,9 +218,27 @@ Document=Data_Appendix.tex
 TopLine=0
 Cursor=0
 
+[Frame12]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=26
+NormalPos.right=1718
+NormalPos.bottom=730
+Class=LaTeXView
+Document=..\..\..\..\..\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+
+[Frame12_View0,0]
+TopLine=4313
+Cursor=114554
+
 [SessionInfo]
-FrameCount=12
-ActiveFrame=6
+FrameCount=13
+ActiveFrame=0
 
 [Bookmarks]
 chapter4\chapter4.tex=517 

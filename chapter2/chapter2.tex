@@ -105,7 +105,7 @@ a cubic polynomial in experience, while the individual specific parameters
 $\alpha^i$ and $\beta^i$ -- modelled as random variables with mean zero and
 variance $\sigma^2_{\alpha}$ and $\sigma^2_{\beta}$, respectively --
  capture the cross-sectional profile heterogeneity.
-$z_{h,t}^i$ is an AR(1) process with persistence $\rho$ and innovation variance
+$z_{h,t}^i$ is an AR(1) process with persistence $\rho$ and innovation 
 $\eta_{h,t}^i$, which captures persistent shocks to income, while
 $\varepsilon_{h,t}^i$ is a purely transitory shock. Both $\eta^i$ and
 $\varepsilon^i$ are mean-zero i.i.d random variables with variances
@@ -251,7 +251,9 @@ education leaving age, where applicable). Figure \ref{fig:bhps_incvar} and
 two widely used measures of income dispersion, for our selected sample of households.
 Both datasets exhibit considerable variation in the dispersion of income over 
 the period under consideration, which motivates us to include time-varying
-variances for transitory and permanent shocks in the estimation.
+variances for transitory and permanent shocks in the estimation. \\
+Figure \ref{fig:psid_residual_variance} shows the evolution of the residual
+variance for our PSID sample, after fitting the cubic polynomial in experience.
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{BHPS_incvar}
@@ -265,6 +267,13 @@ BHPS households}
 \caption{Variance of log income and 90/10 percentile width for our sample of
 BHPS households}
 \label{fig:psid_incvar}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{PSID_residual_variance}
+\caption{Variance of income residual from regression on cubic experience 
+polynomial}
+\label{fig:psid_residual_variance}
 \end{figure}
 
 \begin{figure}

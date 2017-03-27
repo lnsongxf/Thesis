@@ -103,10 +103,10 @@
 \backcite {Jenkins2010}{{49}{3.3}{figure.caption.6}}
 \backcite {Vandendriessche2015}{{49}{16}{Hfootnote.16}}
 \backcite {Guvenen2009}{{51}{3.4}{section.3.4}}
-\backcite {Hryshko2012}{{51}{3.4}{section.3.4}}
-\backcite {Hryshko2012}{{52}{3.4}{section.3.4}}
-\backcite {Guvenen2009}{{52}{3.4}{section.3.4}}
-\backcite {Guvenen2009}{{52}{17}{Hfootnote.17}}
+\backcite {Hryshko2012}{{54}{3.4}{section.3.4}}
+\backcite {Hryshko2012}{{54}{3.4}{section.3.4}}
+\backcite {Guvenen2009}{{54}{3.4}{section.3.4}}
+\backcite {Guvenen2009}{{54}{17}{Hfootnote.17}}
 \backcite {Guvenen2007}{{58}{4.1}{section.4.1}}
 \backcite {ChangHongKarabarbounis2015}{{58}{4.1}{section.4.1}}
 \backcite {GuvenenSmith2014}{{58}{4.1}{section.4.1}}
@@ -122,17 +122,17 @@
 \backcite {Oswald2014}{{65}{22}{Hfootnote.22}}
 \backcite {Townsend2015}{{65}{22}{Hfootnote.22}}
 \backcite {HintermaierKoeniger2011}{{66}{4.3}{section.4.3}}
-\backcite {HintermaierKoeniger2011}{{69}{4.3}{figure.caption.14}}
-\backcite {Guvenen2007}{{69}{4.3}{figure.caption.14}}
-\backcite {Guvenen2007}{{69}{4.3}{figure.caption.14}}
-\backcite {Guvenen2007}{{69}{4.3}{figure.caption.14}}
+\backcite {HintermaierKoeniger2011}{{69}{4.3}{figure.caption.15}}
+\backcite {Guvenen2007}{{69}{4.3}{figure.caption.15}}
+\backcite {Guvenen2007}{{69}{4.3}{figure.caption.15}}
+\backcite {Guvenen2007}{{69}{4.3}{figure.caption.15}}
 \backcite {GKOS2015}{{69}{25}{Hfootnote.25}}
-\backcite {DSK2004}{{71}{4.4}{table.caption.16}}
-\backcite {HintermaierKoeniger2011}{{72}{4.4}{table.caption.16}}
-\backcite {HintermaierKoeniger2011}{{73}{4.4}{table.caption.16}}
-\backcite {HintermaierKoeniger2011}{{73}{4.4}{table.caption.16}}
-\backcite {Floden2008}{{73}{4.4}{table.caption.16}}
-\backcite {Aiyagari1994}{{73}{4.4}{table.caption.16}}
+\backcite {DSK2004}{{71}{4.4}{table.caption.17}}
+\backcite {HintermaierKoeniger2011}{{72}{4.4}{table.caption.17}}
+\backcite {HintermaierKoeniger2011}{{73}{4.4}{table.caption.17}}
+\backcite {HintermaierKoeniger2011}{{73}{4.4}{table.caption.17}}
+\backcite {Floden2008}{{73}{4.4}{table.caption.17}}
+\backcite {Aiyagari1994}{{73}{4.4}{table.caption.17}}
 \backcite {HintermaierKoeniger2011}{{73}{28}{Hfootnote.28}}
 \backcite {Moore2003}{{74}{4.5}{section.4.5}}
 \backcite {Iacoviello2008}{{82}{4.5}{section.4.5}}
@@ -184,12 +184,12 @@
 \backcite {Bernard2006}{{107}{5.3.1}{subsection.5.3.1}}
 \backcite {Chen2009}{{107}{5.3.1}{subsection.5.3.1}}
 \backcite {Head1999}{{108}{31}{Hfootnote.31}}
-\backcite {Dunne1988}{{109}{\caption@xref {??}{ on input line 72}}{table.caption.35}}
-\backcite {Brown2004}{{109}{\caption@xref {??}{ on input line 76}}{table.caption.35}}
-\backcite {Foster2006}{{109}{\caption@xref {??}{ on input line 78}}{table.caption.35}}
-\backcite {Baldwin1994}{{109}{\caption@xref {??}{ on input line 80}}{table.caption.35}}
-\backcite {Baldwin1994}{{109}{\caption@xref {??}{ on input line 82}}{table.caption.35}}
-\backcite {Chen2009}{{112}{5.3.1}{table.caption.35}}
+\backcite {Dunne1988}{{109}{\caption@xref {??}{ on input line 72}}{table.caption.36}}
+\backcite {Brown2004}{{109}{\caption@xref {??}{ on input line 76}}{table.caption.36}}
+\backcite {Foster2006}{{109}{\caption@xref {??}{ on input line 78}}{table.caption.36}}
+\backcite {Baldwin1994}{{109}{\caption@xref {??}{ on input line 80}}{table.caption.36}}
+\backcite {Baldwin1994}{{109}{\caption@xref {??}{ on input line 82}}{table.caption.36}}
+\backcite {Chen2009}{{112}{5.3.1}{table.caption.36}}
 \backcite {Chen2009}{{115}{5.4}{equation.5.4.10}}
 \backcite {MelitzOttaviano2008}{{122}{5.5}{section.5.5}}
 \backcite {Hlavac2014}{{133}{5.9}{section.5.9}}

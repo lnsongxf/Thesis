@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {3.2}The statistical model}{44}{section.3.2}
 \contentsline {section}{\numberline {3.3}Data}{47}{section.3.3}
 \contentsline {section}{\numberline {3.4}Results}{51}{section.3.4}
-\contentsline {section}{\numberline {3.5}Discussion}{54}{section.3.5}
+\contentsline {section}{\numberline {3.5}Discussion}{55}{section.3.5}
 \contentsline {chapter}{\numberline {4}Wealth Distributions in Heterogeneous Income Process Models with Learning}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{57}{section.4.1}
 \contentsline {section}{\numberline {4.2}The Model}{60}{section.4.2}
@@ -48,4 +48,4 @@
 \contentsline {section}{\numberline {5.9}Appendix C: Regression Results}{133}{section.5.9}
 \contentsline {section}{\numberline {5.10}Appendix D: Data Appendix}{141}{section.5.10}
 \contentsline {chapter}{\numberline {6}Conclusion}{144}{chapter.6}
-\contentsline {chapter}{Bibliography}{148}{chapter*.53}
+\contentsline {chapter}{Bibliography}{148}{chapter*.54}
