@@ -25,11 +25,11 @@
 \contentsline {section}{\numberline {4.1}Introduction}{57}{section.4.1}
 \contentsline {section}{\numberline {4.2}The Model}{60}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Computational Algorithm}{64}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Quantitative Results}{65}{section.4.3}
+\contentsline {section}{\numberline {4.3}Quantitative Results}{66}{section.4.3}
 \contentsline {section}{\numberline {4.4}Comparative Statics}{70}{section.4.4}
-\contentsline {section}{\numberline {4.5}The role of initial beliefs}{74}{section.4.5}
-\contentsline {section}{\numberline {4.6}Incorporating disaster risk}{82}{section.4.6}
-\contentsline {section}{\numberline {4.7}Bequest motives}{85}{section.4.7}
+\contentsline {section}{\numberline {4.5}The role of initial beliefs}{81}{section.4.5}
+\contentsline {section}{\numberline {4.6}Incorporating disaster risk}{85}{section.4.6}
+\contentsline {section}{\numberline {4.7}Bequest motives}{86}{section.4.7}
 \contentsline {section}{\numberline {4.8}Discussion}{86}{section.4.8}
 \contentsline {section}{\numberline {4.9}Appendix A: Comparative statics results}{88}{section.4.9}
 \contentsline {chapter}{\numberline {5}The Competitive Effects of Trade Liberalisation in North America: An Empirical Application of the Melitz and Ottaviano Model}{96}{chapter.5}

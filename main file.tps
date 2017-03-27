@@ -17,7 +17,7 @@ Class=LaTeXView
 Document=main file.tex
 
 [Frame0_View0,0]
-TopLine=92
+TopLine=99
 Cursor=2797
 
 [Frame1]
@@ -143,8 +143,8 @@ Class=LaTeXView
 Document=chapter2\chapter2.tex
 
 [Frame7_View0,0]
-TopLine=261
-Cursor=18284
+TopLine=138
+Cursor=10400
 
 [Frame8]
 Flags=0
@@ -161,8 +161,8 @@ Class=LaTeXView
 Document=chapter3\chapter3.tex
 
 [Frame8_View0,0]
-TopLine=218
-Cursor=22259
+TopLine=99
+Cursor=1425
 
 [Frame9]
 Flags=0
@@ -179,7 +179,7 @@ Class=LaTeXView
 Document=chapter4\chapter4.tex
 
 [Frame9_View0,0]
-TopLine=329
+TopLine=437
 Cursor=33592
 
 [Frame10]
@@ -200,45 +200,9 @@ Document=conclusion\conclusion.tex
 TopLine=0
 Cursor=0
 
-[Frame11]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1718
-NormalPos.bottom=730
-Class=LaTeXView
-Document=Data_Appendix.tex
-
-[Frame11_View0,0]
-TopLine=0
-Cursor=0
-
-[Frame12]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1718
-NormalPos.bottom=730
-Class=LaTeXView
-Document=..\..\..\..\..\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
-
-[Frame12_View0,0]
-TopLine=4313
-Cursor=114554
-
 [SessionInfo]
-FrameCount=13
-ActiveFrame=0
+FrameCount=11
+ActiveFrame=7
 
 [Bookmarks]
 chapter4\chapter4.tex=517 
